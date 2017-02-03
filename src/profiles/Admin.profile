@@ -2,8 +2,8 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
         <application>Nonprofit_CRM</application>
-        <default>false</default>
-        <visible>false</visible>
+        <default>true</default>
+        <visible>true</visible>
     </applicationVisibilities>
     <custom>false</custom>
     <fieldPermissions>
@@ -3157,14 +3157,14 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Account-Account Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Account-Account Layout</layout>
+        <layout>Account-Household Layout</layout>
         <recordType>Account.HH_Account</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-Account Layout</layout>
+        <layout>Account-Organization Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Organization Layout</layout>
         <recordType>Account.Organization</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -3180,7 +3180,7 @@
         <layout>Batch__c-Batch Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Campaign-Campaign Layout</layout>
+        <layout>Campaign-NPSP Campaign Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CampaignMember-Campaign Member Page Layout</layout>
@@ -3270,11 +3270,35 @@
         <layout>MetricDataLink-Metric Data Link Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Opportunity-Opportunity Layout</layout>
+        <layout>Opportunity-Donation Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Opportunity-Opportunity Layout</layout>
+        <layout>Opportunity-Donation Layout</layout>
+        <recordType>Opportunity.Donation</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-Donation Layout</layout>
         <recordType>Opportunity.NPSP_Default</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-Grant Layout</layout>
+        <recordType>Opportunity.Grant</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-In-Kind Gift Layout</layout>
+        <recordType>Opportunity.In_Kind</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-Major Gift Layout</layout>
+        <recordType>Opportunity.Major_Gift</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-Matching Gift Layout</layout>
+        <recordType>Opportunity.Matching</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-Membership Layout</layout>
+        <recordType>Opportunity.Membership</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>OpportunityLineItem-Opportunity Product Layout</layout>
@@ -3661,57 +3685,87 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.Donation</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.Grant</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.In_Kind</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.Major_Gift</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.Matching</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.Membership</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
         <default>true</default>
         <recordType>Opportunity.NPSP_Default</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Address__c</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Batch_Data_Entry</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Contact_Merge</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>DataImport__c</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Engagement_Plan_Template__c</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>General_Accounting_Unit__c</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Level__c</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>NPSP_Resources</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>NPSP_Settings</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>npe01__OppPayment__c</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>npe4__Relationship__c</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>npe5__Affiliation__c</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Account</tab>
@@ -3746,10 +3800,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-Event</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-Idea</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -3778,20 +3828,12 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-SocialPersona</tab>
-        <visibility>DefaultOff</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-Solution</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-StreamingChannel</tab>
         <visibility>DefaultOff</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Task</tab>
-        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
@@ -4273,6 +4315,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewAllUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewDataAssessment</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
