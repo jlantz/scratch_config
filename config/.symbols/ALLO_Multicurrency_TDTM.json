@@ -1,0 +1,607 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iGWQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iGWQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 61
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "run",
+            "parameters": [
+                {
+                    "name": "newlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "triggerAction",
+                    "type": "Action"
+                },
+                {
+                    "name": "objResult",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "DmlWrapper",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 78
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "updateAllocationCurrencyFromParent",
+            "parameters": [
+                {
+                    "name": "newlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldlist",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 116
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "updateAllocationCurrency",
+            "parameters": [
+                {
+                    "name": "listAllo",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 138
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getISOFromIdSet",
+            "parameters": [
+                {
+                    "name": "setId",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 161
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "isMultiCurrency",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 192
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "convertFromCorporate",
+            "parameters": [
+                {
+                    "name": "ISO",
+                    "type": "String"
+                },
+                {
+                    "name": "amt",
+                    "type": "Decimal"
+                }
+            ],
+            "references": [],
+            "returnType": "Decimal",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 207
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "convertCurrency",
+            "parameters": [
+                {
+                    "name": "fromISO",
+                    "type": "String"
+                },
+                {
+                    "name": "toISO",
+                    "type": "String"
+                },
+                {
+                    "name": "amt",
+                    "type": "Decimal"
+                }
+            ],
+            "references": [],
+            "returnType": "Decimal",
+            "type": null
+        }
+    ],
+    "name": "ALLO_Multicurrency_TDTM",
+    "namespace": null,
+    "parentClass": "TDTM_Runnable",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 49
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "wrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 40
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "multiCurrency",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 43
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "exchangeRates",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 46
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "currCorporate",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 37
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "ALLO_Multicurrency_TDTM",
+        "references": [],
+        "type": "ALLO_Multicurrency_TDTM"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 61
+            },
+            "modifiers": [],
+            "name": "newlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 61
+            },
+            "modifiers": [],
+            "name": "oldlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "triggerAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "objResult",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 88,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "newlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 111,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "oldlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "mapIdToISO",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 84
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 91
+            },
+            "modifiers": [],
+            "name": "parentIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 93
+            },
+            "modifiers": [],
+            "name": "alloQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 97
+            },
+            "modifiers": [],
+            "name": "allo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "parentCurrency",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 116
+            },
+            "modifiers": [],
+            "name": "listAllo",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 117
+            },
+            "modifiers": [],
+            "name": "mapIdToISO",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 120
+            },
+            "modifiers": [],
+            "name": "allo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 128
+            },
+            "modifiers": [],
+            "name": "allo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 138
+            },
+            "modifiers": [],
+            "name": "setId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 139
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 140
+            },
+            "modifiers": [],
+            "name": "parentTypes",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 143
+            },
+            "modifiers": [],
+            "name": "thisId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 147
+            },
+            "modifiers": [],
+            "name": "parent",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 148
+            },
+            "modifiers": [],
+            "name": "query",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 149
+            },
+            "modifiers": [],
+            "name": "sobj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 164
+            },
+            "modifiers": [],
+            "name": "queryExchangeRates",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 165
+            },
+            "modifiers": [],
+            "name": "soCurrencyType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 173
+            },
+            "modifiers": [],
+            "name": "ct",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 192
+            },
+            "modifiers": [],
+            "name": "ISO",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 67,
+                "line": 192
+            },
+            "modifiers": [],
+            "name": "amt",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 207
+            },
+            "modifiers": [],
+            "name": "fromISO",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 207
+            },
+            "modifiers": [],
+            "name": "toISO",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 80,
+                "line": 207
+            },
+            "modifiers": [],
+            "name": "amt",
+            "references": [],
+            "type": "Decimal"
+        }
+    ]
+}

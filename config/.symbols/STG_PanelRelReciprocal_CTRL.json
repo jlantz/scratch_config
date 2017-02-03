@@ -1,0 +1,314 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJZQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJZQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 41
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "idPanel",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 59
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "newRelLookup",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 68
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "createRelLookup",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 87
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "cancelRelLookup",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 96
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "resetRelLookupSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 110
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "deleteRl",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 157
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "verifyRelLookups",
+            "parameters": [
+                {
+                    "name": "ctrl",
+                    "type": "STG_PanelHealthCheck_CTRL"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "STG_PanelRelReciprocal_CTRL",
+    "namespace": null,
+    "parentClass": "STG_Panel",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 46
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "rlNew",
+            "references": [],
+            "type": "npe4__Relationship_Lookup__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 104
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "rlIdDelete",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 131
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listRelLookup",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "STG_PanelRelReciprocal_CTRL",
+        "references": [],
+        "type": "STG_PanelRelReciprocal_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 69
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 111
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 115
+            },
+            "modifiers": [],
+            "name": "rl",
+            "references": [],
+            "type": "npe4__Relationship_Lookup__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 135
+            },
+            "modifiers": [],
+            "name": "mapRL",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 138
+            },
+            "modifiers": [],
+            "name": "rlNames",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 143
+            },
+            "modifiers": [],
+            "name": "str",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 67,
+                "line": 157
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "STG_PanelHealthCheck_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 159
+            },
+            "modifiers": [],
+            "name": "mapRL",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 161
+            },
+            "modifiers": [],
+            "name": "isValid",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 162
+            },
+            "modifiers": [],
+            "name": "isValidAll",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 164
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 165
+            },
+            "modifiers": [],
+            "name": "rl",
+            "references": [],
+            "type": "npe4__Relationship_Lookup__c"
+        }
+    ]
+}

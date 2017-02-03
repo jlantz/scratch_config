@@ -1,0 +1,917 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 148
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "PMT_PaymentWizard_CTRL",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iINQAY",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 60
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "payment",
+                    "parameters": [
+                        {
+                            "name": "i",
+                            "type": "Integer"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "payment",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 57
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "paymentNumber",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 37,
+                        "line": 58
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "oppPayment",
+                    "references": [],
+                    "type": "npe01__OppPayment__c"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 56
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "payment",
+                "references": [],
+                "type": "payment"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 32,
+                        "line": 60
+                    },
+                    "modifiers": [],
+                    "name": "i",
+                    "references": [],
+                    "type": "Integer"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iINQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 90
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getPayments",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 138
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getPaymentsSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "npe01__Contacts_And_Orgs_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 171
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "SetupPaymentWizard",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 193
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "PaymentWriteoffWizard",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 219
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "makeOppQuery",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 242
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "calculate",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 316
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "writeoff",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 342
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getItems",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 361
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getIntervals",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 379
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getIntervalUnits",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 391
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "createPayments",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 424
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "RemovePaidPayments",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        }
+    ],
+    "name": "PMT_PaymentWizard_CTRL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 41
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "CurrentOpp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 46
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "haveAmount",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 51
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "redirect",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 69
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isWriteoffWizard",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 74
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isScheduleWizard",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 79
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isClosedLost",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 84
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "newPayments",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 97
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "samplePayment",
+            "references": [],
+            "type": "npe01__OppPayment__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 102
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "writeoffPayment",
+            "references": [],
+            "type": "npe01__OppPayment__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 107
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "outstanding_payments",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 112
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "OppAmountFloat",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 117
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "numberOfPayments",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 122
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "interval",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 127
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "removePaidPayments",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 132
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "PaymentsSettings",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 373
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "intervalUnit",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "PMT_PaymentWizard_CTRL",
+        "references": [],
+        "type": "PMT_PaymentWizard_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 172
+            },
+            "modifiers": [],
+            "name": "id",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 174
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 194
+            },
+            "modifiers": [],
+            "name": "id",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 196
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 202
+            },
+            "modifiers": [],
+            "name": "paymentcount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 221
+            },
+            "modifiers": [],
+            "name": "query",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 223
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 224
+            },
+            "modifiers": [],
+            "name": "pfms",
+            "references": [],
+            "type": "npe01__Payment_Field_Mapping_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 247
+            },
+            "modifiers": [],
+            "name": "OppAmountFloat",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 252
+            },
+            "modifiers": [],
+            "name": "paymentAmount",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 253
+            },
+            "modifiers": [],
+            "name": "remainder",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 256
+            },
+            "modifiers": [],
+            "name": "nextDate",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 261
+            },
+            "modifiers": [],
+            "name": "OppCurrencyField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 262
+            },
+            "modifiers": [],
+            "name": "PaymentCurrencyField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 264
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 267
+            },
+            "modifiers": [],
+            "name": "thisPayment",
+            "references": [],
+            "type": "payment"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 287
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 288
+            },
+            "modifiers": [],
+            "name": "pfms",
+            "references": [],
+            "type": "npe01__Payment_Field_Mapping_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 289
+            },
+            "modifiers": [],
+            "name": "x",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 317
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 319
+            },
+            "modifiers": [],
+            "name": "paymentsToDelete",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 320
+            },
+            "modifiers": [],
+            "name": "delPymnts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 322
+            },
+            "modifiers": [],
+            "name": "thisPayment",
+            "references": [],
+            "type": "npe01__OppPayment__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 343
+            },
+            "modifiers": [],
+            "name": "options",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 344
+            },
+            "modifiers": [],
+            "name": "maxPayments",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 350
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 351
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 362
+            },
+            "modifiers": [],
+            "name": "options",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 363
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 364
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 380
+            },
+            "modifiers": [],
+            "name": "options",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 392
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 395
+            },
+            "modifiers": [],
+            "name": "old",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 399
+            },
+            "modifiers": [],
+            "name": "oldPaid",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 403
+            },
+            "modifiers": [],
+            "name": "pmts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 404
+            },
+            "modifiers": [],
+            "name": "p",
+            "references": [],
+            "type": "payment"
+        }
+    ]
+}

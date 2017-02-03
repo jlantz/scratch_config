@@ -1,0 +1,269 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iK9QAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iK9QAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 48
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getNamespace",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 67
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "StrTokenNSPrefix",
+            "parameters": [
+                {
+                    "name": "str",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 78
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "StrTokenNSPrefixDotNotation",
+            "parameters": [
+                {
+                    "name": "str",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 91
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "StrTokenRemoveNSPrefix",
+            "parameters": [
+                {
+                    "name": "str",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 107
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "StrAllNSPrefix",
+            "parameters": [
+                {
+                    "name": "str",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 118
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "isSandbox",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 126
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "sandboxEmailToRealEmail",
+            "parameters": [
+                {
+                    "name": "email",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "UTIL_Namespace",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 43
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "plainNamespace",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 38
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "UTIL_Namespace",
+        "references": [],
+        "type": "UTIL_Namespace"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "withDotNotation",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 67
+            },
+            "modifiers": [],
+            "name": "str",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 61,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "str",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 91
+            },
+            "modifiers": [],
+            "name": "str",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 107
+            },
+            "modifiers": [],
+            "name": "str",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "pat",
+            "references": [],
+            "type": "Pattern"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 110
+            },
+            "modifiers": [],
+            "name": "match",
+            "references": [],
+            "type": "Matcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 126
+            },
+            "modifiers": [],
+            "name": "email",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

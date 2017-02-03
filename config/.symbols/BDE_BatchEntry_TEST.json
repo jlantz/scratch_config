@@ -1,0 +1,403 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iGeQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iGeQAI",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 43
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testBatchDataEntryController",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 72
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testBatchWithSave",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 95
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testNewObjectLoad",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 107
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testExistingBatchObjects",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 145
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testOtherConfig",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "BDE_BatchEntry_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 37
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "BDE_BatchEntry_TEST",
+        "references": [],
+        "type": "BDE_BatchEntry_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 47
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "BDE_BatchEntry_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "listBatch",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "listOpp",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 77
+            },
+            "modifiers": [],
+            "name": "ext",
+            "references": [],
+            "type": "BDE_BatchEntry_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 96
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "ext",
+            "references": [],
+            "type": "BDE_BatchEntry_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "b1",
+            "references": [],
+            "type": "Batch__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 110
+            },
+            "modifiers": [],
+            "name": "b2",
+            "references": [],
+            "type": "Batch__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 114
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 116
+            },
+            "modifiers": [],
+            "name": "ext",
+            "references": [],
+            "type": "BDE_BatchEntry_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 122
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 131
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 132
+            },
+            "modifiers": [],
+            "name": "b",
+            "references": [],
+            "type": "BatchItem"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 146
+            },
+            "modifiers": [],
+            "name": "b",
+            "references": [],
+            "type": "Batch__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 148
+            },
+            "modifiers": [],
+            "name": "oppinbatch",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 152
+            },
+            "modifiers": [],
+            "name": "ocr",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 156
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 158
+            },
+            "modifiers": [],
+            "name": "ext",
+            "references": [],
+            "type": "BDE_BatchEntry_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 166
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 168
+            },
+            "modifiers": [],
+            "name": "b1",
+            "references": [],
+            "type": "BatchItem"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 173
+            },
+            "modifiers": [],
+            "name": "ext2",
+            "references": [],
+            "type": "BDE_BatchEntry_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 179
+            },
+            "modifiers": [],
+            "name": "b2",
+            "references": [],
+            "type": "BatchItem"
+        }
+    ]
+}

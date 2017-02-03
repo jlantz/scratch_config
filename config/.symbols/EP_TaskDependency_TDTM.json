@@ -1,0 +1,473 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHDQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHDQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 49
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "run",
+            "parameters": [
+                {
+                    "name": "newlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "triggerAction",
+                    "type": "Action"
+                },
+                {
+                    "name": "objResult",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "DmlWrapper",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 89
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "updateDependentTasks",
+            "parameters": [
+                {
+                    "name": "tasksWithDependencies",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 175
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "addChildrenRecursive",
+            "parameters": [
+                {
+                    "name": "parentEPTask",
+                    "type": "Engagement_Plan_Task__c"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "EP_TaskDependency_TDTM",
+    "namespace": null,
+    "parentClass": "TDTM_Runnable",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 76
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "directDependentEPTasks",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 78
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "indirectDependentEPTasks",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 80
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "taskUtil",
+            "references": [],
+            "type": "EP_Task_UTIL"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 38
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "EP_TaskDependency_TDTM",
+        "references": [],
+        "type": "EP_TaskDependency_TDTM"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "newlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "oldlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "triggerAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "objResult",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "tasksToCheckDependencies",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "oldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 56
+            },
+            "modifiers": [],
+            "name": "newSObject",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 57
+            },
+            "modifiers": [],
+            "name": "newTask",
+            "references": [],
+            "type": "Task"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "oldTask",
+            "references": [],
+            "type": "Task"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 89
+            },
+            "modifiers": [],
+            "name": "tasksWithDependencies",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 92
+            },
+            "modifiers": [],
+            "name": "taskUpdateEmail",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 93
+            },
+            "modifiers": [],
+            "name": "taskUpdateNoEmail",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 96
+            },
+            "modifiers": [],
+            "name": "engagementPlanIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 100
+            },
+            "modifiers": [],
+            "name": "parentTask",
+            "references": [],
+            "type": "Task"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 102
+            },
+            "modifiers": [],
+            "name": "parentEPTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 103
+            },
+            "modifiers": [],
+            "name": "childEPTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 110
+            },
+            "modifiers": [],
+            "name": "parentTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 117
+            },
+            "modifiers": [],
+            "name": "mapEpTaskIdTasks",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 118
+            },
+            "modifiers": [],
+            "name": "taskForUpdate",
+            "references": [],
+            "type": "Task"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 130
+            },
+            "modifiers": [],
+            "name": "epTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 132
+            },
+            "modifiers": [],
+            "name": "taskForUpdate",
+            "references": [],
+            "type": "Task"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 145
+            },
+            "modifiers": [],
+            "name": "epTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 146
+            },
+            "modifiers": [],
+            "name": "template",
+            "references": [],
+            "type": "Engagement_Plan_Template__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 148
+            },
+            "modifiers": [],
+            "name": "indirectDependentTask",
+            "references": [],
+            "type": "Task"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 155
+            },
+            "modifiers": [],
+            "name": "options",
+            "references": [],
+            "type": "DMLOptions"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 165
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 175
+            },
+            "modifiers": [],
+            "name": "parentEPTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 176
+            },
+            "modifiers": [],
+            "name": "childEPTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 177
+            },
+            "modifiers": [],
+            "name": "epTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        }
+    ]
+}

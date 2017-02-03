@@ -1,0 +1,296 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 42
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "ADDR_Validator",
+            "parameters": [
+                {
+                    "name": "standardController",
+                    "type": "StandardController"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iGJQAY",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "ValidationException",
+            "namespace": null,
+            "parentClass": "Exception",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 19,
+                    "line": 80
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "ValidationException",
+                "references": [],
+                "type": "ValidationException"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iGJQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 45
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "verifyAddressButton",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "Future"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 60
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "verifyRecordsFuture",
+            "parameters": [
+                {
+                    "name": "recordIds",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 69
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "verifyRecords",
+            "parameters": [
+                {
+                    "name": "recordIds",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 88
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "verifyAddressRecords",
+            "parameters": [
+                {
+                    "name": "avList",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "ADDR_Validator",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 39
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "ADDR_Validator",
+        "references": [],
+        "type": "ADDR_Validator"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 42
+            },
+            "modifiers": [],
+            "name": "standardController",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "addrId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 48
+            },
+            "modifiers": [],
+            "name": "setAddrId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 60
+            },
+            "modifiers": [],
+            "name": "recordIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 69
+            },
+            "modifiers": [],
+            "name": "recordIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "avList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 88
+            },
+            "modifiers": [],
+            "name": "avList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 92
+            },
+            "modifiers": [],
+            "name": "classToRunName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 94
+            },
+            "modifiers": [],
+            "name": "classType",
+            "references": [],
+            "type": "Type"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 96
+            },
+            "modifiers": [],
+            "name": "classInstance",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 99
+            },
+            "modifiers": [],
+            "name": "validator",
+            "references": [],
+            "type": "ADDR_IValidator"
+        }
+    ]
+}

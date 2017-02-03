@@ -1,0 +1,318 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHEQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHEQAY",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 47
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testDependentPlan",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 163
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testDelayType",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 238
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testDeletedPlan",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "EP_TaskDependency_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 28,
+            "line": 39
+        },
+        "modifiers": [
+            "private",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "EP_TaskDependency_TEST",
+        "references": [],
+        "type": "EP_TaskDependency_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 52
+            },
+            "modifiers": [],
+            "name": "template",
+            "references": [],
+            "type": "Engagement_Plan_Template__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 60
+            },
+            "modifiers": [],
+            "name": "epTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "childEpTasks",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 97
+            },
+            "modifiers": [],
+            "name": "grandchildEpTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 110
+            },
+            "modifiers": [],
+            "name": "plan",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 116
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 165
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 168
+            },
+            "modifiers": [],
+            "name": "template",
+            "references": [],
+            "type": "Engagement_Plan_Template__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 176
+            },
+            "modifiers": [],
+            "name": "epTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "childEpTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 201
+            },
+            "modifiers": [],
+            "name": "plan",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 207
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 240
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 243
+            },
+            "modifiers": [],
+            "name": "template",
+            "references": [],
+            "type": "Engagement_Plan_Template__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 251
+            },
+            "modifiers": [],
+            "name": "epTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 263
+            },
+            "modifiers": [],
+            "name": "childEpTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 276
+            },
+            "modifiers": [],
+            "name": "plan",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 282
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 298
+            },
+            "modifiers": [],
+            "name": "ex",
+            "references": [],
+            "type": "Exception"
+        }
+    ]
+}

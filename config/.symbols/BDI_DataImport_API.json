@@ -1,0 +1,118 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iGfQAI",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "BDIException",
+            "namespace": null,
+            "parentClass": "Exception",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 20,
+                    "line": 39
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "BDIException",
+                "references": [],
+                "type": "BDIException"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iGfQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 46
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "importData",
+            "parameters": [],
+            "references": [],
+            "returnType": "Id",
+            "type": null
+        }
+    ],
+    "name": "BDI_DataImport_API",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 37
+        },
+        "modifiers": [
+            "global",
+            "with sharing"
+        ],
+        "name": "BDI_DataImport_API",
+        "references": [],
+        "type": "BDI_DataImport_API"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 47
+            },
+            "modifiers": [],
+            "name": "diSettings",
+            "references": [],
+            "type": "Data_Import_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 48
+            },
+            "modifiers": [],
+            "name": "batchRunning",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "apexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 95
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        }
+    ]
+}

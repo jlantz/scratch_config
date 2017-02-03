@@ -1,0 +1,2724 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iIwQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iIwQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 69
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "setupTestData",
+            "parameters": [
+                {
+                    "name": "numContacts",
+                    "type": "Integer"
+                },
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 130
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGivingRollupOne2One",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 137
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGivingRollupHHAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 146
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "testGivingRollupProcessor",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 225
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGivingRollupIndividualBucket",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 232
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGivingRollupIndividualHHAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 241
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "testGivingRollupIndividualProcessor",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 322
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGivingRollupExcludedRTOne2One",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 329
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGivingRollupExcludedRTHHAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 338
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "testGivingRollupExcludedRTProcessor",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 419
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGivingRollupAlwaysPrimaryOne2One",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 426
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGivingRollupAlwaysPrimaryHHAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 435
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "testGivingRollupAlwaysPrimaryProcessor",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 518
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testMemberRollupOne2One",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 525
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testMemberRollupHHAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 532
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "testMemberRollupProcessor",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 599
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGivingRollupAcctOne2One",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 606
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGivingRollupAcctHHAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 613
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "testGivingRollupAcct",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 667
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGivingRollupAcctMembershipOne2One",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 671
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGivingRollupAcctMembershipHHAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 675
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "testGivingRollupAcctMembership",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 730
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGivingRollupBatchOne2One",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 734
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGivingRollupBatchHHAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 738
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "testGivingRollupBatch",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 777
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "OneContactMultipleOppsOne2One_1",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 781
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "OneContactMultipleOppsHHAccount_1",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 785
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "OneContactMultipleOpps_1",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 811
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "OneContactMultipleOppsOne2One_2",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 815
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "OneContactMultipleOppsHHAccount_2",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 819
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "OneContactMultipleOpps_2",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 846
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "OneContactMultipleOppsOne2One_3",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 850
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "OneContactMultipleOppsHHAccount_3",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 854
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "OneContactMultipleOpps_3",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 882
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "OneContactMultipleOppsOne2One_4",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 886
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "OneContactMultipleOppsHHAccount_4",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 890
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "OneContactMultipleOpps_4",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 918
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "OneContactMultipleOppsOne2One_5",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 922
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "OneContactMultipleOppsHHAccount_5",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 926
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "OneContactMultipleOpps_5",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 953
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "OneContactMultipleOppsOne2One_6",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 957
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "OneContactMultipleOppsHHAccount_6",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 961
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "OneContactMultipleOpps_6",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 988
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "OneContactOneInkindOne2One",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 992
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "OneContactOneInkindHHAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 996
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "OneContactOneInkind",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 1034
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGivingRollupBulkOne2One",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 1038
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGivingRollupBulkHHAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 1042
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "testGivingRollupBulk",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "RLLP_OppRollup_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 44
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strTestOnly",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 47
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "datToday",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 49
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "dat1YearAgo",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 51
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "dat2YearAgo",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 53
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "dat4YearAgo",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 55
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "giftRecordTypeIdForTests",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 57
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "membershipRecordTypeIdForTests",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 59
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "listConTest",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 61
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "listOppTest",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 27,
+            "line": 38
+        },
+        "modifiers": [
+            "public",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "RLLP_OppRollup_TEST",
+        "references": [],
+        "type": "RLLP_OppRollup_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 69
+            },
+            "modifiers": [],
+            "name": "numContacts",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 69
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 84
+            },
+            "modifiers": [],
+            "name": "householdSettingsForTests",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 101
+            },
+            "modifiers": [],
+            "name": "testGift1",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 105
+            },
+            "modifiers": [],
+            "name": "testGift2",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 111
+            },
+            "modifiers": [],
+            "name": "rg",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 115
+            },
+            "modifiers": [],
+            "name": "oppRollupUtil",
+            "references": [],
+            "type": "RLLP_OppRollup_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 116
+            },
+            "modifiers": [],
+            "name": "strSoql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 146
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 148
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 155
+            },
+            "modifiers": [],
+            "name": "householdSettingsForTests",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 167
+            },
+            "modifiers": [],
+            "name": "datClose",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 170
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 181
+            },
+            "modifiers": [],
+            "name": "rt_id",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 184
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 206
+            },
+            "modifiers": [],
+            "name": "UpdatedCon",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 241
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 243
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 249
+            },
+            "modifiers": [],
+            "name": "householdSettingsForTests",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 261
+            },
+            "modifiers": [],
+            "name": "datClose",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 264
+            },
+            "modifiers": [],
+            "name": "TestCons",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 282
+            },
+            "modifiers": [],
+            "name": "newOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 290
+            },
+            "modifiers": [],
+            "name": "FirstConId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 291
+            },
+            "modifiers": [],
+            "name": "UpdatedCon",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 299
+            },
+            "modifiers": [],
+            "name": "rg",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 302
+            },
+            "modifiers": [],
+            "name": "oppRollupUtil",
+            "references": [],
+            "type": "RLLP_OppRollup_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 303
+            },
+            "modifiers": [],
+            "name": "hhs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 61,
+                "line": 338
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 341
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 347
+            },
+            "modifiers": [],
+            "name": "householdSettingsForTests",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 359
+            },
+            "modifiers": [],
+            "name": "datClose",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 362
+            },
+            "modifiers": [],
+            "name": "TestCons",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 380
+            },
+            "modifiers": [],
+            "name": "newOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 387
+            },
+            "modifiers": [],
+            "name": "oppRollupUtil",
+            "references": [],
+            "type": "RLLP_OppRollup_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 390
+            },
+            "modifiers": [],
+            "name": "FirstConId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 391
+            },
+            "modifiers": [],
+            "name": "UpdatedCon",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 398
+            },
+            "modifiers": [],
+            "name": "rg",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 401
+            },
+            "modifiers": [],
+            "name": "hhs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 435
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 437
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 443
+            },
+            "modifiers": [],
+            "name": "householdSettingsForTests",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 455
+            },
+            "modifiers": [],
+            "name": "datClose",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 457
+            },
+            "modifiers": [],
+            "name": "testacct",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 460
+            },
+            "modifiers": [],
+            "name": "TestCons",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 479
+            },
+            "modifiers": [],
+            "name": "newOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 487
+            },
+            "modifiers": [],
+            "name": "FirstConId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 488
+            },
+            "modifiers": [],
+            "name": "UpdatedCon",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 496
+            },
+            "modifiers": [],
+            "name": "rg",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 499
+            },
+            "modifiers": [],
+            "name": "oppRollupUtil",
+            "references": [],
+            "type": "RLLP_OppRollup_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 500
+            },
+            "modifiers": [],
+            "name": "hhs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 532
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 535
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 541
+            },
+            "modifiers": [],
+            "name": "householdSettingsForTests",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 553
+            },
+            "modifiers": [],
+            "name": "datClose",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 556
+            },
+            "modifiers": [],
+            "name": "TestCons",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 568
+            },
+            "modifiers": [],
+            "name": "newOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 585
+            },
+            "modifiers": [],
+            "name": "FirstConId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 586
+            },
+            "modifiers": [],
+            "name": "UpdatedCon",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 613
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 615
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 621
+            },
+            "modifiers": [],
+            "name": "householdSettingsForTests",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 633
+            },
+            "modifiers": [],
+            "name": "datClose",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 636
+            },
+            "modifiers": [],
+            "name": "testacct",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 638
+            },
+            "modifiers": [],
+            "name": "newOpp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 654
+            },
+            "modifiers": [],
+            "name": "oppRollupUtil",
+            "references": [],
+            "type": "RLLP_OppRollup_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 655
+            },
+            "modifiers": [],
+            "name": "updatedAcct",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 660
+            },
+            "modifiers": [],
+            "name": "rg",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 675
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 678
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 684
+            },
+            "modifiers": [],
+            "name": "householdSettingsForTests",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 696
+            },
+            "modifiers": [],
+            "name": "datClose",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 699
+            },
+            "modifiers": [],
+            "name": "testacct",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 701
+            },
+            "modifiers": [],
+            "name": "newOpp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 712
+            },
+            "modifiers": [],
+            "name": "oppRollupUtil",
+            "references": [],
+            "type": "RLLP_OppRollup_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 713
+            },
+            "modifiers": [],
+            "name": "updatedAcct",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 722
+            },
+            "modifiers": [],
+            "name": "rg",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 738
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 740
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 746
+            },
+            "modifiers": [],
+            "name": "householdSettingsForTests",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 758
+            },
+            "modifiers": [],
+            "name": "datClose",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 761
+            },
+            "modifiers": [],
+            "name": "TestCons",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 765
+            },
+            "modifiers": [],
+            "name": "newOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 767
+            },
+            "modifiers": [],
+            "name": "testacct",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 772
+            },
+            "modifiers": [],
+            "name": "rg",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 785
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 787
+            },
+            "modifiers": [],
+            "name": "numCon",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 801
+            },
+            "modifiers": [],
+            "name": "rg",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 804
+            },
+            "modifiers": [],
+            "name": "ThisConId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 805
+            },
+            "modifiers": [],
+            "name": "UpdatedCon",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 819
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 821
+            },
+            "modifiers": [],
+            "name": "numCon",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 830
+            },
+            "modifiers": [],
+            "name": "testGift3",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 834
+            },
+            "modifiers": [],
+            "name": "rg",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 837
+            },
+            "modifiers": [],
+            "name": "ThisConId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 838
+            },
+            "modifiers": [],
+            "name": "UpdatedCon",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 854
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 856
+            },
+            "modifiers": [],
+            "name": "numCon",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 865
+            },
+            "modifiers": [],
+            "name": "testGift4",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 867
+            },
+            "modifiers": [],
+            "name": "testGift5",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 871
+            },
+            "modifiers": [],
+            "name": "rg",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 874
+            },
+            "modifiers": [],
+            "name": "ThisConId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 875
+            },
+            "modifiers": [],
+            "name": "UpdatedCon",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 890
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 892
+            },
+            "modifiers": [],
+            "name": "numCon",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 901
+            },
+            "modifiers": [],
+            "name": "testGift5",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 905
+            },
+            "modifiers": [],
+            "name": "rg",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 909
+            },
+            "modifiers": [],
+            "name": "ThisConId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 910
+            },
+            "modifiers": [],
+            "name": "UpdatedCon",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 926
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 928
+            },
+            "modifiers": [],
+            "name": "numCon",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 937
+            },
+            "modifiers": [],
+            "name": "testGift6",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 941
+            },
+            "modifiers": [],
+            "name": "rg",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 945
+            },
+            "modifiers": [],
+            "name": "ThisConId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 946
+            },
+            "modifiers": [],
+            "name": "UpdatedCon",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 961
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 963
+            },
+            "modifiers": [],
+            "name": "numCon",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 972
+            },
+            "modifiers": [],
+            "name": "dblAmt",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 976
+            },
+            "modifiers": [],
+            "name": "rg",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 979
+            },
+            "modifiers": [],
+            "name": "ThisConId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 980
+            },
+            "modifiers": [],
+            "name": "UpdatedCon",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 996
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 998
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 1004
+            },
+            "modifiers": [],
+            "name": "householdSettingsForTests",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1016
+            },
+            "modifiers": [],
+            "name": "howMany",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1019
+            },
+            "modifiers": [],
+            "name": "TestCons",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 1023
+            },
+            "modifiers": [],
+            "name": "testGift1",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 1028
+            },
+            "modifiers": [],
+            "name": "ThisConId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1029
+            },
+            "modifiers": [],
+            "name": "UpdatedCon",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 1042
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 1044
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 1050
+            },
+            "modifiers": [],
+            "name": "householdSettingsForTests",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1064
+            },
+            "modifiers": [],
+            "name": "howMany",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 1065
+            },
+            "modifiers": [],
+            "name": "datClose",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1068
+            },
+            "modifiers": [],
+            "name": "TestCons",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 1072
+            },
+            "modifiers": [],
+            "name": "newOpps1",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 1073
+            },
+            "modifiers": [],
+            "name": "newOpps2",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 1083
+            },
+            "modifiers": [],
+            "name": "FirstConId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1084
+            },
+            "modifiers": [],
+            "name": "UpdatedCon",
+            "references": [],
+            "type": "Contact"
+        }
+    ]
+}

@@ -1,0 +1,1269 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHnQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHnQAI",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 54
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "OneContact",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 95
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "TwoContactSameLastname",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 144
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "TwoContactDifferentLastname",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 187
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "ThreeContactsTwoLastnames",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 241
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "ThreeContactsTwoLastnamesCustomFields",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 300
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "SixContactsOneLastnamesContactOverrun",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 378
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "SixContactsTwoLastnamesContactOverrun",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 492
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testRefreshAllHHNaming",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 560
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testRefreshAllHHNamingWithCustom",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 663
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testRefreshAllHHNamingManyHH",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 722
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "OneAnonymousContact",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 760
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "TwoContactSameLastnameAccountReference",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 819
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "OneContactXReferences",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "HH_NameSpec_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 44
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strTestOnly",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 28,
+            "line": 38
+        },
+        "modifiers": [
+            "private",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "HH_NameSpec_TEST",
+        "references": [],
+        "type": "HH_NameSpec_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 57
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "c1",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "ns",
+            "references": [],
+            "type": "HH_NameSpec"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 67
+            },
+            "modifiers": [],
+            "name": "hns",
+            "references": [],
+            "type": "Household_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 99
+            },
+            "modifiers": [],
+            "name": "c1",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 105
+            },
+            "modifiers": [],
+            "name": "c2",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 111
+            },
+            "modifiers": [],
+            "name": "ns",
+            "references": [],
+            "type": "HH_NameSpec"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 112
+            },
+            "modifiers": [],
+            "name": "hns",
+            "references": [],
+            "type": "Household_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 147
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 148
+            },
+            "modifiers": [],
+            "name": "c1",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 154
+            },
+            "modifiers": [],
+            "name": "c2",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "ns",
+            "references": [],
+            "type": "HH_NameSpec"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 161
+            },
+            "modifiers": [],
+            "name": "hns",
+            "references": [],
+            "type": "Household_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 190
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 191
+            },
+            "modifiers": [],
+            "name": "c1",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 197
+            },
+            "modifiers": [],
+            "name": "c2",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 202
+            },
+            "modifiers": [],
+            "name": "c3",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 208
+            },
+            "modifiers": [],
+            "name": "ns",
+            "references": [],
+            "type": "HH_NameSpec"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 209
+            },
+            "modifiers": [],
+            "name": "hns",
+            "references": [],
+            "type": "Household_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 244
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 245
+            },
+            "modifiers": [],
+            "name": "c1",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 253
+            },
+            "modifiers": [],
+            "name": "c2",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 260
+            },
+            "modifiers": [],
+            "name": "c3",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 266
+            },
+            "modifiers": [],
+            "name": "ns",
+            "references": [],
+            "type": "HH_NameSpec"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 267
+            },
+            "modifiers": [],
+            "name": "hns",
+            "references": [],
+            "type": "Household_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 303
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 304
+            },
+            "modifiers": [],
+            "name": "c1",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 310
+            },
+            "modifiers": [],
+            "name": "c2",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 315
+            },
+            "modifiers": [],
+            "name": "c3",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 320
+            },
+            "modifiers": [],
+            "name": "c4",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 325
+            },
+            "modifiers": [],
+            "name": "c5",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 330
+            },
+            "modifiers": [],
+            "name": "c6",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 336
+            },
+            "modifiers": [],
+            "name": "ns",
+            "references": [],
+            "type": "HH_NameSpec"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 337
+            },
+            "modifiers": [],
+            "name": "hns",
+            "references": [],
+            "type": "Household_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 365
+            },
+            "modifiers": [],
+            "name": "listCon2",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 381
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 382
+            },
+            "modifiers": [],
+            "name": "c1",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 388
+            },
+            "modifiers": [],
+            "name": "c2",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 393
+            },
+            "modifiers": [],
+            "name": "c3",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 398
+            },
+            "modifiers": [],
+            "name": "c4",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 403
+            },
+            "modifiers": [],
+            "name": "c5",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 408
+            },
+            "modifiers": [],
+            "name": "c6",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 414
+            },
+            "modifiers": [],
+            "name": "ns",
+            "references": [],
+            "type": "HH_NameSpec"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 415
+            },
+            "modifiers": [],
+            "name": "hns",
+            "references": [],
+            "type": "Household_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 495
+            },
+            "modifiers": [],
+            "name": "c1",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 504
+            },
+            "modifiers": [],
+            "name": "c2",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 511
+            },
+            "modifiers": [],
+            "name": "c3",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 519
+            },
+            "modifiers": [],
+            "name": "c4",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 527
+            },
+            "modifiers": [],
+            "name": "hns",
+            "references": [],
+            "type": "Household_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 540
+            },
+            "modifiers": [],
+            "name": "hh1",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 545
+            },
+            "modifiers": [],
+            "name": "hh2",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 563
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 566
+            },
+            "modifiers": [],
+            "name": "householdSettingsForTests",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 580
+            },
+            "modifiers": [],
+            "name": "c1",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 589
+            },
+            "modifiers": [],
+            "name": "c2",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 596
+            },
+            "modifiers": [],
+            "name": "c3",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 604
+            },
+            "modifiers": [],
+            "name": "c4",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 612
+            },
+            "modifiers": [],
+            "name": "hh1",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 620
+            },
+            "modifiers": [],
+            "name": "hh2",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 626
+            },
+            "modifiers": [],
+            "name": "hns",
+            "references": [],
+            "type": "Household_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 634
+            },
+            "modifiers": [],
+            "name": "householdsSettings",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 666
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 669
+            },
+            "modifiers": [],
+            "name": "householdSettingsForTests",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 683
+            },
+            "modifiers": [],
+            "name": "cHH",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 684
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 688
+            },
+            "modifiers": [],
+            "name": "hns",
+            "references": [],
+            "type": "Household_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 696
+            },
+            "modifiers": [],
+            "name": "householdsSettings",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 706
+            },
+            "modifiers": [],
+            "name": "listHH",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 708
+            },
+            "modifiers": [],
+            "name": "hh",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 725
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 726
+            },
+            "modifiers": [],
+            "name": "c1",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 736
+            },
+            "modifiers": [],
+            "name": "ns",
+            "references": [],
+            "type": "HH_NameSpec"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 737
+            },
+            "modifiers": [],
+            "name": "hns",
+            "references": [],
+            "type": "Household_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 763
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 768
+            },
+            "modifiers": [],
+            "name": "conBoss",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 773
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 774
+            },
+            "modifiers": [],
+            "name": "c1",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 784
+            },
+            "modifiers": [],
+            "name": "c2",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 792
+            },
+            "modifiers": [],
+            "name": "ns",
+            "references": [],
+            "type": "HH_NameSpec"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 793
+            },
+            "modifiers": [],
+            "name": "hns",
+            "references": [],
+            "type": "Household_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 822
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 825
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 826
+            },
+            "modifiers": [],
+            "name": "c1",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 838
+            },
+            "modifiers": [],
+            "name": "ns",
+            "references": [],
+            "type": "HH_NameSpec"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 839
+            },
+            "modifiers": [],
+            "name": "hns",
+            "references": [],
+            "type": "Household_Naming_Settings__c"
+        }
+    ]
+}

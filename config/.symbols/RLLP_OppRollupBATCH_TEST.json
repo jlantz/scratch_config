@@ -1,0 +1,512 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iIuQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iIuQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 43
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "setup",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 67
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testOppAcctRollupBatch",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 96
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testOppContactRollupBatch",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 132
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testOppSoftCreditRollupBatch",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 172
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testOppPartialSoftCreditRollupBatch",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "RLLP_OppRollupBATCH_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 41
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strTestOnly",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 37
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "RLLP_OppRollupBATCH_TEST",
+        "references": [],
+        "type": "RLLP_OppRollupBATCH_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "householdSettingsForTests",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "giftRecordTypeNameForTests",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 75
+            },
+            "modifiers": [],
+            "name": "contact",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "giftAmount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "opps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 85
+            },
+            "modifiers": [],
+            "name": "batch",
+            "references": [],
+            "type": "RLLP_OppAccRollup_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 88
+            },
+            "modifiers": [],
+            "name": "batchProcessId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 91
+            },
+            "modifiers": [],
+            "name": "acctId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 92
+            },
+            "modifiers": [],
+            "name": "acct",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 101
+            },
+            "modifiers": [],
+            "name": "giftRecordTypeNameForTests",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 104
+            },
+            "modifiers": [],
+            "name": "contact",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 107
+            },
+            "modifiers": [],
+            "name": "giftAmount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "opps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 121
+            },
+            "modifiers": [],
+            "name": "batch",
+            "references": [],
+            "type": "RLLP_OppContactRollup_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 136
+            },
+            "modifiers": [],
+            "name": "giftRecordTypeNameForTests",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 139
+            },
+            "modifiers": [],
+            "name": "contact18",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 140
+            },
+            "modifiers": [],
+            "name": "contact19",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 143
+            },
+            "modifiers": [],
+            "name": "giftAmount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 145
+            },
+            "modifiers": [],
+            "name": "opps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "oppRoles",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 152
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 158
+            },
+            "modifiers": [],
+            "name": "batch",
+            "references": [],
+            "type": "RLLP_OppSoftCreditRollup_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 176
+            },
+            "modifiers": [],
+            "name": "giftRecordTypeNameForTests",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 179
+            },
+            "modifiers": [],
+            "name": "contact18",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 180
+            },
+            "modifiers": [],
+            "name": "contact19",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 183
+            },
+            "modifiers": [],
+            "name": "giftAmount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 185
+            },
+            "modifiers": [],
+            "name": "opps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 191
+            },
+            "modifiers": [],
+            "name": "oppRoles",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 192
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 198
+            },
+            "modifiers": [],
+            "name": "oppPartialRoles",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 199
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 205
+            },
+            "modifiers": [],
+            "name": "batch",
+            "references": [],
+            "type": "RLLP_OppSoftCreditRollup_BATCH"
+        }
+    ]
+}

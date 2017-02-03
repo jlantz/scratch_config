@@ -1,0 +1,1051 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJvQAI",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 76
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "Cascade",
+                    "parameters": [
+                        {
+                            "name": "objName",
+                            "type": "String"
+                        },
+                        {
+                            "name": "parentRel",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 89
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "Cascade",
+                    "parameters": [
+                        {
+                            "name": "objName",
+                            "type": "String"
+                        },
+                        {
+                            "name": "parentRel",
+                            "type": "String"
+                        },
+                        {
+                            "name": "qFields",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "Cascade",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 57
+                    },
+                    "modifiers": [
+                        "public",
+                        "final"
+                    ],
+                    "name": "objectName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 58
+                    },
+                    "modifiers": [
+                        "public",
+                        "final"
+                    ],
+                    "name": "parentRelationship",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 60
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "queryFields",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 63
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "validateOnly",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 66
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "parents",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 68
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "children",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 28,
+                        "line": 70
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "childToParent",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 47,
+                        "line": 73
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "errors",
+                    "references": [],
+                    "type": "Map"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 56
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Cascade",
+                "references": [],
+                "type": "Cascade"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 31,
+                        "line": 76
+                    },
+                    "modifiers": [],
+                    "name": "objName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 47,
+                        "line": 76
+                    },
+                    "modifiers": [],
+                    "name": "parentRel",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 31,
+                        "line": 89
+                    },
+                    "modifiers": [],
+                    "name": "objName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 47,
+                        "line": 89
+                    },
+                    "modifiers": [],
+                    "name": "parentRel",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 71,
+                        "line": 89
+                    },
+                    "modifiers": [],
+                    "name": "qFields",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iJvQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 100
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "getCascades",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 116
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "run",
+            "parameters": [
+                {
+                    "name": "newlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "triggerAction",
+                    "type": "Action"
+                },
+                {
+                    "name": "objResult",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "DmlWrapper",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 158
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "doStash",
+            "parameters": [
+                {
+                    "name": "deletedParents",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 178
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "addDeletionErrors",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 188
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "putError",
+            "parameters": [
+                {
+                    "name": "cc",
+                    "type": "Cascade"
+                },
+                {
+                    "name": "child",
+                    "type": "Id"
+                },
+                {
+                    "name": "error",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 211
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "processDeletionErrors",
+            "parameters": [
+                {
+                    "name": "parentObjectName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 245
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "getErrorLinks",
+            "parameters": [
+                {
+                    "name": "cc",
+                    "type": "Cascade"
+                },
+                {
+                    "name": "records",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 261
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "doDelete",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 284
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "doUndelete",
+            "parameters": [
+                {
+                    "name": "deletedParents",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 304
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "getQuery",
+            "parameters": [
+                {
+                    "name": "cc",
+                    "type": "Cascade"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 320
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "getParentId",
+            "parameters": [
+                {
+                    "name": "obj",
+                    "type": "SObject"
+                },
+                {
+                    "name": "relationship",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Id",
+            "type": null
+        }
+    ],
+    "name": "UTIL_CascadeDeleteLookups_TDTM",
+    "namespace": null,
+    "parentClass": "TDTM_Runnable",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 104
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "disableCascade",
+            "references": [],
+            "type": "Boolean"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 23,
+            "line": 47
+        },
+        "modifiers": [
+            "public",
+            "abstract"
+        ],
+        "name": "UTIL_CascadeDeleteLookups_TDTM",
+        "references": [],
+        "type": "UTIL_CascadeDeleteLookups_TDTM"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 116
+            },
+            "modifiers": [],
+            "name": "newlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 116
+            },
+            "modifiers": [],
+            "name": "oldlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 117
+            },
+            "modifiers": [],
+            "name": "triggerAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 117
+            },
+            "modifiers": [],
+            "name": "objResult",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 133
+            },
+            "modifiers": [],
+            "name": "masterRecordId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 158
+            },
+            "modifiers": [],
+            "name": "deletedParents",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 159
+            },
+            "modifiers": [],
+            "name": "cc",
+            "references": [],
+            "type": "Cascade"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 162
+            },
+            "modifiers": [],
+            "name": "childQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 166
+            },
+            "modifiers": [],
+            "name": "child",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 167
+            },
+            "modifiers": [],
+            "name": "parent",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "cc",
+            "references": [],
+            "type": "Cascade"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "child",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "error",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 189
+            },
+            "modifiers": [],
+            "name": "parent",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 196
+            },
+            "modifiers": [],
+            "name": "errorMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 211
+            },
+            "modifiers": [],
+            "name": "parentObjectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 212
+            },
+            "modifiers": [],
+            "name": "parentNameField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 213
+            },
+            "modifiers": [],
+            "name": "cc",
+            "references": [],
+            "type": "Cascade"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 214
+            },
+            "modifiers": [],
+            "name": "parentId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 215
+            },
+            "modifiers": [],
+            "name": "parent",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 217
+            },
+            "modifiers": [],
+            "name": "parentName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 228
+            },
+            "modifiers": [],
+            "name": "error",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 229
+            },
+            "modifiers": [],
+            "name": "errType",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 245
+            },
+            "modifiers": [],
+            "name": "cc",
+            "references": [],
+            "type": "Cascade"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 245
+            },
+            "modifiers": [],
+            "name": "records",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 246
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 247
+            },
+            "modifiers": [],
+            "name": "nameField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 248
+            },
+            "modifiers": [],
+            "name": "recId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 249
+            },
+            "modifiers": [],
+            "name": "childName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 250
+            },
+            "modifiers": [],
+            "name": "htmlLink",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 262
+            },
+            "modifiers": [],
+            "name": "forDelete",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 263
+            },
+            "modifiers": [],
+            "name": "cc",
+            "references": [],
+            "type": "Cascade"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 270
+            },
+            "modifiers": [],
+            "name": "delResults",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 272
+            },
+            "modifiers": [],
+            "name": "errorResult",
+            "references": [],
+            "type": "Errors"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 284
+            },
+            "modifiers": [],
+            "name": "deletedParents",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 285
+            },
+            "modifiers": [],
+            "name": "cc",
+            "references": [],
+            "type": "Cascade"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 286
+            },
+            "modifiers": [],
+            "name": "childQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 288
+            },
+            "modifiers": [],
+            "name": "forUndelete",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 290
+            },
+            "modifiers": [],
+            "name": "undelResults",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 291
+            },
+            "modifiers": [],
+            "name": "errorResult",
+            "references": [],
+            "type": "Errors"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 304
+            },
+            "modifiers": [],
+            "name": "cc",
+            "references": [],
+            "type": "Cascade"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 305
+            },
+            "modifiers": [],
+            "name": "childQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 320
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 320
+            },
+            "modifiers": [],
+            "name": "relationship",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 322
+            },
+            "modifiers": [],
+            "name": "thisObj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 324
+            },
+            "modifiers": [],
+            "name": "splitField",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 327
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 331
+            },
+            "modifiers": [],
+            "name": "parentObj",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

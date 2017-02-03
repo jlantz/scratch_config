@@ -1,0 +1,147 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 70
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "STG_DataBoundMultiSelect_CTRL",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iJ0QAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJ0QAI",
+    "methods": [],
+    "name": "STG_DataBoundMultiSelect_CTRL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 45
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listSelectOption",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 50
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isEditMode",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 55
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isDisabled",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 60
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "sobjBinding",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 65
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 78
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "strValues",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 92
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listStrValues",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 40
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "STG_DataBoundMultiSelect_CTRL",
+        "references": [],
+        "type": "STG_DataBoundMultiSelect_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 102
+            },
+            "modifiers": [],
+            "name": "str",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

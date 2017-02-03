@@ -1,0 +1,1431 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iGRQAY",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "alloWrapper",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 63
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "isPercentOnly",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 64
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "parentAmount",
+                    "references": [],
+                    "type": "Decimal"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 65
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "totalAmount",
+                    "references": [],
+                    "type": "Decimal"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 66
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "totalPercent",
+                    "references": [],
+                    "type": "Decimal"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 67
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "triggerList",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 68
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "listAllo",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 69
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "defaultAllo",
+                    "references": [],
+                    "type": "Allocation__c"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 70
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "defaultInTrigger",
+                    "references": [],
+                    "type": "Boolean"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 19,
+                    "line": 62
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "alloWrapper",
+                "references": [],
+                "type": "alloWrapper"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iGRQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 83
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "run",
+            "parameters": [
+                {
+                    "name": "newlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "triggerAction",
+                    "type": "Action"
+                },
+                {
+                    "name": "objResult",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "DmlWrapper",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 126
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "runOpportunityTriggerHandler",
+            "parameters": [
+                {
+                    "name": "newlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "triggerAction",
+                    "type": "Action"
+                },
+                {
+                    "name": "objResult",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 196
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "runAllocationBeforeTriggerHandler",
+            "parameters": [
+                {
+                    "name": "newlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "triggerAction",
+                    "type": "Action"
+                },
+                {
+                    "name": "objResult",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 263
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "runAllocationAfterTriggerHandler",
+            "parameters": [
+                {
+                    "name": "newlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "triggerAction",
+                    "type": "Action"
+                },
+                {
+                    "name": "objResult",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 351
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "copyRecurringDonationCampaignAllocations",
+            "parameters": [
+                {
+                    "name": "listOpps",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 438
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "opportunityAmountCurrencyChange",
+            "parameters": [
+                {
+                    "name": "listOpps",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 507
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "fillMapWrapper",
+            "parameters": [
+                {
+                    "name": "alloList",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 622
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "fillMapWrapper",
+            "parameters": [
+                {
+                    "name": "oppList",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 697
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "parentError",
+            "parameters": [
+                {
+                    "name": "allo",
+                    "type": "Allocation__c"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 682
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getParentId",
+            "parameters": [
+                {
+                    "name": "allo",
+                    "type": "Allocation__c"
+                }
+            ],
+            "references": [],
+            "returnType": "Id",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 716
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "makeDefaultAllocation",
+            "parameters": [
+                {
+                    "name": "opp",
+                    "type": "Opportunity"
+                }
+            ],
+            "references": [],
+            "returnType": "Allocation__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 732
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "resetFlags",
+            "parameters": [
+                {
+                    "name": "b",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "ALLO_Allocations_TDTM",
+    "namespace": null,
+    "parentClass": "TDTM_Runnable",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 48
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "mapWrapper",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 50
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 41
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "hasRunForAllocationsBefore",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 43
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "hasRunForAllocationsAfter",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 45
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "hasRunForOpportunities",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 53
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "settings",
+            "references": [],
+            "type": "Allocations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 56
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "idDefaultGAU",
+            "references": [],
+            "type": "Id"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 38
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "ALLO_Allocations_TDTM",
+        "references": [],
+        "type": "ALLO_Allocations_TDTM"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 83
+            },
+            "modifiers": [],
+            "name": "newlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 83
+            },
+            "modifiers": [],
+            "name": "oldlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 84
+            },
+            "modifiers": [],
+            "name": "triggerAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 84
+            },
+            "modifiers": [],
+            "name": "objResult",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 88
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 61,
+                "line": 126
+            },
+            "modifiers": [],
+            "name": "newlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 84,
+                "line": 126
+            },
+            "modifiers": [],
+            "name": "oldlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 127
+            },
+            "modifiers": [],
+            "name": "triggerAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 127
+            },
+            "modifiers": [],
+            "name": "objResult",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 129
+            },
+            "modifiers": [],
+            "name": "oppRecordTypesToExclude",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 130
+            },
+            "modifiers": [],
+            "name": "oppTypesToExclude",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 136
+            },
+            "modifiers": [],
+            "name": "listOppsForProcessing",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 137
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 138
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 196
+            },
+            "modifiers": [],
+            "name": "newlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 89,
+                "line": 196
+            },
+            "modifiers": [],
+            "name": "oldlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 197
+            },
+            "modifiers": [],
+            "name": "triggerAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 197
+            },
+            "modifiers": [],
+            "name": "objResult",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 199
+            },
+            "modifiers": [],
+            "name": "triggerList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 201
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 202
+            },
+            "modifiers": [],
+            "name": "allo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 225
+            },
+            "modifiers": [],
+            "name": "allo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 227
+            },
+            "modifiers": [],
+            "name": "wrap",
+            "references": [],
+            "type": "alloWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 263
+            },
+            "modifiers": [],
+            "name": "newlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 88,
+                "line": 263
+            },
+            "modifiers": [],
+            "name": "oldlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 264
+            },
+            "modifiers": [],
+            "name": "triggerAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 264
+            },
+            "modifiers": [],
+            "name": "objResult",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 266
+            },
+            "modifiers": [],
+            "name": "listOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 267
+            },
+            "modifiers": [],
+            "name": "setRecDonId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 268
+            },
+            "modifiers": [],
+            "name": "setOppIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 270
+            },
+            "modifiers": [],
+            "name": "allo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 281
+            },
+            "modifiers": [],
+            "name": "oppQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 293
+            },
+            "modifiers": [],
+            "name": "listRecDonOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 295
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 300
+            },
+            "modifiers": [],
+            "name": "oppWrap",
+            "references": [],
+            "type": "alloWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 302
+            },
+            "modifiers": [],
+            "name": "amountDifferential",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 330
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 332
+            },
+            "modifiers": [],
+            "name": "oppWrap",
+            "references": [],
+            "type": "alloWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 77,
+                "line": 351
+            },
+            "modifiers": [],
+            "name": "listOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 353
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 358
+            },
+            "modifiers": [],
+            "name": "wrap",
+            "references": [],
+            "type": "alloWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 365
+            },
+            "modifiers": [],
+            "name": "listAlloForInsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 368
+            },
+            "modifiers": [],
+            "name": "allo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 372
+            },
+            "modifiers": [],
+            "name": "remainder",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 375
+            },
+            "modifiers": [],
+            "name": "allo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 401
+            },
+            "modifiers": [],
+            "name": "allo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 408
+            },
+            "modifiers": [],
+            "name": "defaultAllo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 415
+            },
+            "modifiers": [],
+            "name": "defaultAllo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 68,
+                "line": 438
+            },
+            "modifiers": [],
+            "name": "listOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 440
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 443
+            },
+            "modifiers": [],
+            "name": "oppWrap",
+            "references": [],
+            "type": "alloWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 452
+            },
+            "modifiers": [],
+            "name": "allo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 472
+            },
+            "modifiers": [],
+            "name": "remainder",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 507
+            },
+            "modifiers": [],
+            "name": "alloList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 509
+            },
+            "modifiers": [],
+            "name": "setParentId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 510
+            },
+            "modifiers": [],
+            "name": "setExistingAlloId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 513
+            },
+            "modifiers": [],
+            "name": "allo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 518
+            },
+            "modifiers": [],
+            "name": "wrapper",
+            "references": [],
+            "type": "alloWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 524
+            },
+            "modifiers": [],
+            "name": "allo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 525
+            },
+            "modifiers": [],
+            "name": "wrap",
+            "references": [],
+            "type": "alloWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 552
+            },
+            "modifiers": [],
+            "name": "allo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 556
+            },
+            "modifiers": [],
+            "name": "wrap",
+            "references": [],
+            "type": "alloWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 581
+            },
+            "modifiers": [],
+            "name": "setOppIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 584
+            },
+            "modifiers": [],
+            "name": "allo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 585
+            },
+            "modifiers": [],
+            "name": "wrap",
+            "references": [],
+            "type": "alloWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 592
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 598
+            },
+            "modifiers": [],
+            "name": "allo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 599
+            },
+            "modifiers": [],
+            "name": "wrap",
+            "references": [],
+            "type": "alloWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 622
+            },
+            "modifiers": [],
+            "name": "oppList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 623
+            },
+            "modifiers": [],
+            "name": "setParentId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 625
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 633
+            },
+            "modifiers": [],
+            "name": "alloQueryString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 643
+            },
+            "modifiers": [],
+            "name": "allo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 649
+            },
+            "modifiers": [],
+            "name": "wrap",
+            "references": [],
+            "type": "alloWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 697
+            },
+            "modifiers": [],
+            "name": "allo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 698
+            },
+            "modifiers": [],
+            "name": "cParts",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 682
+            },
+            "modifiers": [],
+            "name": "allo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 67,
+                "line": 716
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 717
+            },
+            "modifiers": [],
+            "name": "defaultAllo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 732
+            },
+            "modifiers": [],
+            "name": "b",
+            "references": [],
+            "type": "Boolean"
+        }
+    ]
+}

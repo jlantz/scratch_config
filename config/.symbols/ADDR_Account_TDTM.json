@@ -1,0 +1,350 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iG1QAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iG1QAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 47
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "run",
+            "parameters": [
+                {
+                    "name": "listNew",
+                    "type": "LIST"
+                },
+                {
+                    "name": "listOld",
+                    "type": "LIST"
+                },
+                {
+                    "name": "triggerAction",
+                    "type": "Action"
+                },
+                {
+                    "name": "objResult",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "DmlWrapper",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 112
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "isAccountAddressSpecified",
+            "parameters": [
+                {
+                    "name": "acc1",
+                    "type": "Account"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 135
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "isAccountAddressChanged",
+            "parameters": [
+                {
+                    "name": "acc1",
+                    "type": "Account"
+                },
+                {
+                    "name": "acc2",
+                    "type": "Account"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 161
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "createAddrFromAcc",
+            "parameters": [
+                {
+                    "name": "listAcc",
+                    "type": "LIST"
+                },
+                {
+                    "name": "dmlWrapper",
+                    "type": "DmlWrapper"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "ADDR_Account_TDTM",
+    "namespace": null,
+    "parentClass": "TDTM_Runnable",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 37
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "ADDR_Account_TDTM",
+        "references": [],
+        "type": "ADDR_Account_TDTM"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 47
+            },
+            "modifiers": [],
+            "name": "listNew",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 47
+            },
+            "modifiers": [],
+            "name": "listOld",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 48
+            },
+            "modifiers": [],
+            "name": "triggerAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 48
+            },
+            "modifiers": [],
+            "name": "objResult",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "listAccCreateAddr",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "so",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "accOld",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 112
+            },
+            "modifiers": [],
+            "name": "acc1",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 116
+            },
+            "modifiers": [],
+            "name": "isSpecified",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 135
+            },
+            "modifiers": [],
+            "name": "acc1",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 67,
+                "line": 135
+            },
+            "modifiers": [],
+            "name": "acc2",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 139
+            },
+            "modifiers": [],
+            "name": "isChanged",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 161
+            },
+            "modifiers": [],
+            "name": "listAcc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 161
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 162
+            },
+            "modifiers": [],
+            "name": "listAddr",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 163
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 164
+            },
+            "modifiers": [],
+            "name": "addr",
+            "references": [],
+            "type": "Address__c"
+        }
+    ]
+}

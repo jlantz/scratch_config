@@ -1,0 +1,60 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iGkQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iGkQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 49
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "getCascades",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "CAM_CascadeDeleteLookups_TDTM",
+    "namespace": null,
+    "parentClass": "UTIL_CascadeDeleteLookups_TDTM",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 41
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "cascades",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "CAM_CascadeDeleteLookups_TDTM",
+        "references": [],
+        "type": "CAM_CascadeDeleteLookups_TDTM"
+    },
+    "variables": []
+}

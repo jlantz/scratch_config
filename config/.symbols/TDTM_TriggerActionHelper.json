@@ -1,0 +1,179 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJqQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJqQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 50
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "determineTriggerAction",
+            "parameters": [
+                {
+                    "name": "isBefore",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isAfter",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isInsert",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isUpdate",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isDelete",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isUnDelete",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "Action",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 69
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getTriggerActionFromName",
+            "parameters": [
+                {
+                    "name": "name",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Action",
+            "type": null
+        }
+    ],
+    "name": "TDTM_TriggerActionHelper",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 38
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "TDTM_TriggerActionHelper",
+        "references": [],
+        "type": "TDTM_TriggerActionHelper"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "isBefore",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 89,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "isAfter",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 106,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "isInsert",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "isUpdate",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "isDelete",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "isUnDelete",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 72,
+                "line": 69
+            },
+            "modifiers": [],
+            "name": "name",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 70
+            },
+            "modifiers": [],
+            "name": "ta",
+            "references": [],
+            "type": "Action"
+        }
+    ]
+}

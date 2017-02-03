@@ -1,0 +1,74 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iGMQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iGMQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 44
+            },
+            "modifiers": [
+                "static",
+                "webService",
+                "global"
+            ],
+            "name": "verifyRecord",
+            "parameters": [
+                {
+                    "name": "addressId",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "ADDR_Validator_REST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 37
+        },
+        "modifiers": [
+            "global",
+            "with sharing"
+        ],
+        "name": "ADDR_Validator_REST",
+        "references": [],
+        "type": "ADDR_Validator_REST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "addressId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 45
+            },
+            "modifiers": [],
+            "name": "addressIds",
+            "references": [],
+            "type": "Set"
+        }
+    ]
+}

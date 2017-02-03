@@ -1,0 +1,741 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iGOQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iGOQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 42
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "hasAsyncAddrTriggers",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 48
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "createDefaultSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Addr_Verification_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 63
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testContactAddress",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 109
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testContactInvalidAddress",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 141
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "test400",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 173
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "test401",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 205
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "test402",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 237
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "test500",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 269
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testContactAmbiguousAddress",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 303
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testContactZipOnly",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 340
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testContactCityAndStateOnly",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 378
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testController",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 404
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testBlankService",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 419
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testControllerMissingSetting",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "ADDR_Validator_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 40
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strTestOnly",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "ADDR_Validator_TEST",
+        "references": [],
+        "type": "ADDR_Validator_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "contact",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 86
+            },
+            "modifiers": [],
+            "name": "accountId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 89
+            },
+            "modifiers": [],
+            "name": "av",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 118
+            },
+            "modifiers": [],
+            "name": "contact",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 132
+            },
+            "modifiers": [],
+            "name": "accountId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 135
+            },
+            "modifiers": [],
+            "name": "av",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 147
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "contact",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 164
+            },
+            "modifiers": [],
+            "name": "accountId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 167
+            },
+            "modifiers": [],
+            "name": "av",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 179
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 182
+            },
+            "modifiers": [],
+            "name": "contact",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 196
+            },
+            "modifiers": [],
+            "name": "accountId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 199
+            },
+            "modifiers": [],
+            "name": "av",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 211
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 214
+            },
+            "modifiers": [],
+            "name": "contact",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 228
+            },
+            "modifiers": [],
+            "name": "accountId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 231
+            },
+            "modifiers": [],
+            "name": "av",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 243
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 246
+            },
+            "modifiers": [],
+            "name": "contact",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 260
+            },
+            "modifiers": [],
+            "name": "accountId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 263
+            },
+            "modifiers": [],
+            "name": "av",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 278
+            },
+            "modifiers": [],
+            "name": "contact",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 292
+            },
+            "modifiers": [],
+            "name": "accountId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 295
+            },
+            "modifiers": [],
+            "name": "av",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 312
+            },
+            "modifiers": [],
+            "name": "contact",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 324
+            },
+            "modifiers": [],
+            "name": "accountId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 327
+            },
+            "modifiers": [],
+            "name": "av",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 334
+            },
+            "modifiers": [],
+            "name": "c1",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 349
+            },
+            "modifiers": [],
+            "name": "contact",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 361
+            },
+            "modifiers": [],
+            "name": "accountId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 364
+            },
+            "modifiers": [],
+            "name": "av",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 372
+            },
+            "modifiers": [],
+            "name": "c1",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 381
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "STG_PanelADDRVerification_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 407
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "STG_PanelADDRVerification_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 422
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "STG_PanelADDRVerification_CTRL"
+        }
+    ]
+}

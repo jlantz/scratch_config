@@ -1,0 +1,1111 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHgQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHgQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 49
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "run",
+            "parameters": [
+                {
+                    "name": "newlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "triggerAction",
+                    "type": "Action"
+                },
+                {
+                    "name": "objResult",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "DmlWrapper",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 278
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "copyNamingExclusionsFromMSP",
+            "parameters": [
+                {
+                    "name": "con",
+                    "type": "Contact"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 292
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "copyNamingExclusionsFromCheckboxes",
+            "parameters": [
+                {
+                    "name": "con",
+                    "type": "Contact"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 313
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "contactMergeUpdate",
+            "parameters": [
+                {
+                    "name": "winningContacts",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 336
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "insertHousehold",
+            "parameters": [
+                {
+                    "name": "contacts",
+                    "type": "LIST"
+                },
+                {
+                    "name": "isInsertTrigger",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "dmlWrapper",
+                    "type": "DmlWrapper"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 435
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "evaluateContacts",
+            "parameters": [
+                {
+                    "name": "contacts",
+                    "type": "LIST"
+                },
+                {
+                    "name": "isAfterInsert",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "dmlWrapper",
+                    "type": "DmlWrapper"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 477
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "deleteHousehold",
+            "parameters": [
+                {
+                    "name": "contacts",
+                    "type": "LIST"
+                },
+                {
+                    "name": "dmlWrapper",
+                    "type": "DmlWrapper"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "HH_Households_TDTM",
+    "namespace": null,
+    "parentClass": "TDTM_Runnable",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 30,
+            "line": 38
+        },
+        "modifiers": [
+            "public",
+            "without sharing"
+        ],
+        "name": "HH_Households_TDTM",
+        "references": [],
+        "type": "HH_Households_TDTM"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "newlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "oldlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "triggerAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "objResult",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 52
+            },
+            "modifiers": [],
+            "name": "contacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "oldContacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 76
+            },
+            "modifiers": [],
+            "name": "oldCon",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 97
+            },
+            "modifiers": [],
+            "name": "newcmap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "oldcmap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 102
+            },
+            "modifiers": [],
+            "name": "currentHouseholdsSettings",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 103
+            },
+            "modifiers": [],
+            "name": "householdInserts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 104
+            },
+            "modifiers": [],
+            "name": "contactEvaluations",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 105
+            },
+            "modifiers": [],
+            "name": "householdDeletes",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 106
+            },
+            "modifiers": [],
+            "name": "householdnameupdates",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 107
+            },
+            "modifiers": [],
+            "name": "oldHouseholds",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 108
+            },
+            "modifiers": [],
+            "name": "oldHouseholdSize",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "setHHIdToRollup",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 111
+            },
+            "modifiers": [],
+            "name": "mergedWinningContact",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 115
+            },
+            "modifiers": [],
+            "name": "blankHHDeletes",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 121
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 131
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "AggregateResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 138
+            },
+            "modifiers": [],
+            "name": "hhid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 144
+            },
+            "modifiers": [],
+            "name": "hhNamingFields",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 145
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 146
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 180
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 182
+            },
+            "modifiers": [],
+            "name": "strName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 185
+            },
+            "modifiers": [],
+            "name": "strNameOld",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 252
+            },
+            "modifiers": [],
+            "name": "hn",
+            "references": [],
+            "type": "HH_HouseholdNaming"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 259
+            },
+            "modifiers": [],
+            "name": "oppRollupUtil",
+            "references": [],
+            "type": "RLLP_OppRollup_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 260
+            },
+            "modifiers": [],
+            "name": "hhmap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 262
+            },
+            "modifiers": [],
+            "name": "rg",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 278
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 279
+            },
+            "modifiers": [],
+            "name": "strExclusions",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 67,
+                "line": 292
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 293
+            },
+            "modifiers": [],
+            "name": "mspValue",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 313
+            },
+            "modifiers": [],
+            "name": "winningContacts",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 314
+            },
+            "modifiers": [],
+            "name": "oppIDs",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 315
+            },
+            "modifiers": [],
+            "name": "ocrlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 318
+            },
+            "modifiers": [],
+            "name": "ocr",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 336
+            },
+            "modifiers": [],
+            "name": "contacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 68,
+                "line": 336
+            },
+            "modifiers": [],
+            "name": "isInsertTrigger",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 96,
+                "line": 336
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 338
+            },
+            "modifiers": [],
+            "name": "householdInserts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 340
+            },
+            "modifiers": [],
+            "name": "currentHouseholdsSettings",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 342
+            },
+            "modifiers": [],
+            "name": "conRecordTypesToExclude",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 347
+            },
+            "modifiers": [],
+            "name": "recordTypesOnCons",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 351
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 354
+            },
+            "modifiers": [],
+            "name": "h",
+            "references": [],
+            "type": "npo02__Household__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 355
+            },
+            "modifiers": [],
+            "name": "hName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 369
+            },
+            "modifiers": [],
+            "name": "contactUpdates",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 376
+            },
+            "modifiers": [],
+            "name": "lsr",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 378
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 379
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 385
+            },
+            "modifiers": [],
+            "name": "clone",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 390
+            },
+            "modifiers": [],
+            "name": "err",
+            "references": [],
+            "type": "Error"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 407
+            },
+            "modifiers": [],
+            "name": "hhidsfornaming",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 409
+            },
+            "modifiers": [],
+            "name": "sr",
+            "references": [],
+            "type": "SaveResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 420
+            },
+            "modifiers": [],
+            "name": "hn",
+            "references": [],
+            "type": "HH_HouseholdNaming"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 435
+            },
+            "modifiers": [],
+            "name": "contacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 435
+            },
+            "modifiers": [],
+            "name": "isAfterInsert",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 95,
+                "line": 435
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 437
+            },
+            "modifiers": [],
+            "name": "householdInserts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 439
+            },
+            "modifiers": [],
+            "name": "accountIds",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 440
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 448
+            },
+            "modifiers": [],
+            "name": "contactAccountMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 449
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 452
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 477
+            },
+            "modifiers": [],
+            "name": "contacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 477
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 479
+            },
+            "modifiers": [],
+            "name": "householdDeletes",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 480
+            },
+            "modifiers": [],
+            "name": "householdCountMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 481
+            },
+            "modifiers": [],
+            "name": "householdrenames",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 483
+            },
+            "modifiers": [],
+            "name": "currentHouseholdsSettings",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 486
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 492
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 494
+            },
+            "modifiers": [],
+            "name": "lastCount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 500
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 517
+            },
+            "modifiers": [],
+            "name": "hn",
+            "references": [],
+            "type": "HH_HouseholdNaming"
+        }
+    ]
+}

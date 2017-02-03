@@ -1,0 +1,812 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHOQAY",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "Errors",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 21,
+                        "line": 49
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "errorsExist",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 28,
+                        "line": 53
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "errorRecords",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 45
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Errors",
+                "references": [],
+                "type": "Errors"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iHOQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 73
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getErrors",
+            "parameters": [
+                {
+                    "name": "insertResults",
+                    "type": "LIST"
+                },
+                {
+                    "name": "updateResults",
+                    "type": "LIST"
+                },
+                {
+                    "name": "deleteResults",
+                    "type": "LIST"
+                },
+                {
+                    "name": "undeleteResults",
+                    "type": "LIST"
+                },
+                {
+                    "name": "insertedObjects",
+                    "type": "LIST"
+                },
+                {
+                    "name": "updatedObjects",
+                    "type": "LIST"
+                },
+                {
+                    "name": "deletedObjects",
+                    "type": "LIST"
+                },
+                {
+                    "name": "undeletedObjects",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "Errors",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 109
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getErrors",
+            "parameters": [
+                {
+                    "name": "dmlResults",
+                    "type": "LIST"
+                },
+                {
+                    "name": "sObjects",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "Errors",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 150
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "processError",
+            "parameters": [
+                {
+                    "name": "e",
+                    "type": "Exception"
+                },
+                {
+                    "name": "context",
+                    "type": "Context"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 160
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "processError",
+            "parameters": [
+                {
+                    "name": "e",
+                    "type": "Exception"
+                },
+                {
+                    "name": "context",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 173
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "processErrors",
+            "parameters": [
+                {
+                    "name": "errorRecords",
+                    "type": "LIST"
+                },
+                {
+                    "name": "context",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 194
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "createError",
+            "parameters": [
+                {
+                    "name": "e",
+                    "type": "Exception"
+                }
+            ],
+            "references": [],
+            "returnType": "Error__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 221
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "createError",
+            "parameters": [
+                {
+                    "name": "result",
+                    "type": "Object"
+                },
+                {
+                    "name": "objectType",
+                    "type": "String"
+                },
+                {
+                    "name": "objId",
+                    "type": "Id"
+                }
+            ],
+            "references": [],
+            "returnType": "Error__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 253
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "getRecordURL",
+            "parameters": [
+                {
+                    "name": "saveResultId",
+                    "type": "Id"
+                },
+                {
+                    "name": "objId",
+                    "type": "Id"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 271
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getErrorObjectId",
+            "parameters": [
+                {
+                    "name": "error",
+                    "type": "Error__c"
+                }
+            ],
+            "references": [],
+            "returnType": "Id",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 284
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "getStatusCode",
+            "parameters": [
+                {
+                    "name": "status",
+                    "type": "StatusCode"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "ERR_Handler",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 39
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "ERR_Handler",
+        "references": [],
+        "type": "ERR_Handler"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "insertResults",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 72,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "updateResults",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 75
+            },
+            "modifiers": [],
+            "name": "deleteResults",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 78,
+                "line": 75
+            },
+            "modifiers": [],
+            "name": "undeleteResults",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 76
+            },
+            "modifiers": [],
+            "name": "insertedObjects",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 76
+            },
+            "modifiers": [],
+            "name": "updatedObjects",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 77
+            },
+            "modifiers": [],
+            "name": "deletedObjects",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 77
+            },
+            "modifiers": [],
+            "name": "undeletedObjects",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "errors",
+            "references": [],
+            "type": "Errors"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "insertErrors",
+            "references": [],
+            "type": "Errors"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 82
+            },
+            "modifiers": [],
+            "name": "updateErrors",
+            "references": [],
+            "type": "Errors"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 83
+            },
+            "modifiers": [],
+            "name": "deleteErrors",
+            "references": [],
+            "type": "Errors"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 84
+            },
+            "modifiers": [],
+            "name": "undeleteErrors",
+            "references": [],
+            "type": "Errors"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "dmlResults",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 75,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "sObjects",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 110
+            },
+            "modifiers": [],
+            "name": "errors",
+            "references": [],
+            "type": "Errors"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 113
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 114
+            },
+            "modifiers": [],
+            "name": "isSuccess",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 127
+            },
+            "modifiers": [],
+            "name": "err",
+            "references": [],
+            "type": "Error__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "e",
+            "references": [],
+            "type": "Exception"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "context",
+            "references": [],
+            "type": "Context"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "e",
+            "references": [],
+            "type": "Exception"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "context",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 162
+            },
+            "modifiers": [],
+            "name": "error",
+            "references": [],
+            "type": "Error__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 173
+            },
+            "modifiers": [],
+            "name": "errorRecords",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 173
+            },
+            "modifiers": [],
+            "name": "context",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 194
+            },
+            "modifiers": [],
+            "name": "e",
+            "references": [],
+            "type": "Exception"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 195
+            },
+            "modifiers": [],
+            "name": "error",
+            "references": [],
+            "type": "Error__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 201
+            },
+            "modifiers": [],
+            "name": "stackTrace",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 203
+            },
+            "modifiers": [],
+            "name": "message",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 221
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 221
+            },
+            "modifiers": [],
+            "name": "objectType",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 78,
+                "line": 221
+            },
+            "modifiers": [],
+            "name": "objId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 222
+            },
+            "modifiers": [],
+            "name": "error",
+            "references": [],
+            "type": "Error__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 227
+            },
+            "modifiers": [],
+            "name": "saveResult",
+            "references": [],
+            "type": "SaveResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 232
+            },
+            "modifiers": [],
+            "name": "deleteResult",
+            "references": [],
+            "type": "DeleteResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 237
+            },
+            "modifiers": [],
+            "name": "undeleteResult",
+            "references": [],
+            "type": "UndeleteResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 253
+            },
+            "modifiers": [],
+            "name": "saveResultId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 253
+            },
+            "modifiers": [],
+            "name": "objId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 254
+            },
+            "modifiers": [],
+            "name": "recordURL",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 271
+            },
+            "modifiers": [],
+            "name": "error",
+            "references": [],
+            "type": "Error__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 284
+            },
+            "modifiers": [],
+            "name": "status",
+            "references": [],
+            "type": "StatusCode"
+        }
+    ]
+}

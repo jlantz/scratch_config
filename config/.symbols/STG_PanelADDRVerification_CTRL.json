@@ -1,0 +1,915 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 177
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "STG_PanelADDRVerification_CTRL",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iJ5QAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJ5QAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 41
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "idPanel",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 116
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getValidatorSelection",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 123
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "setValidatorSelection",
+            "parameters": [
+                {
+                    "name": "validatorSelection",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 141
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "initDynamicFields",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 157
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "clearDynamicFields",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 163
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "setDynamicFields",
+            "parameters": [
+                {
+                    "name": "validator",
+                    "type": "ADDR_IValidator"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 217
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "saveSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 275
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "cancelEdit",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 288
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "testApi",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 348
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "batchVerify",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 298
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "verifyAddressVerificationService",
+            "parameters": [
+                {
+                    "name": "ctrl",
+                    "type": "STG_PanelHealthCheck_CTRL"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 312
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strVerifyAddressVerificationService",
+            "parameters": [
+                {
+                    "name": "addrVerifSettings",
+                    "type": "Addr_Verification_Settings__c"
+                },
+                {
+                    "name": "strZip",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 337
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "encodeTokenIfNotEncoded",
+            "parameters": [
+                {
+                    "name": "addrVerifSettings",
+                    "type": "Addr_Verification_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "STG_PanelADDRVerification_CTRL",
+    "namespace": null,
+    "parentClass": "STG_Panel",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 46
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "addrVerifSettings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 51
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "apiSettingsErrorMessage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 55
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "apiSettingsSaveMessage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 60
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "apiTestEntry",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 64
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "apiTestResult",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 69
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "skipPreviouslyVerifiedObjects",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 73
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isRunningBatch",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 77
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "batchVerifyMessage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 79
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "validatorExclussions",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 84
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "settingsHelpText",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 88
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "validatorBatchHelpText",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 93
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "batchVerifEnabled",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 98
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "servicesHelpTextMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 102
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "servicesURLMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 106
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "serviceName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 111
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "validatorSelection",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 172
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "validators",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "STG_PanelADDRVerification_CTRL",
+        "references": [],
+        "type": "STG_PanelADDRVerification_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 123
+            },
+            "modifiers": [],
+            "name": "validatorSelection",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 127
+            },
+            "modifiers": [],
+            "name": "classType",
+            "references": [],
+            "type": "Type"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 129
+            },
+            "modifiers": [],
+            "name": "classInstance",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 143
+            },
+            "modifiers": [],
+            "name": "validator",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 146
+            },
+            "modifiers": [],
+            "name": "classType",
+            "references": [],
+            "type": "Type"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 148
+            },
+            "modifiers": [],
+            "name": "classInstance",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 163
+            },
+            "modifiers": [],
+            "name": "validator",
+            "references": [],
+            "type": "ADDR_IValidator"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 186
+            },
+            "modifiers": [],
+            "name": "addrLikeClause",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "testLikeClause",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "ctrlLikeClause",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 189
+            },
+            "modifiers": [],
+            "name": "tdtmLikeClause",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 190
+            },
+            "modifiers": [],
+            "name": "batchLikeClause",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 191
+            },
+            "modifiers": [],
+            "name": "schedLikeClause",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 192
+            },
+            "modifiers": [],
+            "name": "classes",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 197
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "ApexClass"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 198
+            },
+            "modifiers": [],
+            "name": "classType",
+            "references": [],
+            "type": "Type"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 201
+            },
+            "modifiers": [],
+            "name": "classInstance",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 230
+            },
+            "modifiers": [],
+            "name": "validationError",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 239
+            },
+            "modifiers": [],
+            "name": "validationMessage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 247
+            },
+            "modifiers": [],
+            "name": "validator",
+            "references": [],
+            "type": "ADDR_IValidator"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 349
+            },
+            "modifiers": [],
+            "name": "classToRunName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 351
+            },
+            "modifiers": [],
+            "name": "classType",
+            "references": [],
+            "type": "Type"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 353
+            },
+            "modifiers": [],
+            "name": "classInstance",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 355
+            },
+            "modifiers": [],
+            "name": "validator",
+            "references": [],
+            "type": "ADDR_IValidator"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 357
+            },
+            "modifiers": [],
+            "name": "b",
+            "references": [],
+            "type": "ADDR_Validator_Batch"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 83,
+                "line": 298
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "STG_PanelHealthCheck_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 299
+            },
+            "modifiers": [],
+            "name": "avs",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 301
+            },
+            "modifiers": [],
+            "name": "strSetting",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 302
+            },
+            "modifiers": [],
+            "name": "strResult",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 303
+            },
+            "modifiers": [],
+            "name": "strStatus",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 304
+            },
+            "modifiers": [],
+            "name": "strSolution",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 93,
+                "line": 312
+            },
+            "modifiers": [],
+            "name": "addrVerifSettings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 119,
+                "line": 312
+            },
+            "modifiers": [],
+            "name": "strZip",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 313
+            },
+            "modifiers": [],
+            "name": "strResult",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 314
+            },
+            "modifiers": [],
+            "name": "avs",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 318
+            },
+            "modifiers": [],
+            "name": "la",
+            "references": [],
+            "type": "ADDR_SmartyStreets_Gateway"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 319
+            },
+            "modifiers": [],
+            "name": "sz",
+            "references": [],
+            "type": "ZipResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 79,
+                "line": 337
+            },
+            "modifiers": [],
+            "name": "addrVerifSettings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        }
+    ]
+}

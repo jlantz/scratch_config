@@ -1,0 +1,43 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iKLQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iKLQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 39
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "requestVersion",
+            "parameters": [],
+            "references": [],
+            "returnType": "Version",
+            "type": null
+        }
+    ],
+    "name": "UTIL_Version_API",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 38
+        },
+        "modifiers": [
+            "global"
+        ],
+        "name": "UTIL_Version_API",
+        "references": [],
+        "type": "UTIL_Version_API"
+    },
+    "variables": []
+}

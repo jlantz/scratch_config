@@ -1,0 +1,1041 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iGSQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iGSQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 52
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "setupSettings",
+            "parameters": [
+                {
+                    "name": "alloset",
+                    "type": "Allocations_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 71
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "oppAmountChange",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 138
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "defaultAllocations",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 184
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "campaignAllocations",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 247
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "recurringDonationsValidation",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 346
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "bulkOppInsert",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 394
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testExcludedOpps",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 426
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testOppNullAmount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 465
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testInactiveGAU",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 522
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testMakeDefaultAllocations",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "ALLO_Allocations_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 44
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strTestOnly",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 28,
+            "line": 38
+        },
+        "modifiers": [
+            "private",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "ALLO_Allocations_TEST",
+        "references": [],
+        "type": "ALLO_Allocations_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 52
+            },
+            "modifiers": [],
+            "name": "alloset",
+            "references": [],
+            "type": "Allocations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 75
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 77
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "gau",
+            "references": [],
+            "type": "General_Accounting_Unit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 85
+            },
+            "modifiers": [],
+            "name": "alloForInsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 87
+            },
+            "modifiers": [],
+            "name": "percentAllo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 89
+            },
+            "modifiers": [],
+            "name": "amountAllo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 93
+            },
+            "modifiers": [],
+            "name": "queryAllo",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 119
+            },
+            "modifiers": [],
+            "name": "ex",
+            "references": [],
+            "type": "Exception"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 128
+            },
+            "modifiers": [],
+            "name": "queryOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 141
+            },
+            "modifiers": [],
+            "name": "defaultGau",
+            "references": [],
+            "type": "General_Accounting_Unit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 146
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 148
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "gau",
+            "references": [],
+            "type": "General_Accounting_Unit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 154
+            },
+            "modifiers": [],
+            "name": "queryAllo",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "amountAllo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "defaultgau",
+            "references": [],
+            "type": "General_Accounting_Unit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 192
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 194
+            },
+            "modifiers": [],
+            "name": "campaigngau",
+            "references": [],
+            "type": "General_Accounting_Unit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 196
+            },
+            "modifiers": [],
+            "name": "cam",
+            "references": [],
+            "type": "Campaign"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 199
+            },
+            "modifiers": [],
+            "name": "alloForInsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 200
+            },
+            "modifiers": [],
+            "name": "percentAllo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 202
+            },
+            "modifiers": [],
+            "name": "amountAllo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 207
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 213
+            },
+            "modifiers": [],
+            "name": "queryAllo",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 223
+            },
+            "modifiers": [],
+            "name": "opp2",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 250
+            },
+            "modifiers": [],
+            "name": "defaultgau",
+            "references": [],
+            "type": "General_Accounting_Unit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 255
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 257
+            },
+            "modifiers": [],
+            "name": "gau",
+            "references": [],
+            "type": "General_Accounting_Unit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 259
+            },
+            "modifiers": [],
+            "name": "rd",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 275
+            },
+            "modifiers": [],
+            "name": "queryOpp",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 278
+            },
+            "modifiers": [],
+            "name": "queryAllo",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 285
+            },
+            "modifiers": [],
+            "name": "alloForInsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 286
+            },
+            "modifiers": [],
+            "name": "percentAllo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 288
+            },
+            "modifiers": [],
+            "name": "amountAllo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 310
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 317
+            },
+            "modifiers": [],
+            "name": "exceedAllo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 349
+            },
+            "modifiers": [],
+            "name": "defaultgau",
+            "references": [],
+            "type": "General_Accounting_Unit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 354
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 356
+            },
+            "modifiers": [],
+            "name": "campaigngau",
+            "references": [],
+            "type": "General_Accounting_Unit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 358
+            },
+            "modifiers": [],
+            "name": "cam",
+            "references": [],
+            "type": "Campaign"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 361
+            },
+            "modifiers": [],
+            "name": "alloForInsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 362
+            },
+            "modifiers": [],
+            "name": "percentAllo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 367
+            },
+            "modifiers": [],
+            "name": "oppList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 368
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 374
+            },
+            "modifiers": [],
+            "name": "queryAggResult",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 378
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 397
+            },
+            "modifiers": [],
+            "name": "defaultgau",
+            "references": [],
+            "type": "General_Accounting_Unit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 400
+            },
+            "modifiers": [],
+            "name": "rtname",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 401
+            },
+            "modifiers": [],
+            "name": "rtid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 404
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 407
+            },
+            "modifiers": [],
+            "name": "oppForInsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 416
+            },
+            "modifiers": [],
+            "name": "queryAllo",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 429
+            },
+            "modifiers": [],
+            "name": "defaultgau",
+            "references": [],
+            "type": "General_Accounting_Unit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 433
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 436
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 441
+            },
+            "modifiers": [],
+            "name": "queryAllo",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 470
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 473
+            },
+            "modifiers": [],
+            "name": "listGau",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 478
+            },
+            "modifiers": [],
+            "name": "cam",
+            "references": [],
+            "type": "Campaign"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 481
+            },
+            "modifiers": [],
+            "name": "listAllo",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 490
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 495
+            },
+            "modifiers": [],
+            "name": "queryAllo",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 525
+            },
+            "modifiers": [],
+            "name": "defaultGau",
+            "references": [],
+            "type": "General_Accounting_Unit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 528
+            },
+            "modifiers": [],
+            "name": "otherGau",
+            "references": [],
+            "type": "General_Accounting_Unit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 536
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 538
+            },
+            "modifiers": [],
+            "name": "opp1",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 539
+            },
+            "modifiers": [],
+            "name": "opp2",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 543
+            },
+            "modifiers": [],
+            "name": "queryAllo",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 546
+            },
+            "modifiers": [],
+            "name": "nonDefaultAllo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 550
+            },
+            "modifiers": [],
+            "name": "batchProcessId",
+            "references": [],
+            "type": "Id"
+        }
+    ]
+}

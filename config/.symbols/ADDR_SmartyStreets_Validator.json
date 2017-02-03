@@ -1,0 +1,591 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iGHQAY",
+    "innerClasses": [],
+    "interfaces": [
+        "ADDR_IValidator"
+    ],
+    "key": "01p4C0000002iGHQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 44
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getServiceName",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 52
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getDefaultURL",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 60
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getDefaultZipcodeURL",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 68
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "supportsBatch",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 76
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getBatchHelpText",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 86
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "verifyRecords",
+            "parameters": [
+                {
+                    "name": "avList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "settings",
+                    "type": "Addr_Verification_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 122
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "verifyRecords100",
+            "parameters": [
+                {
+                    "name": "avList",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 206
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "verifyZipRecords100",
+            "parameters": [
+                {
+                    "name": "avList",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 288
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "trimResponse",
+            "parameters": [
+                {
+                    "name": "response",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "ADDR_SmartyStreets_Validator",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 38
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "ADDR_SmartyStreets_Validator",
+        "references": [],
+        "type": "ADDR_SmartyStreets_Validator"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 86
+            },
+            "modifiers": [],
+            "name": "avList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 98,
+                "line": 86
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 89
+            },
+            "modifiers": [],
+            "name": "shortList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 90
+            },
+            "modifiers": [],
+            "name": "shortListZipOnly",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 91
+            },
+            "modifiers": [],
+            "name": "addressesToUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 94
+            },
+            "modifiers": [],
+            "name": "av",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 122
+            },
+            "modifiers": [],
+            "name": "avList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 124
+            },
+            "modifiers": [],
+            "name": "recs",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 125
+            },
+            "modifiers": [],
+            "name": "srList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 127
+            },
+            "modifiers": [],
+            "name": "includesUSAddress",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 128
+            },
+            "modifiers": [],
+            "name": "av",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 129
+            },
+            "modifiers": [],
+            "name": "sr",
+            "references": [],
+            "type": "AddressRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 146
+            },
+            "modifiers": [],
+            "name": "la",
+            "references": [],
+            "type": "ADDR_SmartyStreets_Gateway"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 147
+            },
+            "modifiers": [],
+            "name": "responses",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 67,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "responseGroup",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "sr",
+            "references": [],
+            "type": "AddressResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 152
+            },
+            "modifiers": [],
+            "name": "av",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 179
+            },
+            "modifiers": [],
+            "name": "response",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 184
+            },
+            "modifiers": [],
+            "name": "av",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 192
+            },
+            "modifiers": [],
+            "name": "av",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 67,
+                "line": 206
+            },
+            "modifiers": [],
+            "name": "avList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 208
+            },
+            "modifiers": [],
+            "name": "recs",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 209
+            },
+            "modifiers": [],
+            "name": "zrList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 211
+            },
+            "modifiers": [],
+            "name": "includesUSAddress",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 212
+            },
+            "modifiers": [],
+            "name": "av",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 225
+            },
+            "modifiers": [],
+            "name": "la",
+            "references": [],
+            "type": "ADDR_SmartyStreets_Gateway"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 226
+            },
+            "modifiers": [],
+            "name": "responses",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 230
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 231
+            },
+            "modifiers": [],
+            "name": "sr",
+            "references": [],
+            "type": "ZipResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 232
+            },
+            "modifiers": [],
+            "name": "av",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 241
+            },
+            "modifiers": [],
+            "name": "response",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 261
+            },
+            "modifiers": [],
+            "name": "av",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 266
+            },
+            "modifiers": [],
+            "name": "av",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 273
+            },
+            "modifiers": [],
+            "name": "av",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 288
+            },
+            "modifiers": [],
+            "name": "response",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

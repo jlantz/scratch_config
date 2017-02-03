@@ -1,0 +1,2122 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 40
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "RLLP_OppRollup",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iItQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iItQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 54
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "rollupForOppTrigger",
+            "parameters": [
+                {
+                    "name": "newOpps",
+                    "type": "Map"
+                },
+                {
+                    "name": "oldOpps",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 209
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "rollupAccounts",
+            "parameters": [
+                {
+                    "name": "amap",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 366
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "rollupContacts",
+            "parameters": [
+                {
+                    "name": "cmap",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 525
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "rollupHouseholds",
+            "parameters": [
+                {
+                    "name": "hhmap",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 680
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "rollupSoftCreditsWithPartialSupport",
+            "parameters": [
+                {
+                    "name": "listCon",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 753
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "rollupAll",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 770
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "rollupAllAccounts",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 778
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "rollupAllContacts",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 786
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "rollupAllHouseholds",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 794
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "rollupAllSoftCredits",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "Future"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 120
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "rollupContactsandHouseholdsForTriggerFuture",
+            "parameters": [
+                {
+                    "name": "OppIds",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 129
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "rollupContactsandHouseholdsForTrigger",
+            "parameters": [
+                {
+                    "name": "OppIds",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "Future"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 162
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "rollupAccountsFuture",
+            "parameters": [
+                {
+                    "name": "acctIds",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "Future"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 178
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "rollupContactsFuture",
+            "parameters": [
+                {
+                    "name": "conIDs",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "Future"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 194
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "rollupHouseholdsFuture",
+            "parameters": [
+                {
+                    "name": "hhIDs",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 806
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "updateRollupFromResult",
+            "parameters": [
+                {
+                    "name": "obj",
+                    "type": "SObject"
+                },
+                {
+                    "name": "r",
+                    "type": "SObject"
+                },
+                {
+                    "name": "opptyCurrencies",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 887
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "updateRollupFromResultLastNDays",
+            "parameters": [
+                {
+                    "name": "obj",
+                    "type": "SObject"
+                },
+                {
+                    "name": "r",
+                    "type": "SObject"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 908
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "updateRollupFromResultMembership",
+            "parameters": [
+                {
+                    "name": "obj",
+                    "type": "SObject"
+                },
+                {
+                    "name": "r",
+                    "type": "SObject"
+                },
+                {
+                    "name": "opptyCurrencies",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "RLLP_OppRollup",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 30,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "without sharing"
+        ],
+        "name": "RLLP_OppRollup",
+        "references": [],
+        "type": "RLLP_OppRollup"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "newOpps",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 89,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "oldOpps",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 56
+            },
+            "modifiers": [],
+            "name": "contactRequerySet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "accountRequerySet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "oid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 63
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 76
+            },
+            "modifiers": [],
+            "name": "oid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 77
+            },
+            "modifiers": [],
+            "name": "newo",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "oldo",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 92
+            },
+            "modifiers": [],
+            "name": "oppRollupUtil",
+            "references": [],
+            "type": "RLLP_OppRollup_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 93
+            },
+            "modifiers": [],
+            "name": "amap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 209
+            },
+            "modifiers": [],
+            "name": "amap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 212
+            },
+            "modifiers": [],
+            "name": "opptyCurrencies",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 215
+            },
+            "modifiers": [],
+            "name": "UDRFieldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 218
+            },
+            "modifiers": [],
+            "name": "M",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 219
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 221
+            },
+            "modifiers": [],
+            "name": "urfs",
+            "references": [],
+            "type": "npo02__User_Rollup_Field_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 235
+            },
+            "modifiers": [],
+            "name": "accountsToUpdate",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 236
+            },
+            "modifiers": [],
+            "name": "aid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 238
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 252
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 264
+            },
+            "modifiers": [],
+            "name": "aset",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 265
+            },
+            "modifiers": [],
+            "name": "typeset",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 266
+            },
+            "modifiers": [],
+            "name": "rectypeset",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 268
+            },
+            "modifiers": [],
+            "name": "oppRollupUtil",
+            "references": [],
+            "type": "RLLP_OppRollup_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 269
+            },
+            "modifiers": [],
+            "name": "objectList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 274
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 275
+            },
+            "modifiers": [],
+            "name": "aid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 280
+            },
+            "modifiers": [],
+            "name": "yrAmt",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 281
+            },
+            "modifiers": [],
+            "name": "yr",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 282
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 293
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 294
+            },
+            "modifiers": [],
+            "name": "aid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 300
+            },
+            "modifiers": [],
+            "name": "memberset",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 306
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 307
+            },
+            "modifiers": [],
+            "name": "aid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 314
+            },
+            "modifiers": [],
+            "name": "aid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 315
+            },
+            "modifiers": [],
+            "name": "a1",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 316
+            },
+            "modifiers": [],
+            "name": "a2",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 342
+            },
+            "modifiers": [],
+            "name": "hasUDRUpdate",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 343
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 366
+            },
+            "modifiers": [],
+            "name": "cmap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 368
+            },
+            "modifiers": [],
+            "name": "opptyCurrencies",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 371
+            },
+            "modifiers": [],
+            "name": "UDRFieldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 374
+            },
+            "modifiers": [],
+            "name": "M",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 375
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 377
+            },
+            "modifiers": [],
+            "name": "urfs",
+            "references": [],
+            "type": "npo02__User_Rollup_Field_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 391
+            },
+            "modifiers": [],
+            "name": "contactsToUpdate",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 393
+            },
+            "modifiers": [],
+            "name": "cid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 394
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 408
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 418
+            },
+            "modifiers": [],
+            "name": "objectList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 419
+            },
+            "modifiers": [],
+            "name": "cset",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 420
+            },
+            "modifiers": [],
+            "name": "typeset",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 421
+            },
+            "modifiers": [],
+            "name": "rectypeset",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 423
+            },
+            "modifiers": [],
+            "name": "oppRollupUtil",
+            "references": [],
+            "type": "RLLP_OppRollup_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 429
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 430
+            },
+            "modifiers": [],
+            "name": "cid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 435
+            },
+            "modifiers": [],
+            "name": "yrAmt",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 436
+            },
+            "modifiers": [],
+            "name": "yr",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 438
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 453
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 454
+            },
+            "modifiers": [],
+            "name": "cid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 460
+            },
+            "modifiers": [],
+            "name": "memberset",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 466
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 467
+            },
+            "modifiers": [],
+            "name": "cid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 473
+            },
+            "modifiers": [],
+            "name": "cid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 474
+            },
+            "modifiers": [],
+            "name": "c1",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 475
+            },
+            "modifiers": [],
+            "name": "c2",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 501
+            },
+            "modifiers": [],
+            "name": "hasUDRUpdate",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 502
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 525
+            },
+            "modifiers": [],
+            "name": "hhmap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 527
+            },
+            "modifiers": [],
+            "name": "opptyCurrencies",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 530
+            },
+            "modifiers": [],
+            "name": "UDRFieldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 533
+            },
+            "modifiers": [],
+            "name": "M",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 534
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 536
+            },
+            "modifiers": [],
+            "name": "urfs",
+            "references": [],
+            "type": "npo02__User_Rollup_Field_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 550
+            },
+            "modifiers": [],
+            "name": "householdsToUpdate",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 552
+            },
+            "modifiers": [],
+            "name": "hhid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 553
+            },
+            "modifiers": [],
+            "name": "h",
+            "references": [],
+            "type": "npo02__Household__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 567
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 578
+            },
+            "modifiers": [],
+            "name": "objectList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 579
+            },
+            "modifiers": [],
+            "name": "hhset",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 580
+            },
+            "modifiers": [],
+            "name": "typeset",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 581
+            },
+            "modifiers": [],
+            "name": "rectypeset",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 583
+            },
+            "modifiers": [],
+            "name": "oppRollupUtil",
+            "references": [],
+            "type": "RLLP_OppRollup_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 589
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 590
+            },
+            "modifiers": [],
+            "name": "hhid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 595
+            },
+            "modifiers": [],
+            "name": "yrAmt",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 596
+            },
+            "modifiers": [],
+            "name": "yr",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 597
+            },
+            "modifiers": [],
+            "name": "hh",
+            "references": [],
+            "type": "npo02__Household__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 608
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 609
+            },
+            "modifiers": [],
+            "name": "hhid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 615
+            },
+            "modifiers": [],
+            "name": "memberset",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 621
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 622
+            },
+            "modifiers": [],
+            "name": "hhid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 628
+            },
+            "modifiers": [],
+            "name": "hhid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 629
+            },
+            "modifiers": [],
+            "name": "h1",
+            "references": [],
+            "type": "npo02__Household__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 630
+            },
+            "modifiers": [],
+            "name": "h2",
+            "references": [],
+            "type": "npo02__Household__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 656
+            },
+            "modifiers": [],
+            "name": "hasUDRUpdate",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 657
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 67,
+                "line": 680
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 771
+            },
+            "modifiers": [],
+            "name": "batch",
+            "references": [],
+            "type": "RLLP_OppAccRollup_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 772
+            },
+            "modifiers": [],
+            "name": "batchProcessId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 779
+            },
+            "modifiers": [],
+            "name": "batch",
+            "references": [],
+            "type": "RLLP_OppContactRollup_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 780
+            },
+            "modifiers": [],
+            "name": "batchProcessId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 787
+            },
+            "modifiers": [],
+            "name": "batch",
+            "references": [],
+            "type": "RLLP_OppHouseholdRollup_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 788
+            },
+            "modifiers": [],
+            "name": "batchProcessId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 795
+            },
+            "modifiers": [],
+            "name": "batch",
+            "references": [],
+            "type": "RLLP_OppSoftCreditRollup_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 796
+            },
+            "modifiers": [],
+            "name": "batchProcessId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 76,
+                "line": 120
+            },
+            "modifiers": [],
+            "name": "OppIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 129
+            },
+            "modifiers": [],
+            "name": "OppIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 132
+            },
+            "modifiers": [],
+            "name": "cmap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 133
+            },
+            "modifiers": [],
+            "name": "hhmap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 136
+            },
+            "modifiers": [],
+            "name": "oppRollupUtil",
+            "references": [],
+            "type": "RLLP_OppRollup_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 137
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 148
+            },
+            "modifiers": [],
+            "name": "oppR",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 162
+            },
+            "modifiers": [],
+            "name": "acctIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 164
+            },
+            "modifiers": [],
+            "name": "oppRollupUtil",
+            "references": [],
+            "type": "RLLP_OppRollup_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 165
+            },
+            "modifiers": [],
+            "name": "amap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 167
+            },
+            "modifiers": [],
+            "name": "rg",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 178
+            },
+            "modifiers": [],
+            "name": "conIDs",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 180
+            },
+            "modifiers": [],
+            "name": "oppRollupUtil",
+            "references": [],
+            "type": "RLLP_OppRollup_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 181
+            },
+            "modifiers": [],
+            "name": "cmap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 183
+            },
+            "modifiers": [],
+            "name": "rg",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 194
+            },
+            "modifiers": [],
+            "name": "hhIDs",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 196
+            },
+            "modifiers": [],
+            "name": "oppRollupUtil",
+            "references": [],
+            "type": "RLLP_OppRollup_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 197
+            },
+            "modifiers": [],
+            "name": "hhmap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 199
+            },
+            "modifiers": [],
+            "name": "rg",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 806
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 68,
+                "line": 806
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 92,
+                "line": 806
+            },
+            "modifiers": [],
+            "name": "opptyCurrencies",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 808
+            },
+            "modifiers": [],
+            "name": "fy",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 809
+            },
+            "modifiers": [],
+            "name": "amt",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 810
+            },
+            "modifiers": [],
+            "name": "cnt",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 813
+            },
+            "modifiers": [],
+            "name": "rcf",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 814
+            },
+            "modifiers": [],
+            "name": "lastAmt",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 827
+            },
+            "modifiers": [],
+            "name": "thisYear",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 870
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 872
+            },
+            "modifiers": [],
+            "name": "urfs",
+            "references": [],
+            "type": "npo02__User_Rollup_Field_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 873
+            },
+            "modifiers": [],
+            "name": "x",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 887
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 77,
+                "line": 887
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 890
+            },
+            "modifiers": [],
+            "name": "amt",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 891
+            },
+            "modifiers": [],
+            "name": "cnt",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 908
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 78,
+                "line": 908
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 102,
+                "line": 908
+            },
+            "modifiers": [],
+            "name": "opptyCurrencies",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 912
+            },
+            "modifiers": [],
+            "name": "amt",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 913
+            },
+            "modifiers": [],
+            "name": "cnt",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 916
+            },
+            "modifiers": [],
+            "name": "rcf",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 917
+            },
+            "modifiers": [],
+            "name": "lastAmt",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 918
+            },
+            "modifiers": [],
+            "name": "lastMemberLevel",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 919
+            },
+            "modifiers": [],
+            "name": "lastMemberOrigin",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

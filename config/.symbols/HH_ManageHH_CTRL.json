@@ -1,0 +1,276 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 81
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "HH_ManageHH_CTRL",
+            "parameters": [],
+            "references": [],
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 85
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "HH_ManageHH_CTRL",
+            "parameters": [
+                {
+                    "name": "controller",
+                    "type": "StandardController"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iHjQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHjQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 115
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "handleNewHousehold",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 165
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "save",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        }
+    ],
+    "name": "HH_ManageHH_CTRL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 40
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "hhId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 43
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "contactId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 46
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "hh",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 49
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "hhA",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 56
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "namespacePrefix",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 62
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isChangingRecordType",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 134
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isHHAccount",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 148
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "hhFieldSet",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "HH_ManageHH_CTRL",
+        "references": [],
+        "type": "HH_ManageHH_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "mapParams",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 67
+            },
+            "modifiers": [],
+            "name": "paramRtId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 85
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 88
+            },
+            "modifiers": [],
+            "name": "pageParams",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 95
+            },
+            "modifiers": [],
+            "name": "strSoql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 101
+            },
+            "modifiers": [],
+            "name": "fsm",
+            "references": [],
+            "type": "FieldSetMember"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 123
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        }
+    ]
+}

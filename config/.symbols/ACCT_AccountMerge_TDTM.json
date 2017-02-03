@@ -1,0 +1,262 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iFrQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iFrQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 51
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "run",
+            "parameters": [
+                {
+                    "name": "listNew",
+                    "type": "LIST"
+                },
+                {
+                    "name": "listOld",
+                    "type": "LIST"
+                },
+                {
+                    "name": "triggerAction",
+                    "type": "Action"
+                },
+                {
+                    "name": "objResult",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "DmlWrapper",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "Future"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 89
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "handleAccountMergeFixupsFuture",
+            "parameters": [
+                {
+                    "name": "listAccountId",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 93
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "handleAccountMergeFixups",
+            "parameters": [
+                {
+                    "name": "listAccountId",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "ACCT_AccountMerge_TDTM",
+    "namespace": null,
+    "parentClass": "TDTM_Runnable",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 39
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "ACCT_AccountMerge_TDTM",
+        "references": [],
+        "type": "ACCT_AccountMerge_TDTM"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "listNew",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "listOld",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 52
+            },
+            "modifiers": [],
+            "name": "triggerAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 52
+            },
+            "modifiers": [],
+            "name": "objResult",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "setMergeWinner",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 57
+            },
+            "modifiers": [],
+            "name": "so",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 89
+            },
+            "modifiers": [],
+            "name": "listAccountId",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 93
+            },
+            "modifiers": [],
+            "name": "listAccountId",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 95
+            },
+            "modifiers": [],
+            "name": "listHHId",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 96
+            },
+            "modifiers": [],
+            "name": "listOne2OneId",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 97
+            },
+            "modifiers": [],
+            "name": "listOrgId",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "listTemp",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 100
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        }
+    ]
+}

@@ -1,0 +1,1107 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 108
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "STG_PanelUserRollup_CTRL",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iJfQAI",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 445
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "UDR",
+                    "parameters": [
+                        {
+                            "name": "parentclass",
+                            "type": "STG_PanelUserRollup_CTRL"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 453
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "UDR",
+                    "parameters": [
+                        {
+                            "name": "thisUDR",
+                            "type": "npo02__User_Rollup_Field_Settings__c"
+                        },
+                        {
+                            "name": "parentclass",
+                            "type": "STG_PanelUserRollup_CTRL"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 465
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "UDR",
+                    "parameters": [
+                        {
+                            "name": "SourceField",
+                            "type": "String"
+                        },
+                        {
+                            "name": "TargetField",
+                            "type": "String"
+                        },
+                        {
+                            "name": "TargetObject",
+                            "type": "String"
+                        },
+                        {
+                            "name": "Operation",
+                            "type": "String"
+                        },
+                        {
+                            "name": "parentclass",
+                            "type": "STG_PanelUserRollup_CTRL"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 21,
+                        "line": 479
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "save",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 21,
+                        "line": 512
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "loadMe",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 21,
+                        "line": 521
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "deleteMe",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 533
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getisValid",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "UDR",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 53,
+                        "line": 392
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "myUDR",
+                    "references": [],
+                    "type": "npo02__User_Rollup_Field_Settings__c"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 397
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "SourceField",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 402
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "TargetField",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 407
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "TargetObject",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 412
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "Operation",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 417
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "isValid",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 34,
+                        "line": 422
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "mydad",
+                    "references": [],
+                    "type": "STG_PanelUserRollup_CTRL"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 427
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "SourceFieldLabel",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 436
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "TargetFieldLabel",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 387
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "UDR",
+                "references": [],
+                "type": "UDR"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 45,
+                        "line": 445
+                    },
+                    "modifiers": [],
+                    "name": "parentclass",
+                    "references": [],
+                    "type": "STG_PanelUserRollup_CTRL"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 57,
+                        "line": 453
+                    },
+                    "modifiers": [],
+                    "name": "thisUDR",
+                    "references": [],
+                    "type": "npo02__User_Rollup_Field_Settings__c"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 91,
+                        "line": 453
+                    },
+                    "modifiers": [],
+                    "name": "parentclass",
+                    "references": [],
+                    "type": "STG_PanelUserRollup_CTRL"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 27,
+                        "line": 465
+                    },
+                    "modifiers": [],
+                    "name": "SourceField",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 47,
+                        "line": 465
+                    },
+                    "modifiers": [],
+                    "name": "TargetField",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 67,
+                        "line": 465
+                    },
+                    "modifiers": [],
+                    "name": "TargetObject",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 88,
+                        "line": 465
+                    },
+                    "modifiers": [],
+                    "name": "Operation",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 124,
+                        "line": 465
+                    },
+                    "modifiers": [],
+                    "name": "parentclass",
+                    "references": [],
+                    "type": "STG_PanelUserRollup_CTRL"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 483
+                    },
+                    "modifiers": [],
+                    "name": "strName",
+                    "references": [],
+                    "type": "String"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iJfQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 41
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "idPanel",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 116
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "startBuild",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 124
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "cancel",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 136
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getTargetObjects",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 143
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getValidOperators",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 160
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getTargetFields",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 237
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getSourceFields",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 275
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "clearForSourceField",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 287
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "clearForOperation",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 298
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "clearForTargetObject",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 379
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "showMsg",
+            "parameters": [
+                {
+                    "name": "arg",
+                    "type": "String"
+                },
+                {
+                    "name": "severity",
+                    "type": "Severity"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 308
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "verifyUserRollups",
+            "parameters": [
+                {
+                    "name": "ctrl",
+                    "type": "STG_PanelHealthCheck_CTRL"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "STG_PanelUserRollup_CTRL",
+    "namespace": null,
+    "parentClass": "STG_Panel",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 46
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "mapFieldTypes",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 51
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "sourcefields",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 56
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "validoperators",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 61
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "targetfields",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 66
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "targetobjects",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 75
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "udrList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 93
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "udrlistsize",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 98
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "activeUDR",
+            "references": [],
+            "type": "UDR"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 103
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isValidRollup",
+            "references": [],
+            "type": "Boolean"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "STG_PanelUserRollup_CTRL",
+        "references": [],
+        "type": "STG_PanelUserRollup_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "thisList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "udr",
+            "references": [],
+            "type": "npo02__User_Rollup_Field_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 163
+            },
+            "modifiers": [],
+            "name": "knownfields",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 164
+            },
+            "modifiers": [],
+            "name": "targetTokenMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 167
+            },
+            "modifiers": [],
+            "name": "currentURFSMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 168
+            },
+            "modifiers": [],
+            "name": "currentTargetFieldSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 169
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 171
+            },
+            "modifiers": [],
+            "name": "fieldname",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 193
+            },
+            "modifiers": [],
+            "name": "dtSrc",
+            "references": [],
+            "type": "DisplayType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 201
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 211
+            },
+            "modifiers": [],
+            "name": "f",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 217
+            },
+            "modifiers": [],
+            "name": "dtTgt",
+            "references": [],
+            "type": "DisplayType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 242
+            },
+            "modifiers": [],
+            "name": "knownOpptyFields",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 245
+            },
+            "modifiers": [],
+            "name": "oppFieldTokenList",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 249
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 251
+            },
+            "modifiers": [],
+            "name": "f",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 253
+            },
+            "modifiers": [],
+            "name": "dt",
+            "references": [],
+            "type": "DisplayType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 379
+            },
+            "modifiers": [],
+            "name": "arg",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 379
+            },
+            "modifiers": [],
+            "name": "severity",
+            "references": [],
+            "type": "Severity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 380
+            },
+            "modifiers": [],
+            "name": "myMsg",
+            "references": [],
+            "type": "Message"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 68,
+                "line": 308
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "STG_PanelHealthCheck_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 309
+            },
+            "modifiers": [],
+            "name": "isValid",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 310
+            },
+            "modifiers": [],
+            "name": "isValidAll",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 312
+            },
+            "modifiers": [],
+            "name": "userRollups",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 313
+            },
+            "modifiers": [],
+            "name": "strSetting",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 315
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 316
+            },
+            "modifiers": [],
+            "name": "urfs",
+            "references": [],
+            "type": "npo02__User_Rollup_Field_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 317
+            },
+            "modifiers": [],
+            "name": "targetField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 318
+            },
+            "modifiers": [],
+            "name": "sourceField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 331
+            },
+            "modifiers": [],
+            "name": "isValidTarget",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 356
+            },
+            "modifiers": [],
+            "name": "dtSrc",
+            "references": [],
+            "type": "DisplayType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 357
+            },
+            "modifiers": [],
+            "name": "dtTgt",
+            "references": [],
+            "type": "DisplayType"
+        }
+    ]
+}

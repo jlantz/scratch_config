@@ -1,0 +1,594 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iK4QAI",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "BatchJob",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 139
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "job",
+                    "references": [],
+                    "type": "AsyncApexJob"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 140
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "percentComplete",
+                    "references": [],
+                    "type": "Integer"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 138
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "BatchJob",
+                "references": [],
+                "type": "BatchJob"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 204
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "BatchJobStatus",
+                    "parameters": [
+                        {
+                            "name": "job",
+                            "type": "AsyncApexJob"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [
+                        {
+                            "name": "TestVisible"
+                        }
+                    ],
+                    "location": {
+                        "column": 22,
+                        "line": 230
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "calculatePercentCompleted",
+                    "parameters": [
+                        {
+                            "name": "jobItemsProcessed",
+                            "type": "Integer"
+                        },
+                        {
+                            "name": "totalJobItems",
+                            "type": "Integer"
+                        },
+                        {
+                            "name": "status",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Long",
+                    "type": null
+                }
+            ],
+            "name": "BatchJobStatus",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 185
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "className",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 186
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "createdByName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 25,
+                        "line": 187
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "createdDate",
+                    "references": [],
+                    "type": "Datetime"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 188
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "status",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 189
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "extendedStatus",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 25,
+                        "line": 190
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "completedDate",
+                    "references": [],
+                    "type": "Datetime"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 191
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "jobItemsProcessed",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 192
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "totalJobItems",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 193
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "numberOfErrors",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 21,
+                        "line": 194
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "percentCompleted",
+                    "references": [],
+                    "type": "Long"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 184
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "BatchJobStatus",
+                "references": [],
+                "type": "BatchJobStatus"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 44,
+                        "line": 204
+                    },
+                    "modifiers": [],
+                    "name": "job",
+                    "references": [],
+                    "type": "AsyncApexJob"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 56,
+                        "line": 230
+                    },
+                    "modifiers": [],
+                    "name": "jobItemsProcessed",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 83,
+                        "line": 230
+                    },
+                    "modifiers": [],
+                    "name": "totalJobItems",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 105,
+                        "line": 230
+                    },
+                    "modifiers": [],
+                    "name": "status",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 231
+                    },
+                    "modifiers": [],
+                    "name": "percentCompleted",
+                    "references": [],
+                    "type": "Long"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iK4QAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 71
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getBatchJobs",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 40,
+                "line": 150
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getBatchJobsStatus",
+            "parameters": [
+                {
+                    "name": "numberOfJobs",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "UTIL_JobProgress_CTRL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 38
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "batchJobs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 39
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "bj",
+            "references": [],
+            "type": "BatchJob"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 45
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "numberOfJobs",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 46
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "batchComponentLabel",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 47
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "rerenderoncomplete",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 49
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "hasExtendedStatus",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 60
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "allCompleted",
+            "references": [],
+            "type": "Boolean"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "UTIL_JobProgress_CTRL",
+        "references": [],
+        "type": "UTIL_JobProgress_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 42
+            },
+            "modifiers": [],
+            "name": "tempList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 89
+            },
+            "modifiers": [],
+            "name": "completedCount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 91
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "AsyncApexJob"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 94
+            },
+            "modifiers": [],
+            "name": "itemsProcessed",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 95
+            },
+            "modifiers": [],
+            "name": "totalItems",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 97
+            },
+            "modifiers": [],
+            "name": "j",
+            "references": [],
+            "type": "BatchJob"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 67,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "numberOfJobs",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "jobs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 152
+            },
+            "modifiers": [],
+            "name": "jobsStatus",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 171
+            },
+            "modifiers": [],
+            "name": "job",
+            "references": [],
+            "type": "AsyncApexJob"
+        }
+    ]
+}

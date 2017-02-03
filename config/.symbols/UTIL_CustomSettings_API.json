@@ -1,0 +1,188 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJzQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJzQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 46
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "getContactsSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "npe01__Contacts_And_Orgs_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 56
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "getHouseholdsSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "npo02__Households_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 66
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "getRecurringDonationsSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "npe03__Recurring_Donations_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 76
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "getRelationshipSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "npe4__Relationship_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 86
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "getAffiliationsSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "npe5__Affiliations_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 96
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "getErrorSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Error_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 106
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "getBDESettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Batch_Data_Entry_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 130
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "getHouseholdNamingSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Household_Naming_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 140
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "getAllocationsSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Allocations_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 150
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "getDataImportSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Data_Import_Settings__c",
+            "type": null
+        }
+    ],
+    "name": "UTIL_CustomSettings_API",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 38
+        },
+        "modifiers": [
+            "global"
+        ],
+        "name": "UTIL_CustomSettings_API",
+        "references": [],
+        "type": "UTIL_CustomSettings_API"
+    },
+    "variables": []
+}

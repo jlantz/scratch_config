@@ -1,0 +1,1419 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iK1QAI",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "SchemaDescribeException",
+            "namespace": null,
+            "parentClass": "Exception",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 44
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "SchemaDescribeException",
+                "references": [],
+                "type": "SchemaDescribeException"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "permsException",
+            "namespace": null,
+            "parentClass": "Exception",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 19,
+                    "line": 456
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "permsException",
+                "references": [],
+                "type": "permsException"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iK1QAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 55
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "fillMapsForObject",
+            "parameters": [
+                {
+                    "name": "objectName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 72
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "fillFieldMapsForObject",
+            "parameters": [
+                {
+                    "name": "objectName",
+                    "type": "String"
+                },
+                {
+                    "name": "fieldName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 94
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "fillFieldMapsForObject",
+            "parameters": [
+                {
+                    "name": "objectName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 120
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getPrototypeObject",
+            "parameters": [
+                {
+                    "name": "objectName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "SObject",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 133
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getObjectLabel",
+            "parameters": [
+                {
+                    "name": "objectName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 146
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getObjectDescribe",
+            "parameters": [
+                {
+                    "name": "objectName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "DescribeSObjectResult",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 160
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "isObjectIdThisType",
+            "parameters": [
+                {
+                    "name": "salesforceId",
+                    "type": "Id"
+                },
+                {
+                    "name": "objectName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 180
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getAllFieldsDescribe",
+            "parameters": [
+                {
+                    "name": "objectName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 194
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getNameField",
+            "parameters": [
+                {
+                    "name": "objectName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 218
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getFieldType",
+            "parameters": [
+                {
+                    "name": "objectName",
+                    "type": "String"
+                },
+                {
+                    "name": "fieldName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 234
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getFieldDisplaytype",
+            "parameters": [
+                {
+                    "name": "objectName",
+                    "type": "String"
+                },
+                {
+                    "name": "fieldName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "DisplayType",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 249
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getFieldDescribe",
+            "parameters": [
+                {
+                    "name": "objectName",
+                    "type": "String"
+                },
+                {
+                    "name": "fieldName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "DescribeFieldResult",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 264
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getFieldLabel",
+            "parameters": [
+                {
+                    "name": "objectName",
+                    "type": "String"
+                },
+                {
+                    "name": "fieldName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 279
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getFieldLabelSafe",
+            "parameters": [
+                {
+                    "name": "strObj",
+                    "type": "String"
+                },
+                {
+                    "name": "strField",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 293
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "isValidField",
+            "parameters": [
+                {
+                    "name": "objectName",
+                    "type": "String"
+                },
+                {
+                    "name": "fieldName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 312
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "canDisplaytypesCopy",
+            "parameters": [
+                {
+                    "name": "dtSrc",
+                    "type": "DisplayType"
+                },
+                {
+                    "name": "dtTgt",
+                    "type": "DisplayType"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 347
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listStrFromFieldSet",
+            "parameters": [
+                {
+                    "name": "strObject",
+                    "type": "String"
+                },
+                {
+                    "name": "strFS",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 372
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "strFieldNamesFromFieldSet",
+            "parameters": [
+                {
+                    "name": "strObject",
+                    "type": "String"
+                },
+                {
+                    "name": "strFS",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 388
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "copyObjectFLS",
+            "parameters": [
+                {
+                    "name": "strObject",
+                    "type": "String"
+                },
+                {
+                    "name": "src",
+                    "type": "SObject"
+                },
+                {
+                    "name": "dst",
+                    "type": "SObject"
+                },
+                {
+                    "name": "listStrF",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 407
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getSelectOptions",
+            "parameters": [
+                {
+                    "name": "objectName",
+                    "type": "String"
+                },
+                {
+                    "name": "fieldName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 425
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getDefaultSelectOption",
+            "parameters": [
+                {
+                    "name": "objectName",
+                    "type": "String"
+                },
+                {
+                    "name": "fieldName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 439
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "checkFieldFLS",
+            "parameters": [
+                {
+                    "name": "objectName",
+                    "type": "String"
+                },
+                {
+                    "name": "fieldName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "UTIL_Describe",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 47
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "gd",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 48
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "objectDescribes",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 49
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "fieldTokens",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 50
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "fieldDescribes",
+            "references": [],
+            "type": "Map"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 41
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "UTIL_Describe",
+        "references": [],
+        "type": "UTIL_Describe"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 83
+            },
+            "modifiers": [],
+            "name": "dfr",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 94
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 106
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 108
+            },
+            "modifiers": [],
+            "name": "dfr",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 120
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 133
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 146
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "salesforceId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 166
+            },
+            "modifiers": [],
+            "name": "ret",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 168
+            },
+            "modifiers": [],
+            "name": "prefix",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 87,
+                "line": 180
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 185
+            },
+            "modifiers": [],
+            "name": "fieldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 194
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 195
+            },
+            "modifiers": [],
+            "name": "nameField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 197
+            },
+            "modifiers": [],
+            "name": "mapObjectFields",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 201
+            },
+            "modifiers": [],
+            "name": "relatedFieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 218
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 218
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 223
+            },
+            "modifiers": [],
+            "name": "dfr",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 234
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 84,
+                "line": 234
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 239
+            },
+            "modifiers": [],
+            "name": "dfr",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 249
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 89,
+                "line": 249
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 254
+            },
+            "modifiers": [],
+            "name": "dfr",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 264
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 264
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 269
+            },
+            "modifiers": [],
+            "name": "dfr",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 279
+            },
+            "modifiers": [],
+            "name": "strObj",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 279
+            },
+            "modifiers": [],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 293
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 293
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 299
+            },
+            "modifiers": [],
+            "name": "dfr",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 312
+            },
+            "modifiers": [],
+            "name": "dtSrc",
+            "references": [],
+            "type": "DisplayType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 92,
+                "line": 312
+            },
+            "modifiers": [],
+            "name": "dtTgt",
+            "references": [],
+            "type": "DisplayType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 347
+            },
+            "modifiers": [],
+            "name": "strObject",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 77,
+                "line": 347
+            },
+            "modifiers": [],
+            "name": "strFS",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 348
+            },
+            "modifiers": [],
+            "name": "listStrFields",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 349
+            },
+            "modifiers": [],
+            "name": "targetType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 350
+            },
+            "modifiers": [],
+            "name": "d",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 351
+            },
+            "modifiers": [],
+            "name": "fs",
+            "references": [],
+            "type": "FieldSet"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 355
+            },
+            "modifiers": [],
+            "name": "f",
+            "references": [],
+            "type": "FieldSetMember"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 372
+            },
+            "modifiers": [],
+            "name": "strObject",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 77,
+                "line": 372
+            },
+            "modifiers": [],
+            "name": "strFS",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 373
+            },
+            "modifiers": [],
+            "name": "strFields",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 374
+            },
+            "modifiers": [],
+            "name": "str",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 388
+            },
+            "modifiers": [],
+            "name": "strObject",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 388
+            },
+            "modifiers": [],
+            "name": "src",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 77,
+                "line": 388
+            },
+            "modifiers": [],
+            "name": "dst",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 95,
+                "line": 388
+            },
+            "modifiers": [],
+            "name": "listStrF",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 389
+            },
+            "modifiers": [],
+            "name": "strF",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 390
+            },
+            "modifiers": [],
+            "name": "dfr",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 407
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 81,
+                "line": 407
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 408
+            },
+            "modifiers": [],
+            "name": "describeField",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 409
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 411
+            },
+            "modifiers": [],
+            "name": "entry",
+            "references": [],
+            "type": "PicklistEntry"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 425
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 75,
+                "line": 425
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 426
+            },
+            "modifiers": [],
+            "name": "describeField",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 428
+            },
+            "modifiers": [],
+            "name": "entry",
+            "references": [],
+            "type": "PicklistEntry"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 439
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 439
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 440
+            },
+            "modifiers": [],
+            "name": "dfr",
+            "references": [],
+            "type": "DescribeFieldResult"
+        }
+    ]
+}

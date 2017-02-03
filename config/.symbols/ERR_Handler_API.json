@@ -1,0 +1,104 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHPQAY",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "Context",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 17,
+                    "line": 40
+                },
+                "modifiers": [
+                    "global"
+                ],
+                "name": "Context",
+                "references": [],
+                "type": "Context"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iHPQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 85
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "processError",
+            "parameters": [
+                {
+                    "name": "e",
+                    "type": "Exception"
+                },
+                {
+                    "name": "context",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "ERR_Handler_API",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 38
+        },
+        "modifiers": [
+            "global"
+        ],
+        "name": "ERR_Handler_API",
+        "references": [],
+        "type": "ERR_Handler_API"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 85
+            },
+            "modifiers": [],
+            "name": "e",
+            "references": [],
+            "type": "Exception"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 85
+            },
+            "modifiers": [],
+            "name": "context",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

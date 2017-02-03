@@ -1,0 +1,193 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iIzQAI",
+    "innerClasses": [],
+    "interfaces": [
+        "System.Schedulable",
+        "Database.Batchable"
+    ],
+    "key": "01p4C0000002iIzQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 40
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "execute",
+            "parameters": [
+                {
+                    "name": "context",
+                    "type": "SchedulableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 51
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "start",
+            "parameters": [
+                {
+                    "name": "bc",
+                    "type": "BatchableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "QueryLocator",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 60
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "execute",
+            "parameters": [
+                {
+                    "name": "bc",
+                    "type": "BatchableContext"
+                },
+                {
+                    "name": "result",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 72
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "finish",
+            "parameters": [
+                {
+                    "name": "bc",
+                    "type": "BatchableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "RLLP_OppSoftCreditRollup_BATCH",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 35
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "RLLP_OppSoftCreditRollup_BATCH",
+        "references": [],
+        "type": "RLLP_OppSoftCreditRollup_BATCH"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 40
+            },
+            "modifiers": [],
+            "name": "context",
+            "references": [],
+            "type": "SchedulableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "bc",
+            "references": [],
+            "type": "BatchableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 52
+            },
+            "modifiers": [],
+            "name": "oppRollupUtil",
+            "references": [],
+            "type": "RLLP_OppRollup_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 60
+            },
+            "modifiers": [],
+            "name": "bc",
+            "references": [],
+            "type": "BatchableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 60
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "oppRoller",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "bc",
+            "references": [],
+            "type": "BatchableContext"
+        }
+    ]
+}

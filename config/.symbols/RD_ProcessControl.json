@@ -1,0 +1,57 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iIaQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iIaQAI",
+    "methods": [],
+    "name": "RD_ProcessControl",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 41
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "hasRun",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 46
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "batchButton",
+            "references": [],
+            "type": "Boolean"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "RD_ProcessControl",
+        "references": [],
+        "type": "RD_ProcessControl"
+    },
+    "variables": []
+}

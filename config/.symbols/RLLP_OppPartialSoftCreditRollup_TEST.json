@@ -1,0 +1,812 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iIsQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iIsQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 62
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "createPSCData",
+            "parameters": [
+                {
+                    "name": "cContact",
+                    "type": "Integer"
+                },
+                {
+                    "name": "cOpp",
+                    "type": "Integer"
+                },
+                {
+                    "name": "amount",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 140
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testDuplicateOCRSoftCredits",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 188
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testPartialSoftCreditRollups",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 220
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testPartialSoftCreditRollupsAllStats",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 329
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testMulticurrencyPartialSoftCreditRollups",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "RLLP_OppPartialSoftCreditRollup_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 44
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strTestOnly",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 49
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "cContactTest",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 50
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "cOppTest",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 51
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "amountTest",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 52
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 38
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "RLLP_OppPartialSoftCreditRollup_TEST",
+        "references": [],
+        "type": "RLLP_OppPartialSoftCreditRollup_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "cContact",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "cOpp",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 79,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "amount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "listOpp",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "listOCR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 84
+            },
+            "modifiers": [],
+            "name": "ocr",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 91
+            },
+            "modifiers": [],
+            "name": "listPSC",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 92
+            },
+            "modifiers": [],
+            "name": "ocr",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 143
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 147
+            },
+            "modifiers": [],
+            "name": "listOpp",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 148
+            },
+            "modifiers": [],
+            "name": "stage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 149
+            },
+            "modifiers": [],
+            "name": "dt",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 154
+            },
+            "modifiers": [],
+            "name": "listOCR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 157
+            },
+            "modifiers": [],
+            "name": "dupeOCR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 159
+            },
+            "modifiers": [],
+            "name": "ocr",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 171
+            },
+            "modifiers": [],
+            "name": "rllp",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 172
+            },
+            "modifiers": [],
+            "name": "util",
+            "references": [],
+            "type": "RLLP_OppRollup_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 180
+            },
+            "modifiers": [],
+            "name": "resultContact",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 192
+            },
+            "modifiers": [],
+            "name": "rllp",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 193
+            },
+            "modifiers": [],
+            "name": "util",
+            "references": [],
+            "type": "RLLP_OppRollup_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 207
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 224
+            },
+            "modifiers": [],
+            "name": "hs",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 228
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 232
+            },
+            "modifiers": [],
+            "name": "listOpp",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 233
+            },
+            "modifiers": [],
+            "name": "stage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 234
+            },
+            "modifiers": [],
+            "name": "dt",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 244
+            },
+            "modifiers": [],
+            "name": "dtTomorrow",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 253
+            },
+            "modifiers": [],
+            "name": "listOCR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 257
+            },
+            "modifiers": [],
+            "name": "ocr",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 264
+            },
+            "modifiers": [],
+            "name": "listPSC",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 265
+            },
+            "modifiers": [],
+            "name": "ocr",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 277
+            },
+            "modifiers": [],
+            "name": "rllp",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 278
+            },
+            "modifiers": [],
+            "name": "util",
+            "references": [],
+            "type": "RLLP_OppRollup_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 335
+            },
+            "modifiers": [],
+            "name": "nonDefaultCurrencyType",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 336
+            },
+            "modifiers": [],
+            "name": "defaultCurrencyType",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 338
+            },
+            "modifiers": [],
+            "name": "ct",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 350
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 354
+            },
+            "modifiers": [],
+            "name": "listOpp",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 355
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 357
+            },
+            "modifiers": [],
+            "name": "isoCode",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 359
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 366
+            },
+            "modifiers": [],
+            "name": "listOCR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 370
+            },
+            "modifiers": [],
+            "name": "ocr",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 377
+            },
+            "modifiers": [],
+            "name": "listPSC",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 378
+            },
+            "modifiers": [],
+            "name": "ocr",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 390
+            },
+            "modifiers": [],
+            "name": "queryPSC",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 391
+            },
+            "modifiers": [],
+            "name": "psc",
+            "references": [],
+            "type": "Partial_Soft_Credit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 394
+            },
+            "modifiers": [],
+            "name": "rllp",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 395
+            },
+            "modifiers": [],
+            "name": "util",
+            "references": [],
+            "type": "RLLP_OppRollup_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 396
+            },
+            "modifiers": [],
+            "name": "conid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 411
+            },
+            "modifiers": [],
+            "name": "convertedAmount",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 422
+            },
+            "modifiers": [],
+            "name": "oppid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 430
+            },
+            "modifiers": [],
+            "name": "ex",
+            "references": [],
+            "type": "Exception"
+        }
+    ]
+}

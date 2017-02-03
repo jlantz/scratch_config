@@ -1,0 +1,593 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHoQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHoQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 48
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "run",
+            "parameters": [
+                {
+                    "name": "newlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "triggerAction",
+                    "type": "Action"
+                },
+                {
+                    "name": "objResult",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "DmlWrapper",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 300
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "recreateHouseholdSoftCredits",
+            "parameters": [
+                {
+                    "name": "listHHId",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "HH_OppContactRoles_TDTM",
+    "namespace": null,
+    "parentClass": "TDTM_Runnable",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 38
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "strRefreshSetting",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 36
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "HH_OppContactRoles_TDTM",
+        "references": [],
+        "type": "HH_OppContactRoles_TDTM"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 48
+            },
+            "modifiers": [],
+            "name": "newlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 48
+            },
+            "modifiers": [],
+            "name": "oldlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "triggerAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "objResult",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "ContactsSettings",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 52
+            },
+            "modifiers": [],
+            "name": "currentHouseholdsSettings",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "opportunities",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "oldOpportunities",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 68
+            },
+            "modifiers": [],
+            "name": "isOpenOnly",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 70
+            },
+            "modifiers": [],
+            "name": "strSoql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 76
+            },
+            "modifiers": [],
+            "name": "mapIdToOpp",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "listOppToProcess",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 82
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 108
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 110
+            },
+            "modifiers": [],
+            "name": "conRecordTypesToExclude",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 115
+            },
+            "modifiers": [],
+            "name": "recordTypesOnCons",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 121
+            },
+            "modifiers": [],
+            "name": "oppsForContactRoles",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 129
+            },
+            "modifiers": [],
+            "name": "contactIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 132
+            },
+            "modifiers": [],
+            "name": "individualContacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 135
+            },
+            "modifiers": [],
+            "name": "householdContacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 138
+            },
+            "modifiers": [],
+            "name": "contactIdToOpps",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 142
+            },
+            "modifiers": [],
+            "name": "householdIdToContact",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 146
+            },
+            "modifiers": [],
+            "name": "contactOppToContactRole",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 147
+            },
+            "modifiers": [],
+            "name": "conRoles",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "uniqueConRole",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 153
+            },
+            "modifiers": [],
+            "name": "thisCR",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 170
+            },
+            "modifiers": [],
+            "name": "thisOpp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 193
+            },
+            "modifiers": [],
+            "name": "contactIdToHouseholdId",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 199
+            },
+            "modifiers": [],
+            "name": "myContact",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 207
+            },
+            "modifiers": [],
+            "name": "c2HId",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 216
+            },
+            "modifiers": [],
+            "name": "myContact",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 217
+            },
+            "modifiers": [],
+            "name": "hhId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 231
+            },
+            "modifiers": [],
+            "name": "contactRolesForCreation",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 232
+            },
+            "modifiers": [],
+            "name": "contactRolesForUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 235
+            },
+            "modifiers": [],
+            "name": "thisContactId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 237
+            },
+            "modifiers": [],
+            "name": "thisOpp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 241
+            },
+            "modifiers": [],
+            "name": "householdMember",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 247
+            },
+            "modifiers": [],
+            "name": "thisRole",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 252
+            },
+            "modifiers": [],
+            "name": "thisRole",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 266
+            },
+            "modifiers": [],
+            "name": "thisRole",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 300
+            },
+            "modifiers": [],
+            "name": "listHHId",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 303
+            },
+            "modifiers": [],
+            "name": "listOpp",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 307
+            },
+            "modifiers": [],
+            "name": "hs",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 315
+            },
+            "modifiers": [],
+            "name": "hhocr",
+            "references": [],
+            "type": "HH_OppContactRoles_TDTM"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 316
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        }
+    ]
+}

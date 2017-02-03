@@ -1,0 +1,474 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iGXQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iGXQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 52
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "setupSettings",
+            "parameters": [
+                {
+                    "name": "alloset",
+                    "type": "Allocations_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 69
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "setupISOCodes",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 91
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "alloMultiCurrency",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 155
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "rollupMultiCurrency",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 221
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testMakeDefaultAllocations",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "ALLO_Multicurrency_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 44
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strTestOnly",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 64
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "nonDefaultCurrencyType",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 66
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "defaultCurrencyType",
+            "references": [],
+            "type": "SObject"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 14,
+            "line": 38
+        },
+        "modifiers": [
+            "public",
+            "testMethod"
+        ],
+        "name": "ALLO_Multicurrency_TEST",
+        "references": [],
+        "type": "ALLO_Multicurrency_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 52
+            },
+            "modifiers": [],
+            "name": "alloset",
+            "references": [],
+            "type": "Allocations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 73
+            },
+            "modifiers": [],
+            "name": "ct",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 106
+            },
+            "modifiers": [],
+            "name": "cam",
+            "references": [],
+            "type": "Campaign"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 111
+            },
+            "modifiers": [],
+            "name": "campaigngau",
+            "references": [],
+            "type": "General_Accounting_Unit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 114
+            },
+            "modifiers": [],
+            "name": "amountAllo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 117
+            },
+            "modifiers": [],
+            "name": "queryAllo",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 127
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 130
+            },
+            "modifiers": [],
+            "name": "convertedAmount",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 142
+            },
+            "modifiers": [],
+            "name": "ex",
+            "references": [],
+            "type": "Exception"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 170
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 173
+            },
+            "modifiers": [],
+            "name": "oppsForInsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 179
+            },
+            "modifiers": [],
+            "name": "gau",
+            "references": [],
+            "type": "General_Accounting_Unit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 182
+            },
+            "modifiers": [],
+            "name": "alloForInsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "alloid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 190
+            },
+            "modifiers": [],
+            "name": "alloQuery",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 193
+            },
+            "modifiers": [],
+            "name": "pageRef",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 196
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "ALLO_RollupBTN_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 200
+            },
+            "modifiers": [],
+            "name": "queryGAU",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 205
+            },
+            "modifiers": [],
+            "name": "convertedAmount",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 234
+            },
+            "modifiers": [],
+            "name": "defaultGau",
+            "references": [],
+            "type": "General_Accounting_Unit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 242
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 244
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 249
+            },
+            "modifiers": [],
+            "name": "queryAllo",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 253
+            },
+            "modifiers": [],
+            "name": "batchProcessId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 256
+            },
+            "modifiers": [],
+            "name": "oppId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 257
+            },
+            "modifiers": [],
+            "name": "alloQuery",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

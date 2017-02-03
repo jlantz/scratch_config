@@ -1,0 +1,802 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 137
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "PMT_PaymentCreator",
+            "parameters": [
+                {
+                    "name": "newOppsMap",
+                    "type": "Map"
+                },
+                {
+                    "name": "oldOppsMap",
+                    "type": "Map"
+                },
+                {
+                    "name": "ta",
+                    "type": "Action"
+                },
+                {
+                    "name": "dmlWrapper",
+                    "type": "DmlWrapper"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iIKQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iIKQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 363
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "closeOpportunityIfAllPaymentsReceived",
+            "parameters": [
+                {
+                    "name": "oldOpp",
+                    "type": "Opportunity"
+                },
+                {
+                    "name": "newOpp",
+                    "type": "Opportunity"
+                },
+                {
+                    "name": "closedStageName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 120
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "isNoPaymentForOpp",
+            "parameters": [
+                {
+                    "name": "opp",
+                    "type": "Opportunity"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        }
+    ],
+    "name": "PMT_PaymentCreator",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 42
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "paymentMappings",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 82
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "setOppRecordTypeIdNoPayment",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 100
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "setOppTypeNoPayment",
+            "references": [],
+            "type": "Set"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 36
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "PMT_PaymentCreator",
+        "references": [],
+        "type": "PMT_PaymentCreator"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 137
+            },
+            "modifiers": [],
+            "name": "newOppsMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 85,
+                "line": 137
+            },
+            "modifiers": [],
+            "name": "oldOppsMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 118,
+                "line": 137
+            },
+            "modifiers": [],
+            "name": "ta",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 138
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 140
+            },
+            "modifiers": [],
+            "name": "ContactSettings",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 143
+            },
+            "modifiers": [],
+            "name": "newOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 144
+            },
+            "modifiers": [],
+            "name": "paymentsToInsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 145
+            },
+            "modifiers": [],
+            "name": "paymentsToUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 146
+            },
+            "modifiers": [],
+            "name": "paymentsToDelete",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 147
+            },
+            "modifiers": [],
+            "name": "updatedOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "OppCurrencyField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 152
+            },
+            "modifiers": [],
+            "name": "PaymentCurrencyField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 153
+            },
+            "modifiers": [],
+            "name": "OppRecordTypeId",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 157
+            },
+            "modifiers": [],
+            "name": "closedStageName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 158
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 170
+            },
+            "modifiers": [],
+            "name": "soqlStatement",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 174
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 175
+            },
+            "modifiers": [],
+            "name": "pfms",
+            "references": [],
+            "type": "npe01__Payment_Field_Mapping_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 183
+            },
+            "modifiers": [],
+            "name": "soqlSub",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 184
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 185
+            },
+            "modifiers": [],
+            "name": "pfms",
+            "references": [],
+            "type": "npe01__Payment_Field_Mapping_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 198
+            },
+            "modifiers": [],
+            "name": "thisOpp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 206
+            },
+            "modifiers": [],
+            "name": "op",
+            "references": [],
+            "type": "npe01__OppPayment__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 217
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 82,
+                "line": 218
+            },
+            "modifiers": [],
+            "name": "pfms",
+            "references": [],
+            "type": "npe01__Payment_Field_Mapping_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 219
+            },
+            "modifiers": [],
+            "name": "x",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 257
+            },
+            "modifiers": [],
+            "name": "oldOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 258
+            },
+            "modifiers": [],
+            "name": "thisOpp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 259
+            },
+            "modifiers": [],
+            "name": "oldOpp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 261
+            },
+            "modifiers": [],
+            "name": "mappingsUpdated",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 264
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 285
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 82,
+                "line": 286
+            },
+            "modifiers": [],
+            "name": "pfms",
+            "references": [],
+            "type": "npe01__Payment_Field_Mapping_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 287
+            },
+            "modifiers": [],
+            "name": "x",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 310
+            },
+            "modifiers": [],
+            "name": "thisPayment",
+            "references": [],
+            "type": "npe01__OppPayment__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 321
+            },
+            "modifiers": [],
+            "name": "op",
+            "references": [],
+            "type": "npe01__OppPayment__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 333
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 334
+            },
+            "modifiers": [],
+            "name": "pfms",
+            "references": [],
+            "type": "npe01__Payment_Field_Mapping_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 335
+            },
+            "modifiers": [],
+            "name": "x",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 68,
+                "line": 363
+            },
+            "modifiers": [],
+            "name": "oldOpp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 88,
+                "line": 363
+            },
+            "modifiers": [],
+            "name": "newOpp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 103,
+                "line": 363
+            },
+            "modifiers": [],
+            "name": "closedStageName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 364
+            },
+            "modifiers": [],
+            "name": "amountUpdated",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 365
+            },
+            "modifiers": [],
+            "name": "paymentAmountReceivedUpdated",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 366
+            },
+            "modifiers": [],
+            "name": "amountPositive",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 367
+            },
+            "modifiers": [],
+            "name": "isNotAndWasNotClosed",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 368
+            },
+            "modifiers": [],
+            "name": "amountEqualPaymentReceived",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 369
+            },
+            "modifiers": [],
+            "name": "stageNameSpecified",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "paymentMappingsAll",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "pfms",
+            "references": [],
+            "type": "npe01__Payment_Field_Mapping_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 52
+            },
+            "modifiers": [],
+            "name": "opportunityField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "paymentField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "isValid",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 63
+            },
+            "modifiers": [],
+            "name": "payF",
+            "references": [],
+            "type": "DisplayType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "oppF",
+            "references": [],
+            "type": "DisplayType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 85
+            },
+            "modifiers": [],
+            "name": "strProp",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 103
+            },
+            "modifiers": [],
+            "name": "strProp",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 120
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        }
+    ]
+}

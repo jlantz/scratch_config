@@ -1,0 +1,182 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJnQAI",
+    "innerClasses": [],
+    "interfaces": [
+        "TDTM_iTableDataGateway"
+    ],
+    "key": "01p4C0000002iJnQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 48
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isEmpty",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 65
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getClassesToCallForObject",
+            "parameters": [
+                {
+                    "name": "objectName",
+                    "type": "String"
+                },
+                {
+                    "name": "action",
+                    "type": "Action"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 78
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "ClearCachedTriggerHandlersForTest",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "TDTM_ObjectDataGateway",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 42
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "rowCount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 85
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "listTH",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 39
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "TDTM_ObjectDataGateway",
+        "references": [],
+        "type": "TDTM_ObjectDataGateway"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 99,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "action",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 66
+            },
+            "modifiers": [],
+            "name": "strAction",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 67
+            },
+            "modifiers": [],
+            "name": "listClasses",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 68
+            },
+            "modifiers": [],
+            "name": "th",
+            "references": [],
+            "type": "Trigger_Handler__c"
+        }
+    ]
+}

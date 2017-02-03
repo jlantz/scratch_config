@@ -1,0 +1,138 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 45
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "RD_AddDonationsBTN_CTRL",
+            "parameters": [
+                {
+                    "name": "sc",
+                    "type": "StandardController"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iIVQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iIVQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 53
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "buttonClick",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        }
+    ],
+    "name": "RD_AddDonationsBTN_CTRL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [
+                {
+                    "name": "TestVisible"
+                }
+            ],
+            "location": {
+                "column": 42,
+                "line": 39
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "sc",
+            "references": [],
+            "type": "StandardController"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "RD_AddDonationsBTN_CTRL",
+        "references": [],
+        "type": "RD_AddDonationsBTN_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 45
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 57
+            },
+            "modifiers": [],
+            "name": "qString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "RecurringDonation",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "pageRef",
+            "references": [],
+            "type": "PageReference"
+        }
+    ]
+}

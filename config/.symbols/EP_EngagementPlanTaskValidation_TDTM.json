@@ -1,0 +1,379 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iH6QAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iH6QAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 47
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "run",
+            "parameters": [
+                {
+                    "name": "listNew",
+                    "type": "LIST"
+                },
+                {
+                    "name": "listOld",
+                    "type": "LIST"
+                },
+                {
+                    "name": "triggerAction",
+                    "type": "Action"
+                },
+                {
+                    "name": "objResult",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "DmlWrapper",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 101
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "validateDependencies",
+            "parameters": [
+                {
+                    "name": "listToValidate",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 150
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "validateChildDependencies",
+            "parameters": [
+                {
+                    "name": "listToValidate",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "EP_EngagementPlanTaskValidation_TDTM",
+    "namespace": null,
+    "parentClass": "TDTM_Runnable",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 36
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "EP_EngagementPlanTaskValidation_TDTM",
+        "references": [],
+        "type": "EP_EngagementPlanTaskValidation_TDTM"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 47
+            },
+            "modifiers": [],
+            "name": "listNew",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 47
+            },
+            "modifiers": [],
+            "name": "listOld",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 48
+            },
+            "modifiers": [],
+            "name": "triggerAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 48
+            },
+            "modifiers": [],
+            "name": "objResult",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "listToValidateDependencies",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "newSO",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "newEPTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 67
+            },
+            "modifiers": [],
+            "name": "listToValidateChildDependencies",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 69
+            },
+            "modifiers": [],
+            "name": "mapOld",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "newSO",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "newEPTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 73
+            },
+            "modifiers": [],
+            "name": "oldEPTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 76,
+                "line": 101
+            },
+            "modifiers": [],
+            "name": "listToValidate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 103
+            },
+            "modifiers": [],
+            "name": "templateIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 105
+            },
+            "modifiers": [],
+            "name": "newEPTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "mapIdToTemplateWithTasks",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 116
+            },
+            "modifiers": [],
+            "name": "newEPTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 117
+            },
+            "modifiers": [],
+            "name": "mapExistingEPTasks",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 126
+            },
+            "modifiers": [],
+            "name": "taskIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 127
+            },
+            "modifiers": [],
+            "name": "dependentTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 128
+            },
+            "modifiers": [],
+            "name": "count",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 81,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "listToValidate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 152
+            },
+            "modifiers": [],
+            "name": "mapIdToTaskWithChildren",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 158
+            },
+            "modifiers": [],
+            "name": "newEPTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 161
+            },
+            "modifiers": [],
+            "name": "childTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        }
+    ]
+}

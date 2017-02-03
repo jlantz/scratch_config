@@ -1,0 +1,219 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 60
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "STG_PanelERR_CTRL",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iJDQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJDQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 41
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "idPanel",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 118
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "saveSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 138
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "cancelEdit",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 147
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "editSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        }
+    ],
+    "name": "STG_PanelERR_CTRL",
+    "namespace": null,
+    "parentClass": "STG_Panel",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 46
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "notificationToDropDown",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 51
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "groupId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 55
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "saveErrorMessage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 67
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listSOERRNotifOptions",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 88
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "strErrorNotifDisplayName",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "STG_PanelERR_CTRL",
+        "references": [],
+        "type": "STG_PanelERR_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 75
+            },
+            "modifiers": [],
+            "name": "u",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 90
+            },
+            "modifiers": [],
+            "name": "errorNotifRecipient",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 95
+            },
+            "modifiers": [],
+            "name": "chatterGroupsNotif",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 100
+            },
+            "modifiers": [],
+            "name": "usersNotif",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

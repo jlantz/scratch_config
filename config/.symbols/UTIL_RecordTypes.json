@@ -1,0 +1,1153 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iKEQAY",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "RecordTypeInfo",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 23,
+                    "line": 259
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "RecordTypeInfo",
+                "references": [],
+                "type": "RecordTypeInfo"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 276
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "RecordTypeInfoWrapper",
+                    "parameters": [
+                        {
+                            "name": "rti",
+                            "type": "RecordTypeInfo"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "RecordTypeInfo"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 38,
+                        "line": 279
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getRecordTypeInfo",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "RecordTypeInfo",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 282
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getName",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "String",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 285
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getRecordTypeId",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Id",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 288
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "isAvailable",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 291
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "isDefaultRecordTypeMapping",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 294
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "isMaster",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "RecordTypeInfoWrapper",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 39,
+                        "line": 275
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "rti",
+                    "references": [],
+                    "type": "RecordTypeInfo"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 19,
+                    "line": 274
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "RecordTypeInfoWrapper",
+                "references": [],
+                "type": "RecordTypeInfoWrapper"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 60,
+                        "line": 276
+                    },
+                    "modifiers": [],
+                    "name": "rti",
+                    "references": [],
+                    "type": "RecordTypeInfo"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "RecordTypeInfo"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 38,
+                        "line": 309
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getRecordTypeInfo",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "RecordTypeInfo",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 312
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getName",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "String",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 315
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getRecordTypeId",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Id",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 318
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "isAvailable",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 321
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "isDefaultRecordTypeMapping",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 324
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "isMaster",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "UnavailableRecordTypeInfo",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 19,
+                    "line": 308
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "UnavailableRecordTypeInfo",
+                "references": [],
+                "type": "UnavailableRecordTypeInfo"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iKEQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 45
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getRecordTypeIdSet",
+            "parameters": [
+                {
+                    "name": "objectType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "recordTypeNames",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "Set",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 73
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "getRecordTypeInfo",
+            "parameters": [
+                {
+                    "name": "objectType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "recordTypeName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "RecordTypeInfo",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 92
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getRecordTypeId",
+            "parameters": [
+                {
+                    "name": "objectType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "recordTypeName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Id",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 106
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getRecordTypeName",
+            "parameters": [
+                {
+                    "name": "objectType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "recordTypeId",
+                    "type": "Id"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 123
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "isRecordTypeActive",
+            "parameters": [
+                {
+                    "name": "objectType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "recordTypeName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 135
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "isRecordTypeDefault",
+            "parameters": [
+                {
+                    "name": "objectType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "recordTypeName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 150
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "getRecordTypeInfoForTests",
+            "parameters": [
+                {
+                    "name": "objectType",
+                    "type": "SObjectType"
+                }
+            ],
+            "references": [],
+            "returnType": "RecordTypeInfo",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 167
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getRecordTypeNameForGiftsTests",
+            "parameters": [
+                {
+                    "name": "objectType",
+                    "type": "SObjectType"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 178
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getRecordTypeIdForGiftsTests",
+            "parameters": [
+                {
+                    "name": "objectType",
+                    "type": "SObjectType"
+                }
+            ],
+            "references": [],
+            "returnType": "Id",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 189
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getRecordTypeInfoForGiftsTests",
+            "parameters": [
+                {
+                    "name": "objectType",
+                    "type": "SObjectType"
+                }
+            ],
+            "references": [],
+            "returnType": "RecordTypeInfo",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 200
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getRecordTypeNameForMembershipTests",
+            "parameters": [
+                {
+                    "name": "objectType",
+                    "type": "SObjectType"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 211
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getRecordTypeIdForMembershipTests",
+            "parameters": [
+                {
+                    "name": "objectType",
+                    "type": "SObjectType"
+                }
+            ],
+            "references": [],
+            "returnType": "Id",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 224
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getRecordTypesForSelectList",
+            "parameters": [
+                {
+                    "name": "objectType",
+                    "type": "SObjectType"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 243
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getStringRecordTypesForSelectList",
+            "parameters": [
+                {
+                    "name": "objectType",
+                    "type": "SObjectType"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 260
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "getRecordTypeInfo",
+            "parameters": [],
+            "references": [],
+            "returnType": "RecordTypeInfo",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 261
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "getName",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 262
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "getRecordTypeId",
+            "parameters": [],
+            "references": [],
+            "returnType": "Id",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 263
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "isAvailable",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 264
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "isDefaultRecordTypeMapping",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 265
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "isMaster",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        }
+    ],
+    "name": "UTIL_RecordTypes",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 37
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "UTIL_RecordTypes",
+        "references": [],
+        "type": "UTIL_RecordTypes"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 45
+            },
+            "modifiers": [],
+            "name": "objectType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 82,
+                "line": 45
+            },
+            "modifiers": [],
+            "name": "recordTypeNames",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "recordTypeInfos",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 48
+            },
+            "modifiers": [],
+            "name": "recordTypeIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "recordTypeName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 73
+            },
+            "modifiers": [],
+            "name": "objectType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 84,
+                "line": 73
+            },
+            "modifiers": [],
+            "name": "recordTypeName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "recordTypeInfos",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 92
+            },
+            "modifiers": [],
+            "name": "objectType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 92
+            },
+            "modifiers": [],
+            "name": "recordTypeName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 106
+            },
+            "modifiers": [],
+            "name": "objectType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 106
+            },
+            "modifiers": [],
+            "name": "recordTypeId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 107
+            },
+            "modifiers": [],
+            "name": "rtiById",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "rti",
+            "references": [],
+            "type": "RecordTypeInfo"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 123
+            },
+            "modifiers": [],
+            "name": "objectType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 77,
+                "line": 123
+            },
+            "modifiers": [],
+            "name": "recordTypeName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 135
+            },
+            "modifiers": [],
+            "name": "objectType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 78,
+                "line": 135
+            },
+            "modifiers": [],
+            "name": "recordTypeName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "objectType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "recordTypeInfos",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 152
+            },
+            "modifiers": [],
+            "name": "rti",
+            "references": [],
+            "type": "RecordTypeInfo"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 167
+            },
+            "modifiers": [],
+            "name": "objectType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 178
+            },
+            "modifiers": [],
+            "name": "objectType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 84,
+                "line": 189
+            },
+            "modifiers": [],
+            "name": "objectType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 200
+            },
+            "modifiers": [],
+            "name": "objectType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 68,
+                "line": 211
+            },
+            "modifiers": [],
+            "name": "objectType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 78,
+                "line": 224
+            },
+            "modifiers": [],
+            "name": "objectType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 225
+            },
+            "modifiers": [],
+            "name": "recordTypeInfos",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 226
+            },
+            "modifiers": [],
+            "name": "options",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 227
+            },
+            "modifiers": [],
+            "name": "recordTypeName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 228
+            },
+            "modifiers": [],
+            "name": "rti",
+            "references": [],
+            "type": "RecordTypeInfo"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 84,
+                "line": 243
+            },
+            "modifiers": [],
+            "name": "objectType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 244
+            },
+            "modifiers": [],
+            "name": "recordTypeInfos",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 245
+            },
+            "modifiers": [],
+            "name": "options",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 246
+            },
+            "modifiers": [],
+            "name": "recordTypeName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 247
+            },
+            "modifiers": [],
+            "name": "rti",
+            "references": [],
+            "type": "RecordTypeInfo"
+        }
+    ]
+}

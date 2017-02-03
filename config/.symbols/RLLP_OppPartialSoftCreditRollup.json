@@ -1,0 +1,541 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iIrQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iIrQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 46
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "rollupPartialSoftCredits",
+            "parameters": [
+                {
+                    "name": "listCon",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 174
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "countPartialSoftCredits",
+            "parameters": [
+                {
+                    "name": "c",
+                    "type": "Contact"
+                },
+                {
+                    "name": "psc",
+                    "type": "Partial_Soft_Credit__c"
+                },
+                {
+                    "name": "currentYearStart",
+                    "type": "Date"
+                }
+            ],
+            "references": [],
+            "returnType": "Contact",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 187
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "countOpportunityContactRoles",
+            "parameters": [
+                {
+                    "name": "c",
+                    "type": "Contact"
+                },
+                {
+                    "name": "ocr",
+                    "type": "OpportunityContactRole"
+                },
+                {
+                    "name": "currentYearStart",
+                    "type": "Date"
+                }
+            ],
+            "references": [],
+            "returnType": "Contact",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 202
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "countSoftCreditsSharedLogic",
+            "parameters": [
+                {
+                    "name": "c",
+                    "type": "Contact"
+                },
+                {
+                    "name": "amount",
+                    "type": "Decimal"
+                },
+                {
+                    "name": "currencyIsoCode",
+                    "type": "String"
+                },
+                {
+                    "name": "oppDate",
+                    "type": "Date"
+                },
+                {
+                    "name": "currentYearStart",
+                    "type": "Date"
+                }
+            ],
+            "references": [],
+            "returnType": "Contact",
+            "type": null
+        }
+    ],
+    "name": "RLLP_OppPartialSoftCreditRollup",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 38
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "RLLP_OppPartialSoftCreditRollup",
+        "references": [],
+        "type": "RLLP_OppPartialSoftCreditRollup"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "currentYearStart",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 61
+            },
+            "modifiers": [],
+            "name": "softCreditRoles",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "cset",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 63
+            },
+            "modifiers": [],
+            "name": "typeset",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "rectypeset",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "ocrQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 66
+            },
+            "modifiers": [],
+            "name": "pscQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 67
+            },
+            "modifiers": [],
+            "name": "primaryOCRs",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 69
+            },
+            "modifiers": [],
+            "name": "opportunityContactRoles",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 70
+            },
+            "modifiers": [],
+            "name": "ocr",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "partialSoftCredits",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "psr",
+            "references": [],
+            "type": "Partial_Soft_Credit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 85
+            },
+            "modifiers": [],
+            "name": "toUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 86
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 87
+            },
+            "modifiers": [],
+            "name": "newC",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 117
+            },
+            "modifiers": [],
+            "name": "ocrForPSCIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 119
+            },
+            "modifiers": [],
+            "name": "psc",
+            "references": [],
+            "type": "Partial_Soft_Credit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 126
+            },
+            "modifiers": [],
+            "name": "processedOpportunityIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 128
+            },
+            "modifiers": [],
+            "name": "ocr",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 174
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 86,
+                "line": 174
+            },
+            "modifiers": [],
+            "name": "psc",
+            "references": [],
+            "type": "Partial_Soft_Credit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 96,
+                "line": 174
+            },
+            "modifiers": [],
+            "name": "currentYearStart",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 175
+            },
+            "modifiers": [],
+            "name": "amount",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 176
+            },
+            "modifiers": [],
+            "name": "pscCurrencyIsoCode",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 91,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "ocr",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 101,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "currentYearStart",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "amount",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 189
+            },
+            "modifiers": [],
+            "name": "oppCurrencyIsoCode",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 202
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 75,
+                "line": 202
+            },
+            "modifiers": [],
+            "name": "amount",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 90,
+                "line": 202
+            },
+            "modifiers": [],
+            "name": "currencyIsoCode",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 112,
+                "line": 202
+            },
+            "modifiers": [],
+            "name": "oppDate",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 126,
+                "line": 202
+            },
+            "modifiers": [],
+            "name": "currentYearStart",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 246
+            },
+            "modifiers": [],
+            "name": "nday",
+            "references": [],
+            "type": "Integer"
+        }
+    ]
+}

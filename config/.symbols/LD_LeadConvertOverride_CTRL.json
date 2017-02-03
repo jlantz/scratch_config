@@ -1,0 +1,804 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 289
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "LD_LeadConvertOverride_CTRL",
+            "parameters": [
+                {
+                    "name": "controller",
+                    "type": "StandardController"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iHrQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHrQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 143
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getConList",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 157
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getOppAccChoices",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 209
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getSelectedCon",
+            "parameters": [],
+            "references": [],
+            "returnType": "Contact",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 333
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "pickLeadConvertPage",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 347
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "convertLeadNow",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        }
+    ],
+    "name": "LD_LeadConvertOverride_CTRL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 46
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "l",
+            "references": [],
+            "type": "Lead"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 50
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "dummyCon",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 54
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "sendEmailToOwner",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 59
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "strAccountId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 64
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "strAfflAccountId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 71
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "strOppAccChoice",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 76
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "strConId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 81
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "oppName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 85
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "doNotCreateOpp",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 90
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "conList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 95
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "selectedCon",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 100
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "oppAccChoices",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 105
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "ContactsSettings",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 110
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "lcStatuses",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 126
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isSpecialAccount",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 170
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "conMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 196
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "conFieldSet",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 221
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listSOAccounts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 252
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listSOAfflAccounts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 274
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "mapIdAccountMatches",
+            "references": [],
+            "type": "Map"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "LD_LeadConvertOverride_CTRL",
+        "references": [],
+        "type": "LD_LeadConvertOverride_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 114
+            },
+            "modifiers": [],
+            "name": "ls",
+            "references": [],
+            "type": "LeadStatus"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 173
+            },
+            "modifiers": [],
+            "name": "lLastName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 174
+            },
+            "modifiers": [],
+            "name": "lFirstName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 175
+            },
+            "modifiers": [],
+            "name": "lEmail",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 177
+            },
+            "modifiers": [],
+            "name": "fieldSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 178
+            },
+            "modifiers": [],
+            "name": "queryStr",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 179
+            },
+            "modifiers": [],
+            "name": "cfs",
+            "references": [],
+            "type": "FieldSetMember"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 225
+            },
+            "modifiers": [],
+            "name": "strAcc",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 237
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 259
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 289
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 316
+            },
+            "modifiers": [],
+            "name": "recTypeId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 318
+            },
+            "modifiers": [],
+            "name": "objType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 319
+            },
+            "modifiers": [],
+            "name": "recTypeName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 334
+            },
+            "modifiers": [],
+            "name": "pageRef",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 348
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 357
+            },
+            "modifiers": [],
+            "name": "lc",
+            "references": [],
+            "type": "LeadConvert"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 365
+            },
+            "modifiers": [],
+            "name": "isIndividualAccount",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 383
+            },
+            "modifiers": [],
+            "name": "hhAcctAddrDisabled",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 384
+            },
+            "modifiers": [],
+            "name": "orgAcctAddrEnabled",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 389
+            },
+            "modifiers": [],
+            "name": "lcr",
+            "references": [],
+            "type": "LeadConvertResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 397
+            },
+            "modifiers": [],
+            "name": "strSoql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 405
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 406
+            },
+            "modifiers": [],
+            "name": "myAccount",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 407
+            },
+            "modifiers": [],
+            "name": "hs",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 425
+            },
+            "modifiers": [],
+            "name": "rtIdAcccount",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 444
+            },
+            "modifiers": [],
+            "name": "addr",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 462
+            },
+            "modifiers": [],
+            "name": "ocrList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 468
+            },
+            "modifiers": [],
+            "name": "dlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 469
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 477
+            },
+            "modifiers": [],
+            "name": "ocr",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 489
+            },
+            "modifiers": [],
+            "name": "tempAddr",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 499
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 507
+            },
+            "modifiers": [],
+            "name": "afflAccId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 509
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 527
+            },
+            "modifiers": [],
+            "name": "convertedOpp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 536
+            },
+            "modifiers": [],
+            "name": "oppName",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

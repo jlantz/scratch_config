@@ -1,0 +1,78 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHQQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHQQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 41
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "withManualRollback",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        }
+    ],
+    "name": "ERR_Handler_CTRL_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "ERR_Handler_CTRL_TEST",
+        "references": [],
+        "type": "ERR_Handler_CTRL_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 42
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "contact1",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "relationships",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

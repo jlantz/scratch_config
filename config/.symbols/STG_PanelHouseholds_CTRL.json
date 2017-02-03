@@ -1,0 +1,380 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 41
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "STG_PanelHouseholds_CTRL",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iJHQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJHQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 46
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "idPanel",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 53
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "editSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 62
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isValidNameFormats",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 87
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "saveSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 26,
+                "line": 247
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "strNameSpecExample",
+            "parameters": [
+                {
+                    "name": "hns",
+                    "type": "Household_Naming_Settings__c"
+                },
+                {
+                    "name": "strField",
+                    "type": "String"
+                },
+                {
+                    "name": "cContact",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "STG_PanelHouseholds_CTRL",
+    "namespace": null,
+    "parentClass": "STG_Panel",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 106
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "strMailingReport",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 124
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listSOHouseholdNameFormats",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 148
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listSOFormalGreetingFormats",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 166
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listSOInformalGreetingFormats",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 183
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "listConExamples",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 274
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "strHouseholdCreationExcludedRecTypesReadOnly",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "STG_PanelHouseholds_CTRL",
+        "references": [],
+        "type": "STG_PanelHouseholds_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "strSetting",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "id",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 111
+            },
+            "modifiers": [],
+            "name": "listRpt",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 194
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 247
+            },
+            "modifiers": [],
+            "name": "hns",
+            "references": [],
+            "type": "Household_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 86,
+                "line": 247
+            },
+            "modifiers": [],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 104,
+                "line": 247
+            },
+            "modifiers": [],
+            "name": "cContact",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 249
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 250
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 254
+            },
+            "modifiers": [],
+            "name": "strClass",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 256
+            },
+            "modifiers": [],
+            "name": "classType",
+            "references": [],
+            "type": "Type"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 258
+            },
+            "modifiers": [],
+            "name": "classInstance",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 260
+            },
+            "modifiers": [],
+            "name": "n",
+            "references": [],
+            "type": "HH_INaming"
+        }
+    ]
+}

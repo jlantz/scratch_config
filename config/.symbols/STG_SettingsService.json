@@ -1,0 +1,243 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 47
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "STG_SettingsService",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iJiQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJiQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 210
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "saveAll",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "STG_SettingsService",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 54
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "stgCon",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 65
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "stgHH",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 76
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "stgHN",
+            "references": [],
+            "type": "Household_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 87
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "stgRD",
+            "references": [],
+            "type": "npe03__Recurring_Donations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 98
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "stgRel",
+            "references": [],
+            "type": "npe4__Relationship_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 109
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "stgAffl",
+            "references": [],
+            "type": "npe5__Affiliations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 120
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "stgErr",
+            "references": [],
+            "type": "Error_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 131
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "stgBDE",
+            "references": [],
+            "type": "Batch_Data_Entry_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 142
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "stgAllo",
+            "references": [],
+            "type": "Allocations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 153
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "mapRDCustomField",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 167
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listRDCustomInstallment",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 181
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listRDCustomFieldMapping",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 195
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listPMTFieldMapping",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 42
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "stgService",
+            "references": [],
+            "type": "STG_SettingsService"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "STG_SettingsService",
+        "references": [],
+        "type": "STG_SettingsService"
+    },
+    "variables": []
+}

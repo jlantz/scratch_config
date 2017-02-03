@@ -1,0 +1,764 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 96
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "PSC_ManageSoftCredits_CTRL",
+            "parameters": [
+                {
+                    "name": "controller",
+                    "type": "StandardController"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iIQQAY",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 398
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "SoftCredit",
+                    "parameters": [
+                        {
+                            "name": "ocr",
+                            "type": "OpportunityContactRole"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "SoftCredit",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 39,
+                        "line": 394
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "contactRole",
+                    "references": [],
+                    "type": "OpportunityContactRole"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 39,
+                        "line": 395
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "partial",
+                    "references": [],
+                    "type": "Partial_Soft_Credit__c"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 396
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "fullCredit",
+                    "references": [],
+                    "type": "Boolean"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 393
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "SoftCredit",
+                "references": [],
+                "type": "SoftCredit"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 50,
+                        "line": 398
+                    },
+                    "modifiers": [],
+                    "name": "ocr",
+                    "references": [],
+                    "type": "OpportunityContactRole"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iIQQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 184
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "delRow",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 199
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "save",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 312
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "cancel",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 320
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "refresh",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 326
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "checkFullCredit",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 338
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "checkFullAndPartialCredit",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 353
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "convertAmountToPercentage",
+            "parameters": [
+                {
+                    "name": "amount",
+                    "type": "Decimal"
+                }
+            ],
+            "references": [],
+            "returnType": "Double",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 363
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "convertPercentageToAmount",
+            "parameters": [
+                {
+                    "name": "percentage",
+                    "type": "Decimal"
+                }
+            ],
+            "references": [],
+            "returnType": "Double",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 372
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "addAnotherSoftCredit",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 380
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "getTotalSoftCreditAmount",
+            "parameters": [],
+            "references": [],
+            "returnType": "Double",
+            "type": null
+        }
+    ],
+    "name": "PSC_ManageSoftCredits_CTRL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 39
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 40
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isAmount",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 41
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "allowTooManySoftCredits",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 42
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "softCredits",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 44
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listSoftCreditsForDelete",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 45
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "contactRoles",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 47
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "rowNumber",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 52
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "oppTotalSoftCredit",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 68
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "oppTotalUnaccounted",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 85
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "numberOfSoftCredits",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 287
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "PrimaryContactId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 299
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "PrimaryContactName",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "PSC_ManageSoftCredits_CTRL",
+        "references": [],
+        "type": "PSC_ManageSoftCredits_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 68,
+                "line": 96
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 97
+            },
+            "modifiers": [],
+            "name": "recordId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "oppQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 125
+            },
+            "modifiers": [],
+            "name": "ocrs",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 127
+            },
+            "modifiers": [],
+            "name": "softCreditRoles",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 132
+            },
+            "modifiers": [],
+            "name": "mapIdToOCR",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 136
+            },
+            "modifiers": [],
+            "name": "psc",
+            "references": [],
+            "type": "Partial_Soft_Credit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 140
+            },
+            "modifiers": [],
+            "name": "ocr",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 152
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "SoftCredit"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 163
+            },
+            "modifiers": [],
+            "name": "ocr",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 170
+            },
+            "modifiers": [],
+            "name": "pe",
+            "references": [],
+            "type": "PicklistEntry"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 200
+            },
+            "modifiers": [],
+            "name": "donors",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 201
+            },
+            "modifiers": [],
+            "name": "ocr",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 204
+            },
+            "modifiers": [],
+            "name": "toDelete",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 205
+            },
+            "modifiers": [],
+            "name": "toUpsertContactRoles",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 206
+            },
+            "modifiers": [],
+            "name": "toUpsertPartialCredits",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 207
+            },
+            "modifiers": [],
+            "name": "upsertedSoftCredits",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 208
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "SoftCredit"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 255
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "SoftCredit"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 267
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "SoftCredit"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 274
+            },
+            "modifiers": [],
+            "name": "pageRef",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 327
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "SoftCredit"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 339
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "SoftCredit"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 353
+            },
+            "modifiers": [],
+            "name": "amount",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 363
+            },
+            "modifiers": [],
+            "name": "percentage",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 381
+            },
+            "modifiers": [],
+            "name": "total",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 382
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "SoftCredit"
+        }
+    ]
+}

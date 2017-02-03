@@ -1,0 +1,665 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJxQAI",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "Interface_x"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 202
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "isMultiCurrencyOrganization",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 205
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getDefaultCurrency",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "String",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 208
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getDefaultCurrencySymbol",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "String",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 211
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getCurrencySymbol",
+                    "parameters": [
+                        {
+                            "name": "recordId",
+                            "type": "Id"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "String",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 215
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getCurrencyIsoCodeQuery",
+                    "parameters": [
+                        {
+                            "name": "recordId",
+                            "type": "Id"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "String",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 219
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "queryCurrencyIsoCode",
+                    "parameters": [
+                        {
+                            "name": "recordId",
+                            "type": "Id"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "String",
+                    "type": null
+                }
+            ],
+            "name": "UtilCurrencyMock",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 193
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "isMultiCurrencyOrganizationReturn",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 194
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getDefaultCurrencyReturn",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 195
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getDefaultCurrencySymbolReturn",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 196
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getCurrencySymbolRecordId",
+                    "references": [],
+                    "type": "Id"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 197
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getCurrencySymbolReturn",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 198
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getCurrencyIsoCodeQueryRecordId",
+                    "references": [],
+                    "type": "Id"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 199
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getCurrencyIsoCodeQueryReturn",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 200
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "queryCurrencyIsoCodeRecordId",
+                    "references": [],
+                    "type": "Id"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 201
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "queryCurrencyIsoCodeReturn",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 192
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "UtilCurrencyMock",
+                "references": [],
+                "type": "UtilCurrencyMock"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 44,
+                        "line": 211
+                    },
+                    "modifiers": [],
+                    "name": "recordId",
+                    "references": [],
+                    "type": "Id"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 50,
+                        "line": 215
+                    },
+                    "modifiers": [],
+                    "name": "recordId",
+                    "references": [],
+                    "type": "Id"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 47,
+                        "line": 219
+                    },
+                    "modifiers": [],
+                    "name": "recordId",
+                    "references": [],
+                    "type": "Id"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iJxQAI",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 44
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testIsMultiCurrencyOrganizationWrapsUserInfoMethod",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 57
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGetDefaultCurrencyWrapsUserInfoMethod",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 71
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testSingletonReturnsExistingInstance",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 87
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testSingletonReturnsNewInstanceIfNoExisting",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 98
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGetDefaultCurrencySymbolReturnsKnownSymbol",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 116
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGetDefaultCurrencySymbolReturnsIsoCodeIfUnknownSymbol",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 134
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGetCurrencySymbolQueriesForCodeIfMultiCurrency",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 159
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGetCurrencySymbolReturnsDefaultCurrencySymbolIfSingleCurrency",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 178
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGetCurrencyIsoCodeQueryBuildsCorrectQuery",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "UTIL_Currency_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 14,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "testMethod"
+        ],
+        "name": "UTIL_Currency_TEST",
+        "references": [],
+        "type": "UTIL_Currency_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 45
+            },
+            "modifiers": [],
+            "name": "actual",
+            "references": [],
+            "type": "UTIL_Currency"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "actual",
+            "references": [],
+            "type": "UTIL_Currency"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "existingInstance",
+            "references": [],
+            "type": "UtilCurrencyMock"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 99
+            },
+            "modifiers": [],
+            "name": "actual",
+            "references": [],
+            "type": "UTIL_Currency"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 100
+            },
+            "modifiers": [],
+            "name": "mock",
+            "references": [],
+            "type": "UtilCurrencyMock"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 117
+            },
+            "modifiers": [],
+            "name": "actual",
+            "references": [],
+            "type": "UTIL_Currency"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 118
+            },
+            "modifiers": [],
+            "name": "mock",
+            "references": [],
+            "type": "UtilCurrencyMock"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 135
+            },
+            "modifiers": [],
+            "name": "recordId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 136
+            },
+            "modifiers": [],
+            "name": "actual",
+            "references": [],
+            "type": "UTIL_Currency"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 137
+            },
+            "modifiers": [],
+            "name": "mock",
+            "references": [],
+            "type": "UtilCurrencyMock"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "recordId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 161
+            },
+            "modifiers": [],
+            "name": "actual",
+            "references": [],
+            "type": "UTIL_Currency"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 162
+            },
+            "modifiers": [],
+            "name": "mock",
+            "references": [],
+            "type": "UtilCurrencyMock"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 179
+            },
+            "modifiers": [],
+            "name": "recordId",
+            "references": [],
+            "type": "Id"
+        }
+    ]
+}

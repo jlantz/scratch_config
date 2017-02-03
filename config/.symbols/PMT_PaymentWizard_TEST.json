@@ -1,0 +1,997 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iIOQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iIOQAY",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 26,
+                "line": 47
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "closedWonStage",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 58
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "test_paymentsEnabled_WriteOff",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 133
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "test_PageElementsMonthly",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 202
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "test_PageElementsWeekly",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 258
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "test_PageElementsYearly",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 313
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "test_nullOpps",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 334
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "test_publicGetters",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 349
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "test_RemovePaidPayments",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 426
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "test_PaymentMappingsApplied",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "PMT_PaymentWizard_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 43
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strTestOnly",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 37
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "PMT_PaymentWizard_TEST",
+        "references": [],
+        "type": "PMT_PaymentWizard_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 48
+            },
+            "modifiers": [],
+            "name": "closedWonStage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "closedWonStages",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 61
+            },
+            "modifiers": [],
+            "name": "PaymentsSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "acct",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 68
+            },
+            "modifiers": [],
+            "name": "opp1",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 77
+            },
+            "modifiers": [],
+            "name": "opmtUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 82
+            },
+            "modifiers": [],
+            "name": "newOpmt",
+            "references": [],
+            "type": "npe01__OppPayment__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 92
+            },
+            "modifiers": [],
+            "name": "opmtAllStart",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 96
+            },
+            "modifiers": [],
+            "name": "pageRef",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 104
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "PMT_PaymentWizard_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 111
+            },
+            "modifiers": [],
+            "name": "ref",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 117
+            },
+            "modifiers": [],
+            "name": "opmtAll",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 121
+            },
+            "modifiers": [],
+            "name": "opmtOpen",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 124
+            },
+            "modifiers": [],
+            "name": "opmtPaid",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 128
+            },
+            "modifiers": [],
+            "name": "opmtWrittenOff",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 137
+            },
+            "modifiers": [],
+            "name": "acct",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 141
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 149
+            },
+            "modifiers": [],
+            "name": "pmts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 165
+            },
+            "modifiers": [],
+            "name": "pageRef",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 173
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "PMT_PaymentWizard_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 177
+            },
+            "modifiers": [],
+            "name": "l",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 185
+            },
+            "modifiers": [],
+            "name": "ref",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "savePage",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 189
+            },
+            "modifiers": [],
+            "name": "redirect",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 192
+            },
+            "modifiers": [],
+            "name": "opmt",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 206
+            },
+            "modifiers": [],
+            "name": "acct",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 210
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 222
+            },
+            "modifiers": [],
+            "name": "pageRef",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 230
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "PMT_PaymentWizard_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 234
+            },
+            "modifiers": [],
+            "name": "l",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 245
+            },
+            "modifiers": [],
+            "name": "ref",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 248
+            },
+            "modifiers": [],
+            "name": "savePage",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 251
+            },
+            "modifiers": [],
+            "name": "opmt",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 262
+            },
+            "modifiers": [],
+            "name": "acct",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 266
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 278
+            },
+            "modifiers": [],
+            "name": "pageRef",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 285
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "PMT_PaymentWizard_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 289
+            },
+            "modifiers": [],
+            "name": "l",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 300
+            },
+            "modifiers": [],
+            "name": "ref",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 303
+            },
+            "modifiers": [],
+            "name": "savePage",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 306
+            },
+            "modifiers": [],
+            "name": "opmt",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 317
+            },
+            "modifiers": [],
+            "name": "pageRef",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 325
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "PMT_PaymentWizard_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 338
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "PMT_PaymentWizard_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 343
+            },
+            "modifiers": [],
+            "name": "oplist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 344
+            },
+            "modifiers": [],
+            "name": "pr",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 352
+            },
+            "modifiers": [],
+            "name": "PaymentsSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 355
+            },
+            "modifiers": [],
+            "name": "acct",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 359
+            },
+            "modifiers": [],
+            "name": "opp1",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 368
+            },
+            "modifiers": [],
+            "name": "opmtUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 373
+            },
+            "modifiers": [],
+            "name": "newOpmt",
+            "references": [],
+            "type": "npe01__OppPayment__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 383
+            },
+            "modifiers": [],
+            "name": "opmtAllStart",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 387
+            },
+            "modifiers": [],
+            "name": "pageRef",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 395
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "PMT_PaymentWizard_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 407
+            },
+            "modifiers": [],
+            "name": "ref",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 411
+            },
+            "modifiers": [],
+            "name": "savePage",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 414
+            },
+            "modifiers": [],
+            "name": "opmt",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 430
+            },
+            "modifiers": [],
+            "name": "pfmNew",
+            "references": [],
+            "type": "npe01__Payment_Field_Mapping_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 437
+            },
+            "modifiers": [],
+            "name": "acct",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 441
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 449
+            },
+            "modifiers": [],
+            "name": "pmts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 465
+            },
+            "modifiers": [],
+            "name": "pageRef",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 473
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "PMT_PaymentWizard_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 477
+            },
+            "modifiers": [],
+            "name": "l",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 485
+            },
+            "modifiers": [],
+            "name": "ref",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 488
+            },
+            "modifiers": [],
+            "name": "savePage",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 490
+            },
+            "modifiers": [],
+            "name": "redirect",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 495
+            },
+            "modifiers": [],
+            "name": "opmt",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 497
+            },
+            "modifiers": [],
+            "name": "pmt",
+            "references": [],
+            "type": "npe01__OppPayment__c"
+        }
+    ]
+}

@@ -1,0 +1,360 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHlQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHlQAI",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 33,
+                "line": 44
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "findContacts",
+            "parameters": [
+                {
+                    "name": "subString",
+                    "type": "String"
+                },
+                {
+                    "name": "state",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 26,
+                "line": 53
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "remoteAddMember",
+            "parameters": [
+                {
+                    "name": "cid",
+                    "type": "Id"
+                },
+                {
+                    "name": "includeHH",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "state",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 26,
+                "line": 62
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "remoteRemoveMember",
+            "parameters": [
+                {
+                    "name": "cid",
+                    "type": "Id"
+                },
+                {
+                    "name": "state",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 26,
+                "line": 71
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "remoteSetNaming",
+            "parameters": [
+                {
+                    "name": "aN",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "nN",
+                    "type": "String"
+                },
+                {
+                    "name": "aFG",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "nFG",
+                    "type": "String"
+                },
+                {
+                    "name": "aIG",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "nIG",
+                    "type": "String"
+                },
+                {
+                    "name": "state",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 26,
+                "line": 80
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "remoteSave",
+            "parameters": [
+                {
+                    "name": "state",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "HH_ManageHousehold_EXT",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 37
+        },
+        "modifiers": [
+            "global",
+            "with sharing"
+        ],
+        "name": "HH_ManageHousehold_EXT",
+        "references": [],
+        "type": "HH_ManageHousehold_EXT"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "subString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "state",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "cid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "includeHH",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 76,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "state",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "cid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "state",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "aN",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 61,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "nN",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "aFG",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 85,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "nFG",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 98,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "aIG",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 110,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "nIG",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 122,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "state",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "state",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

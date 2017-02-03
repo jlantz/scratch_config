@@ -1,0 +1,208 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iIYQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iIYQAY",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 43
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testRDCascade",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 94
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testRDDeleteException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "RD_CascadeDeleteLookups_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 37
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "RD_CascadeDeleteLookups_TEST",
+        "references": [],
+        "type": "RD_CascadeDeleteLookups_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 47
+            },
+            "modifiers": [],
+            "name": "rd",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "queryOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 61
+            },
+            "modifiers": [],
+            "name": "gau",
+            "references": [],
+            "type": "General_Accounting_Unit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 63
+            },
+            "modifiers": [],
+            "name": "alloForInsert",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 73
+            },
+            "modifiers": [],
+            "name": "errors",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 76
+            },
+            "modifiers": [],
+            "name": "deletedAllo",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 86
+            },
+            "modifiers": [],
+            "name": "undeletedAllo",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 95
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "rd",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "queryOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 115
+            },
+            "modifiers": [],
+            "name": "caughException",
+            "references": [],
+            "type": "Exception"
+        }
+    ]
+}

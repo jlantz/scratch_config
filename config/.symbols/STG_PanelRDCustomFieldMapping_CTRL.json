@@ -1,0 +1,635 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJVQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJVQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 41
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "idPanel",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 59
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "newCustomFieldMapping",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 68
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "createCustomFieldMapping",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 97
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "isValidMapping",
+            "parameters": [
+                {
+                    "name": "RDField",
+                    "type": "String"
+                },
+                {
+                    "name": "OppField",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 118
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "cancelCustomFieldMapping",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 133
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "deleteFm",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 154
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "resetFieldMappingSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 188
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "getFieldLabel",
+            "parameters": [
+                {
+                    "name": "strObj",
+                    "type": "String"
+                },
+                {
+                    "name": "strField",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 261
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "verifyRDMappings",
+            "parameters": [
+                {
+                    "name": "ctrl",
+                    "type": "STG_PanelHealthCheck_CTRL"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "STG_PanelRDCustomFieldMapping_CTRL",
+    "namespace": null,
+    "parentClass": "STG_Panel",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 46
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "fmNew",
+            "references": [],
+            "type": "npe03__Custom_Field_Mapping__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 127
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "fmIdDelete",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 163
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listRDCustomFieldMapping",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 199
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "setInvalidOppFields",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 209
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listSOOppFields",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 238
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listSORDFields",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "STG_PanelRDCustomFieldMapping_CTRL",
+        "references": [],
+        "type": "STG_PanelRDCustomFieldMapping_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 76
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 97
+            },
+            "modifiers": [],
+            "name": "RDField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 97
+            },
+            "modifiers": [],
+            "name": "OppField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "isValid",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 100
+            },
+            "modifiers": [],
+            "name": "schemaRDField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 101
+            },
+            "modifiers": [],
+            "name": "schemaOppField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 104
+            },
+            "modifiers": [],
+            "name": "RDF",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 105
+            },
+            "modifiers": [],
+            "name": "ODF",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 134
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 138
+            },
+            "modifiers": [],
+            "name": "fm",
+            "references": [],
+            "type": "npe03__Custom_Field_Mapping__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 167
+            },
+            "modifiers": [],
+            "name": "fm",
+            "references": [],
+            "type": "npe03__Custom_Field_Mapping__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 168
+            },
+            "modifiers": [],
+            "name": "strOppField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 169
+            },
+            "modifiers": [],
+            "name": "strRDField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 170
+            },
+            "modifiers": [],
+            "name": "fm2",
+            "references": [],
+            "type": "npe03__Custom_Field_Mapping__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "strObj",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 216
+            },
+            "modifiers": [],
+            "name": "fm",
+            "references": [],
+            "type": "npe03__Custom_Field_Mapping__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 220
+            },
+            "modifiers": [],
+            "name": "oppFieldTokenList",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 221
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 223
+            },
+            "modifiers": [],
+            "name": "f",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 244
+            },
+            "modifiers": [],
+            "name": "oppFieldTokenList",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 245
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 246
+            },
+            "modifiers": [],
+            "name": "f",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 67,
+                "line": 261
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "STG_PanelHealthCheck_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 263
+            },
+            "modifiers": [],
+            "name": "mapRDCustomField",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 264
+            },
+            "modifiers": [],
+            "name": "strSetting",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 265
+            },
+            "modifiers": [],
+            "name": "isValid",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 267
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 268
+            },
+            "modifiers": [],
+            "name": "cfm",
+            "references": [],
+            "type": "npe03__Custom_Field_Mapping__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 269
+            },
+            "modifiers": [],
+            "name": "RDField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 270
+            },
+            "modifiers": [],
+            "name": "opportunityField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 294
+            },
+            "modifiers": [],
+            "name": "dtRD",
+            "references": [],
+            "type": "DisplayType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 295
+            },
+            "modifiers": [],
+            "name": "dtOpp",
+            "references": [],
+            "type": "DisplayType"
+        }
+    ]
+}

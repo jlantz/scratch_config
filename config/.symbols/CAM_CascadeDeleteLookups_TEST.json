@@ -1,0 +1,110 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iGlQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iGlQAI",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 43
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testOppCascade",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "CAM_CascadeDeleteLookups_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 37
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "CAM_CascadeDeleteLookups_TEST",
+        "references": [],
+        "type": "CAM_CascadeDeleteLookups_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "cam",
+            "references": [],
+            "type": "Campaign"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 47
+            },
+            "modifiers": [],
+            "name": "gau",
+            "references": [],
+            "type": "General_Accounting_Unit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "alloForInsert",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 56
+            },
+            "modifiers": [],
+            "name": "deletedAllo",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 63
+            },
+            "modifiers": [],
+            "name": "undeletedAllo",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

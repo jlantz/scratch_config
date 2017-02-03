@@ -1,0 +1,240 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iK6QAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iK6QAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 52
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getMapCustomFieldMappings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 64
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getMapCustomInstallmentSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 76
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getMapOppNamingSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 72,
+                "line": 88
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getMapPaymentFieldMappingSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 100
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getMapRelationshipAutoCreateSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 112
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getMapRelationshipLookupSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 68,
+                "line": 124
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getMapUserRollupFieldSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        }
+    ],
+    "name": "UTIL_ListCustomSettingsFacade",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 39
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "mapCustomFieldMappings",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 40
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "mapCustomInstallmentSettings",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 41
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "mapOppNamingSettings",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 72,
+                "line": 42
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "mapPaymentFieldMappingSettings",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 43
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "mapRelationshipAutoCreateSettings",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 44
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "mapRelationshipLookupSettings",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 68,
+                "line": 45
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "mapUserRollupFieldSettings",
+            "references": [],
+            "type": "Map"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "UTIL_ListCustomSettingsFacade",
+        "references": [],
+        "type": "UTIL_ListCustomSettingsFacade"
+    },
+    "variables": []
+}

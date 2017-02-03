@@ -1,0 +1,349 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iH8QAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iH8QAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 51
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "run",
+            "parameters": [
+                {
+                    "name": "newlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "triggerAction",
+                    "type": "Action"
+                },
+                {
+                    "name": "objResult",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "DmlWrapper",
+            "type": null
+        }
+    ],
+    "name": "EP_EngagementPlans_TDTM",
+    "namespace": null,
+    "parentClass": "TDTM_Runnable",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 38
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "EP_EngagementPlans_TDTM",
+        "references": [],
+        "type": "EP_EngagementPlans_TDTM"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "newlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "oldlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 52
+            },
+            "modifiers": [],
+            "name": "triggerAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 52
+            },
+            "modifiers": [],
+            "name": "objResult",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 56
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 57
+            },
+            "modifiers": [],
+            "name": "newEP",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "targetField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "newEP",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 66
+            },
+            "modifiers": [],
+            "name": "oldEP",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 67
+            },
+            "modifiers": [],
+            "name": "newTargetField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 68
+            },
+            "modifiers": [],
+            "name": "oldTargetField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "newEpTarget",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "oldEpTarget",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "taskInsertEmail",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 82
+            },
+            "modifiers": [],
+            "name": "taskInsertNoEmail",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 84
+            },
+            "modifiers": [],
+            "name": "engagementPlans",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 87
+            },
+            "modifiers": [],
+            "name": "taskUtil",
+            "references": [],
+            "type": "EP_Task_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 89
+            },
+            "modifiers": [],
+            "name": "epUtil",
+            "references": [],
+            "type": "EP_EngagementPlans_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 91
+            },
+            "modifiers": [],
+            "name": "engagementPlan",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 92
+            },
+            "modifiers": [],
+            "name": "template",
+            "references": [],
+            "type": "Engagement_Plan_Template__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 93
+            },
+            "modifiers": [],
+            "name": "epTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 94
+            },
+            "modifiers": [],
+            "name": "newTask",
+            "references": [],
+            "type": "Task"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 118
+            },
+            "modifiers": [],
+            "name": "options",
+            "references": [],
+            "type": "DMLOptions"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 123
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 128
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

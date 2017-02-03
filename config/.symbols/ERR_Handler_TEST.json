@@ -1,0 +1,409 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHRQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHRQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 47
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "setupWithChatterNotifications",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 72
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "setupWithEmailNotifications",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 91
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "errorsStoredInDbTdtmCustomConfigPostToChatter",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 118
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "errorsStoredInDbTdtmCustomConfigEmailErrors",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 143
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "errorStoredInDatabaseFromInsert",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 182
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "controllerWithManualRollback",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 205
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testInactiveUserEmailBehavior",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "ERR_Handler_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 41
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strTestOnly",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 43
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "chatterGroupId",
+            "references": [],
+            "type": "Id"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 14,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "testMethod"
+        ],
+        "name": "ERR_Handler_TEST",
+        "references": [],
+        "type": "ERR_Handler_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 57
+            },
+            "modifiers": [],
+            "name": "chatterGroup",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "user",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 96
+            },
+            "modifiers": [],
+            "name": "testException",
+            "references": [],
+            "type": "StringException"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 99
+            },
+            "modifiers": [],
+            "name": "errors",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 105
+            },
+            "modifiers": [],
+            "name": "chatterPosts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 108
+            },
+            "modifiers": [],
+            "name": "error",
+            "references": [],
+            "type": "Error__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 125
+            },
+            "modifiers": [],
+            "name": "testException",
+            "references": [],
+            "type": "StringException"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 130
+            },
+            "modifiers": [],
+            "name": "errors",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 134
+            },
+            "modifiers": [],
+            "name": "error",
+            "references": [],
+            "type": "Error__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 148
+            },
+            "modifiers": [],
+            "name": "contact1",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "relationships",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 165
+            },
+            "modifiers": [],
+            "name": "updateResults",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 169
+            },
+            "modifiers": [],
+            "name": "errors",
+            "references": [],
+            "type": "Errors"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "ERR_Handler_CTRL_TEST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 209
+            },
+            "modifiers": [],
+            "name": "un",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 210
+            },
+            "modifiers": [],
+            "name": "u",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 217
+            },
+            "modifiers": [],
+            "name": "testException",
+            "references": [],
+            "type": "StringException"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 222
+            },
+            "modifiers": [],
+            "name": "errors",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 226
+            },
+            "modifiers": [],
+            "name": "error",
+            "references": [],
+            "type": "Error__c"
+        }
+    ]
+}

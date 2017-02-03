@@ -1,0 +1,721 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHSQAY",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "NotificationOptions",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 46
+                    },
+                    "modifiers": [
+                        "public",
+                        "final"
+                    ],
+                    "name": "sysAdmins",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 47
+                    },
+                    "modifiers": [
+                        "public",
+                        "final"
+                    ],
+                    "name": "user",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 48
+                    },
+                    "modifiers": [
+                        "public",
+                        "final"
+                    ],
+                    "name": "chatterGroup",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 45
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "NotificationOptions",
+                "references": [],
+                "type": "NotificationOptions"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iHSQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 57
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "sendErrorNotifications",
+            "parameters": [
+                {
+                    "name": "context",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 93
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "sendEmailNotifications",
+            "parameters": [
+                {
+                    "name": "context",
+                    "type": "String"
+                },
+                {
+                    "name": "sendList",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "Future"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 110
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "sendErrorQueueEmailNotificationFuture",
+            "parameters": [
+                {
+                    "name": "sendList",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 121
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "sendErrorQueueEmailNotification",
+            "parameters": [
+                {
+                    "name": "context",
+                    "type": "String"
+                },
+                {
+                    "name": "sendList",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 143
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "createEmailMessage",
+            "parameters": [
+                {
+                    "name": "context",
+                    "type": "String"
+                },
+                {
+                    "name": "errorList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "sendList",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "SingleEmailMessage",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 170
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "postErrorsToChatter",
+            "parameters": [
+                {
+                    "name": "chatterGroupId",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 199
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "getErrorMessageBody",
+            "parameters": [
+                {
+                    "name": "error",
+                    "type": "Error__c"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 216
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "verifyErrorSettings",
+            "parameters": [
+                {
+                    "name": "ctrl",
+                    "type": "STG_PanelHealthCheck_CTRL"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "ERR_Notifier",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 39
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "notificationOptions",
+            "references": [],
+            "type": "NotificationOptions"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 37
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "ERR_Notifier",
+        "references": [],
+        "type": "ERR_Notifier"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 57
+            },
+            "modifiers": [],
+            "name": "context",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "errorSettings",
+            "references": [],
+            "type": "Error_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 60
+            },
+            "modifiers": [],
+            "name": "errorNotifRecipient",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 70
+            },
+            "modifiers": [],
+            "name": "sendList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "useremaillist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "u",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 77
+            },
+            "modifiers": [],
+            "name": "sysadminlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "u",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 93
+            },
+            "modifiers": [],
+            "name": "context",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 77,
+                "line": 93
+            },
+            "modifiers": [],
+            "name": "sendList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 76,
+                "line": 110
+            },
+            "modifiers": [],
+            "name": "sendList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 121
+            },
+            "modifiers": [],
+            "name": "context",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 86,
+                "line": 121
+            },
+            "modifiers": [],
+            "name": "sendList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 122
+            },
+            "modifiers": [],
+            "name": "errors",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 126
+            },
+            "modifiers": [],
+            "name": "sme",
+            "references": [],
+            "type": "SingleEmailMessage"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 129
+            },
+            "modifiers": [],
+            "name": "error",
+            "references": [],
+            "type": "Error__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 75,
+                "line": 143
+            },
+            "modifiers": [],
+            "name": "context",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 99,
+                "line": 143
+            },
+            "modifiers": [],
+            "name": "errorList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 123,
+                "line": 143
+            },
+            "modifiers": [],
+            "name": "sendList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 144
+            },
+            "modifiers": [],
+            "name": "mail",
+            "references": [],
+            "type": "SingleEmailMessage"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 149
+            },
+            "modifiers": [],
+            "name": "bodyString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 155
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 156
+            },
+            "modifiers": [],
+            "name": "error",
+            "references": [],
+            "type": "Error__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 170
+            },
+            "modifiers": [],
+            "name": "chatterGroupId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 173
+            },
+            "modifiers": [],
+            "name": "collaborationGroup",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 174
+            },
+            "modifiers": [],
+            "name": "errors",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 178
+            },
+            "modifiers": [],
+            "name": "postsToInsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 179
+            },
+            "modifiers": [],
+            "name": "error",
+            "references": [],
+            "type": "Error__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 180
+            },
+            "modifiers": [],
+            "name": "post",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 182
+            },
+            "modifiers": [],
+            "name": "body",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 199
+            },
+            "modifiers": [],
+            "name": "error",
+            "references": [],
+            "type": "Error__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 200
+            },
+            "modifiers": [],
+            "name": "body",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 216
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "STG_PanelHealthCheck_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 218
+            },
+            "modifiers": [],
+            "name": "es",
+            "references": [],
+            "type": "Error_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 219
+            },
+            "modifiers": [],
+            "name": "errorNotifRecipient",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 220
+            },
+            "modifiers": [],
+            "name": "strSetting",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 232
+            },
+            "modifiers": [],
+            "name": "listCG",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 242
+            },
+            "modifiers": [],
+            "name": "listUser",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

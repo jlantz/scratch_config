@@ -1,0 +1,227 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 92
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "OPP_SendAcknowledgmentBTN_CTRL",
+            "parameters": [
+                {
+                    "name": "controller",
+                    "type": "StandardSetController"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iIIQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iIIQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 112
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "SendAcknowledgment",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 178
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "close",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        }
+    ],
+    "name": "OPP_SendAcknowledgmentBTN_CTRL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 41
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "setCtrl",
+            "references": [],
+            "type": "StandardSetController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 46
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "recordId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 51
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "redirect",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 56
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "listOpp",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 68
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listOppNotSent",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 80
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "cSent",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 85
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "cNotSent",
+            "references": [],
+            "type": "Integer"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "OPP_SendAcknowledgmentBTN_CTRL",
+        "references": [],
+        "type": "OPP_SendAcknowledgmentBTN_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 75,
+                "line": 92
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "StandardSetController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 99
+            },
+            "modifiers": [],
+            "name": "oppId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 101
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 131
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        }
+    ]
+}

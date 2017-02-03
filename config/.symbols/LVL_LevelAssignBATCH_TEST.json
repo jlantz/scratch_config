@@ -1,0 +1,763 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHtQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHtQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 50
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "createTestLevels",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 118
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "createLevelEngagementPlan",
+            "parameters": [
+                {
+                    "name": "lvl",
+                    "type": "Level__c"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 162
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "createTestContacts",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 195
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "createTestAccounts",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 206
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testContactLevels",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 229
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testLevelAssignScheduling",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 250
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "verifyContactLevels",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 289
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testAccountLevels",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 324
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testLevelValidationExistingMin",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 361
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testLevelValidationExistingMax",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 398
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testLevelValidationNewMin",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 443
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testLevelValidationNewMax",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 488
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testLevelValidationExistingNames",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 524
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testLevelValidationNewNames",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 559
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testLevelValidationMinMaxOverlap",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 584
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testLevelValidationMinMaxMustExist",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "LVL_LevelAssignBATCH_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 40
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "lvlTin",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 41
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "lvlBronze",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 42
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "lvlSilver",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 43
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "lvlGold",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 44
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "lvlPlatinum",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 45
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "lvlAcctZinc",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 160
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 161
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "dtCon6Modified",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 194
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "listAcc",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 38
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "LVL_LevelAssignBATCH_TEST",
+        "references": [],
+        "type": "LVL_LevelAssignBATCH_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 118
+            },
+            "modifiers": [],
+            "name": "lvl",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 119
+            },
+            "modifiers": [],
+            "name": "template",
+            "references": [],
+            "type": "Engagement_Plan_Template__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 126
+            },
+            "modifiers": [],
+            "name": "epTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 139
+            },
+            "modifiers": [],
+            "name": "dependentEpTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "c6",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 216
+            },
+            "modifiers": [],
+            "name": "strSoql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 217
+            },
+            "modifiers": [],
+            "name": "batch",
+            "references": [],
+            "type": "LVL_LevelAssign_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 239
+            },
+            "modifiers": [],
+            "name": "sched",
+            "references": [],
+            "type": "LVL_LevelAssign_SCHED"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 251
+            },
+            "modifiers": [],
+            "name": "strSoql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 269
+            },
+            "modifiers": [],
+            "name": "listEP",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 299
+            },
+            "modifiers": [],
+            "name": "strSoql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 301
+            },
+            "modifiers": [],
+            "name": "batch",
+            "references": [],
+            "type": "LVL_LevelAssign_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 315
+            },
+            "modifiers": [],
+            "name": "listEP",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 328
+            },
+            "modifiers": [],
+            "name": "lvl",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 365
+            },
+            "modifiers": [],
+            "name": "lvl",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 400
+            },
+            "modifiers": [],
+            "name": "lvl1",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 410
+            },
+            "modifiers": [],
+            "name": "lvl2",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 420
+            },
+            "modifiers": [],
+            "name": "lvl3",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 445
+            },
+            "modifiers": [],
+            "name": "lvl1",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 455
+            },
+            "modifiers": [],
+            "name": "lvl2",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 465
+            },
+            "modifiers": [],
+            "name": "lvl3",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 492
+            },
+            "modifiers": [],
+            "name": "lvl",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 526
+            },
+            "modifiers": [],
+            "name": "lvl1",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 536
+            },
+            "modifiers": [],
+            "name": "lvl2",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 561
+            },
+            "modifiers": [],
+            "name": "lvl1",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 586
+            },
+            "modifiers": [],
+            "name": "lvl1",
+            "references": [],
+            "type": "Level__c"
+        }
+    ]
+}

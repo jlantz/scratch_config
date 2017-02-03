@@ -1,0 +1,1887 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iKKQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iKKQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 48
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getClosedWonStage",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 62
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getClosedLostStage",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 76
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOpenStage",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 90
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getClosedTaskStatus",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 104
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOpenTaskStatus",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 118
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getContact",
+            "parameters": [],
+            "references": [],
+            "returnType": "Contact",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 131
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "CreateMultipleTestContacts",
+            "parameters": [
+                {
+                    "name": "n",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 187
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "OppsForContactList",
+            "parameters": [
+                {
+                    "name": "Cons",
+                    "type": "LIST"
+                },
+                {
+                    "name": "CampId",
+                    "type": "Id"
+                },
+                {
+                    "name": "Stage",
+                    "type": "String"
+                },
+                {
+                    "name": "Close",
+                    "type": "Date"
+                },
+                {
+                    "name": "Amt",
+                    "type": "Double"
+                },
+                {
+                    "name": "rectype",
+                    "type": "String"
+                },
+                {
+                    "name": "oppType",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 192
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "OppsForContactListByRecTypeId",
+            "parameters": [
+                {
+                    "name": "Cons",
+                    "type": "LIST"
+                },
+                {
+                    "name": "CampId",
+                    "type": "Id"
+                },
+                {
+                    "name": "Stage",
+                    "type": "String"
+                },
+                {
+                    "name": "Close",
+                    "type": "Date"
+                },
+                {
+                    "name": "Amt",
+                    "type": "Double"
+                },
+                {
+                    "name": "rtid",
+                    "type": "Id"
+                },
+                {
+                    "name": "oppType",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 222
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "OppsForContactWithAccountList",
+            "parameters": [
+                {
+                    "name": "Cons",
+                    "type": "LIST"
+                },
+                {
+                    "name": "CampId",
+                    "type": "Id"
+                },
+                {
+                    "name": "Stage",
+                    "type": "String"
+                },
+                {
+                    "name": "Close",
+                    "type": "Date"
+                },
+                {
+                    "name": "Amt",
+                    "type": "Double"
+                },
+                {
+                    "name": "rectype",
+                    "type": "String"
+                },
+                {
+                    "name": "oppType",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 230
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "OppsForContactWithAccountListByRecTypeId",
+            "parameters": [
+                {
+                    "name": "Cons",
+                    "type": "LIST"
+                },
+                {
+                    "name": "CampId",
+                    "type": "Id"
+                },
+                {
+                    "name": "Stage",
+                    "type": "String"
+                },
+                {
+                    "name": "Close",
+                    "type": "Date"
+                },
+                {
+                    "name": "Amt",
+                    "type": "Double"
+                },
+                {
+                    "name": "rtid",
+                    "type": "Id"
+                },
+                {
+                    "name": "oppType",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 257
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "OppsForAccountList",
+            "parameters": [
+                {
+                    "name": "listAcc",
+                    "type": "LIST"
+                },
+                {
+                    "name": "CampId",
+                    "type": "Id"
+                },
+                {
+                    "name": "Stage",
+                    "type": "String"
+                },
+                {
+                    "name": "Close",
+                    "type": "Date"
+                },
+                {
+                    "name": "Amt",
+                    "type": "Double"
+                },
+                {
+                    "name": "rectype",
+                    "type": "String"
+                },
+                {
+                    "name": "oppType",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 262
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "OppsForAccountListByRecTypeId",
+            "parameters": [
+                {
+                    "name": "listAcc",
+                    "type": "LIST"
+                },
+                {
+                    "name": "CampId",
+                    "type": "Id"
+                },
+                {
+                    "name": "Stage",
+                    "type": "String"
+                },
+                {
+                    "name": "Close",
+                    "type": "Date"
+                },
+                {
+                    "name": "Amt",
+                    "type": "Double"
+                },
+                {
+                    "name": "rtid",
+                    "type": "Id"
+                },
+                {
+                    "name": "oppType",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 288
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "CreateMultipleTestAccounts",
+            "parameters": [
+                {
+                    "name": "n",
+                    "type": "Integer"
+                },
+                {
+                    "name": "strType",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 313
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "createEPTemplates",
+            "parameters": [
+                {
+                    "name": "n",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 330
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "createEPTasksForTemplates",
+            "parameters": [
+                {
+                    "name": "n",
+                    "type": "Integer"
+                },
+                {
+                    "name": "listEPTemplates",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 354
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "createNewUserWithRoleForTests",
+            "parameters": [
+                {
+                    "name": "strUsername",
+                    "type": "String"
+                },
+                {
+                    "name": "strRolename",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "User",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 408
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "createNewUserForTests",
+            "parameters": [
+                {
+                    "name": "strUsername",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "User",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 417
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "createNewInactiveUserForTests",
+            "parameters": [
+                {
+                    "name": "strUsername",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "User",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 439
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "createAccountContactTestData",
+            "parameters": [
+                {
+                    "name": "accType",
+                    "type": "String"
+                },
+                {
+                    "name": "cAcc",
+                    "type": "Integer"
+                },
+                {
+                    "name": "cCon",
+                    "type": "Integer"
+                },
+                {
+                    "name": "iUnique",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 36,
+                "line": 465
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testCreateNewUserWithDefaultRole",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 36,
+                "line": 481
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testCreateNewUserWithRandomRole",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 36,
+                "line": 502
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testCreateNewInactiveUserForTests",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "UTIL_UnitTestData_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 42
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "closedWonStage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 43
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "closedLostStage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 44
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "openStage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 45
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "closedTaskStatus",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 46
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "openTaskStatus",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 428
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listAccT",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 429
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listConT",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 14,
+            "line": 38
+        },
+        "modifiers": [
+            "public",
+            "testMethod"
+        ],
+        "name": "UTIL_UnitTestData_TEST",
+        "references": [],
+        "type": "UTIL_UnitTestData_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "closedWonStages",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "closedLostStages",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "openStages",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 92
+            },
+            "modifiers": [],
+            "name": "closedTaskStatuses",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 106
+            },
+            "modifiers": [],
+            "name": "openTaskStatuses",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 131
+            },
+            "modifiers": [],
+            "name": "n",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 133
+            },
+            "modifiers": [],
+            "name": "ContactsToAdd",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 135
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 136
+            },
+            "modifiers": [],
+            "name": "newCon",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "Cons",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 80,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "CampId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 95,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "Stage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 107,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "Close",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 121,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "Amt",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 133,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "rectype",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 149,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "oppType",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "rtid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 82,
+                "line": 192
+            },
+            "modifiers": [],
+            "name": "Cons",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 91,
+                "line": 192
+            },
+            "modifiers": [],
+            "name": "CampId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 106,
+                "line": 192
+            },
+            "modifiers": [],
+            "name": "Stage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 118,
+                "line": 192
+            },
+            "modifiers": [],
+            "name": "Close",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 132,
+                "line": 192
+            },
+            "modifiers": [],
+            "name": "Amt",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 140,
+                "line": 192
+            },
+            "modifiers": [],
+            "name": "rtid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 153,
+                "line": 192
+            },
+            "modifiers": [],
+            "name": "oppType",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 198
+            },
+            "modifiers": [],
+            "name": "OppsToAdd",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 201
+            },
+            "modifiers": [],
+            "name": "thisCon",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 202
+            },
+            "modifiers": [],
+            "name": "newOpp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 82,
+                "line": 222
+            },
+            "modifiers": [],
+            "name": "Cons",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 91,
+                "line": 222
+            },
+            "modifiers": [],
+            "name": "CampId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 106,
+                "line": 222
+            },
+            "modifiers": [],
+            "name": "Stage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 118,
+                "line": 222
+            },
+            "modifiers": [],
+            "name": "Close",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 132,
+                "line": 222
+            },
+            "modifiers": [],
+            "name": "Amt",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 144,
+                "line": 222
+            },
+            "modifiers": [],
+            "name": "rectype",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 160,
+                "line": 222
+            },
+            "modifiers": [],
+            "name": "oppType",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 223
+            },
+            "modifiers": [],
+            "name": "rtid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 93,
+                "line": 230
+            },
+            "modifiers": [],
+            "name": "Cons",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 102,
+                "line": 230
+            },
+            "modifiers": [],
+            "name": "CampId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 117,
+                "line": 230
+            },
+            "modifiers": [],
+            "name": "Stage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 129,
+                "line": 230
+            },
+            "modifiers": [],
+            "name": "Close",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 143,
+                "line": 230
+            },
+            "modifiers": [],
+            "name": "Amt",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 151,
+                "line": 230
+            },
+            "modifiers": [],
+            "name": "rtid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 164,
+                "line": 230
+            },
+            "modifiers": [],
+            "name": "oppType",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 235
+            },
+            "modifiers": [],
+            "name": "OppsToAdd",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 238
+            },
+            "modifiers": [],
+            "name": "thisCon",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 239
+            },
+            "modifiers": [],
+            "name": "newOpp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 257
+            },
+            "modifiers": [],
+            "name": "listAcc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 83,
+                "line": 257
+            },
+            "modifiers": [],
+            "name": "CampId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 98,
+                "line": 257
+            },
+            "modifiers": [],
+            "name": "Stage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 110,
+                "line": 257
+            },
+            "modifiers": [],
+            "name": "Close",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 124,
+                "line": 257
+            },
+            "modifiers": [],
+            "name": "Amt",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 136,
+                "line": 257
+            },
+            "modifiers": [],
+            "name": "rectype",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 152,
+                "line": 257
+            },
+            "modifiers": [],
+            "name": "oppType",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 258
+            },
+            "modifiers": [],
+            "name": "rtid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 82,
+                "line": 262
+            },
+            "modifiers": [],
+            "name": "listAcc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 94,
+                "line": 262
+            },
+            "modifiers": [],
+            "name": "CampId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 109,
+                "line": 262
+            },
+            "modifiers": [],
+            "name": "Stage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 121,
+                "line": 262
+            },
+            "modifiers": [],
+            "name": "Close",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 135,
+                "line": 262
+            },
+            "modifiers": [],
+            "name": "Amt",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 143,
+                "line": 262
+            },
+            "modifiers": [],
+            "name": "rtid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 156,
+                "line": 262
+            },
+            "modifiers": [],
+            "name": "oppType",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 267
+            },
+            "modifiers": [],
+            "name": "OppsToAdd",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 270
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 271
+            },
+            "modifiers": [],
+            "name": "newOpp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 288
+            },
+            "modifiers": [],
+            "name": "n",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 79,
+                "line": 288
+            },
+            "modifiers": [],
+            "name": "strType",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 290
+            },
+            "modifiers": [],
+            "name": "AcctsToAdd",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 292
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 293
+            },
+            "modifiers": [],
+            "name": "newAcct",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 80,
+                "line": 313
+            },
+            "modifiers": [],
+            "name": "n",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 315
+            },
+            "modifiers": [],
+            "name": "EPTemplatesToAdd",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 317
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 84,
+                "line": 330
+            },
+            "modifiers": [],
+            "name": "n",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 121,
+                "line": 330
+            },
+            "modifiers": [],
+            "name": "listEPTemplates",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 332
+            },
+            "modifiers": [],
+            "name": "EPTasksToAdd",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 334
+            },
+            "modifiers": [],
+            "name": "epTemplate",
+            "references": [],
+            "type": "Engagement_Plan_Template__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 335
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 61,
+                "line": 354
+            },
+            "modifiers": [],
+            "name": "strUsername",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 81,
+                "line": 354
+            },
+            "modifiers": [],
+            "name": "strRolename",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 355
+            },
+            "modifiers": [],
+            "name": "p",
+            "references": [],
+            "type": "Profile"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 361
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "UserRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 362
+            },
+            "modifiers": [],
+            "name": "u",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 368
+            },
+            "modifiers": [],
+            "name": "existingRoleCount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 408
+            },
+            "modifiers": [],
+            "name": "strUsername",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 61,
+                "line": 417
+            },
+            "modifiers": [],
+            "name": "strUsername",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 418
+            },
+            "modifiers": [],
+            "name": "u",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 439
+            },
+            "modifiers": [],
+            "name": "accType",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 77,
+                "line": 439
+            },
+            "modifiers": [],
+            "name": "cAcc",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 91,
+                "line": 439
+            },
+            "modifiers": [],
+            "name": "cCon",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 105,
+                "line": 439
+            },
+            "modifiers": [],
+            "name": "iUnique",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 448
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 449
+            },
+            "modifiers": [],
+            "name": "j",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 450
+            },
+            "modifiers": [],
+            "name": "iCon",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 451
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 466
+            },
+            "modifiers": [],
+            "name": "randomUsername",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 468
+            },
+            "modifiers": [],
+            "name": "returnedUser",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 469
+            },
+            "modifiers": [],
+            "name": "queriedUser",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 482
+            },
+            "modifiers": [],
+            "name": "randomUsername",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 483
+            },
+            "modifiers": [],
+            "name": "randomRolename",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 485
+            },
+            "modifiers": [],
+            "name": "returnedUser",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 490
+            },
+            "modifiers": [],
+            "name": "queriedUser",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 503
+            },
+            "modifiers": [],
+            "name": "randomUsername",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 505
+            },
+            "modifiers": [],
+            "name": "returnedUser",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 507
+            },
+            "modifiers": [],
+            "name": "queriedUser",
+            "references": [],
+            "type": "User"
+        }
+    ]
+}

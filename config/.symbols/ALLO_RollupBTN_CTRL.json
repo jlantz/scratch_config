@@ -1,0 +1,112 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 42
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "ALLO_RollupBTN_CTRL",
+            "parameters": [
+                {
+                    "name": "sc",
+                    "type": "StandardController"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iGYQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iGYQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 47
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "buttonClick",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        }
+    ],
+    "name": "ALLO_RollupBTN_CTRL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 39
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "sc",
+            "references": [],
+            "type": "StandardController"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "ALLO_RollupBTN_CTRL",
+        "references": [],
+        "type": "ALLO_RollupBTN_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 61,
+                "line": 42
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 48
+            },
+            "modifiers": [],
+            "name": "parentId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "rollup",
+            "references": [],
+            "type": "ALLO_Rollup_SCHED"
+        }
+    ]
+}

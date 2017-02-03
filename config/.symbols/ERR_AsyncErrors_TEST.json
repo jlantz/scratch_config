@@ -1,0 +1,582 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHLQAY",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 35,
+                        "line": 260
+                    },
+                    "modifiers": [
+                        "private",
+                        "override"
+                    ],
+                    "name": "getCurrentDateTime",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Datetime",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 263
+                    },
+                    "modifiers": [
+                        "private",
+                        "override"
+                    ],
+                    "name": "getCurrentNamespace",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "String",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 44,
+                        "line": 266
+                    },
+                    "modifiers": [
+                        "private",
+                        "override"
+                    ],
+                    "name": "getErrorSettingsOrgDefaults",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Error_Settings__c",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 31,
+                        "line": 269
+                    },
+                    "modifiers": [
+                        "private",
+                        "override"
+                    ],
+                    "name": "upsertErrorSettings",
+                    "parameters": [
+                        {
+                            "name": "errorSettings",
+                            "type": "Error_Settings__c"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 31,
+                        "line": 272
+                    },
+                    "modifiers": [
+                        "private",
+                        "override"
+                    ],
+                    "name": "insertErrors",
+                    "parameters": [
+                        {
+                            "name": "errors",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 31,
+                        "line": 275
+                    },
+                    "modifiers": [
+                        "private",
+                        "override"
+                    ],
+                    "name": "sendErrorNotifications",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 68,
+                        "line": 278
+                    },
+                    "modifiers": [
+                        "private",
+                        "override"
+                    ],
+                    "name": "getPendingAsyncJobErrors",
+                    "parameters": [
+                        {
+                            "name": "lastRun",
+                            "type": "Datetime"
+                        },
+                        {
+                            "name": "namespace",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "LIST",
+                    "type": null
+                }
+            ],
+            "name": "AsyncErrorsStub",
+            "namespace": null,
+            "parentClass": "ERR_AsyncErrors",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 25,
+                        "line": 251
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "currentDateTime",
+                    "references": [],
+                    "type": "Datetime"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 252
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "currentNamespace",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 34,
+                        "line": 253
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "errorSettingsOrgDefaults",
+                    "references": [],
+                    "type": "Error_Settings__c"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 34,
+                        "line": 254
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "upsertedErrorSettings",
+                    "references": [],
+                    "type": "Error_Settings__c"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 31,
+                        "line": 255
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "insertedErrors",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 256
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "errorNotificationsSent",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 25,
+                        "line": 257
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "pendingAsyncJobErrorsLastRun",
+                    "references": [],
+                    "type": "Datetime"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 258
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "pendingAsyncJobErrorsNamespace",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 58,
+                        "line": 259
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "pendingAsyncJobErrors",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 19,
+                    "line": 250
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "AsyncErrorsStub",
+                "references": [],
+                "type": "AsyncErrorsStub"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 69,
+                        "line": 269
+                    },
+                    "modifiers": [],
+                    "name": "errorSettings",
+                    "references": [],
+                    "type": "Error_Settings__c"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 59,
+                        "line": 272
+                    },
+                    "modifiers": [],
+                    "name": "errors",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 102,
+                        "line": 278
+                    },
+                    "modifiers": [],
+                    "name": "lastRun",
+                    "references": [],
+                    "type": "Datetime"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 118,
+                        "line": 278
+                    },
+                    "modifiers": [],
+                    "name": "namespace",
+                    "references": [],
+                    "type": "String"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iHLQAY",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 38
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testQueryForErrorsInLastDayIfNotPreviouslyRun",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 64
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testQueryForErrorsSinceLastRun",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 91
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testQueriesForErrorsInCurrentNamespace",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 118
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testUpdatesLastRunSetting",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 143
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testInsertsErrors",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 219
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testSendsNotifications",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "ERR_AsyncErrors_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 14,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "testMethod"
+        ],
+        "name": "ERR_AsyncErrors_TEST",
+        "references": [],
+        "type": "ERR_AsyncErrors_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 45
+            },
+            "modifiers": [],
+            "name": "stub",
+            "references": [],
+            "type": "AsyncErrorsStub"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 70
+            },
+            "modifiers": [],
+            "name": "stub",
+            "references": [],
+            "type": "AsyncErrorsStub"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 97
+            },
+            "modifiers": [],
+            "name": "stub",
+            "references": [],
+            "type": "AsyncErrorsStub"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 124
+            },
+            "modifiers": [],
+            "name": "stub",
+            "references": [],
+            "type": "AsyncErrorsStub"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 159
+            },
+            "modifiers": [],
+            "name": "stub",
+            "references": [],
+            "type": "AsyncErrorsStub"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 167
+            },
+            "modifiers": [],
+            "name": "errorDateTime",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 185
+            },
+            "modifiers": [],
+            "name": "expectedErrors",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 225
+            },
+            "modifiers": [],
+            "name": "stub",
+            "references": [],
+            "type": "AsyncErrorsStub"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 233
+            },
+            "modifiers": [],
+            "name": "errorDateTime",
+            "references": [],
+            "type": "Datetime"
+        }
+    ]
+}

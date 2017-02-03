@@ -1,0 +1,236 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 51
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "STG_PanelRD_CTRL",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iJXQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJXQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 41
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "idPanel",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 56
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "init",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 65
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "saveSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 102
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "trimOpportunities",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "STG_PanelRD_CTRL",
+    "namespace": null,
+    "parentClass": "STG_Panel",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 46
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "originalForecastMonths",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 117
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listSORDCloseOptions",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 134
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "strRDOppRecordTypeLabel",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "STG_PanelRD_CTRL",
+        "references": [],
+        "type": "STG_PanelRD_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 67
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 69
+            },
+            "modifiers": [],
+            "name": "toUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 85
+            },
+            "modifiers": [],
+            "name": "rdbatch",
+            "references": [],
+            "type": "STG_PanelRDBatch_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 103
+            },
+            "modifiers": [],
+            "name": "limitDate",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 104
+            },
+            "modifiers": [],
+            "name": "openlabel",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 110
+            },
+            "modifiers": [],
+            "name": "mapIdRD",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 72,
+                "line": 121
+            },
+            "modifiers": [],
+            "name": "CloseOptionValues",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 122
+            },
+            "modifiers": [],
+            "name": "rdco",
+            "references": [],
+            "type": "RecurringDonationCloseOptions"
+        }
+    ]
+}

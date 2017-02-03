@@ -1,0 +1,250 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 43
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "ADDR_Validator_Batch",
+            "parameters": [
+                {
+                    "name": "skipPreviouslyVerified",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iGKQAY",
+    "innerClasses": [],
+    "interfaces": [
+        "Database.AllowsCallouts",
+        "Database.Batchable"
+    ],
+    "key": "01p4C0000002iGKQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 62
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "start",
+            "parameters": [
+                {
+                    "name": "bc",
+                    "type": "BatchableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "QueryLocator",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 72
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "execute",
+            "parameters": [
+                {
+                    "name": "bc",
+                    "type": "BatchableContext"
+                },
+                {
+                    "name": "scope",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 86
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "finish",
+            "parameters": [
+                {
+                    "name": "bc",
+                    "type": "BatchableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 97
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "isUS",
+            "parameters": [
+                {
+                    "name": "c",
+                    "type": "Address__c"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        }
+    ],
+    "name": "ADDR_Validator_Batch",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 37
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "query",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 35
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "ADDR_Validator_Batch",
+        "references": [],
+        "type": "ADDR_Validator_Batch"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 43
+            },
+            "modifiers": [],
+            "name": "skipPreviouslyVerified",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 45
+            },
+            "modifiers": [],
+            "name": "avs",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "bc",
+            "references": [],
+            "type": "BatchableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "bc",
+            "references": [],
+            "type": "BatchableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 72,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "scope",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 73
+            },
+            "modifiers": [],
+            "name": "addressesToVerify",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 86
+            },
+            "modifiers": [],
+            "name": "bc",
+            "references": [],
+            "type": "BatchableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 97
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Address__c"
+        }
+    ]
+}

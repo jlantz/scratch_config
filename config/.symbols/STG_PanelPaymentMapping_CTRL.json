@@ -1,0 +1,702 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJTQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJTQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 41
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "idPanel",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 62
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "cancelPfmEdit",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 74
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getTargetFields",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 135
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getSourceFields",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 221
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "showMsg",
+            "parameters": [
+                {
+                    "name": "arg",
+                    "type": "String"
+                },
+                {
+                    "name": "severity",
+                    "type": "Severity"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 235
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "deletePfm",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 273
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "newPfm",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 282
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "savePfm",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 314
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "resetFieldMappingSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 324
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "onSelectSourceField",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 164
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "verifyPaymentMappings",
+            "parameters": [
+                {
+                    "name": "ctrl",
+                    "type": "STG_PanelHealthCheck_CTRL"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "STG_PanelPaymentMapping_CTRL",
+    "namespace": null,
+    "parentClass": "STG_Panel",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 46
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "mapFieldTypes",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 51
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "sourcefields",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 56
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "targetfields",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 229
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "pfmIdDelete",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 249
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "pfmNew",
+            "references": [],
+            "type": "npe01__Payment_Field_Mapping_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 260
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isPfmNewValid",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 334
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listPMTFieldMapping",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 130
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strNoValidField",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "STG_PanelPaymentMapping_CTRL",
+        "references": [],
+        "type": "STG_PanelPaymentMapping_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 77
+            },
+            "modifiers": [],
+            "name": "knownfields",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "targetTokenMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 86
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 92
+            },
+            "modifiers": [],
+            "name": "pfm",
+            "references": [],
+            "type": "npe01__Payment_Field_Mapping_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 93
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 100
+            },
+            "modifiers": [],
+            "name": "oppType",
+            "references": [],
+            "type": "DisplayType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 101
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 103
+            },
+            "modifiers": [],
+            "name": "f",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 110
+            },
+            "modifiers": [],
+            "name": "payType",
+            "references": [],
+            "type": "DisplayType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 140
+            },
+            "modifiers": [],
+            "name": "knownOpptyFields",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 143
+            },
+            "modifiers": [],
+            "name": "oppFieldTokenList",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 147
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 149
+            },
+            "modifiers": [],
+            "name": "f",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "dt",
+            "references": [],
+            "type": "DisplayType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 221
+            },
+            "modifiers": [],
+            "name": "arg",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 221
+            },
+            "modifiers": [],
+            "name": "severity",
+            "references": [],
+            "type": "Severity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 222
+            },
+            "modifiers": [],
+            "name": "myMsg",
+            "references": [],
+            "type": "Message"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 238
+            },
+            "modifiers": [],
+            "name": "pfm",
+            "references": [],
+            "type": "npe01__Payment_Field_Mapping_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 67,
+                "line": 290
+            },
+            "modifiers": [],
+            "name": "paymentMappings",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 293
+            },
+            "modifiers": [],
+            "name": "nameNumber",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 338
+            },
+            "modifiers": [],
+            "name": "pfm",
+            "references": [],
+            "type": "npe01__Payment_Field_Mapping_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 339
+            },
+            "modifiers": [],
+            "name": "strOppField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 340
+            },
+            "modifiers": [],
+            "name": "strPmtField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 341
+            },
+            "modifiers": [],
+            "name": "pfm2",
+            "references": [],
+            "type": "npe01__Payment_Field_Mapping_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 72,
+                "line": 164
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "STG_PanelHealthCheck_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 166
+            },
+            "modifiers": [],
+            "name": "paymentMappings",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 167
+            },
+            "modifiers": [],
+            "name": "strSetting",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 168
+            },
+            "modifiers": [],
+            "name": "isValid",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 169
+            },
+            "modifiers": [],
+            "name": "isValidAll",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 171
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 172
+            },
+            "modifiers": [],
+            "name": "pfms",
+            "references": [],
+            "type": "npe01__Payment_Field_Mapping_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 173
+            },
+            "modifiers": [],
+            "name": "paymentField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 174
+            },
+            "modifiers": [],
+            "name": "opportunityField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 198
+            },
+            "modifiers": [],
+            "name": "dtPmt",
+            "references": [],
+            "type": "DisplayType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 199
+            },
+            "modifiers": [],
+            "name": "dtOpp",
+            "references": [],
+            "type": "DisplayType"
+        }
+    ]
+}

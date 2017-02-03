@@ -1,0 +1,851 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHGQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHGQAY",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 42
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testSingleEPTask",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 67
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testMultipleEPTasks",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 100
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testMultipleEPTasksAndPlans",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 147
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testUpdateMultipleEPTask",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 183
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testDeleteCompletedEPTask",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 219
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testUnrelateEPTask",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 252
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testSingleTask",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 265
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testMultipleTasks",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "EP_TaskRollup_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 14,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "testMethod"
+        ],
+        "name": "EP_TaskRollup_TEST",
+        "references": [],
+        "type": "EP_TaskRollup_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 43
+            },
+            "modifiers": [],
+            "name": "templateTests",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 45
+            },
+            "modifiers": [],
+            "name": "epTaskTests",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 47
+            },
+            "modifiers": [],
+            "name": "contactTest",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "epToInsert",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "epReQueried",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 68
+            },
+            "modifiers": [],
+            "name": "templateTests",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 70
+            },
+            "modifiers": [],
+            "name": "epTaskTests",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "contactTest",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "epToInsert",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "taskTests",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "completedTasks",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 82
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 83
+            },
+            "modifiers": [],
+            "name": "markComplete",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 92
+            },
+            "modifiers": [],
+            "name": "epReQueried",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 101
+            },
+            "modifiers": [],
+            "name": "templateTests",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 103
+            },
+            "modifiers": [],
+            "name": "epTaskTests",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 105
+            },
+            "modifiers": [],
+            "name": "contactTest",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 107
+            },
+            "modifiers": [],
+            "name": "epsToInsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 120
+            },
+            "modifiers": [],
+            "name": "taskTests",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 121
+            },
+            "modifiers": [],
+            "name": "completedTasks",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 123
+            },
+            "modifiers": [],
+            "name": "epToInsert",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 124
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 126
+            },
+            "modifiers": [],
+            "name": "markComplete",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 136
+            },
+            "modifiers": [],
+            "name": "epReQueried1",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 138
+            },
+            "modifiers": [],
+            "name": "epReQueried2",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 148
+            },
+            "modifiers": [],
+            "name": "templateTests",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "epTaskTests",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 152
+            },
+            "modifiers": [],
+            "name": "contactTest",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 154
+            },
+            "modifiers": [],
+            "name": "epToInsert",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "taskTests",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 161
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 162
+            },
+            "modifiers": [],
+            "name": "markComplete",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 167
+            },
+            "modifiers": [],
+            "name": "taskTest",
+            "references": [],
+            "type": "Task"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 175
+            },
+            "modifiers": [],
+            "name": "epReQueried",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 184
+            },
+            "modifiers": [],
+            "name": "templateTests",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 186
+            },
+            "modifiers": [],
+            "name": "epTaskTests",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "contactTest",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 190
+            },
+            "modifiers": [],
+            "name": "epToInsert",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 196
+            },
+            "modifiers": [],
+            "name": "taskTests",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 197
+            },
+            "modifiers": [],
+            "name": "completedTasks",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 198
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 199
+            },
+            "modifiers": [],
+            "name": "markComplete",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 205
+            },
+            "modifiers": [],
+            "name": "taskToDelete",
+            "references": [],
+            "type": "Task"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 211
+            },
+            "modifiers": [],
+            "name": "epReQueried",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 220
+            },
+            "modifiers": [],
+            "name": "templateTests",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 222
+            },
+            "modifiers": [],
+            "name": "epTaskTests",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 224
+            },
+            "modifiers": [],
+            "name": "contactTest",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 226
+            },
+            "modifiers": [],
+            "name": "epToInsert",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 232
+            },
+            "modifiers": [],
+            "name": "taskTests",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 233
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 234
+            },
+            "modifiers": [],
+            "name": "markComplete",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 245
+            },
+            "modifiers": [],
+            "name": "epReQueried",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 253
+            },
+            "modifiers": [],
+            "name": "taskTest",
+            "references": [],
+            "type": "Task"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 259
+            },
+            "modifiers": [],
+            "name": "taskReQueried",
+            "references": [],
+            "type": "Task"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 266
+            },
+            "modifiers": [],
+            "name": "taskTests",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 267
+            },
+            "modifiers": [],
+            "name": "completedTasks",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 268
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 269
+            },
+            "modifiers": [],
+            "name": "markComplete",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 280
+            },
+            "modifiers": [],
+            "name": "tasksReQueried",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

@@ -1,0 +1,464 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 37
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "REL_RelationshipsViewer_CTRL",
+            "parameters": [
+                {
+                    "name": "controller",
+                    "type": "StandardController"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iIiQAI",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 100
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "RelationshipInfo",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "RelationshipInfo",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 97
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "prefix",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 98
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "NameField",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 99
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "NameIdField",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 96
+                },
+                "modifiers": [
+                    "global"
+                ],
+                "name": "RelationshipInfo",
+                "references": [],
+                "type": "RelationshipInfo"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 44,
+                        "line": 101
+                    },
+                    "modifiers": [],
+                    "name": "rs",
+                    "references": [],
+                    "type": "npe4__Relationship_Settings__c"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "Node",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 114
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "FirstName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 115
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "LastName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 116
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "id",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 117
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "Status",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 118
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "Type",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 119
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "link",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 120
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "AccountName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 121
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "Title",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 122
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "relId",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 113
+                },
+                "modifiers": [
+                    "global"
+                ],
+                "name": "Node",
+                "references": [],
+                "type": "Node"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iIiQAI",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 30,
+                "line": 40
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "getRelationships",
+            "parameters": [
+                {
+                    "name": "cid",
+                    "type": "Id"
+                },
+                {
+                    "name": "isInitialLoad",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "relIds",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 36,
+                "line": 92
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "getRelationshipInfo",
+            "parameters": [],
+            "references": [],
+            "returnType": "RelationshipInfo",
+            "type": null
+        }
+    ],
+    "name": "REL_RelationshipsViewer_CTRL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 35
+        },
+        "modifiers": [
+            "global",
+            "with sharing"
+        ],
+        "name": "REL_RelationshipsViewer_CTRL",
+        "references": [],
+        "type": "REL_RelationshipsViewer_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 37
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 40
+            },
+            "modifiers": [],
+            "name": "cid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 40
+            },
+            "modifiers": [],
+            "name": "isInitialLoad",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 91,
+                "line": 40
+            },
+            "modifiers": [],
+            "name": "relIds",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 41
+            },
+            "modifiers": [],
+            "name": "returnList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 42
+            },
+            "modifiers": [],
+            "name": "relationshipList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "renderedRelationships",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 52
+            },
+            "modifiers": [],
+            "name": "basenode",
+            "references": [],
+            "type": "Node"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 75
+            },
+            "modifiers": [],
+            "name": "n",
+            "references": [],
+            "type": "Node"
+        }
+    ]
+}

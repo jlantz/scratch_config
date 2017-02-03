@@ -1,0 +1,1879 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 49
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "ADDR_SmartyStreets_Gateway",
+            "parameters": [
+                {
+                    "name": "settings",
+                    "type": "Addr_Verification_Settings__c"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iGGQAY",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "LiveAddressException",
+            "namespace": null,
+            "parentClass": "Exception",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 43
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "LiveAddressException",
+                "references": [],
+                "type": "LiveAddressException"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 243
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "AddressRequest",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 248
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "AddressRequest",
+                    "parameters": [
+                        {
+                            "name": "address",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "AddressRequest",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 229
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "street",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 230
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "street2",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 231
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "secondary",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 232
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "city",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 233
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "state",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 234
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "urbanization",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 235
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "zipcode",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 236
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "addressee",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 237
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "candidates",
+                    "references": [],
+                    "type": "Integer"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 227
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "AddressRequest",
+                "references": [],
+                "type": "AddressRequest"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 38,
+                        "line": 248
+                    },
+                    "modifiers": [],
+                    "name": "address",
+                    "references": [],
+                    "type": "String"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 273
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getFullAddress",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "String",
+                    "type": null
+                }
+            ],
+            "name": "AddressResponse",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 258
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "input_index",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 259
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "candidate_index",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 260
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "addressee",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 261
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "delivery_line_1",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 262
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "delivery_line_2",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 263
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "last_line",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 264
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "delivery_point_barcode",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 27,
+                        "line": 265
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "components",
+                    "references": [],
+                    "type": "Components"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 25,
+                        "line": 266
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "metadata",
+                    "references": [],
+                    "type": "Metadata"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 25,
+                        "line": 267
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "analysis",
+                    "references": [],
+                    "type": "Analysis"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 256
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "AddressResponse",
+                "references": [],
+                "type": "AddressResponse"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "Components",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 283
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "primary_number",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 284
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "street_name",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 285
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "street_predirection",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 286
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "street_postdirection",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 287
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "street_suffix",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 288
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "secondary_number",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 289
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "secondary_designator",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 290
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "pmb_designator",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 291
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "pmb_number",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 292
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "city_name",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 293
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "state_abbreviation",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 294
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "zipcode",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 295
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "plus4_code",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 296
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "delivery_point",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 297
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "delivery_point_check_digit",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 282
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Components",
+                "references": [],
+                "type": "Components"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "Metadata",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 304
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "record_type",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 305
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "county_fips",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 306
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "county_name",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 307
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "carrier_route",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 308
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "building_default_indicator",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 309
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "congressional_district",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 310
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "rdi",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 311
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "latitude",
+                    "references": [],
+                    "type": "Double"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 312
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "longitude",
+                    "references": [],
+                    "type": "Double"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 313
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "precision",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 303
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Metadata",
+                "references": [],
+                "type": "Metadata"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "Analysis",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 320
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "dpv_match_code",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 321
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "dpv_footnotes",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 322
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "dpv_cmra",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 323
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "dpv_vacant",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 324
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "active",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 325
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "ews_match",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 326
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "footnotes",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 327
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "lacslink_code",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 328
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "lacslink_indicator",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 319
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Analysis",
+                "references": [],
+                "type": "Analysis"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 342
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "ZipRequest",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 347
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "ZipRequest",
+                    "parameters": [
+                        {
+                            "name": "c",
+                            "type": "String"
+                        },
+                        {
+                            "name": "s",
+                            "type": "String"
+                        },
+                        {
+                            "name": "z",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "ZipRequest",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 335
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "city",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 336
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "state",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 337
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "zipcode",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 334
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "ZipRequest",
+                "references": [],
+                "type": "ZipRequest"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 34,
+                        "line": 347
+                    },
+                    "modifiers": [],
+                    "name": "c",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 44,
+                        "line": 347
+                    },
+                    "modifiers": [],
+                    "name": "s",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 54,
+                        "line": 347
+                    },
+                    "modifiers": [],
+                    "name": "z",
+                    "references": [],
+                    "type": "String"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "ZipResponse",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 358
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "status",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 359
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "reason",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 32,
+                        "line": 360
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "city_states",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 361
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "zipcodes",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 357
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "ZipResponse",
+                "references": [],
+                "type": "ZipResponse"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "CityState",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 368
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "city",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 369
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "state_abbreviation",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 370
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "state",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 367
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "CityState",
+                "references": [],
+                "type": "CityState"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "ZipLoc",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 377
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "zipcode",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 378
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "latitude",
+                    "references": [],
+                    "type": "Double"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 379
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "longitude",
+                    "references": [],
+                    "type": "Double"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 376
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "ZipLoc",
+                "references": [],
+                "type": "ZipLoc"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iGGQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 61
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "verifyAddress",
+            "parameters": [
+                {
+                    "name": "address",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "AddressResponse",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 70
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "verifyAddress",
+            "parameters": [
+                {
+                    "name": "address",
+                    "type": "AddressRequest"
+                }
+            ],
+            "references": [],
+            "returnType": "AddressResponse",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 80
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "verifyAddresses",
+            "parameters": [
+                {
+                    "name": "addresses",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 92
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "verifyAddresses",
+            "parameters": [
+                {
+                    "name": "addresses",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 132
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "verifyZip",
+            "parameters": [
+                {
+                    "name": "zip",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "ZipResponse",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 141
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "verifyZip",
+            "parameters": [
+                {
+                    "name": "city",
+                    "type": "String"
+                },
+                {
+                    "name": "state",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "ZipResponse",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 151
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "verifyZip",
+            "parameters": [
+                {
+                    "name": "city",
+                    "type": "String"
+                },
+                {
+                    "name": "state",
+                    "type": "String"
+                },
+                {
+                    "name": "zip",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "ZipResponse",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 161
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "verifyZips",
+            "parameters": [
+                {
+                    "name": "zreqs",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 181
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "sendRequest",
+            "parameters": [
+                {
+                    "name": "payload",
+                    "type": "LIST"
+                },
+                {
+                    "name": "baseURL",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "HttpResponse",
+            "type": null
+        }
+    ],
+    "name": "ADDR_SmartyStreets_Gateway",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 37
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 38
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "auth",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 35
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "ADDR_SmartyStreets_Gateway",
+        "references": [],
+        "type": "ADDR_SmartyStreets_Gateway"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 61
+            },
+            "modifiers": [],
+            "name": "address",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 70
+            },
+            "modifiers": [],
+            "name": "address",
+            "references": [],
+            "type": "AddressRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "sr",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "addresses",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "requests",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 82
+            },
+            "modifiers": [],
+            "name": "addr",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 92
+            },
+            "modifiers": [],
+            "name": "addresses",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 99
+            },
+            "modifiers": [],
+            "name": "endpoint",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 103
+            },
+            "modifiers": [],
+            "name": "validator",
+            "references": [],
+            "type": "ADDR_SmartyStreets_Validator"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 108
+            },
+            "modifiers": [],
+            "name": "res",
+            "references": [],
+            "type": "HttpResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 110
+            },
+            "modifiers": [],
+            "name": "sr",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 132
+            },
+            "modifiers": [],
+            "name": "zip",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 141
+            },
+            "modifiers": [],
+            "name": "city",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 141
+            },
+            "modifiers": [],
+            "name": "state",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "city",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "state",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 68,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "zip",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 152
+            },
+            "modifiers": [],
+            "name": "sz",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 161
+            },
+            "modifiers": [],
+            "name": "zreqs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 170
+            },
+            "modifiers": [],
+            "name": "validator",
+            "references": [],
+            "type": "ADDR_SmartyStreets_Validator"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 171
+            },
+            "modifiers": [],
+            "name": "res",
+            "references": [],
+            "type": "HttpResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 173
+            },
+            "modifiers": [],
+            "name": "sz",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 181
+            },
+            "modifiers": [],
+            "name": "payload",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 67,
+                "line": 181
+            },
+            "modifiers": [],
+            "name": "baseURL",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 182
+            },
+            "modifiers": [],
+            "name": "response",
+            "references": [],
+            "type": "HttpResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 185
+            },
+            "modifiers": [],
+            "name": "h",
+            "references": [],
+            "type": "Http"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 186
+            },
+            "modifiers": [],
+            "name": "body",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "req",
+            "references": [],
+            "type": "HttpRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 200
+            },
+            "modifiers": [],
+            "name": "mockResponseGenerator",
+            "references": [],
+            "type": "ADDR_MockHttpRespGenerator_TEST"
+        }
+    ]
+}

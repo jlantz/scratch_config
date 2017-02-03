@@ -1,0 +1,349 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iGtQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iGtQAI",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 43
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testContactCascadeWithoutOverride",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 80
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testContactDeleteExceptionWithOverride",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 130
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testContactMergeNoCascade",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 160
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testContactCascadeRelationshipWithoutOverride",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "CON_CascadeDeleteLookups_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 37
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "CON_CascadeDeleteLookups_TEST",
+        "references": [],
+        "type": "CON_CascadeDeleteLookups_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 47
+            },
+            "modifiers": [],
+            "name": "rd",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "gau",
+            "references": [],
+            "type": "General_Accounting_Unit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 60
+            },
+            "modifiers": [],
+            "name": "alloForInsert",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 67
+            },
+            "modifiers": [],
+            "name": "errors",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 70
+            },
+            "modifiers": [],
+            "name": "queryRd",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 73
+            },
+            "modifiers": [],
+            "name": "queryAllo",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 82
+            },
+            "modifiers": [],
+            "name": "conAccount",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 85
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 89
+            },
+            "modifiers": [],
+            "name": "org",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 92
+            },
+            "modifiers": [],
+            "name": "closedWonOpp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 101
+            },
+            "modifiers": [],
+            "name": "orgOpp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 113
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "CON_DeleteContactOverride_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 132
+            },
+            "modifiers": [],
+            "name": "conWinner",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 135
+            },
+            "modifiers": [],
+            "name": "conLoser",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 138
+            },
+            "modifiers": [],
+            "name": "rd",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "rdQuery",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 162
+            },
+            "modifiers": [],
+            "name": "con1",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 165
+            },
+            "modifiers": [],
+            "name": "con2",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 168
+            },
+            "modifiers": [],
+            "name": "rel",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 176
+            },
+            "modifiers": [],
+            "name": "queryRel",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

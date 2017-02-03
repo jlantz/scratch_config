@@ -1,0 +1,43 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHqQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHqQAI",
+    "methods": [],
+    "name": "HH_ProcessControl",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 38
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "inFutureContext",
+            "references": [],
+            "type": "Boolean"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 30,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "without sharing"
+        ],
+        "name": "HH_ProcessControl",
+        "references": [],
+        "type": "HH_ProcessControl"
+    },
+    "variables": []
+}

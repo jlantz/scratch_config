@@ -1,0 +1,262 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHxQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHxQAI",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 44
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testNewLevel",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 68
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testSaveAndNewLevel",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 97
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testTargetFieldChange",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 126
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testCloneLevel",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "LVL_LevelEdit_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 28,
+            "line": 38
+        },
+        "modifiers": [
+            "private",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "LVL_LevelEdit_TEST",
+        "references": [],
+        "type": "LVL_LevelEdit_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "stdCtrl",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 47
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "LVL_LevelEdit_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "listLvl",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 70
+            },
+            "modifiers": [],
+            "name": "stdCtrl",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "LVL_LevelEdit_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 87
+            },
+            "modifiers": [],
+            "name": "listLvl",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 99
+            },
+            "modifiers": [],
+            "name": "stdCtrl",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 100
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "LVL_LevelEdit_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 127
+            },
+            "modifiers": [],
+            "name": "lvl",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 137
+            },
+            "modifiers": [],
+            "name": "pageRef",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 141
+            },
+            "modifiers": [],
+            "name": "stdCtrl",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 142
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "LVL_LevelEdit_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 158
+            },
+            "modifiers": [],
+            "name": "listLvl",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

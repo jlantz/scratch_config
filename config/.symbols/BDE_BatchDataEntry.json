@@ -1,0 +1,603 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 93
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "BDE_BatchDataEntry",
+            "parameters": [
+                {
+                    "name": "pObjectName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iGbQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iGbQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 69
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getObjectName",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 71
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getEntryFieldList",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 73
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getListFieldList",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 75
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getSaveBatch",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 77
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getStatusMessage",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 79
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getFailureMessage",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 81
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getBatchLookupFieldName",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 83
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getFieldSet",
+            "parameters": [],
+            "references": [],
+            "returnType": "Set",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 85
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getQueryString",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 138
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "buildFieldSet",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 153
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "buildQueryString",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 165
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "checkLookupExists",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 182
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "mapDevNameToLabelBDEObjects",
+            "parameters": [],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        }
+    ],
+    "name": "BDE_BatchDataEntry",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 39
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 41
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "entryFieldList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 43
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "listFieldList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 45
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "saveBatch",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 47
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "statusMessage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 49
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "batchLookupFieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 51
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "fieldSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 53
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "queryString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 55
+            },
+            "modifiers": [
+                "private",
+                "final"
+            ],
+            "name": "SUCCESS",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 57
+            },
+            "modifiers": [
+                "private",
+                "final"
+            ],
+            "name": "FAIL",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 59
+            },
+            "modifiers": [
+                "private",
+                "final"
+            ],
+            "name": "CREATED_CUSTOM_SETTING",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 61
+            },
+            "modifiers": [
+                "private",
+                "final"
+            ],
+            "name": "DEFAULT_NAME",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 63
+            },
+            "modifiers": [
+                "private",
+                "final"
+            ],
+            "name": "DEFAULT_ENTRY_FS",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 65
+            },
+            "modifiers": [
+                "private",
+                "final"
+            ],
+            "name": "DEFAULT_LIST_FS",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 67
+            },
+            "modifiers": [
+                "private",
+                "final"
+            ],
+            "name": "DEFAULT_SAVE_BATCH",
+            "references": [],
+            "type": "Boolean"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "BDE_BatchDataEntry",
+        "references": [],
+        "type": "BDE_BatchDataEntry"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 93
+            },
+            "modifiers": [],
+            "name": "pObjectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 95
+            },
+            "modifiers": [],
+            "name": "isValidObject",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 100
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 141
+            },
+            "modifiers": [],
+            "name": "str",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 145
+            },
+            "modifiers": [],
+            "name": "str",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 155
+            },
+            "modifiers": [],
+            "name": "str",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 166
+            },
+            "modifiers": [],
+            "name": "allFieldsMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 167
+            },
+            "modifiers": [],
+            "name": "fr",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 169
+            },
+            "modifiers": [],
+            "name": "parent",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 184
+            },
+            "modifiers": [],
+            "name": "mapBDE",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 185
+            },
+            "modifiers": [],
+            "name": "dor",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 186
+            },
+            "modifiers": [],
+            "name": "cr",
+            "references": [],
+            "type": "ChildRelationship"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "sfld",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 190
+            },
+            "modifiers": [],
+            "name": "dr",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        }
+    ]
+}

@@ -1,0 +1,1240 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iICQAY",
+    "innerClasses": [],
+    "interfaces": [
+        "OPP_INaming"
+    ],
+    "key": "01p4C0000002iICQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 63
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "refreshOppNames",
+            "parameters": [
+                {
+                    "name": "oppList",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 105
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOppNamesAfterInsert",
+            "parameters": [
+                {
+                    "name": "oppList",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 148
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getONS",
+            "parameters": [
+                {
+                    "name": "opp",
+                    "type": "Opportunity"
+                }
+            ],
+            "references": [],
+            "returnType": "Opportunity_Naming_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 161
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "validateSetting",
+            "parameters": [
+                {
+                    "name": "ons",
+                    "type": "Opportunity_Naming_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 176
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "fillOppNameSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 218
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOppAttribution",
+            "parameters": [
+                {
+                    "name": "opp",
+                    "type": "Opportunity"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 230
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOppFields",
+            "parameters": [
+                {
+                    "name": "fields",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "Set",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 244
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getConFields",
+            "parameters": [
+                {
+                    "name": "fields",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "Set",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 259
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOppQuery",
+            "parameters": [
+                {
+                    "name": "fields",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 276
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getConQuery",
+            "parameters": [
+                {
+                    "name": "fields",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 293
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getConRoleQuery",
+            "parameters": [
+                {
+                    "name": "fields",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 309
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "fillConMap",
+            "parameters": [
+                {
+                    "name": "opps",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 326
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getFieldNamesFromSpec",
+            "parameters": [
+                {
+                    "name": "spec",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Set",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 351
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "replaceFieldNamesWithValues",
+            "parameters": [
+                {
+                    "name": "opp",
+                    "type": "Opportunity"
+                },
+                {
+                    "name": "con",
+                    "type": "Contact"
+                },
+                {
+                    "name": "ons",
+                    "type": "Opportunity_Naming_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 410
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getFieldValue",
+            "parameters": [
+                {
+                    "name": "obj",
+                    "type": "SObject"
+                },
+                {
+                    "name": "fieldName",
+                    "type": "String"
+                },
+                {
+                    "name": "ons",
+                    "type": "Opportunity_Naming_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "OPP_OpportunityNaming",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 43
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "chLToken",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 47
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "chRToken",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 51
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "listOppNamingSettings",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 55
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "mapOppIdSettings",
+            "references": [],
+            "type": "Map"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 38
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "OPP_OpportunityNaming",
+        "references": [],
+        "type": "OPP_OpportunityNaming"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 63
+            },
+            "modifiers": [],
+            "name": "oppList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "allFields",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "ons",
+            "references": [],
+            "type": "Opportunity_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 76
+            },
+            "modifiers": [],
+            "name": "mapOppsQuery",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "mapOppIdToCon",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 82
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 85
+            },
+            "modifiers": [],
+            "name": "queryOpp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 86
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 87
+            },
+            "modifiers": [],
+            "name": "ons",
+            "references": [],
+            "type": "Opportunity_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 78,
+                "line": 105
+            },
+            "modifiers": [],
+            "name": "oppList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 107
+            },
+            "modifiers": [],
+            "name": "allFields",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 108
+            },
+            "modifiers": [],
+            "name": "oppsForUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 115
+            },
+            "modifiers": [],
+            "name": "ons",
+            "references": [],
+            "type": "Opportunity_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 119
+            },
+            "modifiers": [],
+            "name": "mapOppsQuery",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 122
+            },
+            "modifiers": [],
+            "name": "mapOppIdToCon",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 124
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 126
+            },
+            "modifiers": [],
+            "name": "queryOpp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 127
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 128
+            },
+            "modifiers": [],
+            "name": "ons",
+            "references": [],
+            "type": "Opportunity_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 148
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 161
+            },
+            "modifiers": [],
+            "name": "ons",
+            "references": [],
+            "type": "Opportunity_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 163
+            },
+            "modifiers": [],
+            "name": "allFields",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 165
+            },
+            "modifiers": [],
+            "name": "testOpp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 166
+            },
+            "modifiers": [],
+            "name": "testCon",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 168
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 179
+            },
+            "modifiers": [],
+            "name": "ons",
+            "references": [],
+            "type": "Opportunity_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 181
+            },
+            "modifiers": [],
+            "name": "oppRecTypeStrings",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 182
+            },
+            "modifiers": [],
+            "name": "oppRecTypeIds",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 183
+            },
+            "modifiers": [],
+            "name": "recTypeString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 200
+            },
+            "modifiers": [],
+            "name": "recTypeId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 218
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 230
+            },
+            "modifiers": [],
+            "name": "fields",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 231
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 232
+            },
+            "modifiers": [],
+            "name": "field",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 244
+            },
+            "modifiers": [],
+            "name": "fields",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 245
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 246
+            },
+            "modifiers": [],
+            "name": "field",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 259
+            },
+            "modifiers": [],
+            "name": "fields",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 261
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 262
+            },
+            "modifiers": [],
+            "name": "field",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 276
+            },
+            "modifiers": [],
+            "name": "fields",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 278
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 279
+            },
+            "modifiers": [],
+            "name": "field",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 293
+            },
+            "modifiers": [],
+            "name": "fields",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 295
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 296
+            },
+            "modifiers": [],
+            "name": "field",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 309
+            },
+            "modifiers": [],
+            "name": "opps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 310
+            },
+            "modifiers": [],
+            "name": "mapOppIdToCon",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 311
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 313
+            },
+            "modifiers": [],
+            "name": "primaryOCR",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 326
+            },
+            "modifiers": [],
+            "name": "spec",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 327
+            },
+            "modifiers": [],
+            "name": "setStrField",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 330
+            },
+            "modifiers": [],
+            "name": "MyPattern",
+            "references": [],
+            "type": "Pattern"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 333
+            },
+            "modifiers": [],
+            "name": "MyMatcher",
+            "references": [],
+            "type": "Matcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 337
+            },
+            "modifiers": [],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 351
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 79,
+                "line": 351
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 115,
+                "line": 351
+            },
+            "modifiers": [],
+            "name": "ons",
+            "references": [],
+            "type": "Opportunity_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 352
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 355
+            },
+            "modifiers": [],
+            "name": "MyPattern",
+            "references": [],
+            "type": "Pattern"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 358
+            },
+            "modifiers": [],
+            "name": "MyMatcher",
+            "references": [],
+            "type": "Matcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 362
+            },
+            "modifiers": [],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 365
+            },
+            "modifiers": [],
+            "name": "splitField",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 368
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 372
+            },
+            "modifiers": [],
+            "name": "thisObj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 381
+            },
+            "modifiers": [],
+            "name": "parentObj",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 388
+            },
+            "modifiers": [],
+            "name": "val",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 410
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 410
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 101,
+                "line": 410
+            },
+            "modifiers": [],
+            "name": "ons",
+            "references": [],
+            "type": "Opportunity_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 412
+            },
+            "modifiers": [],
+            "name": "dt",
+            "references": [],
+            "type": "DisplayType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 413
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 420
+            },
+            "modifiers": [],
+            "name": "d",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 421
+            },
+            "modifiers": [],
+            "name": "dateFormat",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 431
+            },
+            "modifiers": [],
+            "name": "currencySymbol",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

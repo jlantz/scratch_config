@@ -1,0 +1,1841 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iIfQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iIfQAI",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 48
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "insertOpportunities",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 112
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "insertWeeklyOpportunities",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 147
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "insertQuarterlyOpportunities",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 182
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "insertCampaignOpportunities",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 226
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "deleteRecurringDonation",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 272
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "contactRolesOnOppsBucket",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 275
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "contactRolesOnOppsOne2One",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 278
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "contactRolesOnOppsHHAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 281
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "contactRolesOnOppsProcessor",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 312
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testSettingsCreation",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 325
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "insertOpenEndedRecurringDonations",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 395
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "updateOpenEndedRecurringDonationMonthly",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 440
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "updateOpenEndedRecurringDonation1an15",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 482
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "updateOpenEndedRecurringDonationYearly",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 527
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "updateOpenEndedRecurringDonationWeekly",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 572
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "updateOpenEndedRecurringDonationQuarterly",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 619
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "closeOppForOpenEndedRecurringDonationWeekly",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 674
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "closeOppForOpenEndedRecurringDonationMonthly",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 732
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "closeOppForOpenEndedRecurringDonationQuarterly",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 788
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "closeOppForOpenEndedRecurringDonationCustomWeeks",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 851
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "closeOppForOpenEndedRecurringDonationCustomDays",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 912
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "closeOppForOpenEndedRecurringDonationCustomMonths",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 975
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "closeOppForOpenEndedRecurringDonationCustomYears",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "RD_RecurringDonations_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 43
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strTestOnly",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 14,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "testMethod"
+        ],
+        "name": "RD_RecurringDonations_TEST",
+        "references": [],
+        "type": "RD_RecurringDonations_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "cfm",
+            "references": [],
+            "type": "npe03__Custom_Field_Mapping__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "r0",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 88
+            },
+            "modifiers": [],
+            "name": "r1",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 99
+            },
+            "modifiers": [],
+            "name": "installments1",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 116
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 120
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 126
+            },
+            "modifiers": [],
+            "name": "r1",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 137
+            },
+            "modifiers": [],
+            "name": "installments1",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 155
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 161
+            },
+            "modifiers": [],
+            "name": "r1",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 172
+            },
+            "modifiers": [],
+            "name": "installments1",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 186
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 190
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 196
+            },
+            "modifiers": [],
+            "name": "camp",
+            "references": [],
+            "type": "Campaign"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 200
+            },
+            "modifiers": [],
+            "name": "campaignId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 202
+            },
+            "modifiers": [],
+            "name": "r1",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 214
+            },
+            "modifiers": [],
+            "name": "installments1",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 230
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 234
+            },
+            "modifiers": [],
+            "name": "r2",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 245
+            },
+            "modifiers": [],
+            "name": "installments2",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 260
+            },
+            "modifiers": [],
+            "name": "installments3",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 281
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 285
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 291
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 296
+            },
+            "modifiers": [],
+            "name": "r1",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 307
+            },
+            "modifiers": [],
+            "name": "installmentCRs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 317
+            },
+            "modifiers": [],
+            "name": "rds",
+            "references": [],
+            "type": "npe03__Recurring_Donations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 335
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 339
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 345
+            },
+            "modifiers": [],
+            "name": "camp",
+            "references": [],
+            "type": "Campaign"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 348
+            },
+            "modifiers": [],
+            "name": "rdlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 350
+            },
+            "modifiers": [],
+            "name": "RD",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 391
+            },
+            "modifiers": [],
+            "name": "cOpp",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 405
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 409
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 415
+            },
+            "modifiers": [],
+            "name": "r1",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 427
+            },
+            "modifiers": [],
+            "name": "originalOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 429
+            },
+            "modifiers": [],
+            "name": "cOpp",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 451
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 455
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 461
+            },
+            "modifiers": [],
+            "name": "r1",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 476
+            },
+            "modifiers": [],
+            "name": "originalOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 477
+            },
+            "modifiers": [],
+            "name": "cOpp",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 492
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 496
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 502
+            },
+            "modifiers": [],
+            "name": "r1",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 514
+            },
+            "modifiers": [],
+            "name": "originalOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 516
+            },
+            "modifiers": [],
+            "name": "cOpp",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 537
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 541
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 547
+            },
+            "modifiers": [],
+            "name": "r1",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 559
+            },
+            "modifiers": [],
+            "name": "originalOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 568
+            },
+            "modifiers": [],
+            "name": "cOpp",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 582
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 586
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 592
+            },
+            "modifiers": [],
+            "name": "r1",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 604
+            },
+            "modifiers": [],
+            "name": "originalOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 606
+            },
+            "modifiers": [],
+            "name": "cOpp",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 629
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 633
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 639
+            },
+            "modifiers": [],
+            "name": "r1",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 652
+            },
+            "modifiers": [],
+            "name": "originalOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 653
+            },
+            "modifiers": [],
+            "name": "cOpp",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 656
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 657
+            },
+            "modifiers": [],
+            "name": "closedstage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 668
+            },
+            "modifiers": [],
+            "name": "rd",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 684
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 688
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 694
+            },
+            "modifiers": [],
+            "name": "rdlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 695
+            },
+            "modifiers": [],
+            "name": "r1",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 710
+            },
+            "modifiers": [],
+            "name": "originalOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 713
+            },
+            "modifiers": [],
+            "name": "o1",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 714
+            },
+            "modifiers": [],
+            "name": "closedstage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 717
+            },
+            "modifiers": [],
+            "name": "oppList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 725
+            },
+            "modifiers": [],
+            "name": "rd",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 742
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 746
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 752
+            },
+            "modifiers": [],
+            "name": "r1",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 765
+            },
+            "modifiers": [],
+            "name": "originalOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 768
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 771
+            },
+            "modifiers": [],
+            "name": "closedstage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 782
+            },
+            "modifiers": [],
+            "name": "rd",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 798
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 802
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 808
+            },
+            "modifiers": [],
+            "name": "cis",
+            "references": [],
+            "type": "npe03__Custom_Installment_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 815
+            },
+            "modifiers": [],
+            "name": "r1",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 828
+            },
+            "modifiers": [],
+            "name": "originalOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 829
+            },
+            "modifiers": [],
+            "name": "cOpp",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 832
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 833
+            },
+            "modifiers": [],
+            "name": "closedstage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 844
+            },
+            "modifiers": [],
+            "name": "rd",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 861
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 865
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 871
+            },
+            "modifiers": [],
+            "name": "cis",
+            "references": [],
+            "type": "npe03__Custom_Installment_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 878
+            },
+            "modifiers": [],
+            "name": "r1",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 890
+            },
+            "modifiers": [],
+            "name": "originalOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 891
+            },
+            "modifiers": [],
+            "name": "cOpp",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 894
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 895
+            },
+            "modifiers": [],
+            "name": "closedstage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 905
+            },
+            "modifiers": [],
+            "name": "rd",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 923
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 927
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 933
+            },
+            "modifiers": [],
+            "name": "cis",
+            "references": [],
+            "type": "npe03__Custom_Installment_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 940
+            },
+            "modifiers": [],
+            "name": "r1",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 953
+            },
+            "modifiers": [],
+            "name": "originalOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 956
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 957
+            },
+            "modifiers": [],
+            "name": "closedstage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 968
+            },
+            "modifiers": [],
+            "name": "rd",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 986
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 990
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 996
+            },
+            "modifiers": [],
+            "name": "cis",
+            "references": [],
+            "type": "npe03__Custom_Installment_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 1003
+            },
+            "modifiers": [],
+            "name": "r1",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 1016
+            },
+            "modifiers": [],
+            "name": "originalOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1019
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 1020
+            },
+            "modifiers": [],
+            "name": "closedstage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 1031
+            },
+            "modifiers": [],
+            "name": "rd",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        }
+    ]
+}

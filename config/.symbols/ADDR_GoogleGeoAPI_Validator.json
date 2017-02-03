@@ -1,0 +1,876 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iGAQAY",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "GoogleGeoResponse",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 58,
+                        "line": 280
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "results",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 281
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "status",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 279
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "GoogleGeoResponse",
+                "references": [],
+                "type": "GoogleGeoResponse"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "Results",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 69,
+                        "line": 288
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "address_components",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 289
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "formatted_address",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 25,
+                        "line": 290
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "geometry",
+                    "references": [],
+                    "type": "Geometry"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 291
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "partial_match",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 292
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "types",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 287
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Results",
+                "references": [],
+                "type": "Results"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "Address_components",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 299
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "long_name",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 300
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "short_name",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 301
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "types",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 298
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Address_components",
+                "references": [],
+                "type": "Address_components"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "Geometry",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 25,
+                        "line": 308
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "location",
+                    "references": [],
+                    "type": "Location"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 309
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "location_type",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 25,
+                        "line": 310
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "viewport",
+                    "references": [],
+                    "type": "Viewport"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 307
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Geometry",
+                "references": [],
+                "type": "Geometry"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "Location",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 317
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "lat",
+                    "references": [],
+                    "type": "Double"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 318
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "lng",
+                    "references": [],
+                    "type": "Double"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 316
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Location",
+                "references": [],
+                "type": "Location"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "Viewport",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 25,
+                        "line": 325
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "northeast",
+                    "references": [],
+                    "type": "Location"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 25,
+                        "line": 326
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "southwest",
+                    "references": [],
+                    "type": "Location"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 324
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Viewport",
+                "references": [],
+                "type": "Viewport"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [
+        "ADDR_IValidator"
+    ],
+    "key": "01p4C0000002iGAQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 48
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getServiceName",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 56
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getDefaultURL",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 64
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "supportsBatch",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 72
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getBatchHelpText",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 82
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "verifyRecords",
+            "parameters": [
+                {
+                    "name": "addresses",
+                    "type": "LIST"
+                },
+                {
+                    "name": "settings",
+                    "type": "Addr_Verification_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 103
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "verifyAddress",
+            "parameters": [
+                {
+                    "name": "a",
+                    "type": "Address__c"
+                }
+            ],
+            "references": [],
+            "returnType": "Address__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 267
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "trimResponse",
+            "parameters": [
+                {
+                    "name": "response",
+                    "type": "HttpResponse"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 334
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "parse",
+            "parameters": [
+                {
+                    "name": "json",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "GoogleGeoResponse",
+            "type": null
+        }
+    ],
+    "name": "ADDR_GoogleGeoAPI_Validator",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 37
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "AUTH_TOKEN",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 38
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "END_POINT",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 39
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "TIMEOUT",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 40
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "checked_addresses",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 42
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 35
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "ADDR_GoogleGeoAPI_Validator",
+        "references": [],
+        "type": "ADDR_GoogleGeoAPI_Validator"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 82
+            },
+            "modifiers": [],
+            "name": "addresses",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 101,
+                "line": 82
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 96
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 103
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 105
+            },
+            "modifiers": [],
+            "name": "address_request_string",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 106
+            },
+            "modifiers": [],
+            "name": "mailingStreet",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 107
+            },
+            "modifiers": [],
+            "name": "subpremise",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 116
+            },
+            "modifiers": [],
+            "name": "split",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 132
+            },
+            "modifiers": [],
+            "name": "response",
+            "references": [],
+            "type": "HttpResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 139
+            },
+            "modifiers": [],
+            "name": "h",
+            "references": [],
+            "type": "Http"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 140
+            },
+            "modifiers": [],
+            "name": "req",
+            "references": [],
+            "type": "HttpRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 156
+            },
+            "modifiers": [],
+            "name": "googresp",
+            "references": [],
+            "type": "GoogleGeoResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 166
+            },
+            "modifiers": [],
+            "name": "verified_street",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 167
+            },
+            "modifiers": [],
+            "name": "verified_premise",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 171
+            },
+            "modifiers": [],
+            "name": "add",
+            "references": [],
+            "type": "Address_components"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 172
+            },
+            "modifiers": [],
+            "name": "type_set",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 176
+            },
+            "modifiers": [],
+            "name": "verified5digs",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 177
+            },
+            "modifiers": [],
+            "name": "originalFull",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 178
+            },
+            "modifiers": [],
+            "name": "original5digs",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 267
+            },
+            "modifiers": [],
+            "name": "response",
+            "references": [],
+            "type": "HttpResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 269
+            },
+            "modifiers": [],
+            "name": "responseBody",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 334
+            },
+            "modifiers": [],
+            "name": "json",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

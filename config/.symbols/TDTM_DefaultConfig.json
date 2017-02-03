@@ -1,0 +1,272 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJmQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJmQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 81
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "startTestDataInit",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 99
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "stopTestDataInit",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 114
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getDefaultRecords",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 330
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getNpspToCumulusMap",
+            "parameters": [],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        }
+    ],
+    "name": "TDTM_DefaultConfig",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 59
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "ADDR_Address_TDTM_TestAsync",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 60
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "ADDR_Address_TDTM_TestAsyncTemp",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 62
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "ADDR_Contact_TDTM_TestAsync",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 63
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "ADDR_Contact_TDTM_TestAsyncTemp",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 65
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "ADDR_Account_TDTM_TestAsync",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 66
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "ADDR_Account_TDTM_TestAsyncTemp",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 68
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "ADDR_Validator_TDTM_TestAsync",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 69
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "ADDR_Validator_TDTM_TestAsyncTemp",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 71
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "ACCT_Accounts_TDTM_TestAsync",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 72
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "ACCT_Accounts_TDTM_TestAsyncTemp",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 323
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "deletedClasses",
+            "references": [],
+            "type": "Set"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 30,
+            "line": 39
+        },
+        "modifiers": [
+            "public",
+            "without sharing"
+        ],
+        "name": "TDTM_DefaultConfig",
+        "references": [],
+        "type": "TDTM_DefaultConfig"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 115
+            },
+            "modifiers": [],
+            "name": "handlers",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 331
+            },
+            "modifiers": [],
+            "name": "npspToCumulusMap",
+            "references": [],
+            "type": "Map"
+        }
+    ]
+}

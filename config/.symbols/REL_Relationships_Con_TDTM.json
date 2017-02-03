@@ -1,0 +1,563 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iIkQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iIkQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 45
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "run",
+            "parameters": [
+                {
+                    "name": "newList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "triggerAction",
+                    "type": "Action"
+                },
+                {
+                    "name": "objResult",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "DmlWrapper",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 141
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "deleteEmptyRelationships",
+            "parameters": [
+                {
+                    "name": "contacts",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "DmlWrapper",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 160
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "createNewRelationships",
+            "parameters": [
+                {
+                    "name": "ContactIds",
+                    "type": "LIST"
+                },
+                {
+                    "name": "RelatedContactIds",
+                    "type": "LIST"
+                },
+                {
+                    "name": "Types",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "DmlWrapper",
+            "type": null
+        }
+    ],
+    "name": "REL_Relationships_Con_TDTM",
+    "namespace": null,
+    "parentClass": "TDTM_Runnable",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 34
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "REL_Relationships_Con_TDTM",
+        "references": [],
+        "type": "REL_Relationships_Con_TDTM"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 45
+            },
+            "modifiers": [],
+            "name": "newList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 45
+            },
+            "modifiers": [],
+            "name": "oldList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "triggerAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "objResult",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "newListCasted",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "oldListCasted",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "oldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "ContactIds",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 56
+            },
+            "modifiers": [],
+            "name": "ReciprocalIds",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 57
+            },
+            "modifiers": [],
+            "name": "Types",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "genderField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 60
+            },
+            "modifiers": [],
+            "name": "changedGender",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 63
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "rac",
+            "references": [],
+            "type": "npe4__Relationship_Auto_Create__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 67
+            },
+            "modifiers": [],
+            "name": "relatedContactId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 99
+            },
+            "modifiers": [],
+            "name": "w",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 104
+            },
+            "modifiers": [],
+            "name": "w",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 110
+            },
+            "modifiers": [],
+            "name": "mapRelationship",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 115
+            },
+            "modifiers": [],
+            "name": "listRelsForUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 117
+            },
+            "modifiers": [],
+            "name": "listMirrorRels",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 120
+            },
+            "modifiers": [],
+            "name": "rel",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 72,
+                "line": 141
+            },
+            "modifiers": [],
+            "name": "contacts",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 142
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 143
+            },
+            "modifiers": [],
+            "name": "relationshipsToDelete",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 147
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "ContactIds",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 83,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "RelatedContactIds",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 115,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "Types",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 162
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 163
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 164
+            },
+            "modifiers": [],
+            "name": "relationshipsForInsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 167
+            },
+            "modifiers": [],
+            "name": "existingRelationships",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 168
+            },
+            "modifiers": [],
+            "name": "relationshipsByContact",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 176
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 178
+            },
+            "modifiers": [],
+            "name": "rList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "conId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 189
+            },
+            "modifiers": [],
+            "name": "doNotCreate",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 193
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 203
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        }
+    ]
+}

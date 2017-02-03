@@ -1,0 +1,461 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 43
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "BDI_DataImport_CTRL",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iGhQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iGhQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 49
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "actionImportOrDelete",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 69
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "deleteImportedDIRecords",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 74
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "deleteAllDIRecords",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 94
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "close",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 102
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "importData",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        }
+    ],
+    "name": "BDI_DataImport_CTRL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 37
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "userCanEditSettings",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 79
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "batchRunning",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 80
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "apexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 81
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "dtStart",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 83
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "diSettings",
+            "references": [],
+            "type": "Data_Import_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 113
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "aaj",
+            "references": [],
+            "type": "AsyncApexJob"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 125
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "strBatchStatus",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 132
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "crecProcessed",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 143
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "crecImported",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 154
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "crecFailed",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 165
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "crecToProcess",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 173
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isBatchJobCompleted",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 180
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "percentComplete",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 208
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "strTimeSpent",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 223
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listSOContactUniqueID",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 249
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listSOAccountUniqueID",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "BDI_DataImport_CTRL",
+        "references": [],
+        "type": "BDI_DataImport_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "strAction",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 95
+            },
+            "modifiers": [],
+            "name": "strURL",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 97
+            },
+            "modifiers": [],
+            "name": "p",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 127
+            },
+            "modifiers": [],
+            "name": "strLabel",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 194
+            },
+            "modifiers": [],
+            "name": "dec",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 211
+            },
+            "modifiers": [],
+            "name": "dt",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 230
+            },
+            "modifiers": [],
+            "name": "mapNameToDfr",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 231
+            },
+            "modifiers": [],
+            "name": "dfr",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 234
+            },
+            "modifiers": [],
+            "name": "dt",
+            "references": [],
+            "type": "DisplayType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 256
+            },
+            "modifiers": [],
+            "name": "mapNameToDfr",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 257
+            },
+            "modifiers": [],
+            "name": "dfr",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 260
+            },
+            "modifiers": [],
+            "name": "dt",
+            "references": [],
+            "type": "DisplayType"
+        }
+    ]
+}

@@ -1,0 +1,382 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJYQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJYQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 41
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "idPanel",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 59
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "newRelAutoCreate",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 69
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "createRelAutoCreate",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 100
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "cancelRelAutoCreate",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 114
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "resetRelAutoSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 123
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "deleteAc",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 193
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "verifyAutoCreateRels",
+            "parameters": [
+                {
+                    "name": "ctrl",
+                    "type": "STG_PanelHealthCheck_CTRL"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "STG_PanelRelAuto_CTRL",
+    "namespace": null,
+    "parentClass": "STG_Panel",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 46
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "acNew",
+            "references": [],
+            "type": "npe4__Relationship_Auto_Create__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 109
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "acIdDelete",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 144
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listRelAutoCreate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 158
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listSOACfield",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "STG_PanelRelAuto_CTRL",
+        "references": [],
+        "type": "STG_PanelRelAuto_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 124
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 128
+            },
+            "modifiers": [],
+            "name": "ac",
+            "references": [],
+            "type": "npe4__Relationship_Auto_Create__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 163
+            },
+            "modifiers": [],
+            "name": "fieldTokenMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 170
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 172
+            },
+            "modifiers": [],
+            "name": "F",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 173
+            },
+            "modifiers": [],
+            "name": "sobjref",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 175
+            },
+            "modifiers": [],
+            "name": "objT",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 193
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "STG_PanelHealthCheck_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 195
+            },
+            "modifiers": [],
+            "name": "mapAC",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 196
+            },
+            "modifiers": [],
+            "name": "strSetting",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 197
+            },
+            "modifiers": [],
+            "name": "isValid",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 198
+            },
+            "modifiers": [],
+            "name": "isValidAll",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 200
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 201
+            },
+            "modifiers": [],
+            "name": "ac",
+            "references": [],
+            "type": "npe4__Relationship_Auto_Create__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 202
+            },
+            "modifiers": [],
+            "name": "conField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 241
+            },
+            "modifiers": [],
+            "name": "dt",
+            "references": [],
+            "type": "DisplayType"
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHMQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHMQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 57
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "beautifyExceptionMessage",
+            "parameters": [
+                {
+                    "name": "ex",
+                    "type": "Exception"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 73
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "isHandledException",
+            "parameters": [
+                {
+                    "name": "ex",
+                    "type": "Exception"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        }
+    ],
+    "name": "ERR_ExceptionHandler",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 40
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "final"
+            ],
+            "name": "EXCEPTION_MESSAGES",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 47
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "final"
+            ],
+            "name": "SUBSTRINGS",
+            "references": [],
+            "type": "Map"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "ERR_ExceptionHandler",
+        "references": [],
+        "type": "ERR_ExceptionHandler"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 57
+            },
+            "modifiers": [],
+            "name": "ex",
+            "references": [],
+            "type": "Exception"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "message",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "STATUS",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 73
+            },
+            "modifiers": [],
+            "name": "ex",
+            "references": [],
+            "type": "Exception"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "STATUS",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

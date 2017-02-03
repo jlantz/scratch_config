@@ -1,0 +1,1165 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iIMQAY",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 591
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "OpportunityHelper",
+                    "parameters": [
+                        {
+                            "name": "initialStageName",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 21,
+                        "line": 600
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "refresh",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 43,
+                        "line": 620
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getPayments",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "LIST",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 21,
+                        "line": 623
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "deletePayments",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 21,
+                        "line": 626
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "setPayments",
+                    "parameters": [
+                        {
+                            "name": "payments",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "OpportunityHelper",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 28,
+                        "line": 590
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "opp",
+                    "references": [],
+                    "type": "Opportunity"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 11,
+                    "line": 589
+                },
+                "modifiers": [],
+                "name": "OpportunityHelper",
+                "references": [],
+                "type": "OpportunityHelper"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 41,
+                        "line": 591
+                    },
+                    "modifiers": [],
+                    "name": "initialStageName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 60,
+                        "line": 626
+                    },
+                    "modifiers": [],
+                    "name": "payments",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 39,
+                        "line": 627
+                    },
+                    "modifiers": [],
+                    "name": "payment",
+                    "references": [],
+                    "type": "npe01__OppPayment__c"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iIMQAY",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 55
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "CloseLostOppWithMixOfPayments",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 143
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "nullAmount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 183
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "createOppWithTypeNotExcluded",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 218
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "createOppWithTypeExcluded",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 253
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "createOppWithRecordTypeExcluded",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 36,
+                "line": 295
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testOpportunityWillAutoClosefterAllPaymentsReceived",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 36,
+                "line": 332
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testOpportunityWillAutoCloseIfAmountUpdatedToMatchPayments",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 36,
+                "line": 380
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testOpportunityWillNotAutoCloseIfNotAllPaymentsReceived",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 36,
+                "line": 428
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testOpportunityWillNotAutoCloseIfNoStageNameSet",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 36,
+                "line": 464
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testOpportunityWillNotAutoCloseIfAlreadyClosed",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 36,
+                "line": 514
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testOpportunityWillNotAutoCloseIfAllPaymentsWrittenOff",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 36,
+                "line": 552
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testOpportunityWillNotAutoCloseClosesIfAmountSetToZero",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 641
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testBatchPaymentCreation",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "PMT_PaymentCreator_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 43
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strTestOnly",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 28,
+            "line": 37
+        },
+        "modifiers": [
+            "private",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "PMT_PaymentCreator_TEST",
+        "references": [],
+        "type": "PMT_PaymentCreator_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "PaymentsSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "acct",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 66
+            },
+            "modifiers": [],
+            "name": "testOppList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 67
+            },
+            "modifiers": [],
+            "name": "opp1",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 75
+            },
+            "modifiers": [],
+            "name": "opp2",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 92
+            },
+            "modifiers": [],
+            "name": "opmtUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 97
+            },
+            "modifiers": [],
+            "name": "pmtUnpaid",
+            "references": [],
+            "type": "npe01__OppPayment__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 104
+            },
+            "modifiers": [],
+            "name": "pmtWrittenOff",
+            "references": [],
+            "type": "npe01__OppPayment__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 120
+            },
+            "modifiers": [],
+            "name": "opmtAll",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 124
+            },
+            "modifiers": [],
+            "name": "opmtOpen",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 127
+            },
+            "modifiers": [],
+            "name": "opmtPaid",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 131
+            },
+            "modifiers": [],
+            "name": "opmtWrittenOff",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 146
+            },
+            "modifiers": [],
+            "name": "PaymentsSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "acct",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 155
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 164
+            },
+            "modifiers": [],
+            "name": "opmtAll",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 186
+            },
+            "modifiers": [],
+            "name": "PaymentsSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 190
+            },
+            "modifiers": [],
+            "name": "acct",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 195
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 207
+            },
+            "modifiers": [],
+            "name": "opmtAll",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 221
+            },
+            "modifiers": [],
+            "name": "PaymentsSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 225
+            },
+            "modifiers": [],
+            "name": "acct",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 230
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 242
+            },
+            "modifiers": [],
+            "name": "opmtAll",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 257
+            },
+            "modifiers": [],
+            "name": "rtIdGift",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 259
+            },
+            "modifiers": [],
+            "name": "PaymentsSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 267
+            },
+            "modifiers": [],
+            "name": "acct",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 272
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 288
+            },
+            "modifiers": [],
+            "name": "opmtAll",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 296
+            },
+            "modifiers": [],
+            "name": "closedWonStage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 297
+            },
+            "modifiers": [],
+            "name": "openStage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 309
+            },
+            "modifiers": [],
+            "name": "oh",
+            "references": [],
+            "type": "OpportunityHelper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 312
+            },
+            "modifiers": [],
+            "name": "payments",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 333
+            },
+            "modifiers": [],
+            "name": "closedWonStage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 334
+            },
+            "modifiers": [],
+            "name": "openStage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 346
+            },
+            "modifiers": [],
+            "name": "oh",
+            "references": [],
+            "type": "OpportunityHelper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 381
+            },
+            "modifiers": [],
+            "name": "closedWonStage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 382
+            },
+            "modifiers": [],
+            "name": "openStage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 394
+            },
+            "modifiers": [],
+            "name": "oh",
+            "references": [],
+            "type": "OpportunityHelper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 429
+            },
+            "modifiers": [],
+            "name": "openStage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 441
+            },
+            "modifiers": [],
+            "name": "oh",
+            "references": [],
+            "type": "OpportunityHelper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 444
+            },
+            "modifiers": [],
+            "name": "payments",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 465
+            },
+            "modifiers": [],
+            "name": "closedWonStage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 466
+            },
+            "modifiers": [],
+            "name": "openStage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 467
+            },
+            "modifiers": [],
+            "name": "closedLostStage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 479
+            },
+            "modifiers": [],
+            "name": "oh",
+            "references": [],
+            "type": "OpportunityHelper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 515
+            },
+            "modifiers": [],
+            "name": "closedWonStage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 516
+            },
+            "modifiers": [],
+            "name": "openStage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 528
+            },
+            "modifiers": [],
+            "name": "oh",
+            "references": [],
+            "type": "OpportunityHelper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 531
+            },
+            "modifiers": [],
+            "name": "payments",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 553
+            },
+            "modifiers": [],
+            "name": "closedWonStage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 554
+            },
+            "modifiers": [],
+            "name": "openStage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 566
+            },
+            "modifiers": [],
+            "name": "oh",
+            "references": [],
+            "type": "OpportunityHelper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 644
+            },
+            "modifiers": [],
+            "name": "consSettings",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 649
+            },
+            "modifiers": [],
+            "name": "rtIdGift",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 652
+            },
+            "modifiers": [],
+            "name": "recTypeName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 665
+            },
+            "modifiers": [],
+            "name": "pfmNew",
+            "references": [],
+            "type": "npe01__Payment_Field_Mapping_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 673
+            },
+            "modifiers": [],
+            "name": "acct",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 678
+            },
+            "modifiers": [],
+            "name": "testOppList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 723
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 739
+            },
+            "modifiers": [],
+            "name": "queryPmt",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 743
+            },
+            "modifiers": [],
+            "name": "batchProcessId",
+            "references": [],
+            "type": "Id"
+        }
+    ]
+}

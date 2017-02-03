@@ -1,0 +1,469 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJWQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJWQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 41
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "idPanel",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 59
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "newCustomInstallment",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 68
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "createCustomInstallment",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 89
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "cancelCustomInstallment",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 98
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "resetCustomInstallmentSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 112
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "deleteCi",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 154
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "verifyRDSaving",
+            "parameters": [
+                {
+                    "name": "ctrl",
+                    "type": "STG_PanelHealthCheck_CTRL"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "STG_PanelRDCustomInstallment_CTRL",
+    "namespace": null,
+    "parentClass": "STG_Panel",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 46
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "ciNew",
+            "references": [],
+            "type": "npe03__Custom_Installment_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 106
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "ciIdDelete",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 135
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listSORDCustomPeriod",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "STG_PanelRDCustomInstallment_CTRL",
+        "references": [],
+        "type": "STG_PanelRDCustomInstallment_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 69
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 75
+            },
+            "modifiers": [],
+            "name": "strPostSaveMessage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 113
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 117
+            },
+            "modifiers": [],
+            "name": "ci",
+            "references": [],
+            "type": "npe03__Custom_Installment_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 121
+            },
+            "modifiers": [],
+            "name": "strPostSaveMessage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 154
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "STG_PanelHealthCheck_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 158
+            },
+            "modifiers": [],
+            "name": "F",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 159
+            },
+            "modifiers": [],
+            "name": "P",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "setValues",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 161
+            },
+            "modifiers": [],
+            "name": "plistentry",
+            "references": [],
+            "type": "PicklistEntry"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 165
+            },
+            "modifiers": [],
+            "name": "isValid",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 166
+            },
+            "modifiers": [],
+            "name": "setPeriods",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 167
+            },
+            "modifiers": [],
+            "name": "ci",
+            "references": [],
+            "type": "npe03__Custom_Installment_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 182
+            },
+            "modifiers": [],
+            "name": "plistentry",
+            "references": [],
+            "type": "PicklistEntry"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 194
+            },
+            "modifiers": [],
+            "name": "closedoppstage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 195
+            },
+            "modifiers": [],
+            "name": "x",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 204
+            },
+            "modifiers": [],
+            "name": "strPledged",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 212
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 215
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 222
+            },
+            "modifiers": [],
+            "name": "testOpp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 229
+            },
+            "modifiers": [],
+            "name": "sr",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 232
+            },
+            "modifiers": [],
+            "name": "strError",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 234
+            },
+            "modifiers": [],
+            "name": "ers",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 236
+            },
+            "modifiers": [],
+            "name": "err",
+            "references": [],
+            "type": "Error"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 246
+            },
+            "modifiers": [],
+            "name": "strComma",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 247
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

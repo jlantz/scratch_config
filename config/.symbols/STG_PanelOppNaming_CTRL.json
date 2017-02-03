@@ -1,0 +1,353 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 80
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "STG_PanelOppNaming_CTRL",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iJPQAY",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 205
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "OpportunityNamingSetting",
+                    "parameters": [
+                        {
+                            "name": "ons",
+                            "type": "Opportunity_Naming_Settings__c"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "OpportunityNamingSetting",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 47,
+                        "line": 202
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "so",
+                    "references": [],
+                    "type": "Opportunity_Naming_Settings__c"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 203
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "oppRecordTypesString",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 204
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "nameFormatString",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 201
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "OpportunityNamingSetting",
+                "references": [],
+                "type": "OpportunityNamingSetting"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 72,
+                        "line": 205
+                    },
+                    "modifiers": [],
+                    "name": "ons",
+                    "references": [],
+                    "type": "Opportunity_Naming_Settings__c"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iJPQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 85
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "idPanel",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 91
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "delONS",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 101
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "editONS",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 111
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "newONS",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 124
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "saveONS",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 138
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isValidNameFormats",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        }
+    ],
+    "name": "STG_PanelOppNaming_CTRL",
+    "namespace": null,
+    "parentClass": "STG_Panel",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 41
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "currentONS",
+            "references": [],
+            "type": "Opportunity_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 47
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "currentONSName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 52
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "mapOppNameSettings",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 65
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listOppNameSettings",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 151
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listSODateFormats",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 170
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listSOOpportunityNamingFormats",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 188
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listSOOpportunityAttribution",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "STG_PanelOppNaming_CTRL",
+        "references": [],
+        "type": "STG_PanelOppNaming_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 68
+            },
+            "modifiers": [],
+            "name": "oppNameSettings",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 69
+            },
+            "modifiers": [],
+            "name": "ons",
+            "references": [],
+            "type": "Opportunity_Naming_Settings__c"
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iK5QAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iK5QAI",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 39
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "jobProgressController",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 65
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "checkNullBatchJobProgressBehavior",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "UTIL_JobProgress_CTRL_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 27,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "UTIL_JobProgress_CTRL_TEST",
+        "references": [],
+        "type": "UTIL_JobProgress_CTRL_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 48
+            },
+            "modifiers": [],
+            "name": "query",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "cacv",
+            "references": [],
+            "type": "CONV_Account_Conversion_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "batchprocessid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "UTIL_JobProgress_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 66
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "UTIL_JobProgress_CTRL"
+        }
+    ]
+}

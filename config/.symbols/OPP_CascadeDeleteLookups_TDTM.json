@@ -1,0 +1,60 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iI5QAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iI5QAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 49
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "getCascades",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "OPP_CascadeDeleteLookups_TDTM",
+    "namespace": null,
+    "parentClass": "UTIL_CascadeDeleteLookups_TDTM",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 41
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "cascades",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "OPP_CascadeDeleteLookups_TDTM",
+        "references": [],
+        "type": "OPP_CascadeDeleteLookups_TDTM"
+    },
+    "variables": []
+}

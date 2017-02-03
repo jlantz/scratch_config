@@ -1,0 +1,1980 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iFxQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iFxQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 68
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "run",
+            "parameters": [
+                {
+                    "name": "newlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "triggerAction",
+                    "type": "Action"
+                },
+                {
+                    "name": "objResult",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "DmlWrapper",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 328
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "updateAccountPrimaryContact",
+            "parameters": [
+                {
+                    "name": "mapAccountIdContactId",
+                    "type": "Map"
+                },
+                {
+                    "name": "dmlWrapper",
+                    "type": "DmlWrapper"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 346
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "updateHHAccount",
+            "parameters": [
+                {
+                    "name": "listAccountId",
+                    "type": "LIST"
+                },
+                {
+                    "name": "dmlWrapper",
+                    "type": "DmlWrapper"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 358
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "resetPrimaryContactForAccount",
+            "parameters": [
+                {
+                    "name": "listAccountId",
+                    "type": "LIST"
+                },
+                {
+                    "name": "dmlWrapper",
+                    "type": "DmlWrapper"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 394
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "firstIdFromSet",
+            "parameters": [
+                {
+                    "name": "setId",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "Id",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 437
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "attachToBucketAccount",
+            "parameters": [
+                {
+                    "name": "contacts",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 504
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "insertContactAccount",
+            "parameters": [
+                {
+                    "name": "contacts",
+                    "type": "LIST"
+                },
+                {
+                    "name": "dmlWrapper",
+                    "type": "DmlWrapper"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 595
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "updateContactAccount",
+            "parameters": [
+                {
+                    "name": "contacts",
+                    "type": "LIST"
+                },
+                {
+                    "name": "dmlWrapper",
+                    "type": "DmlWrapper"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 638
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "deleteContactAccountsIfEmpty",
+            "parameters": [
+                {
+                    "name": "contacts",
+                    "type": "LIST"
+                },
+                {
+                    "name": "dmlWrapper",
+                    "type": "DmlWrapper"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 686
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "updateOwners",
+            "parameters": [
+                {
+                    "name": "mapContactIdContactOwnerChange",
+                    "type": "Map"
+                },
+                {
+                    "name": "dmlWrapper",
+                    "type": "DmlWrapper"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 763
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "needsOne2OneAccountUpdate",
+            "parameters": [
+                {
+                    "name": "conNew",
+                    "type": "Contact"
+                },
+                {
+                    "name": "conOld",
+                    "type": "Contact"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 795
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "needsHHAccountRename",
+            "parameters": [
+                {
+                    "name": "hhNamingFields",
+                    "type": "Set"
+                },
+                {
+                    "name": "conNew",
+                    "type": "Contact"
+                },
+                {
+                    "name": "conOld",
+                    "type": "Contact"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 846
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "needsHHAccountAddressUpdate",
+            "parameters": [
+                {
+                    "name": "conNew",
+                    "type": "Contact"
+                },
+                {
+                    "name": "conOld",
+                    "type": "Contact"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 406
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "rollupAccounts",
+            "parameters": [
+                {
+                    "name": "listAccountId",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 423
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "renameHHAccounts",
+            "parameters": [
+                {
+                    "name": "listAccountId",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 474
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "rtIdForNewAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "Id",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 483
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "rtIdForAccountModel",
+            "parameters": [
+                {
+                    "name": "isHHAccountModel",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "Id",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 724
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "moveOppsToContactAccount",
+            "parameters": [
+                {
+                    "name": "mapContactIdAccountIdNew",
+                    "type": "Map"
+                },
+                {
+                    "name": "mapContactIdAccountIdOld",
+                    "type": "Map"
+                },
+                {
+                    "name": "dmlWrapper",
+                    "type": "DmlWrapper"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 865
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "strNameHHAccountForContact",
+            "parameters": [
+                {
+                    "name": "con",
+                    "type": "Contact"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 874
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "strNameOne2OneAccountForContact",
+            "parameters": [
+                {
+                    "name": "con",
+                    "type": "Contact"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "ACCT_IndividualAccounts_TDTM",
+    "namespace": null,
+    "parentClass": "TDTM_Runnable",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 41
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "ContactsSettings",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 46
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "EasternOrderLanguages",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 53
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "OrgLanguage",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 36
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "ACCT_IndividualAccounts_TDTM",
+        "references": [],
+        "type": "ACCT_IndividualAccounts_TDTM"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 68
+            },
+            "modifiers": [],
+            "name": "newlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 68
+            },
+            "modifiers": [],
+            "name": "oldlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 69
+            },
+            "modifiers": [],
+            "name": "triggerAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 69
+            },
+            "modifiers": [],
+            "name": "objResult",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "contacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "oldContacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "listContactNeedAccount",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "listContactNeedAccountUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "listContactAccountDelete",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "listContactNeedBucketAccount",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 82
+            },
+            "modifiers": [],
+            "name": "mapAccountIdContactId",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 83
+            },
+            "modifiers": [],
+            "name": "listAccountIdHHToUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 84
+            },
+            "modifiers": [],
+            "name": "listAccountIdHHToRename",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 85
+            },
+            "modifiers": [],
+            "name": "mapAccountIdAccount",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 86
+            },
+            "modifiers": [],
+            "name": "mapContactIdContactOwnerChange",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 87
+            },
+            "modifiers": [],
+            "name": "mapContactIdAccountIdOldMoveOpps",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 88
+            },
+            "modifiers": [],
+            "name": "mapContactIdAccountIdNewMoveOpps",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 89
+            },
+            "modifiers": [],
+            "name": "hhNamingFields",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 94
+            },
+            "modifiers": [],
+            "name": "setAccountId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 95
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 100
+            },
+            "modifiers": [],
+            "name": "strSoql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "hhNameField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 121
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 124
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 125
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 328
+            },
+            "modifiers": [],
+            "name": "mapAccountIdContactId",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 92,
+                "line": 328
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 329
+            },
+            "modifiers": [],
+            "name": "listAccount",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 330
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 331
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 346
+            },
+            "modifiers": [],
+            "name": "listAccountId",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 346
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 358
+            },
+            "modifiers": [],
+            "name": "listAccountId",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 83,
+                "line": 358
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 361
+            },
+            "modifiers": [],
+            "name": "mapAccountIdSetContacts",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 363
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 364
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 365
+            },
+            "modifiers": [],
+            "name": "setContactId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 374
+            },
+            "modifiers": [],
+            "name": "listAcc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 375
+            },
+            "modifiers": [],
+            "name": "listAccToUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 376
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 377
+            },
+            "modifiers": [],
+            "name": "setContactId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 394
+            },
+            "modifiers": [],
+            "name": "setId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 395
+            },
+            "modifiers": [],
+            "name": "id",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 437
+            },
+            "modifiers": [],
+            "name": "contacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 440
+            },
+            "modifiers": [],
+            "name": "individuals",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 442
+            },
+            "modifiers": [],
+            "name": "individualAccountId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 446
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 454
+            },
+            "modifiers": [],
+            "name": "individual",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 462
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 504
+            },
+            "modifiers": [],
+            "name": "contacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 504
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 506
+            },
+            "modifiers": [],
+            "name": "contactIds",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 507
+            },
+            "modifiers": [],
+            "name": "mapContactIdAccount",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 508
+            },
+            "modifiers": [],
+            "name": "listContactNewAcct",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 510
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 517
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 521
+            },
+            "modifiers": [],
+            "name": "accountInserts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 522
+            },
+            "modifiers": [],
+            "name": "rtIdAcccount",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 524
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 527
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 535
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 568
+            },
+            "modifiers": [],
+            "name": "insertResults",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 569
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 570
+            },
+            "modifiers": [],
+            "name": "sr",
+            "references": [],
+            "type": "SaveResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 572
+            },
+            "modifiers": [],
+            "name": "err",
+            "references": [],
+            "type": "Error"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 574
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 581
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 582
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 595
+            },
+            "modifiers": [],
+            "name": "contacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 595
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 597
+            },
+            "modifiers": [],
+            "name": "accConMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 598
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 605
+            },
+            "modifiers": [],
+            "name": "accts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 608
+            },
+            "modifiers": [],
+            "name": "listAccount",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 610
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 611
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 638
+            },
+            "modifiers": [],
+            "name": "contacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 77,
+                "line": 638
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 639
+            },
+            "modifiers": [],
+            "name": "accountIds",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 640
+            },
+            "modifiers": [],
+            "name": "accountsOnContacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 641
+            },
+            "modifiers": [],
+            "name": "accountsForDeletion",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 642
+            },
+            "modifiers": [],
+            "name": "listAccountIdUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 645
+            },
+            "modifiers": [],
+            "name": "thisContact",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 651
+            },
+            "modifiers": [],
+            "name": "thisAccount",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 686
+            },
+            "modifiers": [],
+            "name": "mapContactIdContactOwnerChange",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 91,
+                "line": 686
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 688
+            },
+            "modifiers": [],
+            "name": "listAccToUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 689
+            },
+            "modifiers": [],
+            "name": "setAccId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 690
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 694
+            },
+            "modifiers": [],
+            "name": "listAcc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 697
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 702
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 703
+            },
+            "modifiers": [],
+            "name": "ownerIdContact",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 763
+            },
+            "modifiers": [],
+            "name": "conNew",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 763
+            },
+            "modifiers": [],
+            "name": "conOld",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 795
+            },
+            "modifiers": [],
+            "name": "hhNamingFields",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 78,
+                "line": 795
+            },
+            "modifiers": [],
+            "name": "conNew",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 94,
+                "line": 795
+            },
+            "modifiers": [],
+            "name": "conOld",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 804
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 805
+            },
+            "modifiers": [],
+            "name": "strName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 806
+            },
+            "modifiers": [],
+            "name": "strNameOld",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 809
+            },
+            "modifiers": [],
+            "name": "splitField",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 811
+            },
+            "modifiers": [],
+            "name": "sobj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 846
+            },
+            "modifiers": [],
+            "name": "conNew",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 846
+            },
+            "modifiers": [],
+            "name": "conOld",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 406
+            },
+            "modifiers": [],
+            "name": "listAccountId",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 408
+            },
+            "modifiers": [],
+            "name": "oppRollupUtil",
+            "references": [],
+            "type": "RLLP_OppRollup_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 409
+            },
+            "modifiers": [],
+            "name": "amap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 411
+            },
+            "modifiers": [],
+            "name": "rg",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 423
+            },
+            "modifiers": [],
+            "name": "listAccountId",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 425
+            },
+            "modifiers": [],
+            "name": "hhName",
+            "references": [],
+            "type": "HH_HouseholdNaming"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 483
+            },
+            "modifiers": [],
+            "name": "isHHAccountModel",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 485
+            },
+            "modifiers": [],
+            "name": "rtById",
+            "references": [],
+            "type": "RecordTypeInfo"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 488
+            },
+            "modifiers": [],
+            "name": "rtId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 490
+            },
+            "modifiers": [],
+            "name": "R",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 491
+            },
+            "modifiers": [],
+            "name": "rtMapById",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 724
+            },
+            "modifiers": [],
+            "name": "mapContactIdAccountIdNew",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 97,
+                "line": 724
+            },
+            "modifiers": [],
+            "name": "mapContactIdAccountIdOld",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 134,
+                "line": 724
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 725
+            },
+            "modifiers": [],
+            "name": "setConId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 726
+            },
+            "modifiers": [],
+            "name": "listAccIdOld",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 727
+            },
+            "modifiers": [],
+            "name": "listOpp",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 728
+            },
+            "modifiers": [],
+            "name": "setOppId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 734
+            },
+            "modifiers": [],
+            "name": "cs",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 736
+            },
+            "modifiers": [],
+            "name": "listOCR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 740
+            },
+            "modifiers": [],
+            "name": "ocr",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 61,
+                "line": 865
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 874
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 875
+            },
+            "modifiers": [],
+            "name": "str",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

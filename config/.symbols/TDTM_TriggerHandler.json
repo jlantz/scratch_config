@@ -1,0 +1,767 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJrQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJrQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 62
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "run",
+            "parameters": [
+                {
+                    "name": "isBefore",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isAfter",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isInsert",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isUpdate",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isDelete",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isUnDelete",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "newList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "describeObj",
+                    "type": "DescribeSObjectResult"
+                },
+                {
+                    "name": "dao",
+                    "type": "TDTM_iTableDataGateway"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 148
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "runClass",
+            "parameters": [
+                {
+                    "name": "classToRunRecord",
+                    "type": "SObject"
+                },
+                {
+                    "name": "newList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "thisAction",
+                    "type": "Action"
+                },
+                {
+                    "name": "describeObj",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "DmlWrapper",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 187
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "runAsync",
+            "parameters": [
+                {
+                    "name": "classToRun",
+                    "type": "TDTM_Runnable"
+                },
+                {
+                    "name": "classToRunName",
+                    "type": "String"
+                },
+                {
+                    "name": "newList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "thisAction",
+                    "type": "Action"
+                },
+                {
+                    "name": "describeObj",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 210
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "processDML",
+            "parameters": [
+                {
+                    "name": "dmlWrapper",
+                    "type": "DmlWrapper"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 222
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "processDMLAllOrNothing",
+            "parameters": [
+                {
+                    "name": "dmlWrapper",
+                    "type": "DmlWrapper"
+                },
+                {
+                    "name": "allOrNothing",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "Errors",
+            "type": null
+        }
+    ],
+    "name": "TDTM_TriggerHandler",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 41
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "defaultRecordsInserted",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 43
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "suppressDebugAssertAfterErrorLogging",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 45
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "disableTDTM",
+            "references": [],
+            "type": "Boolean"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 39
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "TDTM_TriggerHandler",
+        "references": [],
+        "type": "TDTM_TriggerHandler"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "isBefore",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "isAfter",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "isInsert",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 82,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "isUpdate",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 63
+            },
+            "modifiers": [],
+            "name": "isDelete",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 63
+            },
+            "modifiers": [],
+            "name": "isUnDelete",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 63
+            },
+            "modifiers": [],
+            "name": "newList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 80,
+                "line": 63
+            },
+            "modifiers": [],
+            "name": "oldList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "describeObj",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "dao",
+            "references": [],
+            "type": "TDTM_iTableDataGateway"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "thisAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 82
+            },
+            "modifiers": [],
+            "name": "defaultConfig",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 89
+            },
+            "modifiers": [],
+            "name": "classesToCall",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 94
+            },
+            "modifiers": [],
+            "name": "classToCall",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 95
+            },
+            "modifiers": [],
+            "name": "dmlWrapperLocal",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 101
+            },
+            "modifiers": [],
+            "name": "populatedList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 133
+            },
+            "modifiers": [],
+            "name": "populatedList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 148
+            },
+            "modifiers": [],
+            "name": "classToRunRecord",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 87,
+                "line": 148
+            },
+            "modifiers": [],
+            "name": "newList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 110,
+                "line": 148
+            },
+            "modifiers": [],
+            "name": "oldList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 149
+            },
+            "modifiers": [],
+            "name": "thisAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 67,
+                "line": 149
+            },
+            "modifiers": [],
+            "name": "describeObj",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 152
+            },
+            "modifiers": [],
+            "name": "classToRunName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 153
+            },
+            "modifiers": [],
+            "name": "classType",
+            "references": [],
+            "type": "Type"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 156
+            },
+            "modifiers": [],
+            "name": "classInstance",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "classToRun",
+            "references": [],
+            "type": "TDTM_Runnable"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 161
+            },
+            "modifiers": [],
+            "name": "async",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 162
+            },
+            "modifiers": [],
+            "name": "isBefore",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "classToRun",
+            "references": [],
+            "type": "TDTM_Runnable"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "classToRunName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 90,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "newList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "oldList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "thisAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 90,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "describeObj",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 189
+            },
+            "modifiers": [],
+            "name": "setNewId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 191
+            },
+            "modifiers": [],
+            "name": "nm",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 195
+            },
+            "modifiers": [],
+            "name": "setOldId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 197
+            },
+            "modifiers": [],
+            "name": "om",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 210
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 86,
+                "line": 222
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 106,
+                "line": 222
+            },
+            "modifiers": [],
+            "name": "allOrNothing",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 230
+            },
+            "modifiers": [],
+            "name": "insertResults",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 231
+            },
+            "modifiers": [],
+            "name": "updateResults",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 232
+            },
+            "modifiers": [],
+            "name": "deleteResults",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 233
+            },
+            "modifiers": [],
+            "name": "undeleteResults",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 239
+            },
+            "modifiers": [],
+            "name": "errors",
+            "references": [],
+            "type": "Errors"
+        }
+    ]
+}

@@ -1,0 +1,499 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 98
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "ALLO_ManageAllocations_CTRL",
+            "parameters": [
+                {
+                    "name": "ssc",
+                    "type": "StandardSetController"
+                }
+            ],
+            "references": [],
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "TestVisible"
+                }
+            ],
+            "location": {
+                "column": 13,
+                "line": 157
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "ALLO_ManageAllocations_CTRL",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iGUQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iGUQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 160
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "populateObjectParameters",
+            "parameters": [
+                {
+                    "name": "st",
+                    "type": "SObjectType"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 176
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getCurrencySymbol",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 184
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "addRow",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 204
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "delRow",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 214
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "saveClose",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 253
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "cancel",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        }
+    ],
+    "name": "ALLO_ManageAllocations_CTRL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 40
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listAllo",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 42
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "defaultAllo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 45
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listAlloSize",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 53
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listAlloForDelete",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 56
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "parentId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 58
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 60
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "cam",
+            "references": [],
+            "type": "Campaign"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 62
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "rd",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 64
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "parentAmount",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 66
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "settings",
+            "references": [],
+            "type": "Allocations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 77
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "pageTitle",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 79
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 81
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "keyPrefix",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 83
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "objectAPIName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 85
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "objectLabelPlural",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 88
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "rowNumber",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [
+                {
+                    "name": "TestVisible"
+                }
+            ],
+            "location": {
+                "column": 20,
+                "line": 95
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "currencySymbol",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "ALLO_ManageAllocations_CTRL",
+        "references": [],
+        "type": "ALLO_ManageAllocations_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 72,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "ssc",
+            "references": [],
+            "type": "StandardSetController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 140
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "st",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 161
+            },
+            "modifiers": [],
+            "name": "describe",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 185
+            },
+            "modifiers": [],
+            "name": "allo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 215
+            },
+            "modifiers": [],
+            "name": "listAlloForInsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 216
+            },
+            "modifiers": [],
+            "name": "listAlloForUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 217
+            },
+            "modifiers": [],
+            "name": "source",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 222
+            },
+            "modifiers": [],
+            "name": "allo",
+            "references": [],
+            "type": "Allocation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 254
+            },
+            "modifiers": [],
+            "name": "source",
+            "references": [],
+            "type": "PageReference"
+        }
+    ]
+}

@@ -1,0 +1,202 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iK0QAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iK0QAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 46
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "debug",
+            "parameters": [
+                {
+                    "name": "message",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 59
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "debug",
+            "parameters": [
+                {
+                    "name": "level",
+                    "type": "LoggingLevel"
+                },
+                {
+                    "name": "message",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 71
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "debugWithInfo",
+            "parameters": [
+                {
+                    "name": "message",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 91
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "debugWithInfo",
+            "parameters": [
+                {
+                    "name": "level",
+                    "type": "LoggingLevel"
+                },
+                {
+                    "name": "message",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "UTIL_Debug",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 39
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "enabled",
+            "references": [],
+            "type": "Boolean"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 36
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "UTIL_Debug",
+        "references": [],
+        "type": "UTIL_Debug"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "message",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "level",
+            "references": [],
+            "type": "LoggingLevel"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "message",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "message",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 91
+            },
+            "modifiers": [],
+            "name": "level",
+            "references": [],
+            "type": "LoggingLevel"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 91
+            },
+            "modifiers": [],
+            "name": "message",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

@@ -1,0 +1,183 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iG5QAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iG5QAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 193
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "respond",
+            "parameters": [
+                {
+                    "name": "req",
+                    "type": "HttpRequest"
+                }
+            ],
+            "references": [],
+            "returnType": "HttpResponse",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 33,
+                "line": 205
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "singleValidAddr",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "ADDR_Cicero_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 45
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strTestOnly",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 50
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strResponseTest",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 27,
+            "line": 39
+        },
+        "modifiers": [
+            "public",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "ADDR_Cicero_TEST",
+        "references": [],
+        "type": "ADDR_Cicero_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 193
+            },
+            "modifiers": [],
+            "name": "req",
+            "references": [],
+            "type": "HttpRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 195
+            },
+            "modifiers": [],
+            "name": "res",
+            "references": [],
+            "type": "HttpResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 208
+            },
+            "modifiers": [],
+            "name": "listAddr",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 209
+            },
+            "modifiers": [],
+            "name": "addr",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 216
+            },
+            "modifiers": [],
+            "name": "cicero",
+            "references": [],
+            "type": "ADDR_Cicero_Validator"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 217
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 220
+            },
+            "modifiers": [],
+            "name": "listAddrVerified",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

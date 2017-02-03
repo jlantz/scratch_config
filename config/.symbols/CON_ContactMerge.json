@@ -1,0 +1,346 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iGvQAI",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "ConMergeException",
+            "namespace": null,
+            "parentClass": "Exception",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 63
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "ConMergeException",
+                "references": [],
+                "type": "ConMergeException"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iGvQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 71
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "mergeContacts",
+            "parameters": [
+                {
+                    "name": "winner",
+                    "type": "Contact"
+                },
+                {
+                    "name": "losers",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        }
+    ],
+    "name": "CON_ContactMerge",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 43
+            },
+            "modifiers": [
+                "public",
+                "final"
+            ],
+            "name": "MERGE_MINIMUM",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 48
+            },
+            "modifiers": [
+                "public",
+                "final"
+            ],
+            "name": "MERGE_LIMIT",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 53
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "winner",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 58
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "losers",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 38
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "CON_ContactMerge",
+        "references": [],
+        "type": "CON_ContactMerge"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "winner",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "losers",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "successfulMerge",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "winnerAccount",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 75
+            },
+            "modifiers": [],
+            "name": "loserAccountIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 76
+            },
+            "modifiers": [],
+            "name": "loserAccounts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 77
+            },
+            "modifiers": [],
+            "name": "loserAccountsToBeMerged",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "loserAccountsToBeDeleted",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "winningAccountId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "winnerAccountIsOneToOne",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 85
+            },
+            "modifiers": [],
+            "name": "isPAEnabled",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 89
+            },
+            "modifiers": [],
+            "name": "winnerAccId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 90
+            },
+            "modifiers": [],
+            "name": "strSoql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "strSoql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 115
+            },
+            "modifiers": [],
+            "name": "thisloserContact",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 148
+            },
+            "modifiers": [],
+            "name": "winnerMakePrivate",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 154
+            },
+            "modifiers": [],
+            "name": "losersMakePrivate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 156
+            },
+            "modifiers": [],
+            "name": "contactForUpdate",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 159
+            },
+            "modifiers": [],
+            "name": "loserMakePrivate",
+            "references": [],
+            "type": "Contact"
+        }
+    ]
+}

@@ -1,0 +1,1538 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 61
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "CONV_Account_Conversion_BATCH",
+            "parameters": [
+                {
+                    "name": "q",
+                    "type": "String"
+                },
+                {
+                    "name": "hhIdField",
+                    "type": "String"
+                },
+                {
+                    "name": "fm",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iGnQAI",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 639
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "ContactAddress",
+                    "parameters": [
+                        {
+                            "name": "c",
+                            "type": "Contact"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 669
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "isSameAddress",
+                    "parameters": [
+                        {
+                            "name": "ca",
+                            "type": "ContactAddress"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 685
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "isSameAddress",
+                    "parameters": [
+                        {
+                            "name": "add",
+                            "type": "Address__c"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 703
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getMD5",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "String",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 719
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "hasAddress",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "ContactAddress",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 652
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "contact",
+                    "references": [],
+                    "type": "Contact"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 653
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "ConId",
+                    "references": [],
+                    "type": "Id"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 654
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "AccountId",
+                    "references": [],
+                    "type": "Id"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 655
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "MailingStreet",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 656
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "MailingCity",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 657
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "MailingState",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 658
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "MailingZip",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 659
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "MailingCountry",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 660
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "AddressType",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 22,
+                        "line": 661
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "AddressBlob",
+                    "references": [],
+                    "type": "Blob"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 662
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "MD5",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 637
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "ContactAddress",
+                "references": [],
+                "type": "ContactAddress"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 39,
+                        "line": 639
+                    },
+                    "modifiers": [],
+                    "name": "c",
+                    "references": [],
+                    "type": "Contact"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 83,
+                        "line": 669
+                    },
+                    "modifiers": [],
+                    "name": "ca",
+                    "references": [],
+                    "type": "ContactAddress"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 49,
+                        "line": 685
+                    },
+                    "modifiers": [],
+                    "name": "add",
+                    "references": [],
+                    "type": "Address__c"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 686
+                    },
+                    "modifiers": [],
+                    "name": "strStreet",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 22,
+                        "line": 708
+                    },
+                    "modifiers": [],
+                    "name": "MD5Hash",
+                    "references": [],
+                    "type": "Blob"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "AccountModelConversionException",
+            "namespace": null,
+            "parentClass": "Exception",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 733
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "AccountModelConversionException",
+                "references": [],
+                "type": "AccountModelConversionException"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [
+        "Database.Batchable"
+    ],
+    "key": "01p4C0000002iGnQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 72
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "start",
+            "parameters": [
+                {
+                    "name": "bc",
+                    "type": "BatchableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "QueryLocator",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 81
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "execute",
+            "parameters": [
+                {
+                    "name": "bc",
+                    "type": "BatchableContext"
+                },
+                {
+                    "name": "result",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 578
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "finish",
+            "parameters": [
+                {
+                    "name": "bc",
+                    "type": "BatchableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 602
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "removeHouseholdAccountsFromList",
+            "parameters": [
+                {
+                    "name": "hhList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "conList",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 622
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "removeContactsWithHouseholdAccount",
+            "parameters": [
+                {
+                    "name": "hhList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "cList",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "CONV_Account_Conversion_BATCH",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 41
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "query",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 45
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "fieldmap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 49
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "HouseholdIdField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 53
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "auditFields",
+            "references": [],
+            "type": "Set"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 36
+        },
+        "modifiers": [
+            "global"
+        ],
+        "name": "CONV_Account_Conversion_BATCH",
+        "references": [],
+        "type": "CONV_Account_Conversion_BATCH"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 61
+            },
+            "modifiers": [],
+            "name": "q",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 61
+            },
+            "modifiers": [],
+            "name": "hhIdField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 90,
+                "line": 61
+            },
+            "modifiers": [],
+            "name": "fm",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "bc",
+            "references": [],
+            "type": "BatchableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "bc",
+            "references": [],
+            "type": "BatchableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 86
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 90
+            },
+            "modifiers": [],
+            "name": "consForUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 91
+            },
+            "modifiers": [],
+            "name": "ocrsForUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 92
+            },
+            "modifiers": [],
+            "name": "oppsForUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 94
+            },
+            "modifiers": [],
+            "name": "hh2account",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 95
+            },
+            "modifiers": [],
+            "name": "con2account",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 96
+            },
+            "modifiers": [],
+            "name": "addressedHouseholds",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "hhscope",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 113
+            },
+            "modifiers": [],
+            "name": "hh",
+            "references": [],
+            "type": "npo02__Household__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 114
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 155
+            },
+            "modifiers": [],
+            "name": "mapAudit",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 156
+            },
+            "modifiers": [],
+            "name": "auditField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 168
+            },
+            "modifiers": [],
+            "name": "conGiving",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 170
+            },
+            "modifiers": [],
+            "name": "consWithNewHousehold",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 172
+            },
+            "modifiers": [],
+            "name": "addressMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 178
+            },
+            "modifiers": [],
+            "name": "conAffMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 179
+            },
+            "modifiers": [],
+            "name": "hhMemberCount",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 180
+            },
+            "modifiers": [],
+            "name": "mapKeyAff",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 182
+            },
+            "modifiers": [],
+            "name": "aff",
+            "references": [],
+            "type": "npe5__Affiliation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 184
+            },
+            "modifiers": [],
+            "name": "strKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 189
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 192
+            },
+            "modifiers": [],
+            "name": "currCount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 204
+            },
+            "modifiers": [],
+            "name": "strKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 205
+            },
+            "modifiers": [],
+            "name": "aff",
+            "references": [],
+            "type": "npe5__Affiliation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 240
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 253
+            },
+            "modifiers": [],
+            "name": "ocr",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 254
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 265
+            },
+            "modifiers": [],
+            "name": "tasksForUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 268
+            },
+            "modifiers": [],
+            "name": "t",
+            "references": [],
+            "type": "Task"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 278
+            },
+            "modifiers": [],
+            "name": "addressesForInsert",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 279
+            },
+            "modifiers": [],
+            "name": "hhAccountsForUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 281
+            },
+            "modifiers": [],
+            "name": "contactsSettings",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 283
+            },
+            "modifiers": [],
+            "name": "accountId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 284
+            },
+            "modifiers": [],
+            "name": "conList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 289
+            },
+            "modifiers": [],
+            "name": "cadd",
+            "references": [],
+            "type": "ContactAddress"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 290
+            },
+            "modifiers": [],
+            "name": "myHHAccount",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 294
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 329
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 346
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 369
+            },
+            "modifiers": [],
+            "name": "HHaddresses",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 370
+            },
+            "modifiers": [],
+            "name": "addressFrequency",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 371
+            },
+            "modifiers": [],
+            "name": "addressHighestGiver",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 372
+            },
+            "modifiers": [],
+            "name": "uniqueContactAddress",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 376
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 377
+            },
+            "modifiers": [],
+            "name": "cadd",
+            "references": [],
+            "type": "ContactAddress"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 387
+            },
+            "modifiers": [],
+            "name": "addrCount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 395
+            },
+            "modifiers": [],
+            "name": "OppTotal",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 412
+            },
+            "modifiers": [],
+            "name": "hasDefaultAddr",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 413
+            },
+            "modifiers": [],
+            "name": "addresscount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 414
+            },
+            "modifiers": [],
+            "name": "counter",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 415
+            },
+            "modifiers": [],
+            "name": "masteraddresshash",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 417
+            },
+            "modifiers": [],
+            "name": "MD5Hash",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 418
+            },
+            "modifiers": [],
+            "name": "cadd",
+            "references": [],
+            "type": "ContactAddress"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 424
+            },
+            "modifiers": [],
+            "name": "addCount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 425
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 433
+            },
+            "modifiers": [],
+            "name": "giverAmount",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 434
+            },
+            "modifiers": [],
+            "name": "d",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 451
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 474
+            },
+            "modifiers": [],
+            "name": "masteraddress",
+            "references": [],
+            "type": "ContactAddress"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 477
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 487
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 488
+            },
+            "modifiers": [],
+            "name": "ca",
+            "references": [],
+            "type": "ContactAddress"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 514
+            },
+            "modifiers": [],
+            "name": "accountId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 515
+            },
+            "modifiers": [],
+            "name": "conList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 517
+            },
+            "modifiers": [],
+            "name": "myHHAccount",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 525
+            },
+            "modifiers": [],
+            "name": "maxOppAmount",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 527
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 538
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 578
+            },
+            "modifiers": [],
+            "name": "bc",
+            "references": [],
+            "type": "BatchableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 581
+            },
+            "modifiers": [],
+            "name": "ContactsSettings",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 584
+            },
+            "modifiers": [],
+            "name": "householdAccount",
+            "references": [],
+            "type": "RecordTypeInfo"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 590
+            },
+            "modifiers": [],
+            "name": "HHSettings",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 97,
+                "line": 602
+            },
+            "modifiers": [],
+            "name": "hhList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 119,
+                "line": 602
+            },
+            "modifiers": [],
+            "name": "conList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 603
+            },
+            "modifiers": [],
+            "name": "hhScopeMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 604
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 88,
+                "line": 622
+            },
+            "modifiers": [],
+            "name": "hhList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 110,
+                "line": 622
+            },
+            "modifiers": [],
+            "name": "cList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 623
+            },
+            "modifiers": [],
+            "name": "filteredMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 624
+            },
+            "modifiers": [],
+            "name": "hhScopeMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 626
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        }
+    ]
+}

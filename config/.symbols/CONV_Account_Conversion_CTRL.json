@@ -1,0 +1,576 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 143
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "CONV_Account_Conversion_CTRL",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iGpQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iGpQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 84
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getTargetAccountFields",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 163
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "convert",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 181
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "cancel",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 205
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "runCheck",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 191
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getBatchQuery",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 27,
+                "line": 279
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "verifyFieldTypeForIds",
+            "parameters": [
+                {
+                    "name": "HHField",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        }
+    ],
+    "name": "CONV_Account_Conversion_CTRL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 42
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "batchRunning",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 46
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "AccountHouseholdIdField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 50
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "runCheckErrorState",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 54
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "targetAccountfields",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 58
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "aaj",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 62
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "apexjob",
+            "references": [],
+            "type": "AsyncApexJob"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 75
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "pageParams",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 79
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "scopesize",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 113
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "HouseholdFields",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 130
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "AccountFields",
+            "references": [],
+            "type": "Set"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "CONV_Account_Conversion_CTRL",
+        "references": [],
+        "type": "CONV_Account_Conversion_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 86
+            },
+            "modifiers": [],
+            "name": "targetTokenMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 90
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 96
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "nameSegs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 100
+            },
+            "modifiers": [],
+            "name": "f",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 101
+            },
+            "modifiers": [],
+            "name": "payType",
+            "references": [],
+            "type": "DisplayType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 166
+            },
+            "modifiers": [],
+            "name": "query",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 167
+            },
+            "modifiers": [],
+            "name": "cacv",
+            "references": [],
+            "type": "CONV_Account_Conversion_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 168
+            },
+            "modifiers": [],
+            "name": "batchprocessid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 182
+            },
+            "modifiers": [],
+            "name": "ref",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 206
+            },
+            "modifiers": [],
+            "name": "HHAccountCount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 207
+            },
+            "modifiers": [],
+            "name": "ContactConnectedCount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 208
+            },
+            "modifiers": [],
+            "name": "displayHHAccountCount",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 209
+            },
+            "modifiers": [],
+            "name": "displayContactCount",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 223
+            },
+            "modifiers": [],
+            "name": "errorString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 235
+            },
+            "modifiers": [],
+            "name": "inactiveUsers",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 238
+            },
+            "modifiers": [],
+            "name": "contactCount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 240
+            },
+            "modifiers": [],
+            "name": "taskCount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 242
+            },
+            "modifiers": [],
+            "name": "inactiveUserWarning",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 258
+            },
+            "modifiers": [],
+            "name": "householdAccount",
+            "references": [],
+            "type": "RecordTypeInfo"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 260
+            },
+            "modifiers": [],
+            "name": "ContactsSettings",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 192
+            },
+            "modifiers": [],
+            "name": "query",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 193
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 279
+            },
+            "modifiers": [],
+            "name": "HHField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 280
+            },
+            "modifiers": [],
+            "name": "targetTokenMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 284
+            },
+            "modifiers": [],
+            "name": "f",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 285
+            },
+            "modifiers": [],
+            "name": "payType",
+            "references": [],
+            "type": "DisplayType"
+        }
+    ]
+}

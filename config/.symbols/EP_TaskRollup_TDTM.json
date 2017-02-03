@@ -1,0 +1,322 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHFQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHFQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 49
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "run",
+            "parameters": [
+                {
+                    "name": "listNew",
+                    "type": "LIST"
+                },
+                {
+                    "name": "listOld",
+                    "type": "LIST"
+                },
+                {
+                    "name": "triggerAction",
+                    "type": "Action"
+                },
+                {
+                    "name": "objResult",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "DmlWrapper",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 112
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "updateTaskCountOnEP",
+            "parameters": [
+                {
+                    "name": "epIdsToUpdate",
+                    "type": "Set"
+                },
+                {
+                    "name": "dmlWrapper",
+                    "type": "DmlWrapper"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "EP_TaskRollup_TDTM",
+    "namespace": null,
+    "parentClass": "TDTM_Runnable",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 38
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "mapNewOldTask",
+            "references": [],
+            "type": "Map"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 36
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "EP_TaskRollup_TDTM",
+        "references": [],
+        "type": "EP_TaskRollup_TDTM"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "listNew",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "listOld",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "triggerAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "objResult",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "epIdsToUpdate",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 60
+            },
+            "modifiers": [],
+            "name": "listToCheck",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "newSO",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 63
+            },
+            "modifiers": [],
+            "name": "newTask",
+            "references": [],
+            "type": "Task"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 77
+            },
+            "modifiers": [],
+            "name": "mapOld",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "newSO",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "newTask",
+            "references": [],
+            "type": "Task"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "oldTask",
+            "references": [],
+            "type": "Task"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 112
+            },
+            "modifiers": [],
+            "name": "epIdsToUpdate",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 79,
+                "line": 112
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 114
+            },
+            "modifiers": [],
+            "name": "mapIdsToEP",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 116
+            },
+            "modifiers": [],
+            "name": "aggRes",
+            "references": [],
+            "type": "AggregateResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 118
+            },
+            "modifiers": [],
+            "name": "epId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 119
+            },
+            "modifiers": [],
+            "name": "taskComp",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 120
+            },
+            "modifiers": [],
+            "name": "taskCount",
+            "references": [],
+            "type": "Decimal"
+        }
+    ]
+}

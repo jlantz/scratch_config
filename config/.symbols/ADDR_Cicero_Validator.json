@@ -1,0 +1,876 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iG6QAI",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "CiceroException",
+            "namespace": null,
+            "parentClass": "Exception",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 239
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "CiceroException",
+                "references": [],
+                "type": "CiceroException"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "CiceroResponse",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 25,
+                        "line": 247
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "response",
+                    "references": [],
+                    "type": "Response"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 246
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "CiceroResponse",
+                "references": [],
+                "type": "CiceroResponse"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "Response",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 254
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "results",
+                    "references": [],
+                    "type": "Results"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 253
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Response",
+                "references": [],
+                "type": "Response"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "Results",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 261
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "candidates",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 260
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Results",
+                "references": [],
+                "type": "Results"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "Candidates",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 269
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "match_addr",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 272
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "match_streetaddr",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 275
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "match_postal",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 278
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "match_city",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 281
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "match_subregion",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 284
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "match_region",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 287
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "match_country",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 289
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "wkid",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 32,
+                        "line": 290
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "districts",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 291
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "x",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 292
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "y",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 293
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "geoservice",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 267
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Candidates",
+                "references": [],
+                "type": "Candidates"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "Districts",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 300
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "district_type",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 301
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "district_id",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 302
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "country",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 303
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "label",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 304
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "subtype",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 305
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "state",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 306
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "id",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 299
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Districts",
+                "references": [],
+                "type": "Districts"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [
+        "ADDR_IValidator"
+    ],
+    "key": "01p4C0000002iG6QAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 57
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getServiceName",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 64
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getDefaultURL",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 71
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "supportsBatch",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 78
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getBatchHelpText",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 88
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "verifyRecords",
+            "parameters": [
+                {
+                    "name": "listAddr",
+                    "type": "LIST"
+                },
+                {
+                    "name": "settings",
+                    "type": "Addr_Verification_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 112
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "verifyAddress",
+            "parameters": [
+                {
+                    "name": "addr",
+                    "type": "Address__c"
+                },
+                {
+                    "name": "settings",
+                    "type": "Addr_Verification_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "Address__c",
+            "type": null
+        }
+    ],
+    "name": "ADDR_Cicero_Validator",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 42
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "strAuthToken",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 47
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "strEndPoint",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 52
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "dblTimeout",
+            "references": [],
+            "type": "Double"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "ADDR_Cicero_Validator",
+        "references": [],
+        "type": "ADDR_Cicero_Validator"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 88
+            },
+            "modifiers": [],
+            "name": "listAddr",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 100,
+                "line": 88
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 90
+            },
+            "modifiers": [],
+            "name": "listAddrChecked",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 99
+            },
+            "modifiers": [],
+            "name": "addr",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 112
+            },
+            "modifiers": [],
+            "name": "addr",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 85,
+                "line": 112
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 114
+            },
+            "modifiers": [],
+            "name": "strRequest",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 115
+            },
+            "modifiers": [],
+            "name": "subpremise",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 118
+            },
+            "modifiers": [],
+            "name": "mailingAddress",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 127
+            },
+            "modifiers": [],
+            "name": "split",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "h",
+            "references": [],
+            "type": "Http"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "req",
+            "references": [],
+            "type": "HttpRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 159
+            },
+            "modifiers": [],
+            "name": "response",
+            "references": [],
+            "type": "HttpResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 167
+            },
+            "modifiers": [],
+            "name": "strError",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 170
+            },
+            "modifiers": [],
+            "name": "cresp",
+            "references": [],
+            "type": "CiceroResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 171
+            },
+            "modifiers": [],
+            "name": "objResp",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 172
+            },
+            "modifiers": [],
+            "name": "responseBody",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 178
+            },
+            "modifiers": [],
+            "name": "foundData",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 180
+            },
+            "modifiers": [],
+            "name": "listCandidates",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "candidate",
+            "references": [],
+            "type": "Candidates"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 189
+            },
+            "modifiers": [],
+            "name": "district",
+            "references": [],
+            "type": "Districts"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 205
+            },
+            "modifiers": [],
+            "name": "listParts",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

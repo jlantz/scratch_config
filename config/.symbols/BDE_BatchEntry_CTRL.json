@@ -1,0 +1,1020 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 73
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "BDE_BatchEntry_CTRL",
+            "parameters": [
+                {
+                    "name": "stdController",
+                    "type": "StandardController"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iGdQAI",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 218
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "entryField",
+                    "parameters": [
+                        {
+                            "name": "obj",
+                            "type": "String"
+                        },
+                        {
+                            "name": "fld",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "EntryField",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 27,
+                        "line": 215
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "fieldName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 27,
+                        "line": 216
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "fieldLabel",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 214
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "EntryField",
+                "references": [],
+                "type": "EntryField"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 38,
+                        "line": 218
+                    },
+                    "modifiers": [],
+                    "name": "obj",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 50,
+                        "line": 218
+                    },
+                    "modifiers": [],
+                    "name": "fld",
+                    "references": [],
+                    "type": "String"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 262
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "BatchItem",
+                    "parameters": [
+                        {
+                            "name": "parentClass",
+                            "type": "BDE_BatchEntry_CTRL"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 277
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "BatchItem",
+                    "parameters": [
+                        {
+                            "name": "parentClass",
+                            "type": "BDE_BatchEntry_CTRL"
+                        },
+                        {
+                            "name": "existingItem",
+                            "type": "SObject"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 34,
+                        "line": 288
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "editItem",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "PageReference",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 34,
+                        "line": 294
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "deleteItem",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "PageReference",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 27,
+                        "line": 302
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "createName",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "String",
+                    "type": null
+                }
+            ],
+            "name": "BatchItem",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 251
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "mydad",
+                    "references": [],
+                    "type": "BDE_BatchEntry_CTRL"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 28,
+                        "line": 252
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "itemNum",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 28,
+                        "line": 253
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "sobj",
+                    "references": [],
+                    "type": "SObject"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 28,
+                        "line": 254
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "renderNPSPContact",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 43,
+                        "line": 258
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "npspocr",
+                    "references": [],
+                    "type": "OpportunityContactRole"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 249
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "BatchItem",
+                "references": [],
+                "type": "BatchItem"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 50,
+                        "line": 262
+                    },
+                    "modifiers": [],
+                    "name": "parentClass",
+                    "references": [],
+                    "type": "BDE_BatchEntry_CTRL"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 50,
+                        "line": 277
+                    },
+                    "modifiers": [],
+                    "name": "parentClass",
+                    "references": [],
+                    "type": "BDE_BatchEntry_CTRL"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 71,
+                        "line": 277
+                    },
+                    "modifiers": [],
+                    "name": "existingItem",
+                    "references": [],
+                    "type": "SObject"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 303
+                    },
+                    "modifiers": [],
+                    "name": "namestring",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 310
+                    },
+                    "modifiers": [],
+                    "name": "accid",
+                    "references": [],
+                    "type": "Id"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 22,
+                        "line": 316
+                    },
+                    "modifiers": [],
+                    "name": "oppdate",
+                    "references": [],
+                    "type": "Date"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 320
+                    },
+                    "modifiers": [],
+                    "name": "recid",
+                    "references": [],
+                    "type": "Id"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iGdQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 112
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "initializeBatchEntry",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 198
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "requeryItem",
+            "parameters": [
+                {
+                    "name": "item",
+                    "type": "BatchItem"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 334
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "saveBatch",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 360
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "save",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 419
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "clear",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 428
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "deleteItem",
+            "parameters": [
+                {
+                    "name": "sobj",
+                    "type": "SObject"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 449
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "openBatchEnterPage",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        }
+    ],
+    "name": "BDE_BatchEntry_CTRL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 38
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "batch",
+            "references": [],
+            "type": "Batch__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 40
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "displayBatchSection",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 42
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "displayRecInfoSection",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 44
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "displaySettingsSection",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 46
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "objectSettingsList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 48
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "currentItem",
+            "references": [],
+            "type": "BatchItem"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 50
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "itemList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 52
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "objname",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 54
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "batchLookupField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 56
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "pageSubtitle",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 58
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "entryFieldList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 60
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listFieldList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 62
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "bdec",
+            "references": [],
+            "type": "Batch_Data_Entry_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 64
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "itemCount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 66
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "ocrlookup",
+            "references": [],
+            "type": "Map"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "BDE_BatchEntry_CTRL",
+        "references": [],
+        "type": "BDE_BatchEntry_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 61,
+                "line": 73
+            },
+            "modifiers": [],
+            "name": "stdController",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 86
+            },
+            "modifiers": [],
+            "name": "q",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 87
+            },
+            "modifiers": [],
+            "name": "batchObjMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 88
+            },
+            "modifiers": [],
+            "name": "batchFldList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 90
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 103
+            },
+            "modifiers": [],
+            "name": "param",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 122
+            },
+            "modifiers": [],
+            "name": "bde",
+            "references": [],
+            "type": "BDE_BatchDataEntry"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 132
+            },
+            "modifiers": [],
+            "name": "pluralName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 137
+            },
+            "modifiers": [],
+            "name": "fn",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "q",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 154
+            },
+            "modifiers": [],
+            "name": "existingsobjs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 162
+            },
+            "modifiers": [],
+            "name": "ocrlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 61,
+                "line": 163
+            },
+            "modifiers": [],
+            "name": "ocr",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 169
+            },
+            "modifiers": [],
+            "name": "existing",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 179
+            },
+            "modifiers": [],
+            "name": "mapBDE",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 180
+            },
+            "modifiers": [],
+            "name": "strDevName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 198
+            },
+            "modifiers": [],
+            "name": "item",
+            "references": [],
+            "type": "BatchItem"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 200
+            },
+            "modifiers": [],
+            "name": "bde",
+            "references": [],
+            "type": "BDE_BatchDataEntry"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 201
+            },
+            "modifiers": [],
+            "name": "q",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 203
+            },
+            "modifiers": [],
+            "name": "existingsobjs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 335
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 337
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 361
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 428
+            },
+            "modifiers": [],
+            "name": "sobj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 429
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 432
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 450
+            },
+            "modifiers": [],
+            "name": "pageRef",
+            "references": [],
+            "type": "PageReference"
+        }
+    ]
+}

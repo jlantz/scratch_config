@@ -1,0 +1,198 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHVQAY",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "ProviderResult",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 83
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "displayValue",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 86
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "value",
+                    "references": [],
+                    "type": "SObject"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 81
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "ProviderResult",
+                "references": [],
+                "type": "ProviderResult"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iHVQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 46
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "queryObjects",
+            "parameters": [
+                {
+                    "name": "queryValue",
+                    "type": "String"
+                },
+                {
+                    "name": "listCon",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "HH_AutoCompleteDataProvider_LCTRL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "HH_AutoCompleteDataProvider_LCTRL",
+        "references": [],
+        "type": "HH_AutoCompleteDataProvider_LCTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "queryValue",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 86,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "preparedQueryValue",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 57
+            },
+            "modifiers": [],
+            "name": "strSoql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 60
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "providerResults",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "so",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "ProviderResult"
+        }
+    ]
+}

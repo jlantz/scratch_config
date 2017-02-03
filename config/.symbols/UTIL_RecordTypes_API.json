@@ -1,0 +1,203 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iKFQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iKFQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 46
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "GetRecordTypeId",
+            "parameters": [
+                {
+                    "name": "objectName",
+                    "type": "String"
+                },
+                {
+                    "name": "recordTypeName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Id",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 56
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "GetRecordTypeName",
+            "parameters": [
+                {
+                    "name": "objectName",
+                    "type": "String"
+                },
+                {
+                    "name": "recordTypeId",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 66
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "GetRecordTypeIdSet",
+            "parameters": [
+                {
+                    "name": "objectName",
+                    "type": "String"
+                },
+                {
+                    "name": "recordTypeNameSet",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "Set",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 70
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "getSObjectTypeForName",
+            "parameters": [
+                {
+                    "name": "objectName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "SObjectType",
+            "type": null
+        }
+    ],
+    "name": "UTIL_RecordTypes_API",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 38
+        },
+        "modifiers": [
+            "global",
+            "with sharing"
+        ],
+        "name": "UTIL_RecordTypes_API",
+        "references": [],
+        "type": "UTIL_RecordTypes_API"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "recordTypeName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 56
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 56
+            },
+            "modifiers": [],
+            "name": "recordTypeId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 66
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 66
+            },
+            "modifiers": [],
+            "name": "recordTypeNameSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 61,
+                "line": 70
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

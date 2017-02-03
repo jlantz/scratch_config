@@ -1,0 +1,102 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 47
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "ACCT_ViewOverride_CTRL",
+            "parameters": [
+                {
+                    "name": "controller",
+                    "type": "StandardController"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iFzQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iFzQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 64
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "Account",
+            "type": null
+        }
+    ],
+    "name": "ACCT_ViewOverride_CTRL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 41
+            },
+            "modifiers": [
+                "private",
+                "final"
+            ],
+            "name": "account",
+            "references": [],
+            "type": "Account"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 28,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "ACCT_ViewOverride_CTRL",
+        "references": [],
+        "type": "ACCT_ViewOverride_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 47
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "accounts",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

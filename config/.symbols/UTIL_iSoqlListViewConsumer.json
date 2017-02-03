@@ -1,0 +1,173 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iKMQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iKMQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 38
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "setComponentController",
+            "parameters": [
+                {
+                    "name": "compController",
+                    "type": "UTIL_SoqlListView_CTRL"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 40
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "getStrSoql",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 42
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "getstrFields",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 44
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "getstrNameField",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 46
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "getstrObjectType",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 48
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "NewItem",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 50
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "EditItem",
+            "parameters": [
+                {
+                    "name": "idItem",
+                    "type": "Id"
+                }
+            ],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        }
+    ],
+    "name": "UTIL_iSoqlListViewConsumer",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 18,
+            "line": 36
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "UTIL_iSoqlListViewConsumer",
+        "references": [],
+        "type": "UTIL_iSoqlListViewConsumer"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 38
+            },
+            "modifiers": [],
+            "name": "compController",
+            "references": [],
+            "type": "UTIL_SoqlListView_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "idItem",
+            "references": [],
+            "type": "Id"
+        }
+    ]
+}

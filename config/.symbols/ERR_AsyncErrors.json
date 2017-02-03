@@ -1,0 +1,671 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHJQAY",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 209
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "AsyncApexJobWrapper",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 210
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "AsyncApexJobWrapper",
+                    "parameters": [
+                        {
+                            "name": "JobType",
+                            "type": "String"
+                        },
+                        {
+                            "name": "ApexClassName",
+                            "type": "String"
+                        },
+                        {
+                            "name": "ApexClassNamespacePrefix",
+                            "type": "String"
+                        },
+                        {
+                            "name": "MethodName",
+                            "type": "String"
+                        },
+                        {
+                            "name": "CompletedDate",
+                            "type": "Datetime"
+                        },
+                        {
+                            "name": "ExtendedStatus",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 225
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "AsyncApexJobWrapper",
+                    "parameters": [
+                        {
+                            "name": "job",
+                            "type": "AsyncApexJob"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "AsyncApexJobWrapper",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 203
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "JobType",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 204
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "ApexClassName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 205
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "ApexClassNamespacePrefix",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 206
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "MethodName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 25,
+                        "line": 207
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "CompletedDate",
+                    "references": [],
+                    "type": "Datetime"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 208
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "ExtendedStatus",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [
+                    {
+                        "name": "TestVisible"
+                    }
+                ],
+                "location": {
+                    "column": 19,
+                    "line": 202
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "AsyncApexJobWrapper",
+                "references": [],
+                "type": "AsyncApexJobWrapper"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 211
+                    },
+                    "modifiers": [],
+                    "name": "JobType",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 212
+                    },
+                    "modifiers": [],
+                    "name": "ApexClassName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 213
+                    },
+                    "modifiers": [],
+                    "name": "ApexClassNamespacePrefix",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 214
+                    },
+                    "modifiers": [],
+                    "name": "MethodName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 22,
+                        "line": 215
+                    },
+                    "modifiers": [],
+                    "name": "CompletedDate",
+                    "references": [],
+                    "type": "Datetime"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 216
+                    },
+                    "modifiers": [],
+                    "name": "ExtendedStatus",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 49,
+                        "line": 225
+                    },
+                    "modifiers": [],
+                    "name": "job",
+                    "references": [],
+                    "type": "AsyncApexJob"
+                }
+            ]
+        }
+    ],
+    "interfaces": [
+        "System.Queueable"
+    ],
+    "key": "01p4C0000002iHJQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 42
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "execute",
+            "parameters": [
+                {
+                    "name": "qc",
+                    "type": "QueueableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "TestVisible"
+                }
+            ],
+            "location": {
+                "column": 30,
+                "line": 117
+            },
+            "modifiers": [
+                "private",
+                "virtual"
+            ],
+            "name": "getCurrentDateTime",
+            "parameters": [],
+            "references": [],
+            "returnType": "Datetime",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "TestVisible"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 122
+            },
+            "modifiers": [
+                "private",
+                "virtual"
+            ],
+            "name": "getCurrentNamespace",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "TestVisible"
+                }
+            ],
+            "location": {
+                "column": 39,
+                "line": 133
+            },
+            "modifiers": [
+                "private",
+                "virtual"
+            ],
+            "name": "getErrorSettingsOrgDefaults",
+            "parameters": [],
+            "references": [],
+            "returnType": "Error_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "TestVisible"
+                }
+            ],
+            "location": {
+                "column": 26,
+                "line": 142
+            },
+            "modifiers": [
+                "private",
+                "virtual"
+            ],
+            "name": "upsertErrorSettings",
+            "parameters": [
+                {
+                    "name": "errorSettings",
+                    "type": "Error_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "TestVisible"
+                }
+            ],
+            "location": {
+                "column": 26,
+                "line": 151
+            },
+            "modifiers": [
+                "private",
+                "virtual"
+            ],
+            "name": "insertErrors",
+            "parameters": [
+                {
+                    "name": "errors",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "TestVisible"
+                }
+            ],
+            "location": {
+                "column": 26,
+                "line": 159
+            },
+            "modifiers": [
+                "private",
+                "virtual"
+            ],
+            "name": "sendErrorNotifications",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "TestVisible"
+                }
+            ],
+            "location": {
+                "column": 47,
+                "line": 173
+            },
+            "modifiers": [
+                "private",
+                "virtual"
+            ],
+            "name": "getPendingAsyncJobErrors",
+            "parameters": [
+                {
+                    "name": "lastRun",
+                    "type": "Datetime"
+                },
+                {
+                    "name": "namespace",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "ERR_AsyncErrors",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 22,
+            "line": 36
+        },
+        "modifiers": [
+            "virtual",
+            "public"
+        ],
+        "name": "ERR_AsyncErrors",
+        "references": [],
+        "type": "ERR_AsyncErrors"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 42
+            },
+            "modifiers": [],
+            "name": "qc",
+            "references": [],
+            "type": "QueueableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 43
+            },
+            "modifiers": [],
+            "name": "errorSettings",
+            "references": [],
+            "type": "Error_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "lastRun",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "now",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "namespace",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 66
+            },
+            "modifiers": [],
+            "name": "asyncJobErrors",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "errors",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "job",
+            "references": [],
+            "type": "AsyncApexJobWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 73
+            },
+            "modifiers": [],
+            "name": "errorMessage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "errorType",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 87
+            },
+            "modifiers": [],
+            "name": "errorDate",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 88
+            },
+            "modifiers": [],
+            "name": "errorContext",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 142
+            },
+            "modifiers": [],
+            "name": "errorSettings",
+            "references": [],
+            "type": "Error_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "errors",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 81,
+                "line": 173
+            },
+            "modifiers": [],
+            "name": "lastRun",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 97,
+                "line": 173
+            },
+            "modifiers": [],
+            "name": "namespace",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 174
+            },
+            "modifiers": [],
+            "name": "asyncJobErrors",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 176
+            },
+            "modifiers": [],
+            "name": "job",
+            "references": [],
+            "type": "AsyncApexJob"
+        }
+    ]
+}

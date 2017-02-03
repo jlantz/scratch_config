@@ -1,0 +1,26 @@
+{
+    "projectName": "npsp_dev1",
+    "username": "workspaceorg1486147395630@npsp-devworkspace.com",
+    "id": "50e71a10-ea43-11e6-ad55-f1ddec46277f",
+    "namespace": "",
+    "environment": "sandbox",
+    "loginUrl": "https://test.salesforce.com/",
+    "workspace": "/Users/jennifer.bennett/Documents/workspace",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "AppMenu",
+        "CustomApplication",
+        "CustomApplicationComponent",
+        "CustomObject",
+        "CustomTab",
+        "Layout",
+        "Profile",
+        "QuickAction",
+        "Settings",
+        "StaticResource",
+        "Workflow"
+    ]
+}

@@ -1,0 +1,321 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 46
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "STG_PanelContactRoles_CTRL",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iJAQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJAQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 41
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "idPanel",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 68
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "saveSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 80
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isValidOCRSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 126
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getInvalidOCRSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "STG_PanelContactRoles_CTRL",
+    "namespace": null,
+    "parentClass": "STG_Panel",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 52
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "strHouseholdOCRExcludedRecTypesReadOnly",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "STG_PanelContactRoles_CTRL",
+        "references": [],
+        "type": "STG_PanelContactRoles_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "isValid",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 82
+            },
+            "modifiers": [],
+            "name": "invalidOCRSettings",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 92
+            },
+            "modifiers": [],
+            "name": "defaultRoleLabel",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 99
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 127
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 129
+            },
+            "modifiers": [],
+            "name": "defaultRole",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 130
+            },
+            "modifiers": [],
+            "name": "defaultRoleLabel",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 131
+            },
+            "modifiers": [],
+            "name": "softCreditRoles",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 132
+            },
+            "modifiers": [],
+            "name": "softCreditRolesLabel",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 133
+            },
+            "modifiers": [],
+            "name": "hhMemberRole",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 134
+            },
+            "modifiers": [],
+            "name": "hhMemberRoleLabel",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 135
+            },
+            "modifiers": [],
+            "name": "matchedDonorRole",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 136
+            },
+            "modifiers": [],
+            "name": "matchedDonorRoleLabel",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 137
+            },
+            "modifiers": [],
+            "name": "honoreeRole",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 138
+            },
+            "modifiers": [],
+            "name": "honoreeRoleLabel",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 139
+            },
+            "modifiers": [],
+            "name": "notificationRole",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 140
+            },
+            "modifiers": [],
+            "name": "notificationRoleLabel",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 145
+            },
+            "modifiers": [],
+            "name": "softRole",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

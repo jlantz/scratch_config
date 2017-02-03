@@ -1,0 +1,45 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJNQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJNQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 41
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "idPanel",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "STG_PanelOppCampaignMembers_CTRL",
+    "namespace": null,
+    "parentClass": "STG_Panel",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "STG_PanelOppCampaignMembers_CTRL",
+        "references": [],
+        "type": "STG_PanelOppCampaignMembers_CTRL"
+    },
+    "variables": []
+}

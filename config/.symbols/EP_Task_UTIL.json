@@ -1,0 +1,807 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 67
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "EP_Task_UTIL",
+            "parameters": [
+                {
+                    "name": "engagementPlans",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 76
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "EP_Task_UTIL",
+            "parameters": [
+                {
+                    "name": "tasks",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 95
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "EP_Task_UTIL",
+            "parameters": [
+                {
+                    "name": "templateId",
+                    "type": "Id"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iHHQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHHQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 105
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "initializeMaps",
+            "parameters": [
+                {
+                    "name": "plans",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 120
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "initializeMaps",
+            "parameters": [
+                {
+                    "name": "templateIds",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 152
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "createTask",
+            "parameters": [
+                {
+                    "name": "epTask",
+                    "type": "Engagement_Plan_Task__c"
+                },
+                {
+                    "name": "engagementPlan",
+                    "type": "Engagement_Plan__c"
+                }
+            ],
+            "references": [],
+            "returnType": "Task",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 207
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "getParentDelayRecursive",
+            "parameters": [
+                {
+                    "name": "epTask",
+                    "type": "Engagement_Plan_Task__c"
+                }
+            ],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 236
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "updateActivateTask",
+            "parameters": [
+                {
+                    "name": "taskForUpdate",
+                    "type": "Task"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 260
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "updateInactiveTask",
+            "parameters": [
+                {
+                    "name": "taskForUpdate",
+                    "type": "Task"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 272
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "setReminder",
+            "parameters": [
+                {
+                    "name": "taskNeedingReminder",
+                    "type": "Task"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 304
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "assignTask",
+            "parameters": [
+                {
+                    "name": "taskToAssign",
+                    "type": "Task"
+                },
+                {
+                    "name": "objectId",
+                    "type": "Id"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 322
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "calcActivityDate",
+            "parameters": [
+                {
+                    "name": "epTask",
+                    "type": "Engagement_Plan_Task__c"
+                },
+                {
+                    "name": "startDate",
+                    "type": "Date"
+                }
+            ],
+            "references": [],
+            "returnType": "Date",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 345
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "skipWeekend",
+            "parameters": [
+                {
+                    "name": "originalDate",
+                    "type": "Date"
+                },
+                {
+                    "name": "skipDay",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Date",
+            "type": null
+        }
+    ],
+    "name": "EP_Task_UTIL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 58
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "epTaskMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 60
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "templateMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 41
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "defaultTaskStatus",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 38
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "EP_Task_UTIL",
+        "references": [],
+        "type": "EP_Task_UTIL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 67
+            },
+            "modifiers": [],
+            "name": "engagementPlans",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 76
+            },
+            "modifiers": [],
+            "name": "tasks",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 77
+            },
+            "modifiers": [],
+            "name": "planIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "task",
+            "references": [],
+            "type": "Task"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 83
+            },
+            "modifiers": [],
+            "name": "engagementPlans",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 95
+            },
+            "modifiers": [],
+            "name": "templateId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 105
+            },
+            "modifiers": [],
+            "name": "plans",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 106
+            },
+            "modifiers": [],
+            "name": "templateIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 107
+            },
+            "modifiers": [],
+            "name": "plan",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 120
+            },
+            "modifiers": [],
+            "name": "templateIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 123
+            },
+            "modifiers": [],
+            "name": "templateFields",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 126
+            },
+            "modifiers": [],
+            "name": "templateQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 152
+            },
+            "modifiers": [],
+            "name": "epTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 79,
+                "line": 152
+            },
+            "modifiers": [],
+            "name": "engagementPlan",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 153
+            },
+            "modifiers": [],
+            "name": "template",
+            "references": [],
+            "type": "Engagement_Plan_Template__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 155
+            },
+            "modifiers": [],
+            "name": "taskEPTaskFieldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 166
+            },
+            "modifiers": [],
+            "name": "taskResult",
+            "references": [],
+            "type": "Task"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 167
+            },
+            "modifiers": [],
+            "name": "taskField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 207
+            },
+            "modifiers": [],
+            "name": "epTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 208
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 209
+            },
+            "modifiers": [],
+            "name": "currentTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 216
+            },
+            "modifiers": [],
+            "name": "max_counter",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 236
+            },
+            "modifiers": [],
+            "name": "taskForUpdate",
+            "references": [],
+            "type": "Task"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 237
+            },
+            "modifiers": [],
+            "name": "epTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 238
+            },
+            "modifiers": [],
+            "name": "template",
+            "references": [],
+            "type": "Engagement_Plan_Template__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 260
+            },
+            "modifiers": [],
+            "name": "taskForUpdate",
+            "references": [],
+            "type": "Task"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 261
+            },
+            "modifiers": [],
+            "name": "epTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 272
+            },
+            "modifiers": [],
+            "name": "taskNeedingReminder",
+            "references": [],
+            "type": "Task"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 273
+            },
+            "modifiers": [],
+            "name": "epTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 278
+            },
+            "modifiers": [],
+            "name": "reminderMinutes",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 304
+            },
+            "modifiers": [],
+            "name": "taskToAssign",
+            "references": [],
+            "type": "Task"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 304
+            },
+            "modifiers": [],
+            "name": "objectId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 322
+            },
+            "modifiers": [],
+            "name": "epTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 322
+            },
+            "modifiers": [],
+            "name": "startDate",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 323
+            },
+            "modifiers": [],
+            "name": "template",
+            "references": [],
+            "type": "Engagement_Plan_Template__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 325
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 345
+            },
+            "modifiers": [],
+            "name": "originalDate",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 345
+            },
+            "modifiers": [],
+            "name": "skipDay",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 347
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 348
+            },
+            "modifiers": [],
+            "name": "refDate",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 349
+            },
+            "modifiers": [],
+            "name": "dayOfWeek",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "queryStatus",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

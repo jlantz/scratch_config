@@ -1,0 +1,4522 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 43
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "BDI_DataImport_BATCH",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iGgQAI",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "flsException",
+            "namespace": null,
+            "parentClass": "Exception",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 19,
+                    "line": 312
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "flsException",
+                "references": [],
+                "type": "flsException"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [
+        "Database.Batchable"
+    ],
+    "key": "01p4C0000002iGgQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 58
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "start",
+            "parameters": [
+                {
+                    "name": "bc",
+                    "type": "BatchableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "QueryLocator",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 176
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "strNull",
+            "parameters": [
+                {
+                    "name": "obj",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 180
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "strNull",
+            "parameters": [
+                {
+                    "name": "str",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 189
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "execute",
+            "parameters": [
+                {
+                    "name": "bc",
+                    "type": "BatchableContext"
+                },
+                {
+                    "name": "listDI",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 287
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "LogBDIError",
+            "parameters": [
+                {
+                    "name": "di",
+                    "type": "DataImport__c"
+                },
+                {
+                    "name": "strError",
+                    "type": "String"
+                },
+                {
+                    "name": "strStatusField",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 296
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "finish",
+            "parameters": [
+                {
+                    "name": "bc",
+                    "type": "BatchableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 388
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "importContactsAndHouseholds",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 549
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "importHouseholdAccountFields",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 596
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "verifyContactData",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 611
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "isContactSpecified",
+            "parameters": [
+                {
+                    "name": "di",
+                    "type": "DataImport__c"
+                },
+                {
+                    "name": "strCx",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 644
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "strDIContactCustomIDField",
+            "parameters": [
+                {
+                    "name": "strCx",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 651
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "matchExistingContacts",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 848
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "strPreferredEmail",
+            "parameters": [
+                {
+                    "name": "di",
+                    "type": "DataImport__c"
+                },
+                {
+                    "name": "iCon",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 872
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "strPreferredPhone",
+            "parameters": [
+                {
+                    "name": "di",
+                    "type": "DataImport__c"
+                },
+                {
+                    "name": "iCon",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 935
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "listDiKeyContact",
+            "parameters": [
+                {
+                    "name": "con",
+                    "type": "Contact"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 1030
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "addDiKeyPermutations",
+            "parameters": [
+                {
+                    "name": "setDiKey",
+                    "type": "Set"
+                },
+                {
+                    "name": "listFname",
+                    "type": "LIST"
+                },
+                {
+                    "name": "listLName",
+                    "type": "LIST"
+                },
+                {
+                    "name": "listEmail",
+                    "type": "LIST"
+                },
+                {
+                    "name": "listPhone",
+                    "type": "LIST"
+                },
+                {
+                    "name": "strUniqueId",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 1045
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "listDiKeyC1",
+            "parameters": [
+                {
+                    "name": "di",
+                    "type": "DataImport__c"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 1050
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "listDiKeyC2",
+            "parameters": [
+                {
+                    "name": "di",
+                    "type": "DataImport__c"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 1055
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "listDiKeyCx",
+            "parameters": [
+                {
+                    "name": "di",
+                    "type": "DataImport__c"
+                },
+                {
+                    "name": "strCx",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1170
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "ContactFromDi",
+            "parameters": [
+                {
+                    "name": "di",
+                    "type": "DataImport__c"
+                },
+                {
+                    "name": "iCon",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "Contact",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 1182
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "importAccounts",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 1331
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "strDIAccountCustomIDField",
+            "parameters": [
+                {
+                    "name": "strAx",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 1336
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "listDiKeyAccount",
+            "parameters": [
+                {
+                    "name": "acc",
+                    "type": "Account"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 1359
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "listDiKeyA1",
+            "parameters": [
+                {
+                    "name": "di",
+                    "type": "DataImport__c"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 1362
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "listDiKeyA2",
+            "parameters": [
+                {
+                    "name": "di",
+                    "type": "DataImport__c"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 1365
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "listDiKeyAx",
+            "parameters": [
+                {
+                    "name": "di",
+                    "type": "DataImport__c"
+                },
+                {
+                    "name": "strAx",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1388
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "AccountFromDi",
+            "parameters": [
+                {
+                    "name": "di",
+                    "type": "DataImport__c"
+                },
+                {
+                    "name": "iAcc",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "Account",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 1400
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "matchExistingAccounts",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 1499
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "importAddresses",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 1621
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "importAddressesAsAddressFields",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 1719
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "importOpportunities",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 1859
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "updatePayments",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 1908
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "importCampaigns",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 1963
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "importCampaignMembers",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 319
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "mapFieldsForDIObject",
+            "parameters": [
+                {
+                    "name": "strObj",
+                    "type": "String"
+                },
+                {
+                    "name": "strBaseObj",
+                    "type": "String"
+                },
+                {
+                    "name": "listStrDIFields",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 372
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "isCopiedDIField",
+            "parameters": [
+                {
+                    "name": "di",
+                    "type": "DataImport__c"
+                },
+                {
+                    "name": "strDIField",
+                    "type": "String"
+                },
+                {
+                    "name": "objDst",
+                    "type": "SObject"
+                },
+                {
+                    "name": "mapDIFieldToDstField",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 1613
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strKeyOfAddr",
+            "parameters": [
+                {
+                    "name": "addr",
+                    "type": "Address__c"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "BDI_DataImport_BATCH",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 40
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "strSoql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 64
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "mapDIKeyToContact",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 65
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "mapDIKeyToAccount",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 66
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "mapDIIdToAddr",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 67
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "mapDIIdToOpp",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 68
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "mapDIIdPmt",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 69
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "mapStrNameToCampaignId",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 72
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 74
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "diSettings",
+            "references": [],
+            "type": "Data_Import_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 84
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "isFirstnameInContactMatchRules",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 93
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "isLastnameInContactMatchRules",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 102
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "isEmailInContactMatchRules",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 111
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "isPhoneInContactMatchRules",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 120
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "isCustomIdInContactMatchRules",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 129
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "isCustomIdInContactDatatypeString",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 148
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "isCustomIdInAccountMatchRules",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 157
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "isCustomIdInAccountDatatypeString",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 299
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "listStrDataImportFields",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 315
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "failFieldLevelSecurity",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 1843
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "defaultClosedWonStage",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 38
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "BDI_DataImport_BATCH",
+        "references": [],
+        "type": "BDI_DataImport_BATCH"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "strComma",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 47
+            },
+            "modifiers": [],
+            "name": "strF",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "bc",
+            "references": [],
+            "type": "BatchableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 86
+            },
+            "modifiers": [],
+            "name": "str",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 95
+            },
+            "modifiers": [],
+            "name": "str",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 104
+            },
+            "modifiers": [],
+            "name": "str",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 113
+            },
+            "modifiers": [],
+            "name": "str",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 122
+            },
+            "modifiers": [],
+            "name": "str",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 134
+            },
+            "modifiers": [],
+            "name": "dt",
+            "references": [],
+            "type": "DisplayType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "str",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 162
+            },
+            "modifiers": [],
+            "name": "dt",
+            "references": [],
+            "type": "DisplayType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 176
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 180
+            },
+            "modifiers": [],
+            "name": "str",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 189
+            },
+            "modifiers": [],
+            "name": "bc",
+            "references": [],
+            "type": "BatchableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 75,
+                "line": 189
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 191
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 197
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 219
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 230
+            },
+            "modifiers": [],
+            "name": "c1",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 268
+            },
+            "modifiers": [],
+            "name": "listDIError",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 269
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 287
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 287
+            },
+            "modifiers": [],
+            "name": "strError",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 72,
+                "line": 287
+            },
+            "modifiers": [],
+            "name": "strStatusField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 296
+            },
+            "modifiers": [],
+            "name": "bc",
+            "references": [],
+            "type": "BatchableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 397
+            },
+            "modifiers": [],
+            "name": "setDIKeyUpsert",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 398
+            },
+            "modifiers": [],
+            "name": "listConUpsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 399
+            },
+            "modifiers": [],
+            "name": "listDIUpsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 402
+            },
+            "modifiers": [],
+            "name": "mapDIFieldToC1Field",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 403
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 407
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 411
+            },
+            "modifiers": [],
+            "name": "isModified",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 420
+            },
+            "modifiers": [],
+            "name": "strDIField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 427
+            },
+            "modifiers": [],
+            "name": "isAlreadyAdded",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 429
+            },
+            "modifiers": [],
+            "name": "dikey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 444
+            },
+            "modifiers": [],
+            "name": "listUR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 445
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 446
+            },
+            "modifiers": [],
+            "name": "ur",
+            "references": [],
+            "type": "UpsertResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 454
+            },
+            "modifiers": [],
+            "name": "setC1Id",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 455
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 457
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 465
+            },
+            "modifiers": [],
+            "name": "mapC1IdToHHId",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 466
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 470
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 472
+            },
+            "modifiers": [],
+            "name": "HHId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 474
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 482
+            },
+            "modifiers": [],
+            "name": "mapDIFieldToC2Field",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 486
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 490
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 494
+            },
+            "modifiers": [],
+            "name": "isModified",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 503
+            },
+            "modifiers": [],
+            "name": "strDIField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 509
+            },
+            "modifiers": [],
+            "name": "isAlreadyAdded",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 511
+            },
+            "modifiers": [],
+            "name": "dikey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 528
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 529
+            },
+            "modifiers": [],
+            "name": "ur",
+            "references": [],
+            "type": "UpsertResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 536
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 538
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 552
+            },
+            "modifiers": [],
+            "name": "mapDIFieldToHHField",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 559
+            },
+            "modifiers": [],
+            "name": "listAccHHUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 560
+            },
+            "modifiers": [],
+            "name": "setHHIdUpdate",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 561
+            },
+            "modifiers": [],
+            "name": "listDIUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 563
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 570
+            },
+            "modifiers": [],
+            "name": "isModified",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 571
+            },
+            "modifiers": [],
+            "name": "accHH",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 572
+            },
+            "modifiers": [],
+            "name": "strDIField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 586
+            },
+            "modifiers": [],
+            "name": "listUR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 587
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 588
+            },
+            "modifiers": [],
+            "name": "ur",
+            "references": [],
+            "type": "UpsertResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 597
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 611
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 611
+            },
+            "modifiers": [],
+            "name": "strCx",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 644
+            },
+            "modifiers": [],
+            "name": "strCx",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 653
+            },
+            "modifiers": [],
+            "name": "setFname",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 654
+            },
+            "modifiers": [],
+            "name": "setLname",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 655
+            },
+            "modifiers": [],
+            "name": "setEmail",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 656
+            },
+            "modifiers": [],
+            "name": "setPhone",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 657
+            },
+            "modifiers": [],
+            "name": "setCustomIDString",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 658
+            },
+            "modifiers": [],
+            "name": "setCustomIDNumber",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 659
+            },
+            "modifiers": [],
+            "name": "setSFId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 660
+            },
+            "modifiers": [],
+            "name": "setHHId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 662
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 688
+            },
+            "modifiers": [],
+            "name": "val",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 719
+            },
+            "modifiers": [],
+            "name": "val",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 729
+            },
+            "modifiers": [],
+            "name": "strSoql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 738
+            },
+            "modifiers": [],
+            "name": "strAnd",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 769
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 773
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 774
+            },
+            "modifiers": [],
+            "name": "diKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 780
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 784
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 785
+            },
+            "modifiers": [],
+            "name": "listDiKey",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 807
+            },
+            "modifiers": [],
+            "name": "diKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 814
+            },
+            "modifiers": [],
+            "name": "listHHContacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 816
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 821
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 825
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 826
+            },
+            "modifiers": [],
+            "name": "listDiKey",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 841
+            },
+            "modifiers": [],
+            "name": "diKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 848
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 848
+            },
+            "modifiers": [],
+            "name": "iCon",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 849
+            },
+            "modifiers": [],
+            "name": "strPreferred",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 850
+            },
+            "modifiers": [],
+            "name": "strCx",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 872
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 872
+            },
+            "modifiers": [],
+            "name": "iCon",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 873
+            },
+            "modifiers": [],
+            "name": "strPreferred",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 874
+            },
+            "modifiers": [],
+            "name": "strCx",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 935
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 939
+            },
+            "modifiers": [],
+            "name": "listDiKey",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 947
+            },
+            "modifiers": [],
+            "name": "strUniqueId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 952
+            },
+            "modifiers": [],
+            "name": "listFName",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 953
+            },
+            "modifiers": [],
+            "name": "listLName",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 954
+            },
+            "modifiers": [],
+            "name": "listEmail",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 955
+            },
+            "modifiers": [],
+            "name": "listPhone",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 957
+            },
+            "modifiers": [],
+            "name": "addedToken",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1021
+            },
+            "modifiers": [],
+            "name": "setDiKey",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 1030
+            },
+            "modifiers": [],
+            "name": "setDiKey",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 1030
+            },
+            "modifiers": [],
+            "name": "listFname",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 98,
+                "line": 1030
+            },
+            "modifiers": [],
+            "name": "listLName",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1031
+            },
+            "modifiers": [],
+            "name": "listEmail",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 1031
+            },
+            "modifiers": [],
+            "name": "listPhone",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 1031
+            },
+            "modifiers": [],
+            "name": "strUniqueId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1032
+            },
+            "modifiers": [],
+            "name": "strFName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 1033
+            },
+            "modifiers": [],
+            "name": "strLName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 1034
+            },
+            "modifiers": [],
+            "name": "strEmail",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 1035
+            },
+            "modifiers": [],
+            "name": "strPhone",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 1045
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 1050
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 1055
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 1055
+            },
+            "modifiers": [],
+            "name": "strCx",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1056
+            },
+            "modifiers": [],
+            "name": "listDiKey",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 1059
+            },
+            "modifiers": [],
+            "name": "strUniqueId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1070
+            },
+            "modifiers": [],
+            "name": "listFName",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1071
+            },
+            "modifiers": [],
+            "name": "listLName",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1072
+            },
+            "modifiers": [],
+            "name": "listEmail",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1073
+            },
+            "modifiers": [],
+            "name": "listPhone",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 1074
+            },
+            "modifiers": [],
+            "name": "addedToken",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1127
+            },
+            "modifiers": [],
+            "name": "setDiKey",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 1134
+            },
+            "modifiers": [],
+            "name": "diKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 1170
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 61,
+                "line": 1170
+            },
+            "modifiers": [],
+            "name": "iCon",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1171
+            },
+            "modifiers": [],
+            "name": "diKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1172
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1188
+            },
+            "modifiers": [],
+            "name": "setDIKeyUpsert",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1189
+            },
+            "modifiers": [],
+            "name": "listAccUpsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 1190
+            },
+            "modifiers": [],
+            "name": "listDIUpsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 1193
+            },
+            "modifiers": [],
+            "name": "mapDIFieldToA1Field",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 1194
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1199
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1203
+            },
+            "modifiers": [],
+            "name": "isModified",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 1204
+            },
+            "modifiers": [],
+            "name": "strDIField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1210
+            },
+            "modifiers": [],
+            "name": "isAlreadyAdded",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 1211
+            },
+            "modifiers": [],
+            "name": "diKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 1225
+            },
+            "modifiers": [],
+            "name": "listUR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1226
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 1227
+            },
+            "modifiers": [],
+            "name": "ur",
+            "references": [],
+            "type": "UpsertResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 1235
+            },
+            "modifiers": [],
+            "name": "mapConIdToConUpdate",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 1236
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1238
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1244
+            },
+            "modifiers": [],
+            "name": "c1",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 1254
+            },
+            "modifiers": [],
+            "name": "mapDIFieldToA2Field",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 1258
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1263
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1267
+            },
+            "modifiers": [],
+            "name": "isModified",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 1268
+            },
+            "modifiers": [],
+            "name": "strDIField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 1274
+            },
+            "modifiers": [],
+            "name": "isAlreadyAdded",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 1275
+            },
+            "modifiers": [],
+            "name": "diKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1290
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 1291
+            },
+            "modifiers": [],
+            "name": "ur",
+            "references": [],
+            "type": "UpsertResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 1299
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1301
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 1307
+            },
+            "modifiers": [],
+            "name": "c2",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 1331
+            },
+            "modifiers": [],
+            "name": "strAx",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 1336
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1340
+            },
+            "modifiers": [],
+            "name": "listDiKey",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 1348
+            },
+            "modifiers": [],
+            "name": "strUniqueId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 1359
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 1362
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 1365
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 1365
+            },
+            "modifiers": [],
+            "name": "strAx",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1366
+            },
+            "modifiers": [],
+            "name": "listDiKey",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 1369
+            },
+            "modifiers": [],
+            "name": "strUniqueId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 1381
+            },
+            "modifiers": [],
+            "name": "strName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 1388
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 61,
+                "line": 1388
+            },
+            "modifiers": [],
+            "name": "iAcc",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1389
+            },
+            "modifiers": [],
+            "name": "diKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1390
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1402
+            },
+            "modifiers": [],
+            "name": "setName",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1403
+            },
+            "modifiers": [],
+            "name": "setCustomIDString",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1404
+            },
+            "modifiers": [],
+            "name": "setCustomIDNumber",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 1405
+            },
+            "modifiers": [],
+            "name": "setSFId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 1407
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 1418
+            },
+            "modifiers": [],
+            "name": "val",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 1432
+            },
+            "modifiers": [],
+            "name": "val",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 1443
+            },
+            "modifiers": [],
+            "name": "strSoql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1455
+            },
+            "modifiers": [],
+            "name": "listAcc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1458
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 1459
+            },
+            "modifiers": [],
+            "name": "diKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 1463
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1468
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 1469
+            },
+            "modifiers": [],
+            "name": "listDiKey",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 1478
+            },
+            "modifiers": [],
+            "name": "diKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 1491
+            },
+            "modifiers": [],
+            "name": "diKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 1509
+            },
+            "modifiers": [],
+            "name": "setHHId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 1510
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1514
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 1518
+            },
+            "modifiers": [],
+            "name": "listAddrExisting",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 1520
+            },
+            "modifiers": [],
+            "name": "mapHHAddrKeyToId",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 1521
+            },
+            "modifiers": [],
+            "name": "addr",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 1525
+            },
+            "modifiers": [],
+            "name": "mapDIFieldToAddrField",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 1526
+            },
+            "modifiers": [],
+            "name": "listAddrInsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 1527
+            },
+            "modifiers": [],
+            "name": "listDIInsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 1528
+            },
+            "modifiers": [],
+            "name": "mapHHAddrKeyToAddrNew",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 1529
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1534
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 1535
+            },
+            "modifiers": [],
+            "name": "addr",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1539
+            },
+            "modifiers": [],
+            "name": "isEmpty",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 1540
+            },
+            "modifiers": [],
+            "name": "strDIField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 1553
+            },
+            "modifiers": [],
+            "name": "idAddr",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 1559
+            },
+            "modifiers": [],
+            "name": "addrNew",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 1588
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 1590
+            },
+            "modifiers": [],
+            "name": "sr",
+            "references": [],
+            "type": "SaveResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 1598
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 1603
+            },
+            "modifiers": [],
+            "name": "addr",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 1624
+            },
+            "modifiers": [],
+            "name": "setIdUpdate",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1625
+            },
+            "modifiers": [],
+            "name": "listCon1Update",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1626
+            },
+            "modifiers": [],
+            "name": "listCon2Update",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1627
+            },
+            "modifiers": [],
+            "name": "listAccUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 1628
+            },
+            "modifiers": [],
+            "name": "listCon1Di",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 1629
+            },
+            "modifiers": [],
+            "name": "listCon2Di",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 1630
+            },
+            "modifiers": [],
+            "name": "listAccDi",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 1633
+            },
+            "modifiers": [],
+            "name": "setHHId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 1634
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 1641
+            },
+            "modifiers": [],
+            "name": "mapHHIdToAcc",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 1645
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1649
+            },
+            "modifiers": [],
+            "name": "con1",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1650
+            },
+            "modifiers": [],
+            "name": "con2",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1651
+            },
+            "modifiers": [],
+            "name": "accHH",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 1660
+            },
+            "modifiers": [],
+            "name": "addr",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 1693
+            },
+            "modifiers": [],
+            "name": "listUR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1694
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 1695
+            },
+            "modifiers": [],
+            "name": "ur",
+            "references": [],
+            "type": "UpsertResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1701
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 1702
+            },
+            "modifiers": [],
+            "name": "ur",
+            "references": [],
+            "type": "UpsertResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1708
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 1709
+            },
+            "modifiers": [],
+            "name": "ur",
+            "references": [],
+            "type": "UpsertResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 1722
+            },
+            "modifiers": [],
+            "name": "mapDIFieldToOppField",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 1723
+            },
+            "modifiers": [],
+            "name": "listOppInsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 1724
+            },
+            "modifiers": [],
+            "name": "listDIInsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 1726
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1730
+            },
+            "modifiers": [],
+            "name": "cPropSet",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 1731
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 1732
+            },
+            "modifiers": [],
+            "name": "strOppName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 1739
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 1750
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 1763
+            },
+            "modifiers": [],
+            "name": "idRt",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 1775
+            },
+            "modifiers": [],
+            "name": "idCmp",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 1798
+            },
+            "modifiers": [],
+            "name": "strDIField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 1819
+            },
+            "modifiers": [],
+            "name": "listSR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1820
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 1821
+            },
+            "modifiers": [],
+            "name": "sr",
+            "references": [],
+            "type": "SaveResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 1828
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 1830
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 1862
+            },
+            "modifiers": [],
+            "name": "mapOppIdToPayment",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 1863
+            },
+            "modifiers": [],
+            "name": "pmt",
+            "references": [],
+            "type": "npe01__OppPayment__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 1868
+            },
+            "modifiers": [],
+            "name": "mapDIFieldToPmtField",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 1869
+            },
+            "modifiers": [],
+            "name": "listPmtUpsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 1870
+            },
+            "modifiers": [],
+            "name": "listDIUpsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 1873
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 1878
+            },
+            "modifiers": [],
+            "name": "pmt",
+            "references": [],
+            "type": "npe01__OppPayment__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 1880
+            },
+            "modifiers": [],
+            "name": "cPropSet",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 1881
+            },
+            "modifiers": [],
+            "name": "strDIField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 1896
+            },
+            "modifiers": [],
+            "name": "listUR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1897
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 1898
+            },
+            "modifiers": [],
+            "name": "ur",
+            "references": [],
+            "type": "UpsertResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1911
+            },
+            "modifiers": [],
+            "name": "setStrCampaign",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 1912
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1921
+            },
+            "modifiers": [],
+            "name": "cmp",
+            "references": [],
+            "type": "Campaign"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 1926
+            },
+            "modifiers": [],
+            "name": "listCmpNew",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 1927
+            },
+            "modifiers": [],
+            "name": "listDINew",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 1929
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 1933
+            },
+            "modifiers": [],
+            "name": "strName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1934
+            },
+            "modifiers": [],
+            "name": "cmp",
+            "references": [],
+            "type": "Campaign"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 1946
+            },
+            "modifiers": [],
+            "name": "listUR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1947
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 1948
+            },
+            "modifiers": [],
+            "name": "ur",
+            "references": [],
+            "type": "UpsertResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1955
+            },
+            "modifiers": [],
+            "name": "cmp",
+            "references": [],
+            "type": "Campaign"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1964
+            },
+            "modifiers": [],
+            "name": "newCmContactIds",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1965
+            },
+            "modifiers": [],
+            "name": "listCampaignIds",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 1966
+            },
+            "modifiers": [],
+            "name": "listCmStatues",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 1968
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 1975
+            },
+            "modifiers": [],
+            "name": "idCmp",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 1976
+            },
+            "modifiers": [],
+            "name": "diStatus",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 1992
+            },
+            "modifiers": [],
+            "name": "newCmWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 302
+            },
+            "modifiers": [],
+            "name": "mapS",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 68,
+                "line": 319
+            },
+            "modifiers": [],
+            "name": "strObj",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 83,
+                "line": 319
+            },
+            "modifiers": [],
+            "name": "strBaseObj",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 108,
+                "line": 319
+            },
+            "modifiers": [],
+            "name": "listStrDIFields",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 320
+            },
+            "modifiers": [],
+            "name": "mapDIFieldToObjField",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 321
+            },
+            "modifiers": [],
+            "name": "strF",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 322
+            },
+            "modifiers": [],
+            "name": "dfr",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 323
+            },
+            "modifiers": [],
+            "name": "strHelpText",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 325
+            },
+            "modifiers": [],
+            "name": "strParts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 327
+            },
+            "modifiers": [],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 332
+            },
+            "modifiers": [],
+            "name": "strFieldOld",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 372
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 372
+            },
+            "modifiers": [],
+            "name": "strDIField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 89,
+                "line": 372
+            },
+            "modifiers": [],
+            "name": "objDst",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 117,
+                "line": 372
+            },
+            "modifiers": [],
+            "name": "mapDIFieldToDstField",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 374
+            },
+            "modifiers": [],
+            "name": "val",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 1613
+            },
+            "modifiers": [],
+            "name": "addr",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 1846
+            },
+            "modifiers": [],
+            "name": "listStg",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

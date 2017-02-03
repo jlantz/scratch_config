@@ -1,0 +1,2261 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iGiQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iGiQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 46
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "newDI",
+            "parameters": [
+                {
+                    "name": "firstname",
+                    "type": "String"
+                },
+                {
+                    "name": "lastname",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "DataImport__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 55
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "newDI",
+            "parameters": [
+                {
+                    "name": "firstname",
+                    "type": "String"
+                },
+                {
+                    "name": "lastname",
+                    "type": "String"
+                },
+                {
+                    "name": "firstname2",
+                    "type": "String"
+                },
+                {
+                    "name": "lastname2",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "DataImport__c",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 72
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "OneDIDuplicateNewContacts",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 105
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "OneDITwoNewContacts",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 139
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "TwoDIDuplicateNewContacts",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 175
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "TwoDITwoNewContacts",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 212
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "TwoDIDuplicateNewContactsDifferentOrder",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 258
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "OneDITwoExistingContacts",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 298
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "OneDIExistingContacts1x1",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 345
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "OneDITwoNewAccounts",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 377
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "OneDITwoSameAccounts",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 408
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "TwoDISameAccounts",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 440
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "TwoDIExistingAccounts",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 477
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "TwoDIExistingAccountsSalesforceId",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 560
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "TwoDIAffiliations",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 610
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "TwoDIHomeAddresses",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 668
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "ManyDISameHomeAddresses",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 751
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "TwoDIHomeAddressesAddrMgmtOff",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 805
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "TwoDIMixedAddresses",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 861
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "TwoDIMixedAddressesAddrMgmtOff",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 914
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "TwoDIWithDonations",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 995
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "TwoDIWithAccountDonations",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 1057
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "TwoDIWithDonationsAndCampaigns",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 1115
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "TwoDIWithCampaignMembers",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 1161
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "TwoDIWithDonationErrors",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 1206
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "TwoDITwoNewContactsHouseholdFields",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 1244
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "TwoDINewContactsExistingsHousehold",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "BDI_DataImport_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 43
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strTestOnly",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 27,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "BDI_DataImport_TEST",
+        "references": [],
+        "type": "BDI_DataImport_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "firstname",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "lastname",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "firstname",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "lastname",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 81,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "firstname2",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 100,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "lastname2",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 75
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 82
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 86
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 108
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 114
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 115
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 119
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 142
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 149
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 154
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 178
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 185
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 186
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 190
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 215
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 222
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 223
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 227
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 233
+            },
+            "modifiers": [],
+            "name": "listAcc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 262
+            },
+            "modifiers": [],
+            "name": "listConExisting",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 267
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 273
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 274
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 278
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 303
+            },
+            "modifiers": [],
+            "name": "listConExisting",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 310
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 318
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 319
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 323
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 335
+            },
+            "modifiers": [],
+            "name": "listAddr",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 348
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 354
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 355
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 359
+            },
+            "modifiers": [],
+            "name": "listAcc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 380
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 386
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 387
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 391
+            },
+            "modifiers": [],
+            "name": "listAcc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 411
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 418
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 419
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 423
+            },
+            "modifiers": [],
+            "name": "listAcc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 443
+            },
+            "modifiers": [],
+            "name": "listAcc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 448
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 455
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 456
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 480
+            },
+            "modifiers": [],
+            "name": "listAcc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 485
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 494
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 495
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 563
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 572
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 573
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 577
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 588
+            },
+            "modifiers": [],
+            "name": "listAcc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 595
+            },
+            "modifiers": [],
+            "name": "listAffl",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 613
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 622
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 623
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 627
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 642
+            },
+            "modifiers": [],
+            "name": "listAddr",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 647
+            },
+            "modifiers": [],
+            "name": "listAcc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 671
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 679
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 690
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 691
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 695
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 698
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 706
+            },
+            "modifiers": [],
+            "name": "listAddr",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 715
+            },
+            "modifiers": [],
+            "name": "listAcc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 728
+            },
+            "modifiers": [],
+            "name": "cCreated",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 729
+            },
+            "modifiers": [],
+            "name": "cMatched",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 730
+            },
+            "modifiers": [],
+            "name": "di",
+            "references": [],
+            "type": "DataImport__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 754
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 760
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 769
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 770
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 774
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 789
+            },
+            "modifiers": [],
+            "name": "listAddr",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 792
+            },
+            "modifiers": [],
+            "name": "listAcc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 809
+            },
+            "modifiers": [],
+            "name": "listConExisting",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 814
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 823
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 824
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 828
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 831
+            },
+            "modifiers": [],
+            "name": "listAddr",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 864
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 871
+            },
+            "modifiers": [],
+            "name": "listConExisting",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 876
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 885
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 886
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 890
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 895
+            },
+            "modifiers": [],
+            "name": "listAddr",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 898
+            },
+            "modifiers": [],
+            "name": "listAcc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 917
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 930
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 931
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 935
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 950
+            },
+            "modifiers": [],
+            "name": "listAcc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 955
+            },
+            "modifiers": [],
+            "name": "listOpp",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 962
+            },
+            "modifiers": [],
+            "name": "listPmt",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 971
+            },
+            "modifiers": [],
+            "name": "listOCR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 998
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 1013
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 1014
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1018
+            },
+            "modifiers": [],
+            "name": "listAcc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 1023
+            },
+            "modifiers": [],
+            "name": "listOpp",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 1030
+            },
+            "modifiers": [],
+            "name": "listPmt",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 1039
+            },
+            "modifiers": [],
+            "name": "listOCR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 1060
+            },
+            "modifiers": [],
+            "name": "listC",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 1064
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 1075
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 1076
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1080
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1083
+            },
+            "modifiers": [],
+            "name": "listAcc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 1088
+            },
+            "modifiers": [],
+            "name": "listOpp",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 1095
+            },
+            "modifiers": [],
+            "name": "listCmp",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 1118
+            },
+            "modifiers": [],
+            "name": "listC",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 1122
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 1132
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 1133
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1137
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1140
+            },
+            "modifiers": [],
+            "name": "listAcc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 1143
+            },
+            "modifiers": [],
+            "name": "listCmp",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 1146
+            },
+            "modifiers": [],
+            "name": "listCM",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 1164
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 1175
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 1176
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1180
+            },
+            "modifiers": [],
+            "name": "listAcc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 1185
+            },
+            "modifiers": [],
+            "name": "listOpp",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 1209
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 1216
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 1217
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1221
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1248
+            },
+            "modifiers": [],
+            "name": "listConExisting",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 1257
+            },
+            "modifiers": [],
+            "name": "listDI",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 1266
+            },
+            "modifiers": [],
+            "name": "bdi",
+            "references": [],
+            "type": "BDI_DataImport_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 1267
+            },
+            "modifiers": [],
+            "name": "ApexJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1271
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1279
+            },
+            "modifiers": [],
+            "name": "listAcc",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

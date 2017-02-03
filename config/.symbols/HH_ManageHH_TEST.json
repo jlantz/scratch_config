@@ -1,0 +1,174 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHkQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHkQAI",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 43
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testExistingHHAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 69
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testExistingHHObject",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 95
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testNewHHObject",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "HH_ManageHH_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 38
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "HH_ManageHH_TEST",
+        "references": [],
+        "type": "HH_ManageHH_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 45
+            },
+            "modifiers": [],
+            "name": "hh",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "HH_ManageHH_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "hh",
+            "references": [],
+            "type": "npo02__Household__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 77
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "HH_ManageHH_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 97
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 100
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "HH_ManageHH_CTRL"
+        }
+    ]
+}

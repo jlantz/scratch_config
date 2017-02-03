@@ -1,0 +1,44 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJlQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJlQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 47
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "getDefaultRecords",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "TDTM_Config_API",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 38
+        },
+        "modifiers": [
+            "global"
+        ],
+        "name": "TDTM_Config_API",
+        "references": [],
+        "type": "TDTM_Config_API"
+    },
+    "variables": []
+}

@@ -1,0 +1,493 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iGzQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iGzQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 51
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "run",
+            "parameters": [
+                {
+                    "name": "listNew",
+                    "type": "LIST"
+                },
+                {
+                    "name": "listOld",
+                    "type": "LIST"
+                },
+                {
+                    "name": "triggerAction",
+                    "type": "Action"
+                },
+                {
+                    "name": "objResult",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "DmlWrapper",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 79
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "mergeKey",
+            "parameters": [
+                {
+                    "name": "contactIdLoser",
+                    "type": "String"
+                },
+                {
+                    "name": "accountIdLoser",
+                    "type": "String"
+                },
+                {
+                    "name": "contactIdWinner",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 90
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "idFromMergeKey",
+            "parameters": [
+                {
+                    "name": "mergeKey",
+                    "type": "String"
+                },
+                {
+                    "name": "index",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "Future"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 111
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "handleContactMergeFixupsFuture",
+            "parameters": [
+                {
+                    "name": "listMergeKey",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "CON_ContactMerge_TDTM",
+    "namespace": null,
+    "parentClass": "TDTM_Runnable",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 39
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "CON_ContactMerge_TDTM",
+        "references": [],
+        "type": "CON_ContactMerge_TDTM"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "listNew",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "listOld",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 52
+            },
+            "modifiers": [],
+            "name": "triggerAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 52
+            },
+            "modifiers": [],
+            "name": "objResult",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 57
+            },
+            "modifiers": [],
+            "name": "listMergeKey",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "so",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 60
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "contactIdLoser",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "accountIdLoser",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 89,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "contactIdWinner",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 90
+            },
+            "modifiers": [],
+            "name": "mergeKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 67,
+                "line": 90
+            },
+            "modifiers": [],
+            "name": "index",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 93
+            },
+            "modifiers": [],
+            "name": "listId",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 94
+            },
+            "modifiers": [],
+            "name": "strId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 111
+            },
+            "modifiers": [],
+            "name": "listMergeKey",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 113
+            },
+            "modifiers": [],
+            "name": "listContactIdLoser",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 114
+            },
+            "modifiers": [],
+            "name": "listAccountIdLoser",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 115
+            },
+            "modifiers": [],
+            "name": "listContactIdWinner",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 118
+            },
+            "modifiers": [],
+            "name": "mergeKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 125
+            },
+            "modifiers": [],
+            "name": "oppRollupUtil",
+            "references": [],
+            "type": "RLLP_OppRollup_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 126
+            },
+            "modifiers": [],
+            "name": "strSoql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 129
+            },
+            "modifiers": [],
+            "name": "listContactWinner",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 132
+            },
+            "modifiers": [],
+            "name": "mapContactIdAccountIdWinner",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 133
+            },
+            "modifiers": [],
+            "name": "mapContactIdAccountIdLoser",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 134
+            },
+            "modifiers": [],
+            "name": "listAccIdHH",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 135
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 146
+            },
+            "modifiers": [],
+            "name": "mapAccountIdAccountLoser",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 148
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "accLoser",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 164
+            },
+            "modifiers": [],
+            "name": "listAccId",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 184
+            },
+            "modifiers": [],
+            "name": "opprollup",
+            "references": [],
+            "type": "RLLP_OppRollup"
+        }
+    ]
+}

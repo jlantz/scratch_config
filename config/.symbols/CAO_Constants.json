@@ -1,0 +1,394 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iGmQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iGmQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 117
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "isOneToOne",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 130
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "isBucketModel",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 138
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "isHHAccountModel",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 156
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getIndividualAccountId",
+            "parameters": [],
+            "references": [],
+            "returnType": "Id",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 177
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "setIndividualAccountForTests",
+            "parameters": [
+                {
+                    "name": "accountName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Id",
+            "type": null
+        }
+    ],
+    "name": "CAO_Constants",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 41
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "ONE_TO_ONE_PROCESSOR",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 46
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "ONE_TO_ONE_ORGANIZATION_TYPE",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 51
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "BUCKET_PROCESSOR",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 56
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "BUCKET_ORGANIZATION_TYPE",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 61
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "BUCKET_ACCOUNT_NAME",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 66
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "HH_ACCOUNT_PROCESSOR",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 71
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "HH_ACCOUNT_TYPE",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 76
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "HH_TYPE",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 81
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "CONTACT_FIRSTNAME_FOR_TESTS",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 86
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "CONTACT_LASTNAME_FOR_TESTS",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 91
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "CONTACT_EMAIL_FOR_TESTS",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 96
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "CONTACT_PREFERRED_EMAIL_FOR_TESTS",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 101
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "CONTACT_PHONE_FOR_TESTS",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 106
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "CONTACT_PREFERRED_PHONE_FOR_TESTS",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 111
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "INDIVIDUAL_ACCOUNT_NAME_FOR_TESTS",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 145
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "IndividualAccountId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 150
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "IndividualAccountName",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "CAO_Constants",
+        "references": [],
+        "type": "CAO_Constants"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "acct",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 177
+            },
+            "modifiers": [],
+            "name": "accountName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 180
+            },
+            "modifiers": [],
+            "name": "individualAccountForTests",
+            "references": [],
+            "type": "Account"
+        }
+    ]
+}

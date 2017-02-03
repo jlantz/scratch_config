@@ -1,0 +1,198 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHXQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHXQAY",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 36,
+                "line": 44
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testCampaignHHReport",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "HH_CampaignDedupeBTN_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 37
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "HH_CampaignDedupeBTN_TEST",
+        "references": [],
+        "type": "HH_CampaignDedupeBTN_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 45
+            },
+            "modifiers": [],
+            "name": "householdSettingsForTests",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 61
+            },
+            "modifiers": [],
+            "name": "acct",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 66
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 73
+            },
+            "modifiers": [],
+            "name": "hhid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 76
+            },
+            "modifiers": [],
+            "name": "con2",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 87
+            },
+            "modifiers": [],
+            "name": "camp",
+            "references": [],
+            "type": "Campaign"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 94
+            },
+            "modifiers": [],
+            "name": "campm1",
+            "references": [],
+            "type": "CampaignMember"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 101
+            },
+            "modifiers": [],
+            "name": "campm2",
+            "references": [],
+            "type": "CampaignMember"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 110
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 111
+            },
+            "modifiers": [],
+            "name": "deduper",
+            "references": [],
+            "type": "HH_CampaignDedupeBTN_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 112
+            },
+            "modifiers": [],
+            "name": "pr",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 115
+            },
+            "modifiers": [],
+            "name": "campm1Status",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 116
+            },
+            "modifiers": [],
+            "name": "campm2Status",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

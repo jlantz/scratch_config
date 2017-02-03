@@ -1,0 +1,2270 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iIbQAI",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "RecurringDonationCloseOptions",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 17,
+                    "line": 90
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "RecurringDonationCloseOptions",
+                "references": [],
+                "type": "RecurringDonationCloseOptions"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iIbQAI",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "Future"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 151
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "updateRecurringDonationOnOppChangeFuture",
+            "parameters": [
+                {
+                    "name": "RDids",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 162
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "updateRecurringDonationOnOppChange",
+            "parameters": [
+                {
+                    "name": "RDids",
+                    "type": "Set"
+                },
+                {
+                    "name": "dmlWrapper",
+                    "type": "DmlWrapper"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 250
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "requeryListRD",
+            "parameters": [
+                {
+                    "name": "setRDId",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 264
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "strQueryRDNoWhere",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "Future"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 302
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "insertOppsOnRecurringDonationInsertFuture",
+            "parameters": [
+                {
+                    "name": "recids",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 315
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "insertOppsOnRecurringDonationInsert",
+            "parameters": [
+                {
+                    "name": "recurringDonations",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "Future"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 628
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "oppContactRolesFuture",
+            "parameters": [
+                {
+                    "name": "oppIds",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 638
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "oppContactRoles",
+            "parameters": [
+                {
+                    "name": "oppIds",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "Future"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 690
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "updateExistingOppsFuture",
+            "parameters": [
+                {
+                    "name": "recIDs",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 700
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "updateExistingOpps",
+            "parameters": [
+                {
+                    "name": "recIDs",
+                    "type": "Set"
+                },
+                {
+                    "name": "dmlWrapper",
+                    "type": "DmlWrapper"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 802
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "handleRecurringDonationUpdate",
+            "parameters": [
+                {
+                    "name": "recurringDonations",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldRecurringDonations",
+                    "type": "Map"
+                },
+                {
+                    "name": "dmlWrapper",
+                    "type": "DmlWrapper"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 880
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "evaluateRecurringDonationsForNewOppInsert",
+            "parameters": [
+                {
+                    "name": "recurringDonationsToEvaluate",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 1081
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "runRecurringDonationClosedActions",
+            "parameters": [
+                {
+                    "name": "closedRDs",
+                    "type": "LIST"
+                },
+                {
+                    "name": "dmlWrapper",
+                    "type": "DmlWrapper"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 1121
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "dtEndOfMonthFixup",
+            "parameters": [
+                {
+                    "name": "dt",
+                    "type": "Date"
+                },
+                {
+                    "name": "rd",
+                    "type": "npe03__Recurring_Donation__c"
+                }
+            ],
+            "references": [],
+            "returnType": "Date",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 1139
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "getNextDate",
+            "parameters": [
+                {
+                    "name": "CalcDate",
+                    "type": "Date"
+                },
+                {
+                    "name": "rd",
+                    "type": "npe03__Recurring_Donation__c"
+                }
+            ],
+            "references": [],
+            "returnType": "Date",
+            "type": null
+        }
+    ],
+    "name": "RD_RecurringDonations",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 95
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "customFieldMappingSettings",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 100
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "RDCurrField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 105
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "RDCurrencyField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 115
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "OppCurrField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 120
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "OppCurrencyField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 129
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "isMc",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 134
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "isMultiCurrency",
+            "references": [],
+            "type": "Boolean"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 85
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "RD_RecurringDonations",
+        "references": [],
+        "type": "RD_RecurringDonations"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "RDids",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 67,
+                "line": 162
+            },
+            "modifiers": [],
+            "name": "RDids",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 99,
+                "line": 162
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 164
+            },
+            "modifiers": [],
+            "name": "updateMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 167
+            },
+            "modifiers": [],
+            "name": "closedLabel",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 173
+            },
+            "modifiers": [],
+            "name": "rdQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 177
+            },
+            "modifiers": [],
+            "name": "rdMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 178
+            },
+            "modifiers": [],
+            "name": "rd",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 184
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 189
+            },
+            "modifiers": [],
+            "name": "rdid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 191
+            },
+            "modifiers": [],
+            "name": "isClosed",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 192
+            },
+            "modifiers": [],
+            "name": "isWon",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 195
+            },
+            "modifiers": [],
+            "name": "rd",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 76,
+                "line": 250
+            },
+            "modifiers": [],
+            "name": "setRDId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 251
+            },
+            "modifiers": [],
+            "name": "queryRCD",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 267
+            },
+            "modifiers": [],
+            "name": "existingFields",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 273
+            },
+            "modifiers": [],
+            "name": "queryRCD",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 274
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 279
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 280
+            },
+            "modifiers": [],
+            "name": "RDFieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 302
+            },
+            "modifiers": [],
+            "name": "recids",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 305
+            },
+            "modifiers": [],
+            "name": "reclist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 95,
+                "line": 315
+            },
+            "modifiers": [],
+            "name": "recurringDonations",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 317
+            },
+            "modifiers": [],
+            "name": "opportunityInserts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 319
+            },
+            "modifiers": [],
+            "name": "rds",
+            "references": [],
+            "type": "npe03__Recurring_Donations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 322
+            },
+            "modifiers": [],
+            "name": "ConIDForRole",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 323
+            },
+            "modifiers": [],
+            "name": "updateRecurringDonationSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 326
+            },
+            "modifiers": [],
+            "name": "contactIds",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 327
+            },
+            "modifiers": [],
+            "name": "recConMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 328
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 337
+            },
+            "modifiers": [],
+            "name": "contactMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 338
+            },
+            "modifiers": [],
+            "name": "accountMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 344
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 348
+            },
+            "modifiers": [],
+            "name": "installs",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 349
+            },
+            "modifiers": [],
+            "name": "installments",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 351
+            },
+            "modifiers": [],
+            "name": "OppCloseDate",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 358
+            },
+            "modifiers": [],
+            "name": "j",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 359
+            },
+            "modifiers": [],
+            "name": "installmentAmount",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 361
+            },
+            "modifiers": [],
+            "name": "paidAmount",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 366
+            },
+            "modifiers": [],
+            "name": "paidInstallments",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 378
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 389
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 404
+            },
+            "modifiers": [],
+            "name": "totalAmount",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 440
+            },
+            "modifiers": [],
+            "name": "oName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 465
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 466
+            },
+            "modifiers": [],
+            "name": "cfm",
+            "references": [],
+            "type": "npe03__Custom_Field_Mapping__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 486
+            },
+            "modifiers": [],
+            "name": "OppCloseDate",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 498
+            },
+            "modifiers": [],
+            "name": "forecast_months",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 499
+            },
+            "modifiers": [],
+            "name": "dtForecast",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 501
+            },
+            "modifiers": [],
+            "name": "rdcounter",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 508
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 522
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 533
+            },
+            "modifiers": [],
+            "name": "oName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 557
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 558
+            },
+            "modifiers": [],
+            "name": "cfm",
+            "references": [],
+            "type": "npe03__Custom_Field_Mapping__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 570
+            },
+            "modifiers": [],
+            "name": "RDID",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 571
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 575
+            },
+            "modifiers": [],
+            "name": "lsr",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 576
+            },
+            "modifiers": [],
+            "name": "badSRs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 577
+            },
+            "modifiers": [],
+            "name": "badOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 578
+            },
+            "modifiers": [],
+            "name": "createdOppIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 588
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 589
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "SaveResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 610
+            },
+            "modifiers": [],
+            "name": "errors",
+            "references": [],
+            "type": "Errors"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 628
+            },
+            "modifiers": [],
+            "name": "oppIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 638
+            },
+            "modifiers": [],
+            "name": "oppIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 639
+            },
+            "modifiers": [],
+            "name": "contactRoleInserts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 640
+            },
+            "modifiers": [],
+            "name": "contactOppToContactRole",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 642
+            },
+            "modifiers": [],
+            "name": "oppsFromRecurringDontaions",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 646
+            },
+            "modifiers": [],
+            "name": "conRoles",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 647
+            },
+            "modifiers": [],
+            "name": "uniqueConRole",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 649
+            },
+            "modifiers": [],
+            "name": "thisCR",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 654
+            },
+            "modifiers": [],
+            "name": "createdOpp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 656
+            },
+            "modifiers": [],
+            "name": "ocr",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 690
+            },
+            "modifiers": [],
+            "name": "recIDs",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 700
+            },
+            "modifiers": [],
+            "name": "recIDs",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 84,
+                "line": 700
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 703
+            },
+            "modifiers": [],
+            "name": "rds",
+            "references": [],
+            "type": "npe03__Recurring_Donations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 704
+            },
+            "modifiers": [],
+            "name": "closedLabel",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 706
+            },
+            "modifiers": [],
+            "name": "rdQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 709
+            },
+            "modifiers": [],
+            "name": "rdsToUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 710
+            },
+            "modifiers": [],
+            "name": "rdMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 712
+            },
+            "modifiers": [],
+            "name": "oppList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 719
+            },
+            "modifiers": [],
+            "name": "RDOppMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 720
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 722
+            },
+            "modifiers": [],
+            "name": "opps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 732
+            },
+            "modifiers": [],
+            "name": "updateOppsList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 735
+            },
+            "modifiers": [],
+            "name": "RDid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 737
+            },
+            "modifiers": [],
+            "name": "PaymentDate",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 741
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 754
+            },
+            "modifiers": [],
+            "name": "oName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 766
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 767
+            },
+            "modifiers": [],
+            "name": "cfm",
+            "references": [],
+            "type": "npe03__Custom_Field_Mapping__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 89,
+                "line": 802
+            },
+            "modifiers": [],
+            "name": "recurringDonations",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 147,
+                "line": 802
+            },
+            "modifiers": [],
+            "name": "oldRecurringDonations",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 195,
+                "line": 802
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 804
+            },
+            "modifiers": [],
+            "name": "reevaluateOpps",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 805
+            },
+            "modifiers": [],
+            "name": "reinsertOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 807
+            },
+            "modifiers": [],
+            "name": "newlycloseddonations",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 809
+            },
+            "modifiers": [],
+            "name": "openlabel",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 810
+            },
+            "modifiers": [],
+            "name": "closedlabel",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 812
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 813
+            },
+            "modifiers": [],
+            "name": "oldRD",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 816
+            },
+            "modifiers": [],
+            "name": "cfmFieldChanged",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 817
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 818
+            },
+            "modifiers": [],
+            "name": "cfm",
+            "references": [],
+            "type": "npe03__Custom_Field_Mapping__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 865
+            },
+            "modifiers": [],
+            "name": "rdset",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 866
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 104,
+                "line": 880
+            },
+            "modifiers": [],
+            "name": "recurringDonationsToEvaluate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 882
+            },
+            "modifiers": [],
+            "name": "openlabel",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 883
+            },
+            "modifiers": [],
+            "name": "closedlabel",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 886
+            },
+            "modifiers": [],
+            "name": "listRDNonOpen",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 887
+            },
+            "modifiers": [],
+            "name": "listRDOpen",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 889
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 890
+            },
+            "modifiers": [],
+            "name": "rd",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 916
+            },
+            "modifiers": [],
+            "name": "rds",
+            "references": [],
+            "type": "npe03__Recurring_Donations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 918
+            },
+            "modifiers": [],
+            "name": "oppInsertList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 921
+            },
+            "modifiers": [],
+            "name": "forecast_months",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 924
+            },
+            "modifiers": [],
+            "name": "ConIDForRole",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 927
+            },
+            "modifiers": [],
+            "name": "sobjs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 933
+            },
+            "modifiers": [],
+            "name": "lastOppMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 934
+            },
+            "modifiers": [],
+            "name": "oppCountMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 935
+            },
+            "modifiers": [],
+            "name": "contactIDs",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 937
+            },
+            "modifiers": [],
+            "name": "rd",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 943
+            },
+            "modifiers": [],
+            "name": "contactMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 948
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 949
+            },
+            "modifiers": [],
+            "name": "rdid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 958
+            },
+            "modifiers": [],
+            "name": "reRollRDs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 959
+            },
+            "modifiers": [],
+            "name": "rd",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 963
+            },
+            "modifiers": [],
+            "name": "oppCounter",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 965
+            },
+            "modifiers": [],
+            "name": "dtForecast",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 968
+            },
+            "modifiers": [],
+            "name": "oppclosedate",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 973
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 985
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 993
+            },
+            "modifiers": [],
+            "name": "oName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 1003
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 1004
+            },
+            "modifiers": [],
+            "name": "cfm",
+            "references": [],
+            "type": "npe03__Custom_Field_Mapping__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 1029
+            },
+            "modifiers": [],
+            "name": "RDID",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 1030
+            },
+            "modifiers": [],
+            "name": "badSRs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 1033
+            },
+            "modifiers": [],
+            "name": "badOpps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1034
+            },
+            "modifiers": [],
+            "name": "createdOppIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 1036
+            },
+            "modifiers": [],
+            "name": "lsr",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1038
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 1039
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "SaveResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 1061
+            },
+            "modifiers": [],
+            "name": "errors",
+            "references": [],
+            "type": "Errors"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 94,
+                "line": 1081
+            },
+            "modifiers": [],
+            "name": "closedRDs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 130,
+                "line": 1081
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 1083
+            },
+            "modifiers": [],
+            "name": "rds",
+            "references": [],
+            "type": "npe03__Recurring_Donations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 1086
+            },
+            "modifiers": [],
+            "name": "mapIdOpp",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 1092
+            },
+            "modifiers": [],
+            "name": "oppsToDelete",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 1093
+            },
+            "modifiers": [],
+            "name": "oppToDeleteId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 1102
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 1121
+            },
+            "modifiers": [],
+            "name": "dt",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 81,
+                "line": 1121
+            },
+            "modifiers": [],
+            "name": "rd",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 1139
+            },
+            "modifiers": [],
+            "name": "CalcDate",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 81,
+                "line": 1139
+            },
+            "modifiers": [],
+            "name": "rd",
+            "references": [],
+            "type": "npe03__Recurring_Donation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 1140
+            },
+            "modifiers": [],
+            "name": "rds",
+            "references": [],
+            "type": "npe03__Recurring_Donations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 1141
+            },
+            "modifiers": [],
+            "name": "InstallmentType",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 1167
+            },
+            "modifiers": [],
+            "name": "cisMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 1170
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "npe03__Custom_Installment_Settings__c"
+        }
+    ]
+}

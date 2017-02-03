@@ -1,0 +1,631 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 64
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "HH_CampaignDedupeBTN_CTRL",
+            "parameters": [
+                {
+                    "name": "controller",
+                    "type": "StandardController"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iHWQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHWQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 97
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "RunReport",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 148
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "MarkDuplicates",
+            "parameters": [],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 164
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "MarkDuplicatesBatch",
+            "parameters": [
+                {
+                    "name": "strSoql",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 173
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "strSoqlDedupe",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 188
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "MarkDuplicatesFromList",
+            "parameters": [
+                {
+                    "name": "campaignId",
+                    "type": "Id"
+                },
+                {
+                    "name": "listCM",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 296
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "showMsg",
+            "parameters": [
+                {
+                    "name": "arg",
+                    "type": "String"
+                },
+                {
+                    "name": "severity",
+                    "type": "Severity"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "HH_CampaignDedupeBTN_CTRL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 40
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "campaign",
+            "references": [],
+            "type": "Campaign"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 41
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "CampaignMailingListReportId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 42
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "haveReportID",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 43
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "hs",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 48
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "returnURL",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 53
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "reportURL",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 58
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "updateSettingsWithID",
+            "references": [],
+            "type": "Boolean"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 30,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "without sharing"
+        ],
+        "name": "HH_CampaignDedupeBTN_CTRL",
+        "references": [],
+        "type": "HH_CampaignDedupeBTN_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 67,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "pageRef",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 76
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "Report"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 100
+            },
+            "modifiers": [],
+            "name": "ActiveID",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 102
+            },
+            "modifiers": [],
+            "name": "newPageUrl",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 103
+            },
+            "modifiers": [],
+            "name": "dupsmarked",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 104
+            },
+            "modifiers": [],
+            "name": "redirectpage",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 129
+            },
+            "modifiers": [],
+            "name": "pageref",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 149
+            },
+            "modifiers": [],
+            "name": "strSoql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 155
+            },
+            "modifiers": [],
+            "name": "listCM",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 164
+            },
+            "modifiers": [],
+            "name": "strSoql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 165
+            },
+            "modifiers": [],
+            "name": "batch",
+            "references": [],
+            "type": "HH_CampaignDedupe_BATCH"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 174
+            },
+            "modifiers": [],
+            "name": "strSoql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "campaignId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 86,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "listCM",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 190
+            },
+            "modifiers": [],
+            "name": "DUPETEXT",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 193
+            },
+            "modifiers": [],
+            "name": "StatusLabels",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 194
+            },
+            "modifiers": [],
+            "name": "statuses",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 196
+            },
+            "modifiers": [],
+            "name": "dupeMembers",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 198
+            },
+            "modifiers": [],
+            "name": "cms",
+            "references": [],
+            "type": "CampaignMemberStatus"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 200
+            },
+            "modifiers": [],
+            "name": "campMemberStatuses",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 203
+            },
+            "modifiers": [],
+            "name": "nextSortOrder",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 206
+            },
+            "modifiers": [],
+            "name": "newStatuses",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 208
+            },
+            "modifiers": [],
+            "name": "HouseholdIDSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 210
+            },
+            "modifiers": [],
+            "name": "m",
+            "references": [],
+            "type": "CampaignMember"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 215
+            },
+            "modifiers": [],
+            "name": "newStatus",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 217
+            },
+            "modifiers": [],
+            "name": "hhId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 246
+            },
+            "modifiers": [],
+            "name": "cch",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 273
+            },
+            "modifiers": [],
+            "name": "returnsize",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 274
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 296
+            },
+            "modifiers": [],
+            "name": "arg",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 296
+            },
+            "modifiers": [],
+            "name": "severity",
+            "references": [],
+            "type": "Severity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 297
+            },
+            "modifiers": [],
+            "name": "myMsg",
+            "references": [],
+            "type": "Message"
+        }
+    ]
+}

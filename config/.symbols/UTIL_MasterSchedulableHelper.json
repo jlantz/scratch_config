@@ -1,0 +1,316 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 41
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "UTIL_MasterSchedulableHelper",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iK8QAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iK8QAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 47
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "abortOldScheduledJobs",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 83
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "scheduleJobsFromOldObject",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 124
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "setScheduledJobs",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 159
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "createJob",
+            "parameters": [
+                {
+                    "name": "jobName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "UTIL_MasterSchedulableHelper",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 65
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "defaultScheduledJobs",
+            "references": [],
+            "type": "Map"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 30,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "without sharing"
+        ],
+        "name": "UTIL_MasterSchedulableHelper",
+        "references": [],
+        "type": "UTIL_MasterSchedulableHelper"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "jobNames",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 52
+            },
+            "modifiers": [],
+            "name": "oldScheduledJobs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "job",
+            "references": [],
+            "type": "CronTrigger"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 84
+            },
+            "modifiers": [],
+            "name": "scheduleObjects",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 86
+            },
+            "modifiers": [],
+            "name": "allJobsActive",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 87
+            },
+            "modifiers": [],
+            "name": "sched",
+            "references": [],
+            "type": "Schedulable__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 101
+            },
+            "modifiers": [],
+            "name": "sched",
+            "references": [],
+            "type": "Schedulable__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 103
+            },
+            "modifiers": [],
+            "name": "jobName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 110
+            },
+            "modifiers": [],
+            "name": "orgErrorSettings",
+            "references": [],
+            "type": "Error_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 126
+            },
+            "modifiers": [],
+            "name": "scheduledJobs",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 129
+            },
+            "modifiers": [],
+            "name": "ct",
+            "references": [],
+            "type": "CronTrigger"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 133
+            },
+            "modifiers": [],
+            "name": "jobName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 142
+            },
+            "modifiers": [],
+            "name": "currentJob",
+            "references": [],
+            "type": "CronTrigger"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 159
+            },
+            "modifiers": [],
+            "name": "jobName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "cronExpression",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 161
+            },
+            "modifiers": [],
+            "name": "className",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 164
+            },
+            "modifiers": [],
+            "name": "classInstance",
+            "references": [],
+            "type": "Schedulable"
+        }
+    ]
+}

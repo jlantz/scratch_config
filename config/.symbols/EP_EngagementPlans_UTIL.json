@@ -1,0 +1,511 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 78
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "EP_EngagementPlans_UTIL",
+            "parameters": [
+                {
+                    "name": "engagementPlans",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iHAQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHAQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 109
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "getOwnerIdQuery",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 128
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getTargetObjectField",
+            "parameters": [
+                {
+                    "name": "engagementPlan",
+                    "type": "Engagement_Plan__c"
+                },
+                {
+                    "name": "addError",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 155
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOwnerIdPath",
+            "parameters": [
+                {
+                    "name": "t",
+                    "type": "SObjectType"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "EP_EngagementPlans_UTIL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 71
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "targetFieldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 73
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "targetObjectIdMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 75
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "targetOwnerMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 40
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "TASK_STATUS_WAITING",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 41
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "BLANK_ASSIGNMENT_USER_CREATING",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 42
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "BLANK_ASSIGNMENT_OWNER_RECEIVING",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 43
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "SKIP_DAY_FRIDAY",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 44
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "SKIP_DAY_MONDAY",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 45
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "MAX_ITERATIONS",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 48
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "fieldDescribeMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 51
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "lookupFieldsToRelationship",
+            "references": [],
+            "type": "Map"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 38
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "EP_EngagementPlans_UTIL",
+        "references": [],
+        "type": "EP_EngagementPlans_UTIL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 61,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "engagementPlans",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "engagementPlan",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 83
+            },
+            "modifiers": [],
+            "name": "engagementPlan",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 84
+            },
+            "modifiers": [],
+            "name": "targetField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 89
+            },
+            "modifiers": [],
+            "name": "pathToOwner",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 90
+            },
+            "modifiers": [],
+            "name": "currentSObject",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 92
+            },
+            "modifiers": [],
+            "name": "cons",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 111
+            },
+            "modifiers": [],
+            "name": "queryFields",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 114
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 56
+            },
+            "modifiers": [],
+            "name": "fieldDescribe",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 128
+            },
+            "modifiers": [],
+            "name": "engagementPlan",
+            "references": [],
+            "type": "Engagement_Plan__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 90,
+                "line": 128
+            },
+            "modifiers": [],
+            "name": "addError",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 129
+            },
+            "modifiers": [],
+            "name": "targetObjectField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 130
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 155
+            },
+            "modifiers": [],
+            "name": "t",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 156
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 157
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 158
+            },
+            "modifiers": [],
+            "name": "fieldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 168
+            },
+            "modifiers": [],
+            "name": "f",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 169
+            },
+            "modifiers": [],
+            "name": "dfr",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 170
+            },
+            "modifiers": [],
+            "name": "refs",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

@@ -1,0 +1,1650 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 180
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "CON_ContactMerge_CTRL",
+            "parameters": [
+                {
+                    "name": "controller",
+                    "type": "StandardSetController"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iGyQAI",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 88
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "contactWrapper",
+                    "parameters": [
+                        {
+                            "name": "c",
+                            "type": "Contact"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "contactWrapper",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 78
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "con",
+                    "references": [],
+                    "type": "Contact"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 82
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "selected",
+                    "references": [],
+                    "type": "Boolean"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 74
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "contactWrapper",
+                "references": [],
+                "type": "contactWrapper"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 39,
+                        "line": 88
+                    },
+                    "modifiers": [],
+                    "name": "c",
+                    "references": [],
+                    "type": "Contact"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 132
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "FieldRow",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 143
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "FieldRow",
+                    "parameters": [
+                        {
+                            "name": "fieldName",
+                            "type": "String"
+                        },
+                        {
+                            "name": "fieldLabel",
+                            "type": "String"
+                        },
+                        {
+                            "name": "showRadio",
+                            "type": "Boolean"
+                        },
+                        {
+                            "name": "styleClass",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "FieldRow",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 107
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "fieldLabel",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 111
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "fieldName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 115
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "showRadio",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 27,
+                        "line": 119
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "values",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 123
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "selectedValue",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 127
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "styleClass",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 103
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "FieldRow",
+                "references": [],
+                "type": "FieldRow"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 32,
+                        "line": 143
+                    },
+                    "modifiers": [],
+                    "name": "fieldName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 50,
+                        "line": 143
+                    },
+                    "modifiers": [],
+                    "name": "fieldLabel",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 70,
+                        "line": 143
+                    },
+                    "modifiers": [],
+                    "name": "showRadio",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 88,
+                        "line": 143
+                    },
+                    "modifiers": [],
+                    "name": "styleClass",
+                    "references": [],
+                    "type": "String"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 170
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "Cell",
+                    "parameters": [
+                        {
+                            "name": "objectId",
+                            "type": "String"
+                        },
+                        {
+                            "name": "value",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "Cell",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 159
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "objId",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 163
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "value",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 155
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Cell",
+                "references": [],
+                "type": "Cell"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 28,
+                        "line": 170
+                    },
+                    "modifiers": [],
+                    "name": "objectId",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 45,
+                        "line": 170
+                    },
+                    "modifiers": [],
+                    "name": "value",
+                    "references": [],
+                    "type": "String"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iGyQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 223
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "selectDefaultRecord",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 238
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "nextStep",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 252
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "loadMergeCandidates",
+            "parameters": [
+                {
+                    "name": "mergeCandidates",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 409
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "getRelatedObjNameField",
+            "parameters": [
+                {
+                    "name": "fieldDesc",
+                    "type": "DescribeFieldResult"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 427
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "addFieldComparisonRows",
+            "parameters": [
+                {
+                    "name": "fieldName",
+                    "type": "String"
+                },
+                {
+                    "name": "fieldDesc",
+                    "type": "DescribeFieldResult"
+                },
+                {
+                    "name": "objs",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 509
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "isNPSPReadOnly",
+            "parameters": [
+                {
+                    "name": "strField",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 570
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "isNPSPHiddenField",
+            "parameters": [
+                {
+                    "name": "strField",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 589
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "search",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 605
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "mySOSL",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 650
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "wrapSOSLResults",
+            "parameters": [
+                {
+                    "name": "mySearchList",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 676
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "mergeContacts",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        }
+    ],
+    "name": "CON_ContactMerge_CTRL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 44
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "searchText",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 49
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "searchResults",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 54
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "selectedRecords",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 59
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "selectedRecordsCount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 64
+            },
+            "modifiers": [
+                "private",
+                "final"
+            ],
+            "name": "SOSL_LIMIT",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 69
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "step",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 97
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "fieldRows",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 628
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "listStrContactField",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 39
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "final"
+            ],
+            "name": "MASTER_KEY",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "CON_ContactMerge_CTRL",
+        "references": [],
+        "type": "CON_ContactMerge_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 180
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "StandardSetController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "mergeIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 190
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 224
+            },
+            "modifiers": [],
+            "name": "recordId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 227
+            },
+            "modifiers": [],
+            "name": "row",
+            "references": [],
+            "type": "FieldRow"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 240
+            },
+            "modifiers": [],
+            "name": "mergeIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 241
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "contactWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 252
+            },
+            "modifiers": [],
+            "name": "mergeCandidates",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 267
+            },
+            "modifiers": [],
+            "name": "contactFields",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 268
+            },
+            "modifiers": [],
+            "name": "standardFieldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 269
+            },
+            "modifiers": [],
+            "name": "customFieldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 272
+            },
+            "modifiers": [],
+            "name": "query",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 273
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 274
+            },
+            "modifiers": [],
+            "name": "f",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 275
+            },
+            "modifiers": [],
+            "name": "fResult",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 290
+            },
+            "modifiers": [],
+            "name": "relName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 295
+            },
+            "modifiers": [],
+            "name": "nameField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 316
+            },
+            "modifiers": [],
+            "name": "contacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 331
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 336
+            },
+            "modifiers": [],
+            "name": "standardFieldList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 341
+            },
+            "modifiers": [],
+            "name": "customFieldList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 346
+            },
+            "modifiers": [],
+            "name": "temp",
+            "references": [],
+            "type": "FieldRow"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 347
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 348
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 356
+            },
+            "modifiers": [],
+            "name": "lastModifiedDate",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 357
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 372
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 380
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 388
+            },
+            "modifiers": [],
+            "name": "createdByRow",
+            "references": [],
+            "type": "FieldRow"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 389
+            },
+            "modifiers": [],
+            "name": "lastModifiedByRow",
+            "references": [],
+            "type": "FieldRow"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 390
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 391
+            },
+            "modifiers": [],
+            "name": "createdBy",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 392
+            },
+            "modifiers": [],
+            "name": "modifiedBy",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 409
+            },
+            "modifiers": [],
+            "name": "fieldDesc",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 410
+            },
+            "modifiers": [],
+            "name": "nameField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 411
+            },
+            "modifiers": [],
+            "name": "mapRelatedObjectFields",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 416
+            },
+            "modifiers": [],
+            "name": "relatedFieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 427
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 86,
+                "line": 427
+            },
+            "modifiers": [],
+            "name": "fieldDesc",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 111,
+                "line": 427
+            },
+            "modifiers": [],
+            "name": "objs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 429
+            },
+            "modifiers": [],
+            "name": "row",
+            "references": [],
+            "type": "FieldRow"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 441
+            },
+            "modifiers": [],
+            "name": "isDifferent",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 442
+            },
+            "modifiers": [],
+            "name": "isNull",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 443
+            },
+            "modifiers": [],
+            "name": "idx",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 445
+            },
+            "modifiers": [],
+            "name": "values",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 446
+            },
+            "modifiers": [],
+            "name": "lastModifiedDate",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 447
+            },
+            "modifiers": [],
+            "name": "prev",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 450
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 453
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 470
+            },
+            "modifiers": [],
+            "name": "current",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 490
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 491
+            },
+            "modifiers": [],
+            "name": "val",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 509
+            },
+            "modifiers": [],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 512
+            },
+            "modifiers": [],
+            "name": "listStrField",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 557
+            },
+            "modifiers": [],
+            "name": "strF",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 570
+            },
+            "modifiers": [],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 571
+            },
+            "modifiers": [],
+            "name": "listStrField",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 578
+            },
+            "modifiers": [],
+            "name": "strF",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 609
+            },
+            "modifiers": [],
+            "name": "searchquery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 612
+            },
+            "modifiers": [],
+            "name": "strComma",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 613
+            },
+            "modifiers": [],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 632
+            },
+            "modifiers": [],
+            "name": "setStr",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 650
+            },
+            "modifiers": [],
+            "name": "mySearchList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 652
+            },
+            "modifiers": [],
+            "name": "res",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 655
+            },
+            "modifiers": [],
+            "name": "returnedObjects",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 657
+            },
+            "modifiers": [],
+            "name": "returnedObject",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 660
+            },
+            "modifiers": [],
+            "name": "thisResult",
+            "references": [],
+            "type": "contactWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 677
+            },
+            "modifiers": [],
+            "name": "master",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 679
+            },
+            "modifiers": [],
+            "name": "row",
+            "references": [],
+            "type": "FieldRow"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 688
+            },
+            "modifiers": [],
+            "name": "row",
+            "references": [],
+            "type": "FieldRow"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 690
+            },
+            "modifiers": [],
+            "name": "selectedRecord",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 699
+            },
+            "modifiers": [],
+            "name": "val",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 708
+            },
+            "modifiers": [],
+            "name": "losers",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 710
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 717
+            },
+            "modifiers": [],
+            "name": "allContacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 720
+            },
+            "modifiers": [],
+            "name": "lock",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 727
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 729
+            },
+            "modifiers": [],
+            "name": "dml",
+            "references": [],
+            "type": "DMLOptions"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 731
+            },
+            "modifiers": [],
+            "name": "sr",
+            "references": [],
+            "type": "SaveResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 733
+            },
+            "modifiers": [],
+            "name": "strErr",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 734
+            },
+            "modifiers": [],
+            "name": "err",
+            "references": [],
+            "type": "Error"
+        }
+    ]
+}

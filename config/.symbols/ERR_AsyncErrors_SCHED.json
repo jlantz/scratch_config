@@ -1,0 +1,63 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHKQAY",
+    "innerClasses": [],
+    "interfaces": [
+        "System.Schedulable"
+    ],
+    "key": "01p4C0000002iHKQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 40
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "execute",
+            "parameters": [
+                {
+                    "name": "context",
+                    "type": "SchedulableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "ERR_AsyncErrors_SCHED",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "ERR_AsyncErrors_SCHED",
+        "references": [],
+        "type": "ERR_AsyncErrors_SCHED"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 40
+            },
+            "modifiers": [],
+            "name": "context",
+            "references": [],
+            "type": "SchedulableContext"
+        }
+    ]
+}

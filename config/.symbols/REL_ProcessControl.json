@@ -1,0 +1,43 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iIhQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iIhQAI",
+    "methods": [],
+    "name": "REL_ProcessControl",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 36
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "hasRun",
+            "references": [],
+            "type": "Boolean"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 35
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "REL_ProcessControl",
+        "references": [],
+        "type": "REL_ProcessControl"
+    },
+    "variables": []
+}

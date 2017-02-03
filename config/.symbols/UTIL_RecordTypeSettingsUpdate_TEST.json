@@ -1,0 +1,887 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iKDQAY",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 171
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "getNameToRecordTypeIdMap",
+                    "parameters": [
+                        {
+                            "name": "sot",
+                            "type": "SObjectType"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Map",
+                    "type": null
+                }
+            ],
+            "name": "NameMappingStub",
+            "namespace": null,
+            "parentClass": "UTIL_RecordTypeSettingsUpdate",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 32,
+                        "line": 169
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "opportunityNameMap",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 32,
+                        "line": 170
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "contactNameMap",
+                    "references": [],
+                    "type": "Map"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 19,
+                    "line": 168
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "NameMappingStub",
+                "references": [],
+                "type": "NameMappingStub"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 77,
+                        "line": 171
+                    },
+                    "modifiers": [],
+                    "name": "sot",
+                    "references": [],
+                    "type": "SObjectType"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 319
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "updateSettings",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "UpdateSettingsRunCount",
+            "namespace": null,
+            "parentClass": "UTIL_RecordTypeSettingsUpdate",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 318
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "runCount",
+                    "references": [],
+                    "type": "Integer"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 19,
+                    "line": 317
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "UpdateSettingsRunCount",
+                "references": [],
+                "type": "UpdateSettingsRunCount"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iKDQAY",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 38
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testNullSettingsRemainNull",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 54
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testBlankSettingsRemainBlank",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 70
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testEmptyValuesAreDiscarded",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 86
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testUnknownRecordTypeNamesAreDiscarded",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 102
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testIdsRemainIds",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 118
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testKnownRecordTypeNamesAreConverted",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 138
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testKitchenSink",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 182
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testUpdateSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 308
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "testUpdateSettingsHandlesNoSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 325
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testUpdateRunsOnUpgradeFrom377",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 341
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testUpdateRunsOnUpgradeFrom354",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 358
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testUpdateRunsOnNewInstall",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 375
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testUpdateDoesNotRunOnUpgradeFrom379",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 390
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testUpdateDoesNotRunOnUpgradeFrom399",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "UTIL_RecordTypeSettingsUpdate_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 36
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "UTIL_RecordTypeSettingsUpdate_TEST",
+        "references": [],
+        "type": "UTIL_RecordTypeSettingsUpdate_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 42
+            },
+            "modifiers": [],
+            "name": "rtsu",
+            "references": [],
+            "type": "UTIL_RecordTypeSettingsUpdate"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 43
+            },
+            "modifiers": [],
+            "name": "ids",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "rtsu",
+            "references": [],
+            "type": "UTIL_RecordTypeSettingsUpdate"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "ids",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "rtsu",
+            "references": [],
+            "type": "UTIL_RecordTypeSettingsUpdate"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 75
+            },
+            "modifiers": [],
+            "name": "ids",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 90
+            },
+            "modifiers": [],
+            "name": "rtsu",
+            "references": [],
+            "type": "UTIL_RecordTypeSettingsUpdate"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 91
+            },
+            "modifiers": [],
+            "name": "ids",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 106
+            },
+            "modifiers": [],
+            "name": "rtsu",
+            "references": [],
+            "type": "UTIL_RecordTypeSettingsUpdate"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 107
+            },
+            "modifiers": [],
+            "name": "ids",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 120
+            },
+            "modifiers": [],
+            "name": "knownRecordTypeId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 124
+            },
+            "modifiers": [],
+            "name": "rtsu",
+            "references": [],
+            "type": "UTIL_RecordTypeSettingsUpdate"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 125
+            },
+            "modifiers": [],
+            "name": "ids",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 141
+            },
+            "modifiers": [],
+            "name": "knownRecordTypeId1",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 142
+            },
+            "modifiers": [],
+            "name": "knownRecordTypeId2",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 145
+            },
+            "modifiers": [],
+            "name": "rtsu",
+            "references": [],
+            "type": "UTIL_RecordTypeSettingsUpdate"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 146
+            },
+            "modifiers": [],
+            "name": "ids",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 156
+            },
+            "modifiers": [],
+            "name": "expectedRecordTypeIds",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 189
+            },
+            "modifiers": [],
+            "name": "allocationsSettings",
+            "references": [],
+            "type": "Allocations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 193
+            },
+            "modifiers": [],
+            "name": "contactsAndOrgsSettings",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 197
+            },
+            "modifiers": [],
+            "name": "householdsSettings",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 204
+            },
+            "modifiers": [],
+            "name": "opportunityNamingSettings",
+            "references": [],
+            "type": "Opportunity_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 214
+            },
+            "modifiers": [],
+            "name": "opportunityRecTypeId1",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 215
+            },
+            "modifiers": [],
+            "name": "opportunityRecTypeId2",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 216
+            },
+            "modifiers": [],
+            "name": "contactRecTypeId1",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 217
+            },
+            "modifiers": [],
+            "name": "contactRecTypeId2",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 219
+            },
+            "modifiers": [],
+            "name": "stub",
+            "references": [],
+            "type": "NameMappingStub"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 229
+            },
+            "modifiers": [],
+            "name": "expectedOpportunityIdString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 230
+            },
+            "modifiers": [],
+            "name": "expectedContactIdString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 238
+            },
+            "modifiers": [],
+            "name": "allocationsSettingsActual",
+            "references": [],
+            "type": "Allocations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 244
+            },
+            "modifiers": [],
+            "name": "contactsAndOrgsSettingsActual",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 250
+            },
+            "modifiers": [],
+            "name": "householdsSettingsActual",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 261
+            },
+            "modifiers": [],
+            "name": "opportunityNamingSettingsActual",
+            "references": [],
+            "type": "Opportunity_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 328
+            },
+            "modifiers": [],
+            "name": "stub",
+            "references": [],
+            "type": "UpdateSettingsRunCount"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 345
+            },
+            "modifiers": [],
+            "name": "stub",
+            "references": [],
+            "type": "UpdateSettingsRunCount"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 362
+            },
+            "modifiers": [],
+            "name": "stub",
+            "references": [],
+            "type": "UpdateSettingsRunCount"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 377
+            },
+            "modifiers": [],
+            "name": "stub",
+            "references": [],
+            "type": "UpdateSettingsRunCount"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 393
+            },
+            "modifiers": [],
+            "name": "stub",
+            "references": [],
+            "type": "UpdateSettingsRunCount"
+        }
+    ]
+}

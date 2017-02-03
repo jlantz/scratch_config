@@ -1,0 +1,539 @@
+{
+    "constructors": [
+        {
+            "annotations": [
+                {
+                    "name": "TestVisible"
+                }
+            ],
+            "location": {
+                "column": 13,
+                "line": 50
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "UTIL_RecordTypeSettingsUpdate",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iKCQAY",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "RecordTypeSettings",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 46,
+                        "line": 278
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "allocationsSettings",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 59,
+                        "line": 279
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "contactsAndOrgsSettings",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 52,
+                        "line": 280
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "householdSettings",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 53,
+                        "line": 281
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "opportunityNamingSettings",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [
+                    {
+                        "name": "TestVisible"
+                    }
+                ],
+                "location": {
+                    "column": 19,
+                    "line": 277
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "RecordTypeSettings",
+                "references": [],
+                "type": "RecordTypeSettings"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iKCQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 70
+            },
+            "modifiers": [
+                "virtual",
+                "global"
+            ],
+            "name": "updateSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "TestVisible"
+                }
+            ],
+            "location": {
+                "column": 32,
+                "line": 131
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "updateSettings",
+            "parameters": [
+                {
+                    "name": "settings",
+                    "type": "RecordTypeSettings"
+                },
+                {
+                    "name": "opportunityNameMap",
+                    "type": "Map"
+                },
+                {
+                    "name": "contactNameMap",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "RecordTypeSettings",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 193
+            },
+            "modifiers": [
+                "private",
+                "virtual"
+            ],
+            "name": "getNameToRecordTypeIdMap",
+            "parameters": [
+                {
+                    "name": "sot",
+                    "type": "SObjectType"
+                }
+            ],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "TestVisible"
+                }
+            ],
+            "location": {
+                "column": 20,
+                "line": 237
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "getIdsFromNames",
+            "parameters": [
+                {
+                    "name": "nameString",
+                    "type": "String"
+                },
+                {
+                    "name": "nameMap",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 263
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "isId",
+            "parameters": [
+                {
+                    "name": "name",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 60
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "getInstance",
+            "parameters": [],
+            "references": [],
+            "returnType": "UTIL_RecordTypeSettingsUpdate",
+            "type": null
+        }
+    ],
+    "name": "UTIL_RecordTypeSettingsUpdate",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [
+                {
+                    "name": "TestVisible"
+                }
+            ],
+            "location": {
+                "column": 50,
+                "line": 54
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "instance",
+            "references": [],
+            "type": "UTIL_RecordTypeSettingsUpdate"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 22,
+            "line": 47
+        },
+        "modifiers": [
+            "virtual",
+            "global"
+        ],
+        "name": "UTIL_RecordTypeSettingsUpdate",
+        "references": [],
+        "type": "UTIL_RecordTypeSettingsUpdate"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "opportunityNameMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "contactNameMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "RecordTypeSettings"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 131
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "RecordTypeSettings"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 92,
+                "line": 131
+            },
+            "modifiers": [],
+            "name": "opportunityNameMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 128,
+                "line": 131
+            },
+            "modifiers": [],
+            "name": "contactNameMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 132
+            },
+            "modifiers": [],
+            "name": "allocationsSettings",
+            "references": [],
+            "type": "Allocations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 139
+            },
+            "modifiers": [],
+            "name": "contactsAndOrgsSettings",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 146
+            },
+            "modifiers": [],
+            "name": "householdSettings",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 173
+            },
+            "modifiers": [],
+            "name": "opportunityNamingSettings",
+            "references": [],
+            "type": "Opportunity_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 81,
+                "line": 193
+            },
+            "modifiers": [],
+            "name": "sot",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 194
+            },
+            "modifiers": [],
+            "name": "sobjectTypeName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 196
+            },
+            "modifiers": [],
+            "name": "recordTypes",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 208
+            },
+            "modifiers": [],
+            "name": "nameMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 210
+            },
+            "modifiers": [],
+            "name": "rt",
+            "references": [],
+            "type": "RecordType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 213
+            },
+            "modifiers": [],
+            "name": "rtl",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 237
+            },
+            "modifiers": [],
+            "name": "nameString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 237
+            },
+            "modifiers": [],
+            "name": "nameMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 242
+            },
+            "modifiers": [],
+            "name": "names",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 244
+            },
+            "modifiers": [],
+            "name": "ids",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 245
+            },
+            "modifiers": [],
+            "name": "name",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 253
+            },
+            "modifiers": [],
+            "name": "idsString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 263
+            },
+            "modifiers": [],
+            "name": "name",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

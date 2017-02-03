@@ -1,0 +1,1716 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iGPQAY",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 9,
+                        "line": 273
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "AfflOps",
+                    "parameters": [
+                        {
+                            "name": "contactId",
+                            "type": "Id"
+                        },
+                        {
+                            "name": "accountId",
+                            "type": "Id"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "AfflOps",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 281
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "strComboKey",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 282
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "fCurrent",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 283
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "fFormer",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 284
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "fPrimary",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 285
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "fUnprimary",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 286
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "strRole",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 12,
+                        "line": 288
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "ContactId",
+                    "references": [],
+                    "type": "Id"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 12,
+                        "line": 295
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "AccountId",
+                    "references": [],
+                    "type": "Id"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 19,
+                    "line": 270
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "AfflOps",
+                "references": [],
+                "type": "AfflOps"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 273
+                    },
+                    "modifiers": [],
+                    "name": "contactId",
+                    "references": [],
+                    "type": "Id"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 34,
+                        "line": 273
+                    },
+                    "modifiers": [],
+                    "name": "accountId",
+                    "references": [],
+                    "type": "Id"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iGPQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 54
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "run",
+            "parameters": [
+                {
+                    "name": "newlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "triggerAction",
+                    "type": "Action"
+                },
+                {
+                    "name": "objResult",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "DmlWrapper",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 96
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "runContactTriggerHandler",
+            "parameters": [
+                {
+                    "name": "newlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "triggerAction",
+                    "type": "Action"
+                },
+                {
+                    "name": "objResult",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "DmlWrapper",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 203
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "runAccountTriggerHandler",
+            "parameters": [
+                {
+                    "name": "newlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "triggerAction",
+                    "type": "Action"
+                },
+                {
+                    "name": "objResult",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "DmlWrapper",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 433
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "runAfflTriggerHandler",
+            "parameters": [
+                {
+                    "name": "newlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "triggerAction",
+                    "type": "Action"
+                },
+                {
+                    "name": "objResult",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "DmlWrapper",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 310
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strComboKeyFromContactIdAccountId",
+            "parameters": [
+                {
+                    "name": "contactId",
+                    "type": "Id"
+                },
+                {
+                    "name": "accountId",
+                    "type": "Id"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 322
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "processAfflOps",
+            "parameters": [
+                {
+                    "name": "mapStrComboKeyAfflOps",
+                    "type": "Map"
+                },
+                {
+                    "name": "dmlWrapper",
+                    "type": "DmlWrapper"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 520
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "cleanupContactAffiliations",
+            "parameters": [
+                {
+                    "name": "listCon",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 627
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "getAfflKey",
+            "parameters": [
+                {
+                    "name": "affl",
+                    "type": "npe5__Affiliation__c"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 651
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "createNonDupeAffiliation",
+            "parameters": [
+                {
+                    "name": "ld",
+                    "type": "Lead"
+                },
+                {
+                    "name": "conId",
+                    "type": "Id"
+                },
+                {
+                    "name": "accId",
+                    "type": "Id"
+                },
+                {
+                    "name": "isPrimary",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "AFFL_Affiliations_TDTM",
+    "namespace": null,
+    "parentClass": "TDTM_Runnable",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 40
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "doNotRunForContacts",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 41
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "hasRunForAffiliations",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 42
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "hasRunForAccounts",
+            "references": [],
+            "type": "Boolean"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 37
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "AFFL_Affiliations_TDTM",
+        "references": [],
+        "type": "AFFL_Affiliations_TDTM"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "newlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "oldlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "triggerAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "objResult",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "wrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "wrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "wrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 96
+            },
+            "modifiers": [],
+            "name": "newlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 86,
+                "line": 96
+            },
+            "modifiers": [],
+            "name": "oldlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 97
+            },
+            "modifiers": [],
+            "name": "triggerAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 97
+            },
+            "modifiers": [],
+            "name": "objResult",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 101
+            },
+            "modifiers": [],
+            "name": "currentAffiliationsSettings",
+            "references": [],
+            "type": "npe5__Affiliations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "mapStrComboKeyAfflOps",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 111
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 114
+            },
+            "modifiers": [],
+            "name": "so",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 115
+            },
+            "modifiers": [],
+            "name": "contact",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 121
+            },
+            "modifiers": [],
+            "name": "strComboKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 122
+            },
+            "modifiers": [],
+            "name": "ao",
+            "references": [],
+            "type": "AfflOps"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 129
+            },
+            "modifiers": [],
+            "name": "strComboKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 130
+            },
+            "modifiers": [],
+            "name": "ao",
+            "references": [],
+            "type": "AfflOps"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 141
+            },
+            "modifiers": [],
+            "name": "oldContact",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 145
+            },
+            "modifiers": [],
+            "name": "strComboKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 146
+            },
+            "modifiers": [],
+            "name": "ao",
+            "references": [],
+            "type": "AfflOps"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 153
+            },
+            "modifiers": [],
+            "name": "strComboKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 154
+            },
+            "modifiers": [],
+            "name": "ao",
+            "references": [],
+            "type": "AfflOps"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 163
+            },
+            "modifiers": [],
+            "name": "strComboKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 164
+            },
+            "modifiers": [],
+            "name": "ao",
+            "references": [],
+            "type": "AfflOps"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 172
+            },
+            "modifiers": [],
+            "name": "strComboKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 173
+            },
+            "modifiers": [],
+            "name": "ao",
+            "references": [],
+            "type": "AfflOps"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 203
+            },
+            "modifiers": [],
+            "name": "newlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 86,
+                "line": 203
+            },
+            "modifiers": [],
+            "name": "oldlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 204
+            },
+            "modifiers": [],
+            "name": "triggerAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 204
+            },
+            "modifiers": [],
+            "name": "objResult",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 205
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 208
+            },
+            "modifiers": [],
+            "name": "currentAffiliationsSettings",
+            "references": [],
+            "type": "npe5__Affiliations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 216
+            },
+            "modifiers": [],
+            "name": "mapStrComboKeyAfflOps",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 217
+            },
+            "modifiers": [],
+            "name": "mapConIdToAfflOps",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 221
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 222
+            },
+            "modifiers": [],
+            "name": "account",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 227
+            },
+            "modifiers": [],
+            "name": "strComboKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 228
+            },
+            "modifiers": [],
+            "name": "ao",
+            "references": [],
+            "type": "AfflOps"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 237
+            },
+            "modifiers": [],
+            "name": "oldAccount",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 240
+            },
+            "modifiers": [],
+            "name": "strComboKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 241
+            },
+            "modifiers": [],
+            "name": "ao",
+            "references": [],
+            "type": "AfflOps"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 254
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 433
+            },
+            "modifiers": [],
+            "name": "newlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 83,
+                "line": 433
+            },
+            "modifiers": [],
+            "name": "oldlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 434
+            },
+            "modifiers": [],
+            "name": "triggerAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 434
+            },
+            "modifiers": [],
+            "name": "objResult",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 436
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 438
+            },
+            "modifiers": [],
+            "name": "mapConIdAccIdPrimary",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 439
+            },
+            "modifiers": [],
+            "name": "mapConIdAccIdUnprimary",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 442
+            },
+            "modifiers": [],
+            "name": "mapConIdAfflIdPrimary",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 444
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 445
+            },
+            "modifiers": [],
+            "name": "affl",
+            "references": [],
+            "type": "npe5__Affiliation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 457
+            },
+            "modifiers": [],
+            "name": "afflOld",
+            "references": [],
+            "type": "npe5__Affiliation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 470
+            },
+            "modifiers": [],
+            "name": "setAllContactIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 475
+            },
+            "modifiers": [],
+            "name": "conForUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 476
+            },
+            "modifiers": [],
+            "name": "queryCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 478
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 498
+            },
+            "modifiers": [],
+            "name": "afflForUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 499
+            },
+            "modifiers": [],
+            "name": "queryAffl",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 501
+            },
+            "modifiers": [],
+            "name": "affl",
+            "references": [],
+            "type": "npe5__Affiliation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 310
+            },
+            "modifiers": [],
+            "name": "contactId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 78,
+                "line": 310
+            },
+            "modifiers": [],
+            "name": "accountId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 61,
+                "line": 322
+            },
+            "modifiers": [],
+            "name": "mapStrComboKeyAfflOps",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 95,
+                "line": 322
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 325
+            },
+            "modifiers": [],
+            "name": "listAfflInsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 326
+            },
+            "modifiers": [],
+            "name": "listAfflIdAfflUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 329
+            },
+            "modifiers": [],
+            "name": "setContactId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 330
+            },
+            "modifiers": [],
+            "name": "setAccountId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 331
+            },
+            "modifiers": [],
+            "name": "ao",
+            "references": [],
+            "type": "AfflOps"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 336
+            },
+            "modifiers": [],
+            "name": "mapAccountIdAccount",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 339
+            },
+            "modifiers": [],
+            "name": "mapStrComboKeyAffl",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 341
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "npe5__Affiliation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 346
+            },
+            "modifiers": [],
+            "name": "ao",
+            "references": [],
+            "type": "AfflOps"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 347
+            },
+            "modifiers": [],
+            "name": "accountId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 348
+            },
+            "modifiers": [],
+            "name": "contactId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 352
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 354
+            },
+            "modifiers": [],
+            "name": "existingAffl",
+            "references": [],
+            "type": "npe5__Affiliation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 361
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "npe5__Affiliation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 375
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "npe5__Affiliation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 394
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "npe5__Affiliation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 520
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 523
+            },
+            "modifiers": [],
+            "name": "dmlWrapper",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 526
+            },
+            "modifiers": [],
+            "name": "mapConIdListAffl",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 529
+            },
+            "modifiers": [],
+            "name": "listAffl",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 537
+            },
+            "modifiers": [],
+            "name": "affl",
+            "references": [],
+            "type": "npe5__Affiliation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 538
+            },
+            "modifiers": [],
+            "name": "listConAffl",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 548
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 555
+            },
+            "modifiers": [],
+            "name": "afflPrimary",
+            "references": [],
+            "type": "npe5__Affiliation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 556
+            },
+            "modifiers": [],
+            "name": "afflPrimaryBackup",
+            "references": [],
+            "type": "npe5__Affiliation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 559
+            },
+            "modifiers": [],
+            "name": "mapAfflKeyAffl",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 560
+            },
+            "modifiers": [],
+            "name": "affl",
+            "references": [],
+            "type": "npe5__Affiliation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 561
+            },
+            "modifiers": [],
+            "name": "afflKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 585
+            },
+            "modifiers": [],
+            "name": "afflKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 589
+            },
+            "modifiers": [],
+            "name": "afflKeep",
+            "references": [],
+            "type": "npe5__Affiliation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 590
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 591
+            },
+            "modifiers": [],
+            "name": "affl",
+            "references": [],
+            "type": "npe5__Affiliation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 604
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 605
+            },
+            "modifiers": [],
+            "name": "affl",
+            "references": [],
+            "type": "npe5__Affiliation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 627
+            },
+            "modifiers": [],
+            "name": "affl",
+            "references": [],
+            "type": "npe5__Affiliation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 631
+            },
+            "modifiers": [],
+            "name": "afflKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 651
+            },
+            "modifiers": [],
+            "name": "ld",
+            "references": [],
+            "type": "Lead"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 61,
+                "line": 651
+            },
+            "modifiers": [],
+            "name": "conId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 651
+            },
+            "modifiers": [],
+            "name": "accId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 86,
+                "line": 651
+            },
+            "modifiers": [],
+            "name": "isPrimary",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 654
+            },
+            "modifiers": [],
+            "name": "listAffl",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 660
+            },
+            "modifiers": [],
+            "name": "affl",
+            "references": [],
+            "type": "npe5__Affiliation__c"
+        }
+    ]
+}

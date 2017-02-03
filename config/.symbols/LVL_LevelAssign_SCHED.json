@@ -1,0 +1,158 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHvQAI",
+    "innerClasses": [],
+    "interfaces": [
+        "System.Schedulable"
+    ],
+    "key": "01p4C0000002iHvQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 41
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "execute",
+            "parameters": [
+                {
+                    "name": "context",
+                    "type": "SchedulableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 48
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "runBatch",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "LVL_LevelAssign_SCHED",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 82
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "cLvlAssignBatch",
+            "references": [],
+            "type": "Integer"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 30,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "without sharing"
+        ],
+        "name": "LVL_LevelAssign_SCHED",
+        "references": [],
+        "type": "LVL_LevelAssign_SCHED"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 41
+            },
+            "modifiers": [],
+            "name": "context",
+            "references": [],
+            "type": "SchedulableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "mapStrObjectToQueryFields",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 56
+            },
+            "modifiers": [],
+            "name": "strObj",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "setFlds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "strSoql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 63
+            },
+            "modifiers": [],
+            "name": "strFld",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 69
+            },
+            "modifiers": [],
+            "name": "batch",
+            "references": [],
+            "type": "LVL_LevelAssign_BATCH"
+        }
+    ]
+}

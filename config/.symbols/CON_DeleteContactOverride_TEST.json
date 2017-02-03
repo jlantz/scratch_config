@@ -1,0 +1,266 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iH3QAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iH3QAI",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 48
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "deleteWithOtherMembers",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 82
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "deleteOneToOne",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 118
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "deleteAloneInHousehold",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "CON_DeleteContactOverride_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 43
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strTestOnly",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 38
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "CON_DeleteContactOverride_TEST",
+        "references": [],
+        "type": "CON_DeleteContactOverride_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "queryCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "con2",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "CON_DeleteContactOverride_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 66
+            },
+            "modifiers": [],
+            "name": "queryAcc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 85
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 90
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 93
+            },
+            "modifiers": [],
+            "name": "queryCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "CON_DeleteContactOverride_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 103
+            },
+            "modifiers": [],
+            "name": "queryAcc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 121
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 124
+            },
+            "modifiers": [],
+            "name": "queryCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 129
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "CON_DeleteContactOverride_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 134
+            },
+            "modifiers": [],
+            "name": "queryAcc",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

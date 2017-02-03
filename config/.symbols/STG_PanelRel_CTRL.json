@@ -1,0 +1,141 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJaQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJaQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 41
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "idPanel",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 82
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "getFieldLabel",
+            "parameters": [
+                {
+                    "name": "strObj",
+                    "type": "String"
+                },
+                {
+                    "name": "strField",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "STG_PanelRel_CTRL",
+    "namespace": null,
+    "parentClass": "STG_Panel",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 46
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listSOGenderFieldOptions",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 70
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "strGenderFieldLabel",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "STG_PanelRel_CTRL",
+        "references": [],
+        "type": "STG_PanelRel_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "conFieldTokenList",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 56
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 82
+            },
+            "modifiers": [],
+            "name": "strObj",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 82
+            },
+            "modifiers": [],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

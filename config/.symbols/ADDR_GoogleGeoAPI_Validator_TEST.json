@@ -1,0 +1,809 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iGBQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iGBQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 37
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getDefaultSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Addr_Verification_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 55
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testSingleAddress",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 75
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testSingleAddressSubPremise",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 95
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testSingleAddressLongZipcode",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 116
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testAmbiguousAddress",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 132
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testOverQueryLimitAddress",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 32,
+                "line": 148
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testRequestDeniedAddress",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 163
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testUnknownErrorAddress",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 178
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testInvalidRequestAddress",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 193
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testZeroResultsAddress",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 207
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testBadResponse",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 221
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testNullAuthToken",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 239
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testInterfaceStrings",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "ADDR_GoogleGeoAPI_Validator_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "ADDR_GoogleGeoAPI_Validator_TEST",
+        "references": [],
+        "type": "ADDR_GoogleGeoAPI_Validator_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 42
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 57
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 60
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 63
+            },
+            "modifiers": [],
+            "name": "testValidator",
+            "references": [],
+            "type": "ADDR_GoogleGeoAPI_Validator"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "returnedAddress",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 77
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 83
+            },
+            "modifiers": [],
+            "name": "testValidator",
+            "references": [],
+            "type": "ADDR_GoogleGeoAPI_Validator"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 84
+            },
+            "modifiers": [],
+            "name": "returnedAddress",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 97
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 100
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 104
+            },
+            "modifiers": [],
+            "name": "testValidator",
+            "references": [],
+            "type": "ADDR_GoogleGeoAPI_Validator"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 105
+            },
+            "modifiers": [],
+            "name": "returnedAddress",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 117
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 120
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 123
+            },
+            "modifiers": [],
+            "name": "testValidator",
+            "references": [],
+            "type": "ADDR_GoogleGeoAPI_Validator"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 124
+            },
+            "modifiers": [],
+            "name": "returnedAddress",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 133
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 136
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 139
+            },
+            "modifiers": [],
+            "name": "testValidator",
+            "references": [],
+            "type": "ADDR_GoogleGeoAPI_Validator"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 140
+            },
+            "modifiers": [],
+            "name": "returnedAddress",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 149
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 152
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 155
+            },
+            "modifiers": [],
+            "name": "testValidator",
+            "references": [],
+            "type": "ADDR_GoogleGeoAPI_Validator"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 156
+            },
+            "modifiers": [],
+            "name": "returnedAddress",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 164
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 167
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 170
+            },
+            "modifiers": [],
+            "name": "testValidator",
+            "references": [],
+            "type": "ADDR_GoogleGeoAPI_Validator"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 171
+            },
+            "modifiers": [],
+            "name": "returnedAddress",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 179
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 182
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 185
+            },
+            "modifiers": [],
+            "name": "testValidator",
+            "references": [],
+            "type": "ADDR_GoogleGeoAPI_Validator"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 186
+            },
+            "modifiers": [],
+            "name": "returnedAddress",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 194
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 197
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 200
+            },
+            "modifiers": [],
+            "name": "testValidator",
+            "references": [],
+            "type": "ADDR_GoogleGeoAPI_Validator"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 201
+            },
+            "modifiers": [],
+            "name": "returnedAddress",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 208
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 211
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 214
+            },
+            "modifiers": [],
+            "name": "testValidator",
+            "references": [],
+            "type": "ADDR_GoogleGeoAPI_Validator"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 215
+            },
+            "modifiers": [],
+            "name": "returnedAddress",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 223
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 229
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Address__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 232
+            },
+            "modifiers": [],
+            "name": "testValidator",
+            "references": [],
+            "type": "ADDR_GoogleGeoAPI_Validator"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 233
+            },
+            "modifiers": [],
+            "name": "returnedAddress",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 240
+            },
+            "modifiers": [],
+            "name": "testValidator",
+            "references": [],
+            "type": "ADDR_GoogleGeoAPI_Validator"
+        }
+    ]
+}

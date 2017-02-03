@@ -1,0 +1,78 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJSQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJSQAY",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 42
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testGetOpportunityStageSelectOptionsContainsAtLeastEmptySelection",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "STG_PanelOpps_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 27,
+            "line": 35
+        },
+        "modifiers": [
+            "public",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "STG_PanelOpps_TEST",
+        "references": [],
+        "type": "STG_PanelOpps_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 43
+            },
+            "modifiers": [],
+            "name": "poc",
+            "references": [],
+            "type": "STG_PanelOpps_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 45
+            },
+            "modifiers": [],
+            "name": "opportunityStageOptions",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

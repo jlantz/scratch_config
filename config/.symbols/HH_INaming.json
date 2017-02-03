@@ -1,0 +1,203 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHiQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHiQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 45
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "getHouseholdName",
+            "parameters": [
+                {
+                    "name": "listCon",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 54
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "getHouseholdFormalGreeting",
+            "parameters": [
+                {
+                    "name": "listCon",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 63
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "getHouseholdInformalGreeting",
+            "parameters": [
+                {
+                    "name": "listCon",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 72
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "getExampleName",
+            "parameters": [
+                {
+                    "name": "hns",
+                    "type": "Household_Naming_Settings__c"
+                },
+                {
+                    "name": "strField",
+                    "type": "String"
+                },
+                {
+                    "name": "listCon",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 78
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "setHouseholdNameFieldsOnContact",
+            "parameters": [],
+            "references": [],
+            "returnType": "Set",
+            "type": null
+        }
+    ],
+    "name": "HH_INaming",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 18,
+            "line": 36
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "HH_INaming",
+        "references": [],
+        "type": "HH_INaming"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 45
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 63
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "hns",
+            "references": [],
+            "type": "Household_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 68,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 92,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJBQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJBQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 41
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "idPanel",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 47
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "saveSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        }
+    ],
+    "name": "STG_PanelContacts_CTRL",
+    "namespace": null,
+    "parentClass": "STG_Panel",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 28,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "STG_PanelContacts_CTRL",
+        "references": [],
+        "type": "STG_PanelContacts_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "idHH",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "idOne",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

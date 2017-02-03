@@ -1,0 +1,632 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHyQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHyQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 48
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "run",
+            "parameters": [
+                {
+                    "name": "newlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldlist",
+                    "type": "LIST"
+                },
+                {
+                    "name": "triggerAction",
+                    "type": "Action"
+                },
+                {
+                    "name": "objResult",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "DmlWrapper",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 137
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "addLevel",
+            "parameters": [
+                {
+                    "name": "lvl",
+                    "type": "Level__c"
+                },
+                {
+                    "name": "listLvl",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 153
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "removeLevel",
+            "parameters": [
+                {
+                    "name": "lvl",
+                    "type": "Level__c"
+                },
+                {
+                    "name": "listLvl",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 169
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "verifyNoOverlapListLvl",
+            "parameters": [
+                {
+                    "name": "listLvl",
+                    "type": "LIST"
+                },
+                {
+                    "name": "setTrigger",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 195
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "verifyNoDuplicateNames",
+            "parameters": [
+                {
+                    "name": "listLvl",
+                    "type": "LIST"
+                },
+                {
+                    "name": "setTrigger",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 226
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "verifyNoInvalidValues",
+            "parameters": [
+                {
+                    "name": "listLvl",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 123
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "getListLevel",
+            "parameters": [
+                {
+                    "name": "mapLadderToLevels",
+                    "type": "Map"
+                },
+                {
+                    "name": "strLadder",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "LVL_Level_TDTM",
+    "namespace": null,
+    "parentClass": "TDTM_Runnable",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 37
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "LVL_Level_TDTM",
+        "references": [],
+        "type": "LVL_Level_TDTM"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 48
+            },
+            "modifiers": [],
+            "name": "newlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 48
+            },
+            "modifiers": [],
+            "name": "oldlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "triggerAction",
+            "references": [],
+            "type": "Action"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "objResult",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "setTrigger",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 61
+            },
+            "modifiers": [],
+            "name": "setStrObject",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 63
+            },
+            "modifiers": [],
+            "name": "sobj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 69
+            },
+            "modifiers": [],
+            "name": "strObj",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "mapLadderToLevels",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 75
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 76
+            },
+            "modifiers": [],
+            "name": "lvl",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 85
+            },
+            "modifiers": [],
+            "name": "listLvl",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 94
+            },
+            "modifiers": [],
+            "name": "lvlOld",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 95
+            },
+            "modifiers": [],
+            "name": "listLvlOld",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 100
+            },
+            "modifiers": [],
+            "name": "listLvl",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 108
+            },
+            "modifiers": [],
+            "name": "listLvl",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 137
+            },
+            "modifiers": [],
+            "name": "lvl",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 137
+            },
+            "modifiers": [],
+            "name": "listLvl",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 139
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 153
+            },
+            "modifiers": [],
+            "name": "lvl",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 153
+            },
+            "modifiers": [],
+            "name": "listLvl",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 155
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 169
+            },
+            "modifiers": [],
+            "name": "listLvl",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 79,
+                "line": 169
+            },
+            "modifiers": [],
+            "name": "setTrigger",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 171
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 175
+            },
+            "modifiers": [],
+            "name": "ierr",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 180
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 195
+            },
+            "modifiers": [],
+            "name": "listLvl",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 79,
+                "line": 195
+            },
+            "modifiers": [],
+            "name": "setTrigger",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 198
+            },
+            "modifiers": [],
+            "name": "hasDupe",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 199
+            },
+            "modifiers": [],
+            "name": "mapNameToCount",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 200
+            },
+            "modifiers": [],
+            "name": "lvl",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 201
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 213
+            },
+            "modifiers": [],
+            "name": "lvl",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 226
+            },
+            "modifiers": [],
+            "name": "listLvl",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 228
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 76,
+                "line": 123
+            },
+            "modifiers": [],
+            "name": "mapLadderToLevels",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 102,
+                "line": 123
+            },
+            "modifiers": [],
+            "name": "strLadder",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 124
+            },
+            "modifiers": [],
+            "name": "listLvl",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

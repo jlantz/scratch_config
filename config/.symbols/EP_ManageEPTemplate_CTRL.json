@@ -1,0 +1,1621 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 121
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "EP_ManageEPTemplate_CTRL",
+            "parameters": [
+                {
+                    "name": "controller",
+                    "type": "StandardController"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iHBQAY",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 358
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "TaskWrapper",
+                    "parameters": [
+                        {
+                            "name": "task",
+                            "type": "Engagement_Plan_Task__c"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "TaskWrapper",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 40,
+                        "line": 351
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "detail",
+                    "references": [],
+                    "type": "Engagement_Plan_Task__c"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 34,
+                        "line": 352
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "children",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 354
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "parent",
+                    "references": [],
+                    "type": "TaskWrapper"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 356
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "level",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 350
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "TaskWrapper",
+                "references": [],
+                "type": "TaskWrapper"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 52,
+                        "line": 358
+                    },
+                    "modifiers": [],
+                    "name": "task",
+                    "references": [],
+                    "type": "Engagement_Plan_Task__c"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iHBQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 92
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "getTaskDefaults",
+            "parameters": [],
+            "references": [],
+            "returnType": "Engagement_Plan_Task__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 101
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "checkFLS",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 150
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "initWrapperHierarchy",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 177
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "initChildrenRecursive",
+            "parameters": [
+                {
+                    "name": "wrapper",
+                    "type": "TaskWrapper"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 200
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "saveClose",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 251
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "addTask",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 261
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "addDependentTask",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 279
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "deleteTask",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 311
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "removeFromHierarchy",
+            "parameters": [
+                {
+                    "name": "wrapper",
+                    "type": "TaskWrapper"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 368
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getTaskTree",
+            "parameters": [],
+            "references": [],
+            "returnType": "outputpanel",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 406
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "addChildComponents",
+            "parameters": [
+                {
+                    "name": "wrapper",
+                    "type": "TaskWrapper"
+                },
+                {
+                    "name": "level",
+                    "type": "Integer"
+                },
+                {
+                    "name": "accessString",
+                    "type": "String"
+                },
+                {
+                    "name": "levelString",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "outputpanel",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 484
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "fieldLabelPanel",
+            "parameters": [
+                {
+                    "name": "wrapper",
+                    "type": "TaskWrapper"
+                },
+                {
+                    "name": "fieldName",
+                    "type": "String"
+                },
+                {
+                    "name": "outterCss",
+                    "type": "String"
+                },
+                {
+                    "name": "required",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "outputpanel",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 509
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "genericInputField",
+            "parameters": [
+                {
+                    "name": "wrapper",
+                    "type": "TaskWrapper"
+                },
+                {
+                    "name": "accessString",
+                    "type": "String"
+                },
+                {
+                    "name": "fieldName",
+                    "type": "String"
+                },
+                {
+                    "name": "style",
+                    "type": "String"
+                },
+                {
+                    "name": "req",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "util_formfield",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 530
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "selectListInputPanel",
+            "parameters": [
+                {
+                    "name": "wrapper",
+                    "type": "TaskWrapper"
+                },
+                {
+                    "name": "accessString",
+                    "type": "String"
+                },
+                {
+                    "name": "fieldName",
+                    "type": "String"
+                },
+                {
+                    "name": "outterCss",
+                    "type": "String"
+                },
+                {
+                    "name": "inputCss",
+                    "type": "String"
+                },
+                {
+                    "name": "selectOptions",
+                    "type": "String"
+                },
+                {
+                    "name": "required",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "outputpanel",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 558
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "commentsInputPanel",
+            "parameters": [
+                {
+                    "name": "wrapper",
+                    "type": "TaskWrapper"
+                },
+                {
+                    "name": "accessString",
+                    "type": "String"
+                },
+                {
+                    "name": "fieldName",
+                    "type": "String"
+                },
+                {
+                    "name": "outterCss",
+                    "type": "String"
+                },
+                {
+                    "name": "inputCss",
+                    "type": "String"
+                },
+                {
+                    "name": "required",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "outputpanel",
+            "type": null
+        }
+    ],
+    "name": "EP_ManageEPTemplate_CTRL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 40
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "template",
+            "references": [],
+            "type": "Engagement_Plan_Template__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 43
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "tasksToDelete",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 46
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "util",
+            "references": [],
+            "type": "EP_Task_UTIL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 50
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "currentTaskLevel",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 53
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "isClone",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 56
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "reminderTimeOptions",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 75
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "taskPriorityOptions",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 83
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "taskStatusOptions",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 344
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "parentTaskWrappers",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 347
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "mapTaskWrappers",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 341
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "final"
+            ],
+            "name": "sidebarColors",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "EP_ManageEPTemplate_CTRL",
+        "references": [],
+        "type": "EP_ManageEPTemplate_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "options",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "minutes",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 61
+            },
+            "modifiers": [],
+            "name": "dt",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "localeTime",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 93
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 102
+            },
+            "modifiers": [],
+            "name": "templateFields",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 106
+            },
+            "modifiers": [],
+            "name": "epTaskFields",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 111
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 115
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 121
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 124
+            },
+            "modifiers": [],
+            "name": "params",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 126
+            },
+            "modifiers": [],
+            "name": "templateId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 153
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 154
+            },
+            "modifiers": [],
+            "name": "task",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 157
+            },
+            "modifiers": [],
+            "name": "wrapper",
+            "references": [],
+            "type": "TaskWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 177
+            },
+            "modifiers": [],
+            "name": "wrapper",
+            "references": [],
+            "type": "TaskWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 178
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 179
+            },
+            "modifiers": [],
+            "name": "childTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 181
+            },
+            "modifiers": [],
+            "name": "childWrapper",
+            "references": [],
+            "type": "TaskWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 207
+            },
+            "modifiers": [],
+            "name": "tasksForInsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 208
+            },
+            "modifiers": [],
+            "name": "tasksForUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 211
+            },
+            "modifiers": [],
+            "name": "wrapper",
+            "references": [],
+            "type": "TaskWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 212
+            },
+            "modifiers": [],
+            "name": "epTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 228
+            },
+            "modifiers": [],
+            "name": "wrapper",
+            "references": [],
+            "type": "TaskWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 229
+            },
+            "modifiers": [],
+            "name": "epTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 240
+            },
+            "modifiers": [],
+            "name": "source",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 252
+            },
+            "modifiers": [],
+            "name": "newTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 254
+            },
+            "modifiers": [],
+            "name": "wrapper",
+            "references": [],
+            "type": "TaskWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 262
+            },
+            "modifiers": [],
+            "name": "parentTask",
+            "references": [],
+            "type": "TaskWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 264
+            },
+            "modifiers": [],
+            "name": "newTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 269
+            },
+            "modifiers": [],
+            "name": "newWrapper",
+            "references": [],
+            "type": "TaskWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 280
+            },
+            "modifiers": [],
+            "name": "currentTask",
+            "references": [],
+            "type": "TaskWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 289
+            },
+            "modifiers": [],
+            "name": "child",
+            "references": [],
+            "type": "TaskWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 311
+            },
+            "modifiers": [],
+            "name": "wrapper",
+            "references": [],
+            "type": "TaskWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 315
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 322
+            },
+            "modifiers": [],
+            "name": "child",
+            "references": [],
+            "type": "TaskWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 327
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 334
+            },
+            "modifiers": [],
+            "name": "child",
+            "references": [],
+            "type": "TaskWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 372
+            },
+            "modifiers": [],
+            "name": "topLevelPanel",
+            "references": [],
+            "type": "outputpanel"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 374
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 379
+            },
+            "modifiers": [],
+            "name": "buttonGridPanel",
+            "references": [],
+            "type": "outputpanel"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 380
+            },
+            "modifiers": [],
+            "name": "buttonColPanel",
+            "references": [],
+            "type": "outputpanel"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 382
+            },
+            "modifiers": [],
+            "name": "addTaskButton",
+            "references": [],
+            "type": "commandbutton"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 406
+            },
+            "modifiers": [],
+            "name": "wrapper",
+            "references": [],
+            "type": "TaskWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 88,
+                "line": 406
+            },
+            "modifiers": [],
+            "name": "level",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 102,
+                "line": 406
+            },
+            "modifiers": [],
+            "name": "accessString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 123,
+                "line": 406
+            },
+            "modifiers": [],
+            "name": "levelString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 412
+            },
+            "modifiers": [],
+            "name": "colorNumber",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 414
+            },
+            "modifiers": [],
+            "name": "topLevelPanel",
+            "references": [],
+            "type": "outputpanel"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 415
+            },
+            "modifiers": [],
+            "name": "formPanel",
+            "references": [],
+            "type": "outputpanel"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 418
+            },
+            "modifiers": [],
+            "name": "boxAndLabel",
+            "references": [],
+            "type": "outputtext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 424
+            },
+            "modifiers": [],
+            "name": "firstRow",
+            "references": [],
+            "type": "outputpanel"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 425
+            },
+            "modifiers": [],
+            "name": "secondRow",
+            "references": [],
+            "type": "outputpanel"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 426
+            },
+            "modifiers": [],
+            "name": "cardFooter",
+            "references": [],
+            "type": "outputpanel"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 427
+            },
+            "modifiers": [],
+            "name": "buttonGroup",
+            "references": [],
+            "type": "outputpanel"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 440
+            },
+            "modifiers": [],
+            "name": "addDependentTaskButton",
+            "references": [],
+            "type": "outputtext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 448
+            },
+            "modifiers": [],
+            "name": "deleteTaskButton",
+            "references": [],
+            "type": "outputtext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 472
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 68,
+                "line": 484
+            },
+            "modifiers": [],
+            "name": "wrapper",
+            "references": [],
+            "type": "TaskWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 84,
+                "line": 484
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 102,
+                "line": 484
+            },
+            "modifiers": [],
+            "name": "outterCss",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 121,
+                "line": 484
+            },
+            "modifiers": [],
+            "name": "required",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 485
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "outputpanel"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 486
+            },
+            "modifiers": [],
+            "name": "fieldLabel",
+            "references": [],
+            "type": "outputlabel"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 509
+            },
+            "modifiers": [],
+            "name": "wrapper",
+            "references": [],
+            "type": "TaskWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 86,
+                "line": 509
+            },
+            "modifiers": [],
+            "name": "accessString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 107,
+                "line": 509
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 125,
+                "line": 509
+            },
+            "modifiers": [],
+            "name": "style",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 140,
+                "line": 509
+            },
+            "modifiers": [],
+            "name": "req",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 510
+            },
+            "modifiers": [],
+            "name": "inputField",
+            "references": [],
+            "type": "util_formfield"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 530
+            },
+            "modifiers": [],
+            "name": "wrapper",
+            "references": [],
+            "type": "TaskWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 89,
+                "line": 530
+            },
+            "modifiers": [],
+            "name": "accessString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 110,
+                "line": 530
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 128,
+                "line": 530
+            },
+            "modifiers": [],
+            "name": "outterCss",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 146,
+                "line": 530
+            },
+            "modifiers": [],
+            "name": "inputCss",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 163,
+                "line": 530
+            },
+            "modifiers": [],
+            "name": "selectOptions",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 186,
+                "line": 530
+            },
+            "modifiers": [],
+            "name": "required",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 531
+            },
+            "modifiers": [],
+            "name": "outterPanel",
+            "references": [],
+            "type": "outputpanel"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 533
+            },
+            "modifiers": [],
+            "name": "selectList",
+            "references": [],
+            "type": "selectlist"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 542
+            },
+            "modifiers": [],
+            "name": "options",
+            "references": [],
+            "type": "selectoptions"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 558
+            },
+            "modifiers": [],
+            "name": "wrapper",
+            "references": [],
+            "type": "TaskWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 87,
+                "line": 558
+            },
+            "modifiers": [],
+            "name": "accessString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 108,
+                "line": 558
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 126,
+                "line": 558
+            },
+            "modifiers": [],
+            "name": "outterCss",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 144,
+                "line": 558
+            },
+            "modifiers": [],
+            "name": "inputCss",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 162,
+                "line": 558
+            },
+            "modifiers": [],
+            "name": "required",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 559
+            },
+            "modifiers": [],
+            "name": "outterPanel",
+            "references": [],
+            "type": "outputpanel"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 561
+            },
+            "modifiers": [],
+            "name": "fieldInput",
+            "references": [],
+            "type": "inputtextarea"
+        }
+    ]
+}

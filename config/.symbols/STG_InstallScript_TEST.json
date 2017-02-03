@@ -1,0 +1,888 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJ2QAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJ2QAI",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 44
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "mappingsTest_runScriptNoCustomSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 57
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "missingSettingsCreated",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 71
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "deletedHandlers",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 89
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "push",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 102
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "upgrade",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 116
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "mappingsTest_runScriptNoCustomConfigOnInstall",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 133
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "assertTriggerHandlersEqual",
+            "parameters": [
+                {
+                    "name": "afterScriptConfig",
+                    "type": "LIST"
+                },
+                {
+                    "name": "defaultConfig",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 154
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "mappingsTest_runScriptCustomConfigOnInstallAllFlags",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 186
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "mappingsTest_runScriptCustomConfigOnInstallSomeFlags",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 215
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "setAllNpspFlags",
+            "parameters": [
+                {
+                    "name": "flagValue",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 239
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "assertNpspFlagsDeactivated",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 263
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "defaultSettingsCreated",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 340
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "deleteAllCustomSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 355
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "createSomeDefaultSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 386
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "verifyAllSettingsCreated",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "STG_InstallScript_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 41
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strTestOnly",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 27,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "STG_InstallScript_TEST",
+        "references": [],
+        "type": "STG_InstallScript_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 124
+            },
+            "modifiers": [],
+            "name": "afterScriptConfig",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 128
+            },
+            "modifiers": [],
+            "name": "defaultConfig",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 77,
+                "line": 133
+            },
+            "modifiers": [],
+            "name": "afterScriptConfig",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 121,
+                "line": 133
+            },
+            "modifiers": [],
+            "name": "defaultConfig",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 138
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 145
+            },
+            "modifiers": [],
+            "name": "afterTriggerAction",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 146
+            },
+            "modifiers": [],
+            "name": "defaultTriggerAction",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 163
+            },
+            "modifiers": [],
+            "name": "tdtmClasses",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 165
+            },
+            "modifiers": [],
+            "name": "tdtmClassesWithValues",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 166
+            },
+            "modifiers": [],
+            "name": "tdtmClass",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 172
+            },
+            "modifiers": [],
+            "name": "afterScriptConfig",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 176
+            },
+            "modifiers": [],
+            "name": "handler",
+            "references": [],
+            "type": "Trigger_Handler__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 190
+            },
+            "modifiers": [],
+            "name": "settingsToUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 193
+            },
+            "modifiers": [],
+            "name": "npe01Settings",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 197
+            },
+            "modifiers": [],
+            "name": "npo02Settings",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 203
+            },
+            "modifiers": [],
+            "name": "mappedTdtmClasses",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 205
+            },
+            "modifiers": [],
+            "name": "afterScriptConfig",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 206
+            },
+            "modifiers": [],
+            "name": "handler",
+            "references": [],
+            "type": "Trigger_Handler__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 215
+            },
+            "modifiers": [],
+            "name": "flagValue",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 216
+            },
+            "modifiers": [],
+            "name": "npe01Settings",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 222
+            },
+            "modifiers": [],
+            "name": "npo02Settings",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 229
+            },
+            "modifiers": [],
+            "name": "npe03Settings",
+            "references": [],
+            "type": "npe03__Recurring_Donations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 233
+            },
+            "modifiers": [],
+            "name": "npe04Settings",
+            "references": [],
+            "type": "npe4__Relationship_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 240
+            },
+            "modifiers": [],
+            "name": "npe01Settings",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 246
+            },
+            "modifiers": [],
+            "name": "npo02Settings",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 253
+            },
+            "modifiers": [],
+            "name": "npe03Settings",
+            "references": [],
+            "type": "npe03__Recurring_Donations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 257
+            },
+            "modifiers": [],
+            "name": "npe04Settings",
+            "references": [],
+            "type": "npe4__Relationship_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 271
+            },
+            "modifiers": [],
+            "name": "npe01Settings",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 272
+            },
+            "modifiers": [],
+            "name": "npo02Settings",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 273
+            },
+            "modifiers": [],
+            "name": "npe03Settings",
+            "references": [],
+            "type": "npe03__Recurring_Donations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 274
+            },
+            "modifiers": [],
+            "name": "npe04Settings",
+            "references": [],
+            "type": "npe4__Relationship_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 275
+            },
+            "modifiers": [],
+            "name": "npe05Settings",
+            "references": [],
+            "type": "npe5__Affiliations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 276
+            },
+            "modifiers": [],
+            "name": "errorSettings",
+            "references": [],
+            "type": "Error_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 277
+            },
+            "modifiers": [],
+            "name": "addrVerificationSetgs",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 278
+            },
+            "modifiers": [],
+            "name": "batchDataEntrySetgs",
+            "references": [],
+            "type": "Batch_Data_Entry_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 279
+            },
+            "modifiers": [],
+            "name": "householdNamingSettings",
+            "references": [],
+            "type": "Household_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 280
+            },
+            "modifiers": [],
+            "name": "allocationsSettings",
+            "references": [],
+            "type": "Allocations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 281
+            },
+            "modifiers": [],
+            "name": "dataImportSettings",
+            "references": [],
+            "type": "Data_Import_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 287
+            },
+            "modifiers": [],
+            "name": "householdAccount",
+            "references": [],
+            "type": "RecordTypeInfo"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 288
+            },
+            "modifiers": [],
+            "name": "householdAccountId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 341
+            },
+            "modifiers": [],
+            "name": "npe01Settings",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 342
+            },
+            "modifiers": [],
+            "name": "npo02Settings",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 343
+            },
+            "modifiers": [],
+            "name": "npe03Settings",
+            "references": [],
+            "type": "npe03__Recurring_Donations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 344
+            },
+            "modifiers": [],
+            "name": "npe04Settings",
+            "references": [],
+            "type": "npe4__Relationship_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 345
+            },
+            "modifiers": [],
+            "name": "npe05Settings",
+            "references": [],
+            "type": "npe5__Affiliations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 346
+            },
+            "modifiers": [],
+            "name": "errorSettings",
+            "references": [],
+            "type": "Error_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 356
+            },
+            "modifiers": [],
+            "name": "handlers",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 387
+            },
+            "modifiers": [],
+            "name": "afterScriptConfig",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 390
+            },
+            "modifiers": [],
+            "name": "defaultConfig",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

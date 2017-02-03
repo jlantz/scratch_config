@@ -1,0 +1,61 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iK3QAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iK3QAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 3
+            },
+            "modifiers": [
+                "global",
+                "abstract"
+            ],
+            "name": "execute",
+            "parameters": [
+                {
+                    "name": "context",
+                    "type": "SchedulableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "UTIL_IScheduled",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 18,
+            "line": 1
+        },
+        "modifiers": [
+            "global"
+        ],
+        "name": "UTIL_IScheduled",
+        "references": [],
+        "type": "UTIL_IScheduled"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "context",
+            "references": [],
+            "type": "SchedulableContext"
+        }
+    ]
+}

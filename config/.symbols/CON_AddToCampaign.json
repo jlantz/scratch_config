@@ -1,0 +1,570 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iGrQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iGrQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 54
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "CreateCampaignMembers",
+            "parameters": [
+                {
+                    "name": "Contacts",
+                    "type": "LIST"
+                },
+                {
+                    "name": "Campaigns",
+                    "type": "LIST"
+                },
+                {
+                    "name": "Statuses",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "DmlWrapper",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 79
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "createNewCampaignMemberStatuses",
+            "parameters": [
+                {
+                    "name": "Campaigns",
+                    "type": "LIST"
+                },
+                {
+                    "name": "Statuses",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 156
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "getCampaignMembers",
+            "parameters": [
+                {
+                    "name": "Contacts",
+                    "type": "LIST"
+                },
+                {
+                    "name": "Campaigns",
+                    "type": "LIST"
+                },
+                {
+                    "name": "Statuses",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "DmlWrapper",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 187
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "getStatus",
+            "parameters": [
+                {
+                    "name": "CampaignId",
+                    "type": "Id"
+                },
+                {
+                    "name": "status",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 216
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "getStatusReplacementFromSetting",
+            "parameters": [
+                {
+                    "name": "status",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 230
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "hasStatusReplacement",
+            "parameters": [
+                {
+                    "name": "status",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 239
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "isSpecialStatus",
+            "parameters": [
+                {
+                    "name": "status",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        }
+    ],
+    "name": "CON_AddToCampaign",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 39
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "MAPCampaignMembers",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 42
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "MAPcampaignMemberStatuses",
+            "references": [],
+            "type": "Map"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 36
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "CON_AddToCampaign",
+        "references": [],
+        "type": "CON_AddToCampaign"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 75,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "Contacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 94,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "Campaigns",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 118,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "Statuses",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 61
+            },
+            "modifiers": [],
+            "name": "cm",
+            "references": [],
+            "type": "CampaignMember"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 67
+            },
+            "modifiers": [],
+            "name": "dml",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "Campaigns",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 90,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "Statuses",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "MAPcampaignMemberStatusesCompare",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 84
+            },
+            "modifiers": [],
+            "name": "listStatusForInsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 87
+            },
+            "modifiers": [],
+            "name": "cms",
+            "references": [],
+            "type": "CampaignMemberStatus"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 97
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 107
+            },
+            "modifiers": [],
+            "name": "cIdCompare",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "sortOrderMax",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 111
+            },
+            "modifiers": [],
+            "name": "cmsCompare",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 113
+            },
+            "modifiers": [],
+            "name": "match",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 116
+            },
+            "modifiers": [],
+            "name": "cms",
+            "references": [],
+            "type": "CampaignMemberStatus"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 132
+            },
+            "modifiers": [],
+            "name": "isResponded",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 156
+            },
+            "modifiers": [],
+            "name": "Contacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 92,
+                "line": 156
+            },
+            "modifiers": [],
+            "name": "Campaigns",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 116,
+                "line": 156
+            },
+            "modifiers": [],
+            "name": "Statuses",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 157
+            },
+            "modifiers": [],
+            "name": "dml",
+            "references": [],
+            "type": "DmlWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 161
+            },
+            "modifiers": [],
+            "name": "comboKey",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 165
+            },
+            "modifiers": [],
+            "name": "cmForUpdate",
+            "references": [],
+            "type": "CampaignMember"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 170
+            },
+            "modifiers": [],
+            "name": "cmForInsert",
+            "references": [],
+            "type": "CampaignMember"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "CampaignId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "status",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 199
+            },
+            "modifiers": [],
+            "name": "cms",
+            "references": [],
+            "type": "CampaignMemberStatus"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 216
+            },
+            "modifiers": [],
+            "name": "status",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 230
+            },
+            "modifiers": [],
+            "name": "status",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 239
+            },
+            "modifiers": [],
+            "name": "status",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

@@ -1,0 +1,1649 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 41
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "STG_PanelHealthCheck_CTRL",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iJFQAY",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "DetectResult",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 114
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "strName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 115
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "strStatus",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 116
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "strDetails",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 117
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "strSolution",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 113
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "DetectResult",
+                "references": [],
+                "type": "DetectResult"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iJFQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 49
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "idPanel",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 98
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "runDetector",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 143
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "createDR",
+            "parameters": [
+                {
+                    "name": "strName",
+                    "type": "String"
+                },
+                {
+                    "name": "strStatus",
+                    "type": "String"
+                },
+                {
+                    "name": "strDetails",
+                    "type": "String"
+                },
+                {
+                    "name": "strSolution",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 158
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "runAllDetections",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 197
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "verifyAccountModel",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 222
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "verifyAccountData",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 257
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "verifyAccountData2",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 296
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "verifyContactData",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 313
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "verifyNoOrphanedHouseholds",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 343
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "verifyNoOrphanedOne2OneAccounts",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 363
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "verifyReports",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 392
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "verifyFields",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 409
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "verifyRecordTypes",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 449
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "checkRecordTypeMulti",
+            "parameters": [
+                {
+                    "name": "objectType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "strValues",
+                    "type": "String"
+                },
+                {
+                    "name": "isIds",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "strSettingObj",
+                    "type": "String"
+                },
+                {
+                    "name": "strSettingField",
+                    "type": "String"
+                },
+                {
+                    "name": "strTabLevel",
+                    "type": "String"
+                },
+                {
+                    "name": "strTabname",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 474
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "checkRecordTypeId",
+            "parameters": [
+                {
+                    "name": "objectType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "rtId",
+                    "type": "Id"
+                },
+                {
+                    "name": "strSettingObj",
+                    "type": "String"
+                },
+                {
+                    "name": "strSettingField",
+                    "type": "String"
+                },
+                {
+                    "name": "strTabLevel",
+                    "type": "String"
+                },
+                {
+                    "name": "strTabname",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 497
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "checkRecordTypeName",
+            "parameters": [
+                {
+                    "name": "objectType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "strRTName",
+                    "type": "String"
+                },
+                {
+                    "name": "strSettingObj",
+                    "type": "String"
+                },
+                {
+                    "name": "strSettingField",
+                    "type": "String"
+                },
+                {
+                    "name": "strTabLevel",
+                    "type": "String"
+                },
+                {
+                    "name": "strTabname",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 512
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "verifyScheduledJobs",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 535
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "verifyOppContactRoles",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 559
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "verifyOppContactRolesSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 576
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "verifyTriggerHandlers",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 628
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "verifyNoMissingOppPayments",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 670
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "verifyNoDuplicateContactRoles",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 726
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "verifyLevels",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "STG_PanelHealthCheck_CTRL",
+    "namespace": null,
+    "parentClass": "STG_Panel",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 54
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isRunningDetector",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 59
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "hasResults",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 68
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isAllTestsPassed",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 83
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "strTime",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 88
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "strNow",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 108
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listDR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 123
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "statusSuccess",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 128
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "statusWarning",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 133
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "statusError",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 30,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "without sharing"
+        ],
+        "name": "STG_PanelHealthCheck_CTRL",
+        "references": [],
+        "type": "STG_PanelHealthCheck_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "dr",
+            "references": [],
+            "type": "DetectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 143
+            },
+            "modifiers": [],
+            "name": "strName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 143
+            },
+            "modifiers": [],
+            "name": "strStatus",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 67,
+                "line": 143
+            },
+            "modifiers": [],
+            "name": "strDetails",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 86,
+                "line": 143
+            },
+            "modifiers": [],
+            "name": "strSolution",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 144
+            },
+            "modifiers": [],
+            "name": "dr",
+            "references": [],
+            "type": "DetectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "dtStart",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 189
+            },
+            "modifiers": [],
+            "name": "dtEnd",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 190
+            },
+            "modifiers": [],
+            "name": "msec",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 198
+            },
+            "modifiers": [],
+            "name": "strAccModel",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 202
+            },
+            "modifiers": [],
+            "name": "strHHRules",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 223
+            },
+            "modifiers": [],
+            "name": "cBucket",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 224
+            },
+            "modifiers": [],
+            "name": "cOne2One",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 225
+            },
+            "modifiers": [],
+            "name": "cHH",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 226
+            },
+            "modifiers": [],
+            "name": "isMixedAccs",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 239
+            },
+            "modifiers": [],
+            "name": "strInfo",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 258
+            },
+            "modifiers": [],
+            "name": "cOne2One",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 259
+            },
+            "modifiers": [],
+            "name": "cHH",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 260
+            },
+            "modifiers": [],
+            "name": "strError",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 263
+            },
+            "modifiers": [],
+            "name": "rectype",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 298
+            },
+            "modifiers": [],
+            "name": "cContact",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 315
+            },
+            "modifiers": [],
+            "name": "cHHObj",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 318
+            },
+            "modifiers": [],
+            "name": "cHHAcc",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 345
+            },
+            "modifiers": [],
+            "name": "cAcc",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 364
+            },
+            "modifiers": [],
+            "name": "rptId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 368
+            },
+            "modifiers": [],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 370
+            },
+            "modifiers": [],
+            "name": "listRpt",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 378
+            },
+            "modifiers": [],
+            "name": "listRpt",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 395
+            },
+            "modifiers": [],
+            "name": "strSetting",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 396
+            },
+            "modifiers": [],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 429
+            },
+            "modifiers": [],
+            "name": "idHH",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 430
+            },
+            "modifiers": [],
+            "name": "idOne",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 432
+            },
+            "modifiers": [],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 449
+            },
+            "modifiers": [],
+            "name": "objectType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 449
+            },
+            "modifiers": [],
+            "name": "strValues",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 89,
+                "line": 449
+            },
+            "modifiers": [],
+            "name": "isIds",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 103,
+                "line": 449
+            },
+            "modifiers": [],
+            "name": "strSettingObj",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 125,
+                "line": 449
+            },
+            "modifiers": [],
+            "name": "strSettingField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 149,
+                "line": 449
+            },
+            "modifiers": [],
+            "name": "strTabLevel",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 169,
+                "line": 449
+            },
+            "modifiers": [],
+            "name": "strTabname",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 451
+            },
+            "modifiers": [],
+            "name": "listStr",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 452
+            },
+            "modifiers": [],
+            "name": "strRT",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 459
+            },
+            "modifiers": [],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 474
+            },
+            "modifiers": [],
+            "name": "objectType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 474
+            },
+            "modifiers": [],
+            "name": "rtId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 76,
+                "line": 474
+            },
+            "modifiers": [],
+            "name": "strSettingObj",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 98,
+                "line": 474
+            },
+            "modifiers": [],
+            "name": "strSettingField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 122,
+                "line": 474
+            },
+            "modifiers": [],
+            "name": "strTabLevel",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 142,
+                "line": 474
+            },
+            "modifiers": [],
+            "name": "strTabname",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 475
+            },
+            "modifiers": [],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 476
+            },
+            "modifiers": [],
+            "name": "strRT",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 497
+            },
+            "modifiers": [],
+            "name": "objectType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 497
+            },
+            "modifiers": [],
+            "name": "strRTName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 87,
+                "line": 497
+            },
+            "modifiers": [],
+            "name": "strSettingObj",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 109,
+                "line": 497
+            },
+            "modifiers": [],
+            "name": "strSettingField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 133,
+                "line": 497
+            },
+            "modifiers": [],
+            "name": "strTabLevel",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 153,
+                "line": 497
+            },
+            "modifiers": [],
+            "name": "strTabname",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 498
+            },
+            "modifiers": [],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 515
+            },
+            "modifiers": [],
+            "name": "jobs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 540
+            },
+            "modifiers": [],
+            "name": "cOpp",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 541
+            },
+            "modifiers": [],
+            "name": "listAR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 560
+            },
+            "modifiers": [],
+            "name": "invalidOCRSettings",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 564
+            },
+            "modifiers": [],
+            "name": "invalidOCRErrors",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 565
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 578
+            },
+            "modifiers": [],
+            "name": "listHandlersDefault",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 579
+            },
+            "modifiers": [],
+            "name": "listHandlersCurrent",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 581
+            },
+            "modifiers": [],
+            "name": "strInfo",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 583
+            },
+            "modifiers": [],
+            "name": "defaultHandler",
+            "references": [],
+            "type": "Trigger_Handler__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 584
+            },
+            "modifiers": [],
+            "name": "alreadyExists",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 585
+            },
+            "modifiers": [],
+            "name": "cExactMatch",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 586
+            },
+            "modifiers": [],
+            "name": "existingHandler",
+            "references": [],
+            "type": "Trigger_Handler__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 632
+            },
+            "modifiers": [],
+            "name": "setOppTypeNoPayment",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 633
+            },
+            "modifiers": [],
+            "name": "setOppRecordTypeIdNoPayment",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 634
+            },
+            "modifiers": [],
+            "name": "soql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 639
+            },
+            "modifiers": [],
+            "name": "OppRecordTypeId",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 645
+            },
+            "modifiers": [],
+            "name": "cMissing",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 647
+            },
+            "modifiers": [],
+            "name": "sMissing",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 672
+            },
+            "modifiers": [],
+            "name": "softCreditRoles",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 674
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 687
+            },
+            "modifiers": [],
+            "name": "quotedSoftCreditRoles",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 689
+            },
+            "modifiers": [],
+            "name": "role",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 729
+            },
+            "modifiers": [],
+            "name": "listAllLvls",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 734
+            },
+            "modifiers": [],
+            "name": "cErrors",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 735
+            },
+            "modifiers": [],
+            "name": "lvl",
+            "references": [],
+            "type": "Level__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 736
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 737
+            },
+            "modifiers": [],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 754
+            },
+            "modifiers": [],
+            "name": "dt",
+            "references": [],
+            "type": "DisplayType"
+        }
+    ]
+}

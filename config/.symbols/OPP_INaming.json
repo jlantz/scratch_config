@@ -1,0 +1,93 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iI7QAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iI7QAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 44
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "refreshOppNames",
+            "parameters": [
+                {
+                    "name": "oppList",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 53
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "getOppNamesAfterInsert",
+            "parameters": [
+                {
+                    "name": "oppList",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "OPP_INaming",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 18,
+            "line": 37
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "OPP_INaming",
+        "references": [],
+        "type": "OPP_INaming"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "oppList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "oppList",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

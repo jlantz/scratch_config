@@ -1,0 +1,95 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJjQAI",
+    "innerClasses": [],
+    "interfaces": [
+        "System.UninstallHandler"
+    ],
+    "key": "01p4C0000002iJjQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 43
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "onUninstall",
+            "parameters": [
+                {
+                    "name": "context",
+                    "type": "UninstallContext"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "STG_UninstallScript",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 36
+        },
+        "modifiers": [
+            "global"
+        ],
+        "name": "STG_UninstallScript",
+        "references": [],
+        "type": "STG_UninstallScript"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 43
+            },
+            "modifiers": [],
+            "name": "context",
+            "references": [],
+            "type": "UninstallContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 45
+            },
+            "modifiers": [],
+            "name": "schedulers",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 48
+            },
+            "modifiers": [],
+            "name": "scheduledJobs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 52
+            },
+            "modifiers": [],
+            "name": "job",
+            "references": [],
+            "type": "CronTrigger"
+        }
+    ]
+}

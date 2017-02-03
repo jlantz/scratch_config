@@ -1,0 +1,71 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHfQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHfQAI",
+    "methods": [],
+    "name": "HH_Households",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 39
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "ALL_PROCESSOR",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 40
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "ALL_INDIVIDUALS_PROCESSOR",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 41
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "NO_HOUSEHOLDS_PROCESSOR",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "HH_Households",
+        "references": [],
+        "type": "HH_Households"
+    },
+    "variables": []
+}

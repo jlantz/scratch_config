@@ -1,0 +1,386 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 54
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "ALLO_Rollup_SCHED",
+            "parameters": [],
+            "references": [],
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 62
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "ALLO_Rollup_SCHED",
+            "parameters": [
+                {
+                    "name": "batchSz",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 71
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "ALLO_Rollup_SCHED",
+            "parameters": [
+                {
+                    "name": "parentRecId",
+                    "type": "Id"
+                }
+            ],
+            "references": [],
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 81
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "ALLO_Rollup_SCHED",
+            "parameters": [
+                {
+                    "name": "parentRecIds",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iGZQAY",
+    "innerClasses": [],
+    "interfaces": [
+        "System.Schedulable"
+    ],
+    "key": "01p4C0000002iGZQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 42
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "execute",
+            "parameters": [
+                {
+                    "name": "context",
+                    "type": "SchedulableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 90
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "setParentObjName",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 99
+            },
+            "modifiers": [
+                "virtual",
+                "public",
+                "override"
+            ],
+            "name": "setRollupSpecs",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 197
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "customFinalProcessing",
+            "parameters": [
+                {
+                    "name": "objMap",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 177
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "convertToQueryListFormat",
+            "parameters": [
+                {
+                    "name": "str",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "ALLO_Rollup_SCHED",
+    "namespace": null,
+    "parentClass": "UTIL_AbstractRollup_BATCH",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 30,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "without sharing"
+        ],
+        "name": "ALLO_Rollup_SCHED",
+        "references": [],
+        "type": "ALLO_Rollup_SCHED"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 42
+            },
+            "modifiers": [],
+            "name": "context",
+            "references": [],
+            "type": "SchedulableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "rollup",
+            "references": [],
+            "type": "ALLO_Rollup_SCHED"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "batchSz",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "parentRecId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "parentRecIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 102
+            },
+            "modifiers": [],
+            "name": "alloSettings",
+            "references": [],
+            "type": "Allocations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 104
+            },
+            "modifiers": [],
+            "name": "strFiscalOrCalendarYear",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 105
+            },
+            "modifiers": [],
+            "name": "strExcludeOppRecTypesQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 106
+            },
+            "modifiers": [],
+            "name": "strExcludeOppTypesQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 118
+            },
+            "modifiers": [],
+            "name": "mySpecs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 121
+            },
+            "modifiers": [],
+            "name": "rs",
+            "references": [],
+            "type": "RollupSpec"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 155
+            },
+            "modifiers": [],
+            "name": "rs2",
+            "references": [],
+            "type": "RollupSpec"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 197
+            },
+            "modifiers": [],
+            "name": "objMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 199
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 177
+            },
+            "modifiers": [],
+            "name": "str",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 178
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 180
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

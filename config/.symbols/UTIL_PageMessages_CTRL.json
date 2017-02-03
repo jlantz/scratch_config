@@ -1,0 +1,248 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iKBQAY",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 72
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "Message",
+                    "parameters": [
+                        {
+                            "name": "m",
+                            "type": "Message"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 98
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getSeverityTheme",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "String",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 120
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getSeverityLabel",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "String",
+                    "type": null
+                }
+            ],
+            "name": "Message",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 32,
+                        "line": 59
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "severity",
+                    "references": [],
+                    "type": "MessageSeverity"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 60
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "summary",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 61
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "detail",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 62
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "componentLabel",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 58
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Message",
+                "references": [],
+                "type": "Message"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 42,
+                        "line": 72
+                    },
+                    "modifiers": [],
+                    "name": "m",
+                    "references": [],
+                    "type": "Message"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 32,
+                        "line": 77
+                    },
+                    "modifiers": [],
+                    "name": "s",
+                    "references": [],
+                    "type": "Severity"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "MessageSeverity",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 17,
+                    "line": 142
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "MessageSeverity",
+                "references": [],
+                "type": "MessageSeverity"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iKBQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 42
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getPageMessages",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "UTIL_PageMessages_CTRL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 35
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "UTIL_PageMessages_CTRL",
+        "references": [],
+        "type": "UTIL_PageMessages_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 43
+            },
+            "modifiers": [],
+            "name": "pageMessages",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 45
+            },
+            "modifiers": [],
+            "name": "m",
+            "references": [],
+            "type": "Message"
+        }
+    ]
+}

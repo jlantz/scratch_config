@@ -1,0 +1,1654 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iImQAI",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "MyException",
+            "namespace": null,
+            "parentClass": "Exception",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 51
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "MyException",
+                "references": [],
+                "type": "MyException"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p4C0000002iImQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 57
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "setupRelationshipTestData",
+            "parameters": [
+                {
+                    "name": "rs",
+                    "type": "npe4__Relationship_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 95
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testContactRel",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 165
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testOrphanedRelDelete",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 198
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testRelationshipDelete",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 235
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testAutoCreateCampaignMemberInsert",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 273
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testAutoCreateCampaignMemberUpdate",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 296
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testAutoCreateContactInsert",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 323
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testAutoCreateContactUpdate",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 349
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testInversionSettingsHaveType",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 379
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testInversionSettingsNoType",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 409
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testNoValidSettingsConfig",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 439
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testMaleSalutationReciprocal",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 460
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testFemaleSalutationReciprocal",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 481
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testNeutralSalutationReciprocal",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 502
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testNeutralGenderFieldReciprocal",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 526
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testMaleGenderFieldReciprocal",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 550
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testFemaleGenderFieldReciprocal",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 576
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testNoGenderManualRel",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 606
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testNoGenderManualRelStatusChange",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 652
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGenderChange",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 690
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testErrorRecordCreation",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 720
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testExceptionRecordCreation",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 736
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testAutoCreateDupePrevention",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 764
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testRelationshipUTILS",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 781
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "test2Rels1Transaction_v2",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 819
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "RelationshipsViewer_TEST",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 863
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testDeletingMutuallyReferentialRelationshipsDoesNotPreventDeleteOfReciprocals",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "REL_Relationships_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 42
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strTestOnly",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 44
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "c1",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 45
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "c2",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 46
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "c3",
+            "references": [],
+            "type": "Contact"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 36
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "REL_Relationships_TEST",
+        "references": [],
+        "type": "REL_Relationships_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 82,
+                "line": 57
+            },
+            "modifiers": [],
+            "name": "rs",
+            "references": [],
+            "type": "npe4__Relationship_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 100
+            },
+            "modifiers": [],
+            "name": "rel",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "relList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 113
+            },
+            "modifiers": [],
+            "name": "mirrorList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 138
+            },
+            "modifiers": [],
+            "name": "updated_original",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 146
+            },
+            "modifiers": [],
+            "name": "updated_mirror",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 155
+            },
+            "modifiers": [],
+            "name": "mirror_after_original_deleted",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 170
+            },
+            "modifiers": [],
+            "name": "crel",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 176
+            },
+            "modifiers": [],
+            "name": "crel_original",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 181
+            },
+            "modifiers": [],
+            "name": "crel_mirror",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 184
+            },
+            "modifiers": [],
+            "name": "secondContactForDelete",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 189
+            },
+            "modifiers": [],
+            "name": "orphanedCrel",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 202
+            },
+            "modifiers": [],
+            "name": "crel_original",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 211
+            },
+            "modifiers": [],
+            "name": "crel_mirror",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 244
+            },
+            "modifiers": [],
+            "name": "campaign",
+            "references": [],
+            "type": "Campaign"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 248
+            },
+            "modifiers": [],
+            "name": "cm",
+            "references": [],
+            "type": "CampaignMember"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 254
+            },
+            "modifiers": [],
+            "name": "relationships",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 261
+            },
+            "modifiers": [],
+            "name": "reciprocalRelationships",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 280
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Campaign"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 282
+            },
+            "modifiers": [],
+            "name": "cm",
+            "references": [],
+            "type": "CampaignMember"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 305
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 311
+            },
+            "modifiers": [],
+            "name": "rel",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 315
+            },
+            "modifiers": [],
+            "name": "recRel",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 332
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 341
+            },
+            "modifiers": [],
+            "name": "rel",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 354
+            },
+            "modifiers": [],
+            "name": "crel",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 365
+            },
+            "modifiers": [],
+            "name": "crel_original",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 370
+            },
+            "modifiers": [],
+            "name": "crel_mirror",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 384
+            },
+            "modifiers": [],
+            "name": "crel",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 395
+            },
+            "modifiers": [],
+            "name": "crel_original",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 400
+            },
+            "modifiers": [],
+            "name": "crel_mirror",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 414
+            },
+            "modifiers": [],
+            "name": "crel",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 425
+            },
+            "modifiers": [],
+            "name": "crel_original",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 430
+            },
+            "modifiers": [],
+            "name": "crel_mirror",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 443
+            },
+            "modifiers": [],
+            "name": "crel",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 453
+            },
+            "modifiers": [],
+            "name": "recRel",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 464
+            },
+            "modifiers": [],
+            "name": "crel",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 474
+            },
+            "modifiers": [],
+            "name": "recRel",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 485
+            },
+            "modifiers": [],
+            "name": "crel",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 495
+            },
+            "modifiers": [],
+            "name": "recRel",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 506
+            },
+            "modifiers": [],
+            "name": "crel",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 519
+            },
+            "modifiers": [],
+            "name": "recRel",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 533
+            },
+            "modifiers": [],
+            "name": "crel",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 543
+            },
+            "modifiers": [],
+            "name": "recRel",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 558
+            },
+            "modifiers": [],
+            "name": "crel",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 568
+            },
+            "modifiers": [],
+            "name": "recRel",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 581
+            },
+            "modifiers": [],
+            "name": "conList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 587
+            },
+            "modifiers": [],
+            "name": "crel",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 595
+            },
+            "modifiers": [],
+            "name": "recRel",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 611
+            },
+            "modifiers": [],
+            "name": "conList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 617
+            },
+            "modifiers": [],
+            "name": "crel",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 625
+            },
+            "modifiers": [],
+            "name": "recRel",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 657
+            },
+            "modifiers": [],
+            "name": "conList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 663
+            },
+            "modifiers": [],
+            "name": "crel",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 669
+            },
+            "modifiers": [],
+            "name": "recRel",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 696
+            },
+            "modifiers": [],
+            "name": "relationships",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 699
+            },
+            "modifiers": [],
+            "name": "insertResults",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 707
+            },
+            "modifiers": [],
+            "name": "updateResults",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 712
+            },
+            "modifiers": [],
+            "name": "errors",
+            "references": [],
+            "type": "Errors"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 728
+            },
+            "modifiers": [],
+            "name": "errors",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 741
+            },
+            "modifiers": [],
+            "name": "crel",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 756
+            },
+            "modifiers": [],
+            "name": "rel",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 771
+            },
+            "modifiers": [],
+            "name": "rs",
+            "references": [],
+            "type": "npe4__Relationship_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 773
+            },
+            "modifiers": [],
+            "name": "cAuto",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 774
+            },
+            "modifiers": [],
+            "name": "cmAuto",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 785
+            },
+            "modifiers": [],
+            "name": "mainClient",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 786
+            },
+            "modifiers": [],
+            "name": "friend",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 787
+            },
+            "modifiers": [],
+            "name": "coworker",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 791
+            },
+            "modifiers": [],
+            "name": "r1",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 792
+            },
+            "modifiers": [],
+            "name": "r2",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 798
+            },
+            "modifiers": [],
+            "name": "nr",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 801
+            },
+            "modifiers": [],
+            "name": "nr2",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 804
+            },
+            "modifiers": [],
+            "name": "rels",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 808
+            },
+            "modifiers": [],
+            "name": "rels2",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 830
+            },
+            "modifiers": [],
+            "name": "rel",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 838
+            },
+            "modifiers": [],
+            "name": "nodeList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 840
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 841
+            },
+            "modifiers": [],
+            "name": "rvc",
+            "references": [],
+            "type": "REL_RelationshipsViewer_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 852
+            },
+            "modifiers": [],
+            "name": "sList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 855
+            },
+            "modifiers": [],
+            "name": "ri",
+            "references": [],
+            "type": "RelationshipInfo"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 866
+            },
+            "modifiers": [],
+            "name": "contacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 875
+            },
+            "modifiers": [],
+            "name": "rel1to2",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 881
+            },
+            "modifiers": [],
+            "name": "rel3to4",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 892
+            },
+            "modifiers": [],
+            "name": "rel2to1",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 899
+            },
+            "modifiers": [],
+            "name": "rel4to3",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 905
+            },
+            "modifiers": [],
+            "name": "rel1to2Updated",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 911
+            },
+            "modifiers": [],
+            "name": "rel3to4Updated",
+            "references": [],
+            "type": "npe4__Relationship__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 930
+            },
+            "modifiers": [],
+            "name": "preyExists",
+            "references": [],
+            "type": "Integer"
+        }
+    ]
+}

@@ -1,0 +1,1293 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJhQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJhQAI",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 49
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testSettingsManager",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 60
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testSetTriggerSchedConfig",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 77
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testDataBoundMultiSelect",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 96
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanel",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 130
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testSettingsService",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 151
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelAffl",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 167
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelAllo",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 191
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelBDE",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 207
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelContactRoles",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 227
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelContacts",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 243
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelHouseholds",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 256
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testNameSpecs",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 282
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelLeads",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 298
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelMembership",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 314
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelOppBatch",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 327
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelOppRollups",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 343
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelOpps",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 359
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelOppNaming",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 376
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelPaymentMapping",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 423
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelRD",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 446
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelRDBatch",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 459
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelRDCustomFieldMapping",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 496
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelRDCustomInstallment",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 535
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelRel",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 552
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelRelAuto",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 595
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelRelReciprocal",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 634
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelUserRollup",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 697
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "TEST_userRollupSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 805
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelSchedule",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 821
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelTDTM",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 862
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelErrorLog",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 899
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelHealthCheck",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 910
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testPanelLvlAssignBatch",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "STG_SettingsManager_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 43
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strTestOnly",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 27,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "STG_SettingsManager_TEST",
+        "references": [],
+        "type": "STG_SettingsManager_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "STG_SettingsManager_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "STG_SettingsManager_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 68
+            },
+            "modifiers": [],
+            "name": "masterJobs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "STG_DataBoundMultiSelect_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 87
+            },
+            "modifiers": [],
+            "name": "listStr",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "STG_Panel"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 122
+            },
+            "modifiers": [],
+            "name": "str",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 123
+            },
+            "modifiers": [],
+            "name": "str2",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 132
+            },
+            "modifiers": [],
+            "name": "svc",
+            "references": [],
+            "type": "STG_SettingsService"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 153
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelAffiliations_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 170
+            },
+            "modifiers": [],
+            "name": "gau",
+            "references": [],
+            "type": "General_Accounting_Unit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 173
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelAllocations_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 193
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelBDE_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 209
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelContactRoles_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 229
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelContacts_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 245
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelHouseholds_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 258
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelHouseholds_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 284
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelLeads_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 300
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelMembership_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 316
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelOppBatch_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 329
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelOppRollups_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 345
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelOpps_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 362
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelOppNaming_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 378
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelPaymentMapping_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 425
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelRD_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 448
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelRDBatch_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 461
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelRDCustomFieldMapping_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 498
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelRDCustomInstallment_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 537
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelRel_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 554
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelRelAuto_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 597
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelRelReciprocal_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 636
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelUserRollup_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 703
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "STG_PanelUserRollup_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 709
+            },
+            "modifiers": [],
+            "name": "oppyList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 712
+            },
+            "modifiers": [],
+            "name": "operatorList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 721
+            },
+            "modifiers": [],
+            "name": "targetObjectList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 726
+            },
+            "modifiers": [],
+            "name": "targetFieldList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 735
+            },
+            "modifiers": [],
+            "name": "udr",
+            "references": [],
+            "type": "UDR"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 749
+            },
+            "modifiers": [],
+            "name": "udrlist",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 769
+            },
+            "modifiers": [],
+            "name": "u",
+            "references": [],
+            "type": "UDR"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 772
+            },
+            "modifiers": [],
+            "name": "badurfs",
+            "references": [],
+            "type": "npo02__User_Rollup_Field_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 782
+            },
+            "modifiers": [],
+            "name": "HHurfs",
+            "references": [],
+            "type": "npo02__User_Rollup_Field_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 791
+            },
+            "modifiers": [],
+            "name": "badobject",
+            "references": [],
+            "type": "npo02__User_Rollup_Field_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 807
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelSchedule_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 823
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelTDTM_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 864
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelErrorLog_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 866
+            },
+            "modifiers": [],
+            "name": "slv",
+            "references": [],
+            "type": "UTIL_SoqlListView_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 901
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelHealthCheck_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 912
+            },
+            "modifiers": [],
+            "name": "panel",
+            "references": [],
+            "type": "STG_PanelLvlAssignBatch_CTRL"
+        }
+    ]
+}

@@ -1,0 +1,244 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iKIQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iKIQAY",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 33,
+                "line": 50
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "searchRecords",
+            "parameters": [
+                {
+                    "name": "queryString",
+                    "type": "String"
+                },
+                {
+                    "name": "objectName",
+                    "type": "String"
+                },
+                {
+                    "name": "fieldNames",
+                    "type": "LIST"
+                },
+                {
+                    "name": "fieldsToSearch",
+                    "type": "String"
+                },
+                {
+                    "name": "filterClause",
+                    "type": "String"
+                },
+                {
+                    "name": "orderBy",
+                    "type": "String"
+                },
+                {
+                    "name": "recordLimit",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "UTIL_Typeahead",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "UTIL_Typeahead",
+        "references": [],
+        "type": "UTIL_Typeahead"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "queryString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "fieldNames",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "fieldsToSearch",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 61,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "filterClause",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 82,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "orderBy",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 99,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "recordLimit",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "sQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "sObjectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 60
+            },
+            "modifiers": [],
+            "name": "sInFields",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "sFields",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 67
+            },
+            "modifiers": [],
+            "name": "sOrder",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 69
+            },
+            "modifiers": [],
+            "name": "sLimit",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 73
+            },
+            "modifiers": [],
+            "name": "sWhere",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 76
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

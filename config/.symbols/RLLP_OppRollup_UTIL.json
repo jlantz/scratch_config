@@ -1,0 +1,1642 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 182
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "RLLP_OppRollup_UTIL",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iIyQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iIyQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 489
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "buildAccountQuery",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 505
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "buildOpportunityContactRoleQuery",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 520
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "buildContactQuery",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 535
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "buildHouseholdQuery",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 550
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "buildAccountRollupQuery",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 592
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "buildAccountNDayQuery",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 623
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "buildAccountMembershipQuery",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 659
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "buildContactRollupQuery",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 694
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "buildContactNDayQuery",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 718
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "buildContactMembershipQuery",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 746
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "buildHouseholdRollupQuery",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 781
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "buildHouseholdNDayQuery",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 805
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "buildHouseholdMembershipQuery",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 192
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "setupRollupVars",
+            "parameters": [
+                {
+                    "name": "household_settings",
+                    "type": "npo02__Households_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 241
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "setupUserRollupVars",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 277
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "areRecordTypesOnOpps",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 293
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "useSoftCredits",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 306
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getIndividualAccountIds",
+            "parameters": [],
+            "references": [],
+            "returnType": "Set",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 323
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "isMultiCurrency",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 362
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "convertFromCorporate",
+            "parameters": [
+                {
+                    "name": "ISO",
+                    "type": "String"
+                },
+                {
+                    "name": "amt",
+                    "type": "Decimal"
+                }
+            ],
+            "references": [],
+            "returnType": "Decimal",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 375
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "convertCurrency",
+            "parameters": [
+                {
+                    "name": "fromISO",
+                    "type": "String"
+                },
+                {
+                    "name": "toISO",
+                    "type": "String"
+                },
+                {
+                    "name": "amt",
+                    "type": "Decimal"
+                }
+            ],
+            "references": [],
+            "returnType": "Decimal",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 386
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "rcfFindCurrency",
+            "parameters": [
+                {
+                    "name": "objectList",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 416
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "oppForRollup",
+            "parameters": [
+                {
+                    "name": "o",
+                    "type": "Opportunity"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 427
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "needsContactRollup",
+            "parameters": [
+                {
+                    "name": "o",
+                    "type": "Opportunity"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 444
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "needsAccountRollup",
+            "parameters": [
+                {
+                    "name": "o",
+                    "type": "Opportunity"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 462
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "oppForRollup",
+            "parameters": [
+                {
+                    "name": "newOpp",
+                    "type": "Opportunity"
+                },
+                {
+                    "name": "oldOpp",
+                    "type": "Opportunity"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 835
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "buildSoftCreditOCRQuery",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 857
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "buildSoftCreditPSCQuery",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 937
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getCurrentFY",
+            "parameters": [],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 964
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getFiscalYearForDate",
+            "parameters": [
+                {
+                    "name": "targetDate",
+                    "type": "Date"
+                },
+                {
+                    "name": "fiscalYearStartMonth",
+                    "type": "Integer"
+                },
+                {
+                    "name": "usesStartDateAsFiscalYearName",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        }
+    ],
+    "name": "RLLP_OppRollup_UTIL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 40
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "useFiscalYear",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 42
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "recordTypesToExcludeAccts",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 44
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "recordTypesToExcludeCons",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 46
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "mbrRecordTypes",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 48
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "oppTypesToExcludeAccts",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 50
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "oppTypesToExcludeCons",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 52
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "softCreditRoles",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 54
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "hh_settings",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 56
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "BATCH_SIZE",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 58
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "recordTypesOnOpps",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 60
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "useSoftCredits",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 62
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "IndividualAccountIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 64
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "fiscal_year",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 68
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "mcFieldValues",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 70
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "multiCurrency",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 72
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "exchangeRates",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 74
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "currCorporate",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 78
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "objectRollUpFieldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 80
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "urfsMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 84
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "AccountQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 86
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "ContactQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 88
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "HouseholdQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 90
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "OpportunityContactRoleQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 92
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "HouseholdRollupQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 94
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "ContactRollupQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 96
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "AccountRollupQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 98
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "HouseholdNDayQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 100
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "ContactNDayQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 102
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "AccountNDayQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 104
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "HouseholdMembershipQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 106
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "ContactMembershipQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 108
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "AccountMembershipQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 110
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "SoftCreditOCRQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 112
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "SoftCreditPSCQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 117
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "AccountFields",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 126
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "OpportunityContactRoleFields",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 152
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "ContactFields",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 170
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "HouseholdFields",
+            "references": [],
+            "type": "Set"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 30,
+            "line": 35
+        },
+        "modifiers": [
+            "public",
+            "without sharing"
+        ],
+        "name": "RLLP_OppRollup_UTIL",
+        "references": [],
+        "type": "RLLP_OppRollup_UTIL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 492
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 508
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 523
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 538
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 566
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 601
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 635
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 192
+            },
+            "modifiers": [],
+            "name": "household_settings",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 220
+            },
+            "modifiers": [],
+            "name": "fyQuery",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 221
+            },
+            "modifiers": [],
+            "name": "fySettings",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 223
+            },
+            "modifiers": [],
+            "name": "hasCustomFYRecord",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 247
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 248
+            },
+            "modifiers": [],
+            "name": "urfs",
+            "references": [],
+            "type": "npo02__User_Rollup_Field_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 251
+            },
+            "modifiers": [],
+            "name": "qString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 279
+            },
+            "modifiers": [],
+            "name": "giftRt",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 331
+            },
+            "modifiers": [],
+            "name": "queryExchangeRates",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 332
+            },
+            "modifiers": [],
+            "name": "soCurrencyType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 339
+            },
+            "modifiers": [],
+            "name": "ctFields",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 340
+            },
+            "modifiers": [],
+            "name": "ctIsoCode",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 341
+            },
+            "modifiers": [],
+            "name": "ctConversionRate",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 342
+            },
+            "modifiers": [],
+            "name": "ctCorporate",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 346
+            },
+            "modifiers": [],
+            "name": "ct",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 362
+            },
+            "modifiers": [],
+            "name": "ISO",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 67,
+                "line": 362
+            },
+            "modifiers": [],
+            "name": "amt",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 375
+            },
+            "modifiers": [],
+            "name": "fromISO",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 375
+            },
+            "modifiers": [],
+            "name": "toISO",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 81,
+                "line": 375
+            },
+            "modifiers": [],
+            "name": "amt",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 386
+            },
+            "modifiers": [],
+            "name": "objectList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 388
+            },
+            "modifiers": [],
+            "name": "opptysForCurrency",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 391
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 393
+            },
+            "modifiers": [],
+            "name": "rcf",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 400
+            },
+            "modifiers": [],
+            "name": "soqlStatement",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 401
+            },
+            "modifiers": [],
+            "name": "opptyCurrencies",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 416
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 417
+            },
+            "modifiers": [],
+            "name": "needsRollup",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 427
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 428
+            },
+            "modifiers": [],
+            "name": "needsRollup",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 444
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 445
+            },
+            "modifiers": [],
+            "name": "needsRollup",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 462
+            },
+            "modifiers": [],
+            "name": "newOpp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 462
+            },
+            "modifiers": [],
+            "name": "oldOpp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 463
+            },
+            "modifiers": [],
+            "name": "needsRollup",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 939
+            },
+            "modifiers": [],
+            "name": "orgInfo",
+            "references": [],
+            "type": "Organization"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 964
+            },
+            "modifiers": [],
+            "name": "targetDate",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 964
+            },
+            "modifiers": [],
+            "name": "fiscalYearStartMonth",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 103,
+                "line": 964
+            },
+            "modifiers": [],
+            "name": "usesStartDateAsFiscalYearName",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 965
+            },
+            "modifiers": [],
+            "name": "fiscalYearStartDate",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 971
+            },
+            "modifiers": [],
+            "name": "fiscalYearEndDate",
+            "references": [],
+            "type": "Date"
+        }
+    ]
+}

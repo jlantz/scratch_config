@@ -1,0 +1,874 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iIRQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iIRQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 53
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "initTestData",
+            "parameters": [
+                {
+                    "name": "createPSCs",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 95
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "createNewPSCs",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 142
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "createNewPSCsByPercent",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 202
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "createNewPSCsToExistingPSCs",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 243
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "loadInvalidPSCs",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 262
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "loadSoftCreditOCRs",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 282
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "makeExistingPSCsFullCredits",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 309
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "makeNewPSCsFullCredits",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 348
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "deleteExistingPSCsByClearContactId",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 372
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "deleteExistingPSCs",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 396
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "updateExistingPSCs",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 428
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testErrors",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 480
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testNoSoftCreditRoles",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "PSC_ManageSoftCredits_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 43
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 44
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "cContact",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 45
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "cPSCExisting",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 46
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 47
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 27,
+            "line": 38
+        },
+        "modifiers": [
+            "public",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "PSC_ManageSoftCredits_TEST",
+        "references": [],
+        "type": "PSC_ManageSoftCredits_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "createPSCs",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 77
+            },
+            "modifiers": [],
+            "name": "listPSC",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "PSC_ManageSoftCredits_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 126
+            },
+            "modifiers": [],
+            "name": "listPSC",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 129
+            },
+            "modifiers": [],
+            "name": "amount",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 130
+            },
+            "modifiers": [],
+            "name": "psc",
+            "references": [],
+            "type": "Partial_Soft_Credit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 134
+            },
+            "modifiers": [],
+            "name": "listOCR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 145
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "PSC_ManageSoftCredits_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 179
+            },
+            "modifiers": [],
+            "name": "listPSC",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 182
+            },
+            "modifiers": [],
+            "name": "amount",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 183
+            },
+            "modifiers": [],
+            "name": "psc",
+            "references": [],
+            "type": "Partial_Soft_Credit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "listOCR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 205
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "PSC_ManageSoftCredits_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 228
+            },
+            "modifiers": [],
+            "name": "listPSC",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 231
+            },
+            "modifiers": [],
+            "name": "amount",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 232
+            },
+            "modifiers": [],
+            "name": "psc",
+            "references": [],
+            "type": "Partial_Soft_Credit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 236
+            },
+            "modifiers": [],
+            "name": "listOCR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 247
+            },
+            "modifiers": [],
+            "name": "listPSC",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 255
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "PSC_ManageSoftCredits_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 266
+            },
+            "modifiers": [],
+            "name": "ocr",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 274
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "PSC_ManageSoftCredits_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 285
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "PSC_ManageSoftCredits_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 288
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 298
+            },
+            "modifiers": [],
+            "name": "listPSC",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 301
+            },
+            "modifiers": [],
+            "name": "listOCR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 312
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "PSC_ManageSoftCredits_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 337
+            },
+            "modifiers": [],
+            "name": "listPSC",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 340
+            },
+            "modifiers": [],
+            "name": "listOCR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 351
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "PSC_ManageSoftCredits_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 354
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 361
+            },
+            "modifiers": [],
+            "name": "listPSC",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 364
+            },
+            "modifiers": [],
+            "name": "listOCR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 375
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "PSC_ManageSoftCredits_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 385
+            },
+            "modifiers": [],
+            "name": "listPSC",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 388
+            },
+            "modifiers": [],
+            "name": "listOCR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 399
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "PSC_ManageSoftCredits_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 412
+            },
+            "modifiers": [],
+            "name": "listPSC",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 415
+            },
+            "modifiers": [],
+            "name": "amount",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 416
+            },
+            "modifiers": [],
+            "name": "psc",
+            "references": [],
+            "type": "Partial_Soft_Credit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 420
+            },
+            "modifiers": [],
+            "name": "listOCR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 432
+            },
+            "modifiers": [],
+            "name": "ocrPrimary",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 441
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "PSC_ManageSoftCredits_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 484
+            },
+            "modifiers": [],
+            "name": "ocrPrimary",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 495
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "PSC_ManageSoftCredits_CTRL"
+        }
+    ]
+}

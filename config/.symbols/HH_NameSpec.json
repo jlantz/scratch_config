@@ -1,0 +1,1046 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHmQAI",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 141
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "NameSpec",
+                    "parameters": [
+                        {
+                            "name": "hns",
+                            "type": "Household_Naming_Settings__c"
+                        },
+                        {
+                            "name": "strField",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 22,
+                        "line": 154
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "parseNameSpec",
+                    "parameters": [
+                        {
+                            "name": "strNameSpec",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 28,
+                        "line": 199
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "setStrFieldsInNameSpec",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Set",
+                    "type": null
+                }
+            ],
+            "name": "NameSpec",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 127
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "strPrefix",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 128
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "strSuffix",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 129
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "strFirstNameSpec",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 130
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "strFullNameSpec",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 131
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "strAnd",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 132
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "strOverrun",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 25,
+                        "line": 133
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "cMaxUseOverrun",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 134
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "strHNSField",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 19,
+                    "line": 126
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "NameSpec",
+                "references": [],
+                "type": "NameSpec"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 55,
+                        "line": 141
+                    },
+                    "modifiers": [],
+                    "name": "hns",
+                    "references": [],
+                    "type": "Household_Naming_Settings__c"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 67,
+                        "line": 141
+                    },
+                    "modifiers": [],
+                    "name": "strField",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 143
+                    },
+                    "modifiers": [],
+                    "name": "strNameSpec",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 43,
+                        "line": 154
+                    },
+                    "modifiers": [],
+                    "name": "strNameSpec",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 21,
+                        "line": 164
+                    },
+                    "modifiers": [],
+                    "name": "ich",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 182
+                    },
+                    "modifiers": [],
+                    "name": "str",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 21,
+                        "line": 186
+                    },
+                    "modifiers": [],
+                    "name": "ichR",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 25,
+                        "line": 200
+                    },
+                    "modifiers": [],
+                    "name": "setStrField",
+                    "references": [],
+                    "type": "Set"
+                }
+            ]
+        }
+    ],
+    "interfaces": [
+        "HH_INaming"
+    ],
+    "key": "01p4C0000002iHmQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 45
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getHouseholdName",
+            "parameters": [
+                {
+                    "name": "listCon",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 57
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getHouseholdFormalGreeting",
+            "parameters": [
+                {
+                    "name": "listCon",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 69
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getHouseholdInformalGreeting",
+            "parameters": [
+                {
+                    "name": "listCon",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 81
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getExampleName",
+            "parameters": [
+                {
+                    "name": "hnsMem",
+                    "type": "Household_Naming_Settings__c"
+                },
+                {
+                    "name": "strField",
+                    "type": "String"
+                },
+                {
+                    "name": "listCon",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 90
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "setHouseholdNameFieldsOnContact",
+            "parameters": [],
+            "references": [],
+            "returnType": "Set",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 219
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strNameFromNameSpec",
+            "parameters": [
+                {
+                    "name": "ns",
+                    "type": "NameSpec"
+                },
+                {
+                    "name": "listCon",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 299
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strConFspec",
+            "parameters": [
+                {
+                    "name": "con",
+                    "type": "Contact"
+                },
+                {
+                    "name": "strFspec",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 359
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "setStrFieldFromStrFSpec",
+            "parameters": [
+                {
+                    "name": "strFSpec",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Set",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 381
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strFNameSpecFromStrNameSpec",
+            "parameters": [
+                {
+                    "name": "strNameSpec",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "HH_NameSpec",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 105
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "hns",
+            "references": [],
+            "type": "Household_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 113
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "chLToken",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 114
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "chRToken",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "HH_NameSpec",
+        "references": [],
+        "type": "HH_NameSpec"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 45
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "ns",
+            "references": [],
+            "type": "NameSpec"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 57
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "ns",
+            "references": [],
+            "type": "NameSpec"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 69
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 70
+            },
+            "modifiers": [],
+            "name": "ns",
+            "references": [],
+            "type": "NameSpec"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "hnsMem",
+            "references": [],
+            "type": "Household_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 78,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 102,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 82
+            },
+            "modifiers": [],
+            "name": "ns",
+            "references": [],
+            "type": "NameSpec"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 91
+            },
+            "modifiers": [],
+            "name": "setStrField",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 92
+            },
+            "modifiers": [],
+            "name": "ns",
+            "references": [],
+            "type": "NameSpec"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 219
+            },
+            "modifiers": [],
+            "name": "ns",
+            "references": [],
+            "type": "NameSpec"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 219
+            },
+            "modifiers": [],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 220
+            },
+            "modifiers": [],
+            "name": "strName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 221
+            },
+            "modifiers": [],
+            "name": "cCon",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 222
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 223
+            },
+            "modifiers": [],
+            "name": "isNoLastnames",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 234
+            },
+            "modifiers": [],
+            "name": "strLname",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 235
+            },
+            "modifiers": [],
+            "name": "strFname",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 238
+            },
+            "modifiers": [],
+            "name": "listFname",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 239
+            },
+            "modifiers": [],
+            "name": "j",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 241
+            },
+            "modifiers": [],
+            "name": "strF",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 249
+            },
+            "modifiers": [],
+            "name": "k",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 265
+            },
+            "modifiers": [],
+            "name": "strCon",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 271
+            },
+            "modifiers": [],
+            "name": "willAddOverrun",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 299
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 299
+            },
+            "modifiers": [],
+            "name": "strFspec",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 300
+            },
+            "modifiers": [],
+            "name": "str",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 303
+            },
+            "modifiers": [],
+            "name": "MyPattern",
+            "references": [],
+            "type": "Pattern"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 305
+            },
+            "modifiers": [],
+            "name": "MyMatcher",
+            "references": [],
+            "type": "Matcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 309
+            },
+            "modifiers": [],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 312
+            },
+            "modifiers": [],
+            "name": "splitField",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 315
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 319
+            },
+            "modifiers": [],
+            "name": "thisObj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 328
+            },
+            "modifiers": [],
+            "name": "parentObj",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 334
+            },
+            "modifiers": [],
+            "name": "val",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 359
+            },
+            "modifiers": [],
+            "name": "strFSpec",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 360
+            },
+            "modifiers": [],
+            "name": "setStrField",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 363
+            },
+            "modifiers": [],
+            "name": "MyPattern",
+            "references": [],
+            "type": "Pattern"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 365
+            },
+            "modifiers": [],
+            "name": "MyMatcher",
+            "references": [],
+            "type": "Matcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 369
+            },
+            "modifiers": [],
+            "name": "strField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 381
+            },
+            "modifiers": [],
+            "name": "strNameSpec",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 384
+            },
+            "modifiers": [],
+            "name": "MyPattern",
+            "references": [],
+            "type": "Pattern"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 386
+            },
+            "modifiers": [],
+            "name": "MyMatcher",
+            "references": [],
+            "type": "Matcher"
+        }
+    ]
+}

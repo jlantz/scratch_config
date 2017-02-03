@@ -1,0 +1,156 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iGEQAY",
+    "innerClasses": [],
+    "interfaces": [
+        "System.HttpCalloutMock"
+    ],
+    "key": "01p4C0000002iGEQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 39
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "respond",
+            "parameters": [
+                {
+                    "name": "req",
+                    "type": "HttpRequest"
+                }
+            ],
+            "references": [],
+            "returnType": "HttpResponse",
+            "type": null
+        }
+    ],
+    "name": "ADDR_MockHttpRespGenerator_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 27,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "ADDR_MockHttpRespGenerator_TEST",
+        "references": [],
+        "type": "ADDR_MockHttpRespGenerator_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 39
+            },
+            "modifiers": [],
+            "name": "req",
+            "references": [],
+            "type": "HttpRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 42
+            },
+            "modifiers": [],
+            "name": "singleAddressResponse",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 82
+            },
+            "modifiers": [],
+            "name": "multipleAddressResponse",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 85
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 129
+            },
+            "modifiers": [],
+            "name": "invalidAddressResponse",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 131
+            },
+            "modifiers": [],
+            "name": "ambiguousAddressResponse",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 134
+            },
+            "modifiers": [],
+            "name": "zipResponse",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 136
+            },
+            "modifiers": [],
+            "name": "invalidZipResponse",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 141
+            },
+            "modifiers": [],
+            "name": "res",
+            "references": [],
+            "type": "HttpResponse"
+        }
+    ]
+}

@@ -1,0 +1,255 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 65
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "CON_DeleteContactOverride_CTRL",
+            "parameters": [
+                {
+                    "name": "stdController",
+                    "type": "StandardController"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iH2QAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iH2QAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 98
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "processDelete",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 111
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "deleteContact",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 138
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "deleteAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 171
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "getRedirect",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        }
+    ],
+    "name": "CON_DeleteContactOverride_CTRL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 43
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "queryContact",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 45
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "accountId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 47
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "retURL",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 50
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "helpDeleteAccountInstead",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 52
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "shouldDeleteContactAlone",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 54
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "hasPageMessages",
+            "references": [],
+            "type": "Boolean"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 40
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "CON_DeleteContactOverride_CTRL",
+        "references": [],
+        "type": "CON_DeleteContactOverride_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 72,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "stdController",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "contactsInHousehold",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 115
+            },
+            "modifiers": [],
+            "name": "contactCascades",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 139
+            },
+            "modifiers": [],
+            "name": "accForDelete",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 143
+            },
+            "modifiers": [],
+            "name": "validationOnlyCascades",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 172
+            },
+            "modifiers": [],
+            "name": "redirect",
+            "references": [],
+            "type": "PageReference"
+        }
+    ]
+}

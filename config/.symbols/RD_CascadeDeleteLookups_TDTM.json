@@ -1,0 +1,99 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iIXQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iIXQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 51
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "getCascades",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 60
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "addDeletionErrors",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "RD_CascadeDeleteLookups_TDTM",
+    "namespace": null,
+    "parentClass": "UTIL_CascadeDeleteLookups_TDTM",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 41
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "cascades",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "RD_CascadeDeleteLookups_TDTM",
+        "references": [],
+        "type": "RD_CascadeDeleteLookups_TDTM"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 61
+            },
+            "modifiers": [],
+            "name": "cc",
+            "references": [],
+            "type": "Cascade"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "child",
+            "references": [],
+            "type": "SObject"
+        }
+    ]
+}

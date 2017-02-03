@@ -1,0 +1,92 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJtQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJtQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 44
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "isEmpty",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 53
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "getClassesToCallForObject",
+            "parameters": [
+                {
+                    "name": "objectName",
+                    "type": "String"
+                },
+                {
+                    "name": "action",
+                    "type": "Action"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "TDTM_iTableDataGateway",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 18,
+            "line": 38
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "TDTM_iTableDataGateway",
+        "references": [],
+        "type": "TDTM_iTableDataGateway"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 86,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "action",
+            "references": [],
+            "type": "Action"
+        }
+    ]
+}

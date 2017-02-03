@@ -1,0 +1,264 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHCQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHCQAY",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 44
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testDependentPlan",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 140
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testClone",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "EP_ManageEPTemplate_CTRL_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 28,
+            "line": 38
+        },
+        "modifiers": [
+            "private",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "EP_ManageEPTemplate_CTRL_TEST",
+        "references": [],
+        "type": "EP_ManageEPTemplate_CTRL_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 45
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 48
+            },
+            "modifiers": [],
+            "name": "template",
+            "references": [],
+            "type": "Engagement_Plan_Template__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "epTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 69
+            },
+            "modifiers": [],
+            "name": "dependentEpTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 84
+            },
+            "modifiers": [],
+            "name": "pageRef",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 88
+            },
+            "modifiers": [],
+            "name": "standardController",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 89
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "EP_ManageEPTemplate_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 127
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 141
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 144
+            },
+            "modifiers": [],
+            "name": "template",
+            "references": [],
+            "type": "Engagement_Plan_Template__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "epTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 165
+            },
+            "modifiers": [],
+            "name": "dependentEpTask",
+            "references": [],
+            "type": "Engagement_Plan_Task__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 180
+            },
+            "modifiers": [],
+            "name": "pageRef",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 185
+            },
+            "modifiers": [],
+            "name": "standardController",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 186
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "EP_ManageEPTemplate_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 193
+            },
+            "modifiers": [],
+            "name": "clonedTemplate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 202
+            },
+            "modifiers": [],
+            "name": "tasks",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

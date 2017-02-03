@@ -1,0 +1,2368 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iHsQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iHsQAI",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 47
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newLeadConversion_TestOne2One",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 53
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newLeadConversion_TestHHAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 59
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newLeadConversion_TestBucketAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 65
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "newLeadConversion_Test",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 132
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newLeadConversionMerge_TestOne2One",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 138
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newLeadConversionMerge_TestHHAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 144
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newLeadConversionMerge_TestBucketAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 150
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "newLeadConversionMerge_Test",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 214
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newLeadConversionNewNamedCompany_TestOne2One",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 220
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newLeadConversionNewNamedCompany_TestHHAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 226
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newLeadConversionNewNamedCompany_TestBucketAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 232
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "newLeadConversionNewNamedCompany_Test",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 287
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newLeadConversionExistingNamedCompany_TestOne2One",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 293
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newLeadConversionExistingNamedCompany_TestHHAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 299
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newLeadConversionExistingNamedCompany_TestBucketAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 305
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "newLeadConversionExistingNamedCompany_Test",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 364
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newLeadConversionExistingNamedCompanyAffl_TestOne2One",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 370
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newLeadConversionExistingNamedCompanyAffl_TestHHAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 376
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newLeadConversionExistingNamedCompanyAffl_TestBucketAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 383
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "newLeadConversionExistingNamedCompanyAffl_Test",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 443
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newLeadConversionHHObjOne2One",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 449
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newLeadConversionHHObjBucket",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 455
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "newLeadConversionHHObj",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 522
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newNativeLeadConversion_TestOne2One",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 529
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newNativeLeadConversion_TestHHAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 536
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newNativeLeadConversion_TestBucketAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 543
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "newNativeLeadConversion_Test",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 622
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "newLeadConvert_HHAddressTest",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 701
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newLeadConversion_TestOne2OneOppOCR",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 707
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newLeadConversion_TestHHAccountOppOCR",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 713
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newLeadConversion_TestBucketAccountOppOCR",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 719
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "newLeadConversion_TestOppOCR",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 797
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "mergeLeadConversion_TestOne2OneOppOCR",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 803
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "mergeLeadConversion_TestHHAccountOppOCR",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 809
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "mergeLeadConversion_TestBucketAccountOppOCR",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 815
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "mergeLeadConversion_TestOppOCR",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 903
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newLeadConversion_TestOne2OneOppAFF",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 909
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newLeadConversion_TestHHAccountOppAFF",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 915
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "newLeadConversion_TestBucketAccountOppAFF",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 921
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "newLeadConversion_TestOppAFF",
+            "parameters": [
+                {
+                    "name": "strProcessor",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 999
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "convertCompanyLead_Test",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "LD_LeadConvertOverride_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 42
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strTestOnly",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 37
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "LD_LeadConvertOverride_TEST",
+        "references": [],
+        "type": "LD_LeadConvertOverride_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 68
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 73
+            },
+            "modifiers": [],
+            "name": "companyName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "leadFirstName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 75
+            },
+            "modifiers": [],
+            "name": "leadLastName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 76
+            },
+            "modifiers": [],
+            "name": "l",
+            "references": [],
+            "type": "Lead"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 85
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 88
+            },
+            "modifiers": [],
+            "name": "ext",
+            "references": [],
+            "type": "LD_LeadConvertOverride_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 102
+            },
+            "modifiers": [],
+            "name": "lcStatus",
+            "references": [],
+            "type": "SelectOption"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "convertedContacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 114
+            },
+            "modifiers": [],
+            "name": "accountName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 117
+            },
+            "modifiers": [],
+            "name": "createdAccount2",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 153
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 166
+            },
+            "modifiers": [],
+            "name": "l",
+            "references": [],
+            "type": "Lead"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 175
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 178
+            },
+            "modifiers": [],
+            "name": "ext",
+            "references": [],
+            "type": "LD_LeadConvertOverride_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 191
+            },
+            "modifiers": [],
+            "name": "lcStatus",
+            "references": [],
+            "type": "SelectOption"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 198
+            },
+            "modifiers": [],
+            "name": "convertedContacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 199
+            },
+            "modifiers": [],
+            "name": "unconvertedLeads",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 232
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 235
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 241
+            },
+            "modifiers": [],
+            "name": "companyName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 242
+            },
+            "modifiers": [],
+            "name": "l",
+            "references": [],
+            "type": "Lead"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 252
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 254
+            },
+            "modifiers": [],
+            "name": "ext",
+            "references": [],
+            "type": "LD_LeadConvertOverride_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 263
+            },
+            "modifiers": [],
+            "name": "lcStatus",
+            "references": [],
+            "type": "SelectOption"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 270
+            },
+            "modifiers": [],
+            "name": "convertedContacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 271
+            },
+            "modifiers": [],
+            "name": "unconvertedLeads",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 305
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 308
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 314
+            },
+            "modifiers": [],
+            "name": "companyName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 316
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 320
+            },
+            "modifiers": [],
+            "name": "l",
+            "references": [],
+            "type": "Lead"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 330
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 332
+            },
+            "modifiers": [],
+            "name": "ext",
+            "references": [],
+            "type": "LD_LeadConvertOverride_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 340
+            },
+            "modifiers": [],
+            "name": "lcStatus",
+            "references": [],
+            "type": "SelectOption"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 347
+            },
+            "modifiers": [],
+            "name": "convertedContacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 348
+            },
+            "modifiers": [],
+            "name": "unconvertedLeads",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 78,
+                "line": 383
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 386
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 392
+            },
+            "modifiers": [],
+            "name": "companyName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 394
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 398
+            },
+            "modifiers": [],
+            "name": "l",
+            "references": [],
+            "type": "Lead"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 408
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 410
+            },
+            "modifiers": [],
+            "name": "ext",
+            "references": [],
+            "type": "LD_LeadConvertOverride_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 419
+            },
+            "modifiers": [],
+            "name": "lcStatus",
+            "references": [],
+            "type": "SelectOption"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 426
+            },
+            "modifiers": [],
+            "name": "convertedContacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 427
+            },
+            "modifiers": [],
+            "name": "unconvertedLeads",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 455
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 458
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 462
+            },
+            "modifiers": [],
+            "name": "householdSettingsForTests",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 467
+            },
+            "modifiers": [],
+            "name": "companyName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 468
+            },
+            "modifiers": [],
+            "name": "l",
+            "references": [],
+            "type": "Lead"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 477
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 480
+            },
+            "modifiers": [],
+            "name": "ext",
+            "references": [],
+            "type": "LD_LeadConvertOverride_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 493
+            },
+            "modifiers": [],
+            "name": "lcStatus",
+            "references": [],
+            "type": "SelectOption"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 500
+            },
+            "modifiers": [],
+            "name": "convertedContacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 501
+            },
+            "modifiers": [],
+            "name": "unconvertedLeads",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 510
+            },
+            "modifiers": [],
+            "name": "listHH",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 543
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 544
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 548
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 558
+            },
+            "modifiers": [],
+            "name": "l",
+            "references": [],
+            "type": "Lead"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 567
+            },
+            "modifiers": [],
+            "name": "lc",
+            "references": [],
+            "type": "LeadConvert"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 572
+            },
+            "modifiers": [],
+            "name": "convertStatus",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 577
+            },
+            "modifiers": [],
+            "name": "lcr",
+            "references": [],
+            "type": "LeadConvertResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 578
+            },
+            "modifiers": [],
+            "name": "brkLoop",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 579
+            },
+            "modifiers": [],
+            "name": "cs",
+            "references": [],
+            "type": "LeadStatus"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 592
+            },
+            "modifiers": [],
+            "name": "convertedContacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 601
+            },
+            "modifiers": [],
+            "name": "accountName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 604
+            },
+            "modifiers": [],
+            "name": "createdAccount2",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 625
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 629
+            },
+            "modifiers": [],
+            "name": "companyName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 630
+            },
+            "modifiers": [],
+            "name": "leadFirstName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 631
+            },
+            "modifiers": [],
+            "name": "leadLastName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 632
+            },
+            "modifiers": [],
+            "name": "l",
+            "references": [],
+            "type": "Lead"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 645
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 648
+            },
+            "modifiers": [],
+            "name": "ext",
+            "references": [],
+            "type": "LD_LeadConvertOverride_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 661
+            },
+            "modifiers": [],
+            "name": "lcStatus",
+            "references": [],
+            "type": "SelectOption"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 668
+            },
+            "modifiers": [],
+            "name": "convertedContacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 674
+            },
+            "modifiers": [],
+            "name": "accountName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 677
+            },
+            "modifiers": [],
+            "name": "createdAccount2",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 689
+            },
+            "modifiers": [],
+            "name": "listAddr",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 719
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 722
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 727
+            },
+            "modifiers": [],
+            "name": "companyName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 728
+            },
+            "modifiers": [],
+            "name": "leadFirstName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 729
+            },
+            "modifiers": [],
+            "name": "leadLastName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 730
+            },
+            "modifiers": [],
+            "name": "l",
+            "references": [],
+            "type": "Lead"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 739
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 742
+            },
+            "modifiers": [],
+            "name": "ext",
+            "references": [],
+            "type": "LD_LeadConvertOverride_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 757
+            },
+            "modifiers": [],
+            "name": "lcStatus",
+            "references": [],
+            "type": "SelectOption"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 764
+            },
+            "modifiers": [],
+            "name": "convertedContacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 769
+            },
+            "modifiers": [],
+            "name": "accountName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 772
+            },
+            "modifiers": [],
+            "name": "createdAccount2",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 781
+            },
+            "modifiers": [],
+            "name": "listOpp",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 786
+            },
+            "modifiers": [],
+            "name": "listOCR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 815
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 818
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 823
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 832
+            },
+            "modifiers": [],
+            "name": "companyName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 833
+            },
+            "modifiers": [],
+            "name": "leadFirstName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 834
+            },
+            "modifiers": [],
+            "name": "leadLastName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 835
+            },
+            "modifiers": [],
+            "name": "l",
+            "references": [],
+            "type": "Lead"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 844
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 847
+            },
+            "modifiers": [],
+            "name": "ext",
+            "references": [],
+            "type": "LD_LeadConvertOverride_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 862
+            },
+            "modifiers": [],
+            "name": "lcStatus",
+            "references": [],
+            "type": "SelectOption"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 869
+            },
+            "modifiers": [],
+            "name": "convertedContacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 874
+            },
+            "modifiers": [],
+            "name": "accountName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 877
+            },
+            "modifiers": [],
+            "name": "createdAccount2",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 886
+            },
+            "modifiers": [],
+            "name": "listOpp",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 891
+            },
+            "modifiers": [],
+            "name": "listOCR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 921
+            },
+            "modifiers": [],
+            "name": "strProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 924
+            },
+            "modifiers": [],
+            "name": "contactSettingsForTests",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 929
+            },
+            "modifiers": [],
+            "name": "companyName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 930
+            },
+            "modifiers": [],
+            "name": "leadFirstName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 931
+            },
+            "modifiers": [],
+            "name": "leadLastName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 932
+            },
+            "modifiers": [],
+            "name": "l",
+            "references": [],
+            "type": "Lead"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 946
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 949
+            },
+            "modifiers": [],
+            "name": "ext",
+            "references": [],
+            "type": "LD_LeadConvertOverride_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 962
+            },
+            "modifiers": [],
+            "name": "lcStatus",
+            "references": [],
+            "type": "SelectOption"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 969
+            },
+            "modifiers": [],
+            "name": "convertedContacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 976
+            },
+            "modifiers": [],
+            "name": "accountName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 979
+            },
+            "modifiers": [],
+            "name": "createdAccount2",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 988
+            },
+            "modifiers": [],
+            "name": "aff",
+            "references": [],
+            "type": "npe5__Affiliation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 991
+            },
+            "modifiers": [],
+            "name": "listOpp",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 1002
+            },
+            "modifiers": [],
+            "name": "l",
+            "references": [],
+            "type": "Lead"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 1020
+            },
+            "modifiers": [],
+            "name": "sc",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 1023
+            },
+            "modifiers": [],
+            "name": "ext",
+            "references": [],
+            "type": "LD_LeadConvertOverride_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 1033
+            },
+            "modifiers": [],
+            "name": "lcStatus",
+            "references": [],
+            "type": "SelectOption"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 1040
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "Account"
+        }
+    ]
+}

@@ -1,0 +1,712 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 42
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "STG_Panel",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iJ4QAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJ4QAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 50
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "idPanel",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 85
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "saveSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 104
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "editSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 114
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "cancelEdit",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 377
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getRecordTypeNamesFromPicklistString",
+            "parameters": [
+                {
+                    "name": "objectType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "idValues",
+                    "type": "String"
+                },
+                {
+                    "name": "blankValue",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 416
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getRecordTypeNamesFromPicklistString",
+            "parameters": [
+                {
+                    "name": "objectType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "idValues",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "STG_Panel",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 55
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isEditMode",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 60
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isReadOnlyMode",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 69
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "stgService",
+            "references": [],
+            "type": "STG_SettingsService"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 123
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listSOAccountModels",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 139
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listSOContactRoles",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 158
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listSOHHRules",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 174
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listSOContactRecTypes",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 189
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listSOContactRecTypeIds",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 204
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listSOAccountRecTypeIds",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 219
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listSOOppRecTypes",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 234
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listSOOppRecTypesIds",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 249
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listSOOppContactRoles",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 268
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listSOOppTypes",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 288
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listSORelTypes",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 307
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listSOCampaignTypes",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 326
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listSOMailingReportIds",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 343
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "strHHAccountRecordTypeLabel",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 356
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "strOneToOneRecordTypeLabel",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 35,
+            "line": 37
+        },
+        "modifiers": [
+            "virtual",
+            "public",
+            "with sharing"
+        ],
+        "name": "STG_Panel",
+        "references": [],
+        "type": "STG_Panel"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 87
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 144
+            },
+            "modifiers": [],
+            "name": "F",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 145
+            },
+            "modifiers": [],
+            "name": "P",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 146
+            },
+            "modifiers": [],
+            "name": "pe",
+            "references": [],
+            "type": "PicklistEntry"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 254
+            },
+            "modifiers": [],
+            "name": "F",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 255
+            },
+            "modifiers": [],
+            "name": "P",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 256
+            },
+            "modifiers": [],
+            "name": "pe",
+            "references": [],
+            "type": "PicklistEntry"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 273
+            },
+            "modifiers": [],
+            "name": "F",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 274
+            },
+            "modifiers": [],
+            "name": "P",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 276
+            },
+            "modifiers": [],
+            "name": "plistentry",
+            "references": [],
+            "type": "PicklistEntry"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 293
+            },
+            "modifiers": [],
+            "name": "F",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 294
+            },
+            "modifiers": [],
+            "name": "P",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 295
+            },
+            "modifiers": [],
+            "name": "pe",
+            "references": [],
+            "type": "PicklistEntry"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 312
+            },
+            "modifiers": [],
+            "name": "F",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 313
+            },
+            "modifiers": [],
+            "name": "P",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 314
+            },
+            "modifiers": [],
+            "name": "pe",
+            "references": [],
+            "type": "PicklistEntry"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 331
+            },
+            "modifiers": [],
+            "name": "rpt",
+            "references": [],
+            "type": "Report"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 82,
+                "line": 377
+            },
+            "modifiers": [],
+            "name": "objectType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 101,
+                "line": 377
+            },
+            "modifiers": [],
+            "name": "idValues",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 118,
+                "line": 377
+            },
+            "modifiers": [],
+            "name": "blankValue",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 382
+            },
+            "modifiers": [],
+            "name": "recordTypes",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 383
+            },
+            "modifiers": [],
+            "name": "recordTypeIdStrings",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 384
+            },
+            "modifiers": [],
+            "name": "recordTypeNames",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 386
+            },
+            "modifiers": [],
+            "name": "recordTypeIdString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 387
+            },
+            "modifiers": [],
+            "name": "recordTypeId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 82,
+                "line": 416
+            },
+            "modifiers": [],
+            "name": "objectType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 101,
+                "line": 416
+            },
+            "modifiers": [],
+            "name": "idValues",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

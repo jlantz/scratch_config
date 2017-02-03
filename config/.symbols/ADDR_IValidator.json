@@ -1,0 +1,140 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iGCQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iGCQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 42
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "getServiceName",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 48
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "getDefaultURL",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 54
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "supportsBatch",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 60
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "getBatchHelpText",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 68
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "verifyRecords",
+            "parameters": [
+                {
+                    "name": "addresses",
+                    "type": "LIST"
+                },
+                {
+                    "name": "settings",
+                    "type": "Addr_Verification_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "ADDR_IValidator",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 18,
+            "line": 36
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "ADDR_IValidator",
+        "references": [],
+        "type": "ADDR_IValidator"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 68
+            },
+            "modifiers": [],
+            "name": "addresses",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 94,
+                "line": 68
+            },
+            "modifiers": [],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        }
+    ]
+}

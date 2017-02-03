@@ -1,0 +1,256 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJRQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJRQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 41
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "idPanel",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 49
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getOpportunityClosedWonStages",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 79
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOpportunityClosedWonStageNames",
+            "parameters": [],
+            "references": [],
+            "returnType": "Set",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 104
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "verifyOpportunityStageForPaymentAutoCloseIsActiveClosedWon",
+            "parameters": [
+                {
+                    "name": "ctrl",
+                    "type": "STG_PanelHealthCheck_CTRL"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "STG_PanelOpps_CTRL",
+    "namespace": null,
+    "parentClass": "STG_Panel",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 133
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "strOppRecTypesExcludedForPaymentsReadOnly",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "STG_PanelOpps_CTRL",
+        "references": [],
+        "type": "STG_PanelOpps_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "activeClosedWonStages",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 57
+            },
+            "modifiers": [],
+            "name": "stageOptions",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 60
+            },
+            "modifiers": [],
+            "name": "stagePicklistValues",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "entry",
+            "references": [],
+            "type": "PicklistEntry"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "opportunityStages",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 88
+            },
+            "modifiers": [],
+            "name": "activeClosedWonStages",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 90
+            },
+            "modifiers": [],
+            "name": "opportunityStage",
+            "references": [],
+            "type": "OpportunityStage"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 109,
+                "line": 104
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "STG_PanelHealthCheck_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 105
+            },
+            "modifiers": [],
+            "name": "settingLabel",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 106
+            },
+            "modifiers": [],
+            "name": "activeClosedWonStages",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 107
+            },
+            "modifiers": [],
+            "name": "paymentAutoCloseStageName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "isBlank",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 110
+            },
+            "modifiers": [],
+            "name": "isActiveClosedWonStage",
+            "references": [],
+            "type": "Boolean"
+        }
+    ]
+}

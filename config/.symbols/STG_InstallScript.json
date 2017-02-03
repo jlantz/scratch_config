@@ -1,0 +1,578 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJ1QAI",
+    "innerClasses": [],
+    "interfaces": [
+        "System.InstallHandler"
+    ],
+    "key": "01p4C0000002iJ1QAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 43
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "onInstall",
+            "parameters": [
+                {
+                    "name": "context",
+                    "type": "InstallContext"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 72
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "runNewOrgScript",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 81
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "getExistingNpspTriggerConfig",
+            "parameters": [
+                {
+                    "name": "npspToCumulusMap",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 147
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "setupTdtmConfig",
+            "parameters": [
+                {
+                    "name": "npspToCumulusMap",
+                    "type": "Map"
+                },
+                {
+                    "name": "existingTriggerConfig",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 159
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "insertTdtmDefaults",
+            "parameters": [
+                {
+                    "name": "defaultHandlers",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 204
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "deactivateMatchingTdtm",
+            "parameters": [
+                {
+                    "name": "npspToCumulusMap",
+                    "type": "Map"
+                },
+                {
+                    "name": "existingTriggerConfig",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 229
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "sendEmailOnInstallError",
+            "parameters": [
+                {
+                    "name": "e",
+                    "type": "Exception"
+                },
+                {
+                    "name": "context",
+                    "type": "InstallContext"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "STG_InstallScript",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 30,
+            "line": 36
+        },
+        "modifiers": [
+            "without sharing",
+            "global"
+        ],
+        "name": "STG_InstallScript",
+        "references": [],
+        "type": "STG_InstallScript"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 43
+            },
+            "modifiers": [],
+            "name": "context",
+            "references": [],
+            "type": "InstallContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "npspToCumulusMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 76
+            },
+            "modifiers": [],
+            "name": "existingTriggerConfig",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 83,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "npspToCumulusMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 83
+            },
+            "modifiers": [],
+            "name": "npspExistingSettings",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 85
+            },
+            "modifiers": [],
+            "name": "npe01Settings",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 86
+            },
+            "modifiers": [],
+            "name": "npo02Settings",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 87
+            },
+            "modifiers": [],
+            "name": "npe03Settings",
+            "references": [],
+            "type": "npe03__Recurring_Donations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 88
+            },
+            "modifiers": [],
+            "name": "npe04Settings",
+            "references": [],
+            "type": "npe4__Relationship_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 89
+            },
+            "modifiers": [],
+            "name": "npe05Settings",
+            "references": [],
+            "type": "npe5__Affiliations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 99
+            },
+            "modifiers": [],
+            "name": "setting",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 133
+            },
+            "modifiers": [],
+            "name": "npspCustomSettings",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 147
+            },
+            "modifiers": [],
+            "name": "npspToCumulusMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 93,
+                "line": 147
+            },
+            "modifiers": [],
+            "name": "existingTriggerConfig",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 68,
+                "line": 159
+            },
+            "modifiers": [],
+            "name": "defaultHandlers",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 161
+            },
+            "modifiers": [],
+            "name": "existingHandlers",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 164
+            },
+            "modifiers": [],
+            "name": "handlersToInsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 165
+            },
+            "modifiers": [],
+            "name": "handlersToUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 166
+            },
+            "modifiers": [],
+            "name": "handlersToDelete",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 169
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 180
+            },
+            "modifiers": [],
+            "name": "defaultHandler",
+            "references": [],
+            "type": "Trigger_Handler__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 181
+            },
+            "modifiers": [],
+            "name": "alreadyExists",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 182
+            },
+            "modifiers": [],
+            "name": "existingHandler",
+            "references": [],
+            "type": "Trigger_Handler__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 68,
+                "line": 204
+            },
+            "modifiers": [],
+            "name": "npspToCumulusMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 107,
+                "line": 204
+            },
+            "modifiers": [],
+            "name": "existingTriggerConfig",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 205
+            },
+            "modifiers": [],
+            "name": "handlerSettingsToUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 207
+            },
+            "modifiers": [],
+            "name": "flag",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 208
+            },
+            "modifiers": [],
+            "name": "active",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 209
+            },
+            "modifiers": [],
+            "name": "mapsTo",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 214
+            },
+            "modifiers": [],
+            "name": "handlersToUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 216
+            },
+            "modifiers": [],
+            "name": "handler",
+            "references": [],
+            "type": "Trigger_Handler__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 229
+            },
+            "modifiers": [],
+            "name": "e",
+            "references": [],
+            "type": "Exception"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 76,
+                "line": 229
+            },
+            "modifiers": [],
+            "name": "context",
+            "references": [],
+            "type": "InstallContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 231
+            },
+            "modifiers": [],
+            "name": "userEmail",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 233
+            },
+            "modifiers": [],
+            "name": "mail",
+            "references": [],
+            "type": "SingleEmailMessage"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 238
+            },
+            "modifiers": [],
+            "name": "bodyString",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

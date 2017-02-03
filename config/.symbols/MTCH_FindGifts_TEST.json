@@ -1,0 +1,363 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iI0QAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iI0QAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 53
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "initTestData",
+            "parameters": [
+                {
+                    "name": "isMGClosedWon",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "matchingGiftPercent",
+                    "type": "Double"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 89
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "createMatchesWithTestData",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 115
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testCreateMatches",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 141
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testCreateMatchesPercent",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 167
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testUnmatchMatches",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 194
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testCreateSearchedMatches",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "MTCH_FindGifts_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 43
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "accMG",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 44
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "cItem",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 45
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listCon",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 46
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listOpp",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 47
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "oppMG",
+            "references": [],
+            "type": "Opportunity"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 27,
+            "line": 38
+        },
+        "modifiers": [
+            "public",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "MTCH_FindGifts_TEST",
+        "references": [],
+        "type": "MTCH_FindGifts_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "isMGClosedWon",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 67,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "matchingGiftPercent",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 68
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "stage",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 90
+            },
+            "modifiers": [],
+            "name": "listOCR",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 91
+            },
+            "modifiers": [],
+            "name": "listPSC",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 99
+            },
+            "modifiers": [],
+            "name": "role",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 118
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "MTCH_FindGifts_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 144
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "MTCH_FindGifts_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 171
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "MTCH_FindGifts_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 197
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "MTCH_FindGifts_CTRL"
+        }
+    ]
+}

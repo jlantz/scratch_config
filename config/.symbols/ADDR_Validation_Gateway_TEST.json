@@ -1,0 +1,381 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iGIQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iGIQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 44
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "createDefaultSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "ADDR_SmartyStreets_Gateway",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 61
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testOneAddress",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 75
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testMultiAddress",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 89
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testZip",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 103
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testBadInput",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 119
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testBadAuth",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 135
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testNoSubscription",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 35,
+                "line": 151
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testServerError",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "ADDR_Validation_Gateway_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 40
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strTestOnly",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 42
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "settings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "ADDR_Validation_Gateway_TEST",
+        "references": [],
+        "type": "ADDR_Validation_Gateway_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 63
+            },
+            "modifiers": [],
+            "name": "gateway",
+            "references": [],
+            "type": "ADDR_SmartyStreets_Gateway"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 66
+            },
+            "modifiers": [],
+            "name": "sr",
+            "references": [],
+            "type": "AddressResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 77
+            },
+            "modifiers": [],
+            "name": "gateway",
+            "references": [],
+            "type": "ADDR_SmartyStreets_Gateway"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "srs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 91
+            },
+            "modifiers": [],
+            "name": "gateway",
+            "references": [],
+            "type": "ADDR_SmartyStreets_Gateway"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 94
+            },
+            "modifiers": [],
+            "name": "sz",
+            "references": [],
+            "type": "ZipResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 105
+            },
+            "modifiers": [],
+            "name": "gateway",
+            "references": [],
+            "type": "ADDR_SmartyStreets_Gateway"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 108
+            },
+            "modifiers": [],
+            "name": "sr",
+            "references": [],
+            "type": "AddressResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 121
+            },
+            "modifiers": [],
+            "name": "gateway",
+            "references": [],
+            "type": "ADDR_SmartyStreets_Gateway"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 124
+            },
+            "modifiers": [],
+            "name": "sr",
+            "references": [],
+            "type": "AddressResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 137
+            },
+            "modifiers": [],
+            "name": "gateway",
+            "references": [],
+            "type": "ADDR_SmartyStreets_Gateway"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 140
+            },
+            "modifiers": [],
+            "name": "sr",
+            "references": [],
+            "type": "AddressResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 153
+            },
+            "modifiers": [],
+            "name": "gateway",
+            "references": [],
+            "type": "ADDR_SmartyStreets_Gateway"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 156
+            },
+            "modifiers": [],
+            "name": "sr",
+            "references": [],
+            "type": "AddressResponse"
+        }
+    ]
+}

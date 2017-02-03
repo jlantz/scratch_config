@@ -1,0 +1,240 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJEQAY",
+    "innerClasses": [],
+    "interfaces": [
+        "UTIL_iSoqlListViewConsumer"
+    ],
+    "key": "01p4C0000002iJEQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 48
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "setComponentController",
+            "parameters": [
+                {
+                    "name": "compController",
+                    "type": "UTIL_SoqlListView_CTRL"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 61
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getStrSoql",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 77
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getstrFields",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 86
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getstrNameField",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 91
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getstrObjectType",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 97
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "NewItem",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 103
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "EditItem",
+            "parameters": [
+                {
+                    "name": "idItem",
+                    "type": "Id"
+                }
+            ],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 111
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getslvConsumer",
+            "parameters": [],
+            "references": [],
+            "returnType": "UTIL_iSoqlListViewConsumer",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 116
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "idPanel",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 122
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "clearErrorLog",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        }
+    ],
+    "name": "STG_PanelErrorLog_CTRL",
+    "namespace": null,
+    "parentClass": "STG_Panel",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 41
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "ctrlSoqlListView",
+            "references": [],
+            "type": "UTIL_SoqlListView_CTRL"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 36
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "STG_PanelErrorLog_CTRL",
+        "references": [],
+        "type": "STG_PanelErrorLog_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 48
+            },
+            "modifiers": [],
+            "name": "compController",
+            "references": [],
+            "type": "UTIL_SoqlListView_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "strSoql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 103
+            },
+            "modifiers": [],
+            "name": "idItem",
+            "references": [],
+            "type": "Id"
+        }
+    ]
+}

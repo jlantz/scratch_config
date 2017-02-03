@@ -1,0 +1,1380 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iJyQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iJyQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 72
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getContactsSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "npe01__Contacts_And_Orgs_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 90
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getHouseholdsSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "npo02__Households_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 108
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getRecurringDonationsSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "npe03__Recurring_Donations_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 131
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getRelationshipSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "npe4__Relationship_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 149
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getAffiliationsSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "npe5__Affiliations_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 167
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getErrorSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Error_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 185
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getBDESettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Batch_Data_Entry_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 203
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getAddressVerificationSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Addr_Verification_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 221
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getHouseholdNamingSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Household_Naming_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 239
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getAllocationsSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Allocations_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 258
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getDataImportSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Data_Import_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 275
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOrgContactsSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "npe01__Contacts_And_Orgs_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 293
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOrgHouseholdsSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "npo02__Households_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 311
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOrgRecurringDonationsSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "npe03__Recurring_Donations_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 328
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOrgRelationshipSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "npe4__Relationship_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 345
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOrgAffiliationsSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "npe5__Affiliations_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 362
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOrgErrorSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Error_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 379
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOrgBDESettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Batch_Data_Entry_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 396
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOrgAddressVerificationSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Addr_Verification_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 413
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOrgHouseholdNamingSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Household_Naming_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 430
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOrgAllocationsSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Allocations_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 447
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOrgDataImportSettings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Data_Import_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 463
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "configContactsSettings",
+            "parameters": [
+                {
+                    "name": "cs",
+                    "type": "npe01__Contacts_And_Orgs_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 476
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "configHouseholdSettings",
+            "parameters": [
+                {
+                    "name": "hs",
+                    "type": "npo02__Households_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 531
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "configRecurringDonationsSettings",
+            "parameters": [
+                {
+                    "name": "rds",
+                    "type": "npe03__Recurring_Donations_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 548
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "configRelationshipsSettings",
+            "parameters": [
+                {
+                    "name": "rs",
+                    "type": "npe4__Relationship_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 552
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "configAffiliationsSettings",
+            "parameters": [
+                {
+                    "name": "afs",
+                    "type": "npe5__Affiliations_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 556
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "configErrorSettings",
+            "parameters": [
+                {
+                    "name": "es",
+                    "type": "Error_Settings__c"
+                },
+                {
+                    "name": "notificationsTo",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 564
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "configBDESettings",
+            "parameters": [
+                {
+                    "name": "bds",
+                    "type": "Batch_Data_Entry_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 569
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "configAddressVerificationSettings",
+            "parameters": [
+                {
+                    "name": "avs",
+                    "type": "Addr_Verification_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 574
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "configHouseholdNamingSettings",
+            "parameters": [
+                {
+                    "name": "hns",
+                    "type": "Household_Naming_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 584
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "configAllocationsSettings",
+            "parameters": [
+                {
+                    "name": "allosettings",
+                    "type": "Allocations_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 594
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "configDataImportSettings",
+            "parameters": [
+                {
+                    "name": "dis",
+                    "type": "Data_Import_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 605
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getContactsSettingsForTests",
+            "parameters": [
+                {
+                    "name": "mySettings",
+                    "type": "npe01__Contacts_And_Orgs_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "npe01__Contacts_And_Orgs_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 638
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getHouseholdsSettingsForTests",
+            "parameters": [
+                {
+                    "name": "mySettings",
+                    "type": "npo02__Households_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "npo02__Households_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 680
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getRelationshipsSettingsForTests",
+            "parameters": [
+                {
+                    "name": "mySettings",
+                    "type": "npe4__Relationship_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "npe4__Relationship_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 696
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getAffiliationsSettingsForTests",
+            "parameters": [
+                {
+                    "name": "mySettings",
+                    "type": "npe5__Affiliations_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "npe5__Affiliations_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 711
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getErrorSettingsForTests",
+            "parameters": [
+                {
+                    "name": "mySettings",
+                    "type": "Error_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "Error_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 728
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getAllocationsSettingsForTests",
+            "parameters": [
+                {
+                    "name": "mySettings",
+                    "type": "Allocations_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "Allocations_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 748
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getRecurringDonationsSettingsForTest",
+            "parameters": [
+                {
+                    "name": "mySettings",
+                    "type": "npe03__Recurring_Donations_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "npe03__Recurring_Donations_Settings__c",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 767
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getHouseholdNamingSettingsForTests",
+            "parameters": [
+                {
+                    "name": "mySettings",
+                    "type": "Household_Naming_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "Household_Naming_Settings__c",
+            "type": null
+        }
+    ],
+    "name": "UTIL_CustomSettingsFacade",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 41
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "contactsSettings",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 42
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "householdsSettings",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 43
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "recurringDonationsSettings",
+            "references": [],
+            "type": "npe03__Recurring_Donations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 44
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "relationshipsSettings",
+            "references": [],
+            "type": "npe4__Relationship_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 45
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "affiliationsSettings",
+            "references": [],
+            "type": "npe5__Affiliations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 46
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "errorSettings",
+            "references": [],
+            "type": "Error_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 47
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "bdeSettings",
+            "references": [],
+            "type": "Batch_Data_Entry_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 48
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "addressVerificationSettings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 49
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "householdNamingSettings",
+            "references": [],
+            "type": "Household_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 50
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "allocationsSettings",
+            "references": [],
+            "type": "Allocations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 51
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "dataImportSettings",
+            "references": [],
+            "type": "Data_Import_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 54
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "orgContactsSettings",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 55
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "orgHouseholdsSettings",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 56
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "orgRecurringDonationsSettings",
+            "references": [],
+            "type": "npe03__Recurring_Donations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 57
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "orgRelationshipsSettings",
+            "references": [],
+            "type": "npe4__Relationship_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 58
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "orgAffiliationsSettings",
+            "references": [],
+            "type": "npe5__Affiliations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 59
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "orgErrorSettings",
+            "references": [],
+            "type": "Error_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 60
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "orgBdeSettings",
+            "references": [],
+            "type": "Batch_Data_Entry_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 61
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "orgAddressVerificationSettings",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 62
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "orgHouseholdNamingSettings",
+            "references": [],
+            "type": "Household_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 63
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "orgAllocationsSettings",
+            "references": [],
+            "type": "Allocations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 64
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "orgDataImportSettings",
+            "references": [],
+            "type": "Data_Import_Settings__c"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 30,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "without sharing"
+        ],
+        "name": "UTIL_CustomSettingsFacade",
+        "references": [],
+        "type": "UTIL_CustomSettingsFacade"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 85,
+                "line": 463
+            },
+            "modifiers": [],
+            "name": "cs",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 471
+            },
+            "modifiers": [],
+            "name": "householdAccount",
+            "references": [],
+            "type": "RecordTypeInfo"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 79,
+                "line": 476
+            },
+            "modifiers": [],
+            "name": "hs",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 477
+            },
+            "modifiers": [],
+            "name": "oldProcessor",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 480
+            },
+            "modifiers": [],
+            "name": "F",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 481
+            },
+            "modifiers": [],
+            "name": "P",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 483
+            },
+            "modifiers": [],
+            "name": "pe",
+            "references": [],
+            "type": "PicklistEntry"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 97,
+                "line": 531
+            },
+            "modifiers": [],
+            "name": "rds",
+            "references": [],
+            "type": "npe03__Recurring_Donations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 542
+            },
+            "modifiers": [],
+            "name": "oppRecordTypes",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 84,
+                "line": 548
+            },
+            "modifiers": [],
+            "name": "rs",
+            "references": [],
+            "type": "npe4__Relationship_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 83,
+                "line": 552
+            },
+            "modifiers": [],
+            "name": "afs",
+            "references": [],
+            "type": "npe5__Affiliations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 556
+            },
+            "modifiers": [],
+            "name": "es",
+            "references": [],
+            "type": "Error_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 556
+            },
+            "modifiers": [],
+            "name": "notificationsTo",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 72,
+                "line": 564
+            },
+            "modifiers": [],
+            "name": "bds",
+            "references": [],
+            "type": "Batch_Data_Entry_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 89,
+                "line": 569
+            },
+            "modifiers": [],
+            "name": "avs",
+            "references": [],
+            "type": "Addr_Verification_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 84,
+                "line": 574
+            },
+            "modifiers": [],
+            "name": "hns",
+            "references": [],
+            "type": "Household_Naming_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 584
+            },
+            "modifiers": [],
+            "name": "allosettings",
+            "references": [],
+            "type": "Allocations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 594
+            },
+            "modifiers": [],
+            "name": "dis",
+            "references": [],
+            "type": "Data_Import_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 121,
+                "line": 605
+            },
+            "modifiers": [],
+            "name": "mySettings",
+            "references": [],
+            "type": "npe01__Contacts_And_Orgs_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 109,
+                "line": 638
+            },
+            "modifiers": [],
+            "name": "mySettings",
+            "references": [],
+            "type": "npo02__Households_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 114,
+                "line": 680
+            },
+            "modifiers": [],
+            "name": "mySettings",
+            "references": [],
+            "type": "npe4__Relationship_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 113,
+                "line": 696
+            },
+            "modifiers": [],
+            "name": "mySettings",
+            "references": [],
+            "type": "npe5__Affiliations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 80,
+                "line": 711
+            },
+            "modifiers": [],
+            "name": "mySettings",
+            "references": [],
+            "type": "Error_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 98,
+                "line": 728
+            },
+            "modifiers": [],
+            "name": "mySettings",
+            "references": [],
+            "type": "Allocations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 134,
+                "line": 748
+            },
+            "modifiers": [],
+            "name": "mySettings",
+            "references": [],
+            "type": "npe03__Recurring_Donations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 112,
+                "line": 767
+            },
+            "modifiers": [],
+            "name": "mySettings",
+            "references": [],
+            "type": "Household_Naming_Settings__c"
+        }
+    ]
+}

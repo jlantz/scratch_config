@@ -1,0 +1,114 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 43
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "OPP_OpportunityNamingBTN_CTRL",
+            "parameters": [
+                {
+                    "name": "oppCtrl",
+                    "type": "StandardController"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p4C0000002iIDQAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iIDQAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 48
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "buttonClick",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        }
+    ],
+    "name": "OPP_OpportunityNamingBTN_CTRL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 39
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "ctrl",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 40
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "redirect",
+            "references": [],
+            "type": "Boolean"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 37
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "OPP_OpportunityNamingBTN_CTRL",
+        "references": [],
+        "type": "OPP_OpportunityNamingBTN_CTRL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 43
+            },
+            "modifiers": [],
+            "name": "oppCtrl",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "thisOpp",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

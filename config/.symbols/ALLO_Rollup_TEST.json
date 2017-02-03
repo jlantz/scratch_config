@@ -1,0 +1,180 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p4C0000002iGaQAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p4C0000002iGaQAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 53
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "setupSettings",
+            "parameters": [
+                {
+                    "name": "alloset",
+                    "type": "Allocations_Settings__c"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 65
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "rollupBTN",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "ALLO_Rollup_TEST",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 45
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "strTestOnly",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 28,
+            "line": 39
+        },
+        "modifiers": [
+            "private",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "ALLO_Rollup_TEST",
+        "references": [],
+        "type": "ALLO_Rollup_TEST"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "alloset",
+            "references": [],
+            "type": "Allocations_Settings__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 69
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "oppsForInsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 77
+            },
+            "modifiers": [],
+            "name": "gau",
+            "references": [],
+            "type": "General_Accounting_Unit__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "alloForInsert",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 85
+            },
+            "modifiers": [],
+            "name": "pageRef",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 88
+            },
+            "modifiers": [],
+            "name": "ctrl",
+            "references": [],
+            "type": "ALLO_RollupBTN_CTRL"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 92
+            },
+            "modifiers": [],
+            "name": "queryGAU",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}
